@@ -1,0 +1,122 @@
+site_name: ASTi CO - Docs
+site_description: Documentazione ASTi
+# site_url :
+# Repository
+# repo_name: asti-co/doc
+repo_name: ""
+repo_url: https://github.com/asti-co/doc
+edit_uri: edit/main/docs/
+
+# Theme
+theme:
+  name: material
+  icon:
+    # .svg automatically appended
+    logo: material/library
+  features:
+    - content.code.annotate
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  # - toc.integrate
+
+  palette:
+    - scheme: default
+      primary: red
+      accent: indigo
+      toggle: 
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle: 
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  language: it
+
+nav:
+  - Home: index.md
+  - Gestione gara:
+      - "gestione_gara/index.md"
+      - Rete: gestione_gara/rete.md
+  - Materiale:
+      - "materiale/index.md"
+      - Scatola gialla: materiale/scatola_gialla.md
+      - Ponti radio: materiale/ponti_radio.md
+      - TV: materiale/tv.md
+  - Software:
+      - "software/index.md"
+      - OE 12:
+          - Pre-gara: software/oe12/pregara.md
+          - Lettura chip: software/oe12/lettura_chip.md
+      - Go2ol:
+          - Creazione gara: software/go2ol/creazione_gara.md
+          - Iscrizioni: software/go2ol/iscrizioni.md
+      - O2rank:
+          - Creazione gara: software/o2rank/creazione_gara.md
+          - Punti radio: software/o2rank/punti_radio.md
+  - Sito ASTI:
+      - "sito_asti/index.md"
+      - Classifiche TMO: sito_asti/classifiche_tmo.md
+      - Classifiche Sprintup: sito_asti/classifiche_sprintcup.md
+  - About:
+      - "about/index.md"
+      - Documentazione: about/documentazione.md
+      - Cambiamenti: about/cambiamenti.md
+
+# Plugins
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - md_in_html
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
