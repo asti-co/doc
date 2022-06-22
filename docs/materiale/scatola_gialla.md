@@ -1,0 +1,1 @@
+Scatola contenente materiale IT
