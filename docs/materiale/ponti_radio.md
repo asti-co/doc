@@ -1,0 +1,1 @@
+Documentazione ponti radio ancora in [doc/PontiRadio_v1.pdf](formato PDF)
