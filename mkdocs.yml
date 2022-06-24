@@ -68,10 +68,11 @@ nav:
           - "gestione_gara_org/postgara/index.md"
           - OL-Einzel: gestione_gara_org/postgara/oleinzel_postgara.md
   - Gestione gara per concorrenti:
+      - "gestione_gara_conc/index.md"
       - Pre-gara:
           - "gestione_gara_conc/pregara/index.md"
           - Informazioni: gestione_gara_conc/pregara/informazioni.md
-          - Iscrizione: gestione_gara_conc/pregara/iscrizioni.md
+          - Iscrizione: gestione_gara_conc/pregara/olevents_iscrizioni.md
       - Gara:
           - "gestione_gara_conc/gara/index.md"
           - SIAC: gestione_gara_conc/gara/siac.md
