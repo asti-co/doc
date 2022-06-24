@@ -106,6 +106,7 @@ nav:
   - About:
       - "about/index.md"
       - Documentazione: about/documentazione.md
+      - Tooling: about/tooling.md
       - Cambiamenti: about/cambiamenti.md
 
 # Plugins
