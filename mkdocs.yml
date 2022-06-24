@@ -49,7 +49,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Gestione gara - per organizzatori:
+  - Gestione gara per organizzatori:
       "gestione_gara_org/index.md"
       - Pre-gara:
           - "gestione_gara_org/pregara/index.md"
@@ -65,7 +65,7 @@ nav:
       - Post-gara:
           - "gestione_gara_org/postgara/index.md"
           - OL-Einzel: gestione_gara_org/postgara/oleinzel_postgara.md
-  - Gestione gara - per concorrenti:
+  - Gestione gara per concorrenti:
       - Pre-gara:
           - "gestione_gara_conc/pregara/index.md"
           - Informazioni: gestione_gara_conc/pregara/informazioni.md
