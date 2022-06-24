@@ -49,9 +49,35 @@ theme:
 
 nav:
   - Home: index.md
-  - Gestione gara:
-      - "gestione_gara/index.md"
-      - Rete: gestione_gara/rete.md
+  - Gestione gara - per organizzatori:
+      "gestione_gara_org/index.md"
+      - Pre-gara:
+          - "gestione_gara_org/pregara/index.md"
+          - OL-Events: gestione_gara_org/pregara/olevents_pregara.md
+          - OCAD: gestione_gara_org/pregara/ocad_pregara.md
+          - Classifiche Online: gestione_gara_org/pregara/o2rank_pregara.md
+          - OL-Einzel: gestione_gara_org/pregara/oleinzel_pregara.md
+      - Gara:
+          - "gestione_gara_org/gara/index.md"
+          - Rete: gestione_gara_org/gara/rete.md
+          - TV: gestione_gara_org/gara/tv.md
+          - OL-Einzel: gestione_gara_org/gara/oleinzel_gara.md
+      - Post-gara:
+          - "gestione_gara_org/postgara/index.md"
+          - OL-Einzel: gestione_gara_org/postgara/oleinzel_postgara.md
+  - Gestione gara - per concorrenti:
+      - Pre-gara:
+          - "gestione_gara_conc/pregara/index.md"
+          - Informazioni: gestione_gara_conc/pregara/informazioni.md
+          - Iscrizione: gestione_gara_conc/pregara/iscrizioni.md
+      - Gara:
+          - "gestione_gara_conc/gara/index.md"
+          - SIAC: gestione_gara_conc/gara/siac.md
+          - Partecipazione alla gara: gestione_gara_conc/gara/partecipazione_gara.md
+      - Post-gara:
+          - "gestione_gara_conc/postgara/index.md"
+          - Classifiche: gestione_gara_conc/postgara/classifiche_conc.md
+          - RouteGadget: gestione_gara_conc/postgara/routegadget_conc.md
   - Materiale:
       - "materiale/index.md"
       - Scatola gialla: materiale/scatola_gialla.md
@@ -60,11 +86,12 @@ nav:
   - Software:
       - "software/index.md"
       - OE 12:
-          - Pre-gara: software/oe12/pregara.md
-          - Lettura chip: software/oe12/lettura_chip.md
-      - Go2ol:
+          - Panoramica: software/oe12/panoramica.md
+          - Interfaccia grafica: software/oe12/interfaccia_grafica.md
+      - Go2ol: 
           - Creazione gara: software/go2ol/creazione_gara.md
           - Iscrizioni: software/go2ol/iscrizioni.md
+      - OL-Events: software/olevents.md
       - O2rank:
           - Creazione gara: software/o2rank/creazione_gara.md
           - Punti radio: software/o2rank/punti_radio.md
