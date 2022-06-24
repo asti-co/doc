@@ -21,7 +21,7 @@ Una volta pubblicata, la pagina viene mostrata in formato read-only di github, c
 
 ![edit in git](inc/git_edit3.png)
 
-Le pagine modificate non saranno immediatamente visibili in quanto vanno dapprima trasformate. Vedi la sezione in basso per [controllare il processo di pubblicazione](#controlli_del_processo_di_pubblicazione).  
+Le pagine modificate non saranno immediatamente visibili in quanto vanno dapprima trasformate. Vedi la sezione in basso per [controllare il processo di pubblicazione](#controllo-del-processo-di-pubblicazione).  
 
 ## Editor Visual Studio Code
 Cambiando l'URL di github da ***.com*** a ***.dev*** abilita l'utilizzo online dell'editor MicroSoft Visual Studio Code ([https://github.dev/asti-co/doc/](https://github.dev/asti-co/doc/)). 
@@ -43,7 +43,7 @@ Sopra la lista di file modificati è possibile indicare un commento che descrive
 
 ![vscode3](inc/vscode3.png)
 
-Le pagine modificate non saranno immediatamente visibili in quanto vanno dapprima trasformate. Vedi la sezione in basso per [controllare il processo di pubblicazione](#controllo_del_processo_di_pubblicazione).
+Le pagine modificate non saranno immediatamente visibili in quanto vanno dapprima trasformate. Vedi la sezione in basso per [controllare il processo di pubblicazione](#controllo-del-processo-di-pubblicazione).
 
 
 ## Controllo del processo di pubblicazione
