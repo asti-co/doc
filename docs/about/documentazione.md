@@ -49,10 +49,10 @@ Nella tabella di navigazione a destra vengono (stranamente) mostrati solo i tito
 - Liste puntate
 - iniziano con il
 - carattere meno -
-  - mentre per sotto punti
-  - bastano due spazi prima del meno
-    - o quattro spazi
-      - o sei...
+    - mentre per sotto punti
+    - bastano quattro spazi prima del meno
+        - o otto spazi
+            - o dodici...
 
 ---
 1. Liste numerate
