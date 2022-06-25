@@ -36,7 +36,7 @@ non sono visibili nella pagina di anteprima.
 
 {==
 
-Intere sezioni vengono messe in evidenza includendole tra {\== e \==}.
+Intere sezioni vengono messe in evidenza includendole tra {\== e ==\}.
 Anche queste non sono visualizzate correttamente nell'anteprima.
 
 ==}
