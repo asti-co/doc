@@ -27,6 +27,7 @@ di ogni riga.
 *corsivo*, **grassetto**, ***corsivo grassetto*** si ottengono mettendo uno, due o tre asterischi * o caratteri underscore _ prima e dopo il testo.  
 
 Altri elementi di markdown come   
+
 - {--testo cancellato--} scritto come {\--testo cancellato\--}  
 - {++testo aggiunto++} scritto come {\++testo aggiunto++}  
 - {==messo in evidenza==} scritto come {\==messo in evidenza==}  
@@ -47,9 +48,11 @@ I titoli iniziano con uno o più caratteri *cancelletto* #, e il numero di cance
 Nella tabella di navigazione a destra vengono (stranamente) mostrati solo i titoli a partire dal livello due. I titoli a livello uno vengono ignorati.
 
 ---
-- Liste puntate
+Liste puntate:
+
 - iniziano con il
 - carattere meno -
+- vogliono una riga vuota prima del primo elemento
     - mentre per sotto punti
     - bastano quattro spazi prima del meno
         - o otto spazi
@@ -74,6 +77,7 @@ Per i link, la sintassi è *[testo da mostrare] (URL)*
 L'URL può essere un sito esterno, una pagina di questa documentazione o un sottocapitolo nella stessa o in un'altra pagina.
 
 Esempi:  
+
 - Link a una pagina esterna, ad esempio [link al sito ASTI CO](http://www.asti-ticino.ch/co)  
 scritto come \[link al sito ASTI CO](http://www.asti-ticino.ch/co).  
 Nota: l'URL deve contenere l'http/https.  
@@ -85,7 +89,6 @@ Nota: il link ha tutte le lettere minuscole e gli spazi sono sostituiti con dei 
 - Link a una sezione interna di un'altra pagina, ad esempio alla sezione [visual studio in tooling](tooling.md#editor-visual-studio-code).  
 scritto come \[visual studio in tooling](tooling.md#editor-visual-studio-code).  
 
-**Nota**: nella pagina di anteprima funzionano solo i link a sezioni interne alla stessa pagina.
 
 ---
 Le immagini vanno salvate in una cartella chiamata **inc** nella stessa cartella del file della pagina (convenzione ASTI).  
