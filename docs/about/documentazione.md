@@ -26,7 +26,18 @@ di ogni riga.
 ---
 *corsivo*, **grassetto**, ***corsivo grassetto*** si ottengono mettendo uno, due o tre asterischi * o caratteri underscore _ prima e dopo il testo.  
 
-Altri elementi di markdown come {--testo cancellato--}, {++testo aggiunto++}, {==messo in evidenza==} o {<<testo commentato>>} non sono visibili nella pagina di anteprima.
+Altri elementi di markdown come 
+  {--testo cancellato--} scritto come \{--testo cancellato--}
+  {++testo aggiunto++} scritto come \{++testo aggiunto++}
+  {==messo in evidenza==} scritto come \{==messo in evidenza==}
+  o {>>testo commentato<<} scritto come \{>>testo commentato<<}
+non sono visibili nella pagina di anteprima.
+
+{==
+
+Intere sezioni vengono messe in evidenza includendole tra \{== e \==}
+
+==}
 
 ---
 I titoli iniziano con uno o più caratteri *cancelletto* #, e il numero di cancelletti indica il livello del titolo.  
