@@ -54,6 +54,8 @@ Nella tabella di navigazione a destra vengono (stranamente) mostrati solo i tito
         - o otto spazi
             - o dodici...
 
+**Nota**: per l'anteprima di VSCode bastano due/quattro/sei spazi per i sotto-punti, ma per la versione finale gli spazi devono essere a incrementi di quattro.
+
 ---
 1. Liste numerate
 2. iniziano con il numero e il punto
