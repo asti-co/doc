@@ -33,6 +33,7 @@ Altri elementi di markdown come
 - o {>>testo commentato<<} scritto come {\>>testo commentato<<}  
 
 non sono visibili nella pagina di anteprima.
+**Nota**: i trattini dovrebbero essere liste puntate...
 
 {==
 
@@ -72,16 +73,17 @@ Per i link, la sintassi è *[testo da mostrare] (URL)*
 
 L'URL può essere un sito esterno, una pagina di questa documentazione o un sottocapitolo nella stessa o in un'altra pagina.
 
-Esempi:
-- Link a una pagina esterna, ad esempio [link al sito ASTI CO](www.asti-ticino.ch/co).  
-scritto come \[link al sito ASTI CO](www.asti-ticino.ch/co)
-- Link a una pagina della documentazione, ad esempio a [tooling](/doc/about/tooling.md).  
-scritto come \[tooling](/doc/about/tooling.md)
-- Link a una sezione interna della stessa pagina, ad esempio alla [doc ufficiale](#link-alla-documentazione-ufficiale).  
+Esempi:  
+- Link a una pagina esterna, ad esempio [link al sito ASTI CO](http://www.asti-ticino.ch/co)  
+scritto come \[link al sito ASTI CO](http://www.asti-ticino.ch/co).  
+Nota: l'URL deve contenere l'http/https.  
+- Link a una pagina della documentazione, ad esempio a [tooling](tooling.md)  
+scritto come \[tooling](tooling.md)  
+- Link a una sezione interna della stessa pagina, ad esempio alla [doc ufficiale](#link-alla-documentazione-ufficiale)  
 scritto come \[doc ufficiale](#link-alla-documentazione-ufficiale).  
 Nota: il link ha tutte le lettere minuscole e gli spazi sono sostituiti con dei trattini (meno).
-- Link a una sezione interna di un'altra pagina, ad esempio alla sezione [visual studio in tooling](/doc/about/tooling.md#editor-visual-studio-code).  
-scritto come \[visual studio in tooling](/doc/about/tooling.md#editor-visual-studio-code).  
+- Link a una sezione interna di un'altra pagina, ad esempio alla sezione [visual studio in tooling](tooling.md#editor-visual-studio-code).  
+scritto come \[visual studio in tooling](tooling.md#editor-visual-studio-code).  
 
 **Nota**: nella pagina di anteprima funzionano solo i link a sezioni interne alla stessa pagina.
 
@@ -89,8 +91,8 @@ scritto come \[visual studio in tooling](/doc/about/tooling.md#editor-visual-stu
 Le immagini vanno salvate in una cartella chiamata **inc** nella stessa cartella del file della pagina (convenzione ASTI).  
 Il nome del file può (deve...) indicare il suo contenuto.  
 
-La sintassi è simile a quella dei link, ma con un punto esclamativo: *\![tooltip](nome del file)*
-Ad esempio, \![Logo ASTi](inc/asti_small.gif) mostra il logo ASTi.  
+La sintassi è simile a quella dei link, ma con un punto esclamativo: *!\[tooltip](nome del file)*
+Ad esempio, !\[Logo ASTi](inc/asti_small.gif) mostra il logo ASTi.  
 ![Logo ASTi](inc/asti_small.gif)
 
 
