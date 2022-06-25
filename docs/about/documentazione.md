@@ -8,10 +8,7 @@ Vedi il codice della pagina per la sintassi dei vari elementi.
 
 ---
 Tre caratteri "meno" vengono rappresentati come una riga.  
-
----
-Ma attenzione: ci deve essere una riga vuota dopo il testo, altrimenti diventa un testo come un titolo
----
+Ma attenzione: ci deve essere una riga vuota dopo il testo, altrimenti il testo diventa un titolo (incluso anche nella tabella a destra)
 
 ---
 Questo testo è scritto 
