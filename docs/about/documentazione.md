@@ -31,7 +31,6 @@ Altri elementi di markdown come
 - o {>>testo commentato<<} scritto come {\>>testo commentato<<}  
 
 non sono visibili nella pagina di anteprima.
-**Nota**: i trattini dovrebbero essere liste puntate...
 
 {==
 
@@ -91,7 +90,7 @@ scritto come \[visual studio in tooling](tooling.md#editor-visual-studio-code).
 Le immagini vanno salvate in una cartella chiamata **inc** nella stessa cartella del file della pagina (convenzione ASTI).  
 Il nome del file può (deve...) indicare il suo contenuto.  
 
-La sintassi è simile a quella dei link, ma con un punto esclamativo: *!\[tooltip](nome del file)*
+La sintassi è simile a quella dei link, ma con un punto esclamativo: *!\[tooltip](nome del file)*  
 Ad esempio, !\[Logo ASTi](inc/asti_small.gif) mostra il logo ASTi.  
 ![Logo ASTi](inc/asti_small.gif)
 
