@@ -49,8 +49,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Gestione gara Camilla:
-      - OCAD: gestione_gara/ocad_esporta_percorsi.md
   - Gestione gara per organizzatori:
       - "gestione_gara_org/index.md"
       - Pre-gara:
