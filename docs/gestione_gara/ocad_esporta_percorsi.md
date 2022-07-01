@@ -1,1 +1,0 @@
-OCAD Esporta percorsi
