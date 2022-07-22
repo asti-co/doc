@@ -12,7 +12,8 @@ theme:
   name: material
   icon:
     # .svg automatically appended
-    logo: material/library
+    # logo: material/library
+    logo: asti_small
   features:
     - content.code.annotate
     # - content.tabs.link
