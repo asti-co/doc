@@ -94,6 +94,10 @@ La sintassi è simile a quella dei link, ma con un punto esclamativo: *!\[toolti
 Ad esempio, !\[Logo ASTi](inc/asti_small.gif) mostra il logo ASTi.  
 ![Logo ASTi](inc/asti_small.gif)
 
+---
+
+!!! Note ":asti-small-24: ASTI"
+Questa sezione vale per l'ASTI
 
 ### Link alla documentazione ufficiale
 Ci sono innumerevoli altre convenzioni per il markdown, ad esempio emoji, superscript, ecc., tutte descritte nella documentazione ufficiale.
