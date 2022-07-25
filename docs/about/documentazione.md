@@ -100,9 +100,10 @@ Ad esempio, !\[Logo ASTi](inc/asti_small.gif) mostra il logo ASTi.
     Questa sezione vale per le iscrizioni alle gare ticinesi :tmo: come pure
     alle gare nazionali e campionati svizzeri :naz:
 
-??? Note ":sprintCup: :scoolCup: :altro: Altre iscrizioni"
+??? Note ":sprintCup: :scoolCup: :altro: :python: Altre iscrizioni"
     Questa sezione vale per le iscrizioni alle gare della Sprint Cup :sprintcup: e della sCOOL Cup :scoolCup:
-    e di altre gare in generale :altro:
+    e di altre gare in generale :altro:  
+    Funziona anche un'icona larga contentente un base64 di immagine e del testo :python:
 
 ### Link alla documentazione ufficiale
 Ci sono innumerevoli altre convenzioni per il markdown, ad esempio emoji, superscript, ecc., tutte descritte nella documentazione ufficiale.
