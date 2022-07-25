@@ -96,8 +96,8 @@ Ad esempio, !\[Logo ASTi](inc/asti_small.gif) mostra il logo ASTi.
 
 ---
 
-!!! Note ":asti-asti-small-24: :asti-small: ASTI"
-    Questa sezione vale per l'ASTI :asti-asti-small-24: :asti-small:
+!!! Note ":asti-astipng: :asti-small: ASTI"
+    Questa sezione vale per l'ASTI :asti-astipng: :asti-small:
 
 ### Link alla documentazione ufficiale
 Ci sono innumerevoli altre convenzioni per il markdown, ad esempio emoji, superscript, ecc., tutte descritte nella documentazione ufficiale.
