@@ -104,6 +104,10 @@ Ad esempio, !\[Logo ASTi](inc/asti_small.gif) mostra il logo ASTi.
     Questa sezione vale per le iscrizioni alle gare ticinesi :ti: come pure
     alle gare nazionali e campionati svizzeri :ch:
 
+:ch: svizzera  
+:ti: ticino  
+  
+  
 ??? Note ":sprintCup: :scoolCup: :altro: :python: Altre iscrizioni"
     Questa sezione vale per le iscrizioni alle gare della Sprint Cup :sprintcup: e della sCOOL Cup :scoolCup:
     e di altre gare in generale :altro:  
