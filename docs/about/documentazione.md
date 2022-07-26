@@ -100,8 +100,8 @@ Ad esempio, !\[Logo ASTi](inc/asti_small.gif) mostra il logo ASTi.
     Le icone hanno una dimensione fissa di 20x20 (o forse 24x24). Non si possono creare icone large.  
     Inoltre sono supportate solo icone del formato SVG, non PNG/GIF/BMP/JPG
 
-???+ Note ":tmo: :naz: Iscrizioni OL-Events"
-    Questa sezione vale per le iscrizioni alle gare ticinesi :tmo: come pure
+???+ Note ":ti: TMO :naz: Iscrizioni OL-Events"
+    Questa sezione vale per le iscrizioni alle gare ticinesi :ti: come pure
     alle gare nazionali e campionati svizzeri :naz:
 
 ??? Note ":sprintCup: :scoolCup: :altro: :python: Altre iscrizioni"
