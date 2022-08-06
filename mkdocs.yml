@@ -83,7 +83,7 @@ nav:
           - RouteGadget: gestione_gara_conc/postgara/routegadget_conc.md
   - Materiale:
       - "materiale/index.md"
-      - Scatola gialla: materiale/scatola_gialla.md
+      - Scatola gialla: materiale/materiale_informatico.md
       - Ponti radio: materiale/ponti_radio.md
       - TV: materiale/tv.md
   - Software:
