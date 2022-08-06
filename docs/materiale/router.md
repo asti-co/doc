@@ -99,3 +99,9 @@ Pacchetti aggiuntivi
 
 ## Configurazione router
 
+Impostazione DHCP
+- Gateway `192.168.1.1`
+- Sottorete `255.255.255.0`
+- Indirizzi dinamici:
+    - `192.168.1.20`
+    - `192.168.1.99`
