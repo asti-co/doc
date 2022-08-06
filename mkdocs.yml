@@ -84,6 +84,7 @@ nav:
   - Materiale:
       - "materiale/index.md"
       - Scatola gialla: materiale/materiale_informatico.md
+      - Router: materiale/router.md
       - Ponti radio: materiale/ponti_radio.md
       - TV: materiale/tv.md
   - Software:
