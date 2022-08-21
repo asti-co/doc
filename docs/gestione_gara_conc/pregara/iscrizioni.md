@@ -36,10 +36,10 @@ Annunciarsi (login) con il proprio utente e completare i dati.
   Qui si possono modificare i dati inseriti nel formulario di registrazione.
 - Cliccare su `Gestire il corridore`  
 
-???+ Info "Corridori registrati nella banca dati SOLV"
-    Utenti già registrati nella banca dati dei concorrenti SOLV possono importare i propri dati cercando per numero SOLV o per nome e cognome.  
+    - Corridori registrati nella banca dati SOLV
+    Utenti già registrati nella banca dati dei concorrenti SOLV possono usare l'opzione `Ricerca` per importare i propri dati, cercando per numero SOLV o per nome e cognome.  
   
-??? Info "Corridori non registrati nella banca dati SOLV"
+    - Corridori non registrati nella banca dati SOLV
     Per utenti svizzeri che hanno intenzione di iniziare a fare CO è consigliato iscriversi prima nella banca dati concorrenti SOLV e importare poi i propri dati in OL-Events. Riempire il formulario [sul sito solv](https://www.o-l.ch/cgi-bin/solvdb&competitor=newform) (solo in tedesco...).  
     
     Per utenti stranieri o occasionali, creare un proprio profilo concorrente su OL-Events utilizzando l'opzione `Creare`.
