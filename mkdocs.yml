@@ -72,7 +72,7 @@ nav:
       - Pre-gara:
           - "gestione_gara_conc/pregara/index.md"
           - Informazioni: gestione_gara_conc/pregara/informazioni.md
-          - Iscrizione: gestione_gara_conc/pregara/olevents_iscrizioni.md
+          - Iscrizione: gestione_gara_conc/pregara/iscrizioni.md
       - Gara:
           - "gestione_gara_conc/gara/index.md"
           - SIAC: gestione_gara_conc/gara/siac.md
