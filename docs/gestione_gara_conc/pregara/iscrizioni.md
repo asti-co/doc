@@ -35,12 +35,15 @@ Annunciarsi (login) con il proprio utente e completare i dati.
 - Cliccare su `Gestire l'utente`  
   Qui si possono modificare i dati inseriti nel formulario di registrazione.
 - Cliccare su `Gestire il corridore`  
-  ???+ Info "Corridori registrati nella banca dati SOLV"
-      Utenti già registrati nella banca dati dei concorrenti SOLV possono importare i propri dati cercando per numero SOLV o per nome e cognome.  
-  ??? Info "Corridori non registrati nella banca dati SOLV"
-      Per utenti svizzeri che hanno intenzione di iniziare a fare CO è consigliato iscriversi prima nella banca dati concorrenti SOLV e importare poi i propri dati in OL-Events. Riempire il formulario [sul sito solv](https://www.o-l.ch/cgi-bin/solvdb&competitor=newform) (solo in tedesco...).  
 
-      Per utenti stranieri o occasionali, creare un proprio profilo concorrente su OL-Events utilizzando l'opzione `Creare`.
+???+ Info "Corridori registrati nella banca dati SOLV"
+    Utenti già registrati nella banca dati dei concorrenti SOLV possono importare i propri dati cercando per numero SOLV o per nome e cognome.  
+  
+??? Info "Corridori non registrati nella banca dati SOLV"
+    Per utenti svizzeri che hanno intenzione di iniziare a fare CO è consigliato iscriversi prima nella banca dati concorrenti SOLV e importare poi i propri dati in OL-Events. Riempire il formulario [sul sito solv](https://www.o-l.ch/cgi-bin/solvdb&competitor=newform) (solo in tedesco...).  
+    
+    Per utenti stranieri o occasionali, creare un proprio profilo concorrente su OL-Events utilizzando l'opzione `Creare`.
+
 - Eventualmente, estendere le possibili categorie  
   Durante il processo di iscrizione alle gare, OL-Events propone una lista ridotta di categorie tra cui scegliere, togliendo le categorie vietate o poco probabili. Ad esempio, ad un concorrente di 52 anni mostra la categoria H50 (categoria più probabile), le categorie possibili H40, HAL, HAM, HAK, HB e OK, ma non mostra le categorie H60 o H18 (vietate). Allo stesso modo, alle donne non vengono mostrate le categorie maschili.
   Selezionando l'opzione `Estendere la selezione delle categorie` è possibile disabilitare questa logica, ottenendo tutte le categorie possibili (quelle vietate non vengono comunque mostrate).
