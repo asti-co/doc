@@ -1,5 +1,5 @@
 **QUESTA PAGINA È ANCORA DA FARE**  
-![Lavori in corso](/doc/img/lavori_in_corso.png)
+![Lavori in corso](../../img/lavori_in_corso.png)
 
 Descrivere
 
