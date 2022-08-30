@@ -54,7 +54,7 @@ nav:
       - "gestione_gara_org/index.md"
       - Pre-gara:
           - "gestione_gara_org/pregara/index.md"
-          - OL-Events: gestione_gara_org/pregara/olevents_pregara.md
+          - Portale Iscrizioni: gestione_gara_org/pregara/iscrizioni.md
           - OCAD: gestione_gara_org/pregara/ocad_pregara.md
           - Classifiche Online: gestione_gara_org/pregara/o2rank_pregara.md
           - OL-Einzel: gestione_gara_org/pregara/oleinzel_pregara.md
@@ -72,7 +72,7 @@ nav:
       - Pre-gara:
           - "gestione_gara_conc/pregara/index.md"
           - Informazioni: gestione_gara_conc/pregara/informazioni.md
-          - Iscrizione: gestione_gara_conc/pregara/iscrizioni.md
+          - Iscrizioni: gestione_gara_conc/pregara/iscrizioni.md
       - Gara:
           - "gestione_gara_conc/gara/index.md"
           - SIAC: gestione_gara_conc/gara/siac.md

@@ -1,3 +1,6 @@
+**QUESTA PAGINA È ANCORA DA FARE**  
+![Lavori in corso](../../img/lavori_in_corso.png)
+
 # Sincronizzazione delle scatolette
 ## Ora del Timemaster corretta
 Le scatolette vanno sincronizzate prima di ogni gara, .... (quando, come)

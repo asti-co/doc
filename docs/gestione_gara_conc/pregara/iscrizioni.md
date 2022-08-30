@@ -98,3 +98,11 @@ Non è necessario completare il processo in un unico passaggio. Nel menu a sinis
   Se il carrello è vuoto, mostra le schede delle gare alle quali ci si è iscritti (o si ha iscritto uno dei concorrenti associati al proprio profilo)
 - **Fatture**
   Mostra le fatture relative alle proprie iscrizioni. Per i TMO, l'importo è sempre `CHF 0.00`.
+
+## GO2OL
+
+Portale svizzero: [go2ol.ch/](https://go2ol.ch/).
+
+**QUESTA SEZIONE È ANCORA DA FARE**  
+![Lavori in corso](../../img/lavori_in_corso.png)
+
