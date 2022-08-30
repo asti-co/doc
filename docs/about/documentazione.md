@@ -97,16 +97,37 @@ Ad esempio, !\[Logo ASTi](inc/asti_small.gif) mostra il logo ASTi.
 ---
 
 !!! Warning Icone sono 20x20
-    Le icone hanno una dimensione fissa di 20x20 (o forse 24x24). Non si possono creare icone large.  
+    Le icone hanno una dimensione fissa di 20x20 (o forse 24x24). Non si possono creare icone più grandi.  
     Inoltre sono supportate solo icone del formato SVG, non PNG/GIF/BMP/JPG
 
-???+ Note ":asti-tmo: TMO :asti-naz: NAZ - Iscrizioni OL-Events"
+???+ Info ":asti-tmo: TMO :asti-naz: NAZ - Iscrizioni OL-Events"
     Questa sezione vale per le iscrizioni alle gare ticinesi :asti-tmo: come pure
     alle gare nazionali e campionati svizzeri :asti-naz:
 
-??? Note ":asti-sprintCup: SPRINT-CUP :asti-scoolCup: SCOOL CUP :asti-altro: ALTRO - Altre iscrizioni"
+??? Bug ":asti-sprintCup: SPRINT-CUP :asti-scoolCup: SCOOL CUP :asti-altro: ALTRO - Altre iscrizioni"
     Questa sezione vale per le iscrizioni alle gare della Sprint Cup :asti-sprintcup: e della sCOOL Cup :asti-scoolCup:
     e di altre gare in generale :asti-altro:  
+
+Lista delle icone attuali:
+
+- :asti-tmo: scritto come `:asti-tmo:`
+- :asti-naz: scritto come `:asti-naz:`
+- :asti-sprintCup: scritto come `:asti-sprintCup:`
+
+Sintassi dei blocchi di testo con icona:
+
+```
+!!! Warning "Titolo opzionale"
+    Testo indentato con 4 spazi.
+    !!! signica un blocco di testo sempre visibile
+```
+```
+???+ Info "Titolo opzionale"
+    Testo indentato di 4 spazi. 
+    ??? significa un blocco di testo che può venir espanso o nascosto.
+    Il + significa che inizialmente il testo è visibile
+```
+`Warning`, `Info`, `Bug`, `Success` (visto verde) definiscono l'icona e il colore della banda del titolo.
 
 ### Link alla documentazione ufficiale
 Ci sono innumerevoli altre convenzioni per il markdown, ad esempio emoji, superscript, ecc., tutte descritte nella documentazione ufficiale.
