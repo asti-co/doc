@@ -104,5 +104,18 @@ Non è necessario completare il processo in un unico passaggio. Nel menu a sinis
 Portale svizzero: [go2ol.ch/](https://go2ol.ch/).
 
 **QUESTA SEZIONE È ANCORA DA FARE**  
-![Lavori in corso](../../img/lavori_in_corso.png)
+![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
+
+## PICO EVENTS
+
+Portale svizzero: [entry.picoevents.ch/](https://entry.picoevents.ch/index_it.php).
+
+**QUESTA SEZIONE È ANCORA DA FARE**  
+![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
+
+## EVENTOR
+
+Portale dell'IOF, la federazione internazionale di orientamento, per le categorie elite (anche juniores). Solo per gare WRE (world ranking events), coppa del mondo, campionati del mondo, ecc.: [iof eventor/](https://eventor.orienteering.org/Events).  
+
+
 
