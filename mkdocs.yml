@@ -93,9 +93,13 @@ nav:
           - Panoramica: software/oe12/panoramica.md
           - Interfaccia grafica: software/oe12/interfaccia_grafica.md
       - Go2ol: 
-          - Creazione gara: software/go2ol/creazione_gara.md
-          - Iscrizioni: software/go2ol/iscrizioni.md
-      - OL-Events: software/olevents.md
+          - "software/go2ol/index.md"
+          - Creazione gara: software/go2ol/organizzatori.md
+          - Iscrizioni: software/go2ol/concorrenti.md
+      - OL-Events: 
+          - "software/olevents/index.md"
+          - Creazione gara: software/olevents/organizzatori.md
+          - Iscrizioni: software/olevents/concorrenti.md
       - O2rank:
           - Creazione gara: software/o2rank/creazione_gara.md
           - Punti radio: software/o2rank/punti_radio.md
