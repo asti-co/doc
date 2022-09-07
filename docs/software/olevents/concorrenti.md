@@ -70,6 +70,9 @@ Per iscriversi alle gare
 - Accettare i termini e le condizioni legali e cliccare sul bottone blu `comprare`.  
   Nota: questo conferma l'iscrizione di **tutti** i concorrenti nel carrello della spesa.
 
+!!! Warning "Attenzione"
+    A questo punto non è più possibile cancellare l'iscrizione tramite il portale, ma unicamente via comunicazione diretta con i gestori del portale: [info@supsign.ch](mailto:info@supsign.ch)
+
 - Fatturazione
 !!! Info ":asti-tmo: TMO"
     Per le gare valide per il TMO il portale non offre la possibilità di pagamento in quanto le iscrizioni vengono pagate in blocco dalle varie società ticinesi.  
@@ -79,7 +82,6 @@ Per iscriversi alle gare
     Per le gare nazionali, il portale mostra una fattura per ogni acquisto (ogni volta che si preme il bottone `comprare` nel carrello della spesa viene emessa una nuova fattura).  
     Selezionare una fattura e procedere al suo pagamento.
 
-A questo punto non è più possibile cancellare l'iscrizione tramite il portale, ma unicamente via comunicazione diretta con i gestori del portale: [info@supsign.ch](mailto:info@supsign.ch)
 
 Non è necessario completare il processo in un unico passaggio. Nel menu a sinistra selezionare:
 
