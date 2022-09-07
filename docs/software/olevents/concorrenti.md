@@ -29,9 +29,9 @@ Per registrarsi
 
 Annunciarsi (login) con il proprio utente e completare i dati.
 
-- Cliccare su `Gestire l'utente`  
+- Cliccare su `Gestione utente`  
   Qui si possono modificare i dati inseriti nel formulario di registrazione.
-- Cliccare su `Gestire il corridore`  
+- Cliccare su `Gestione corridore`  
 
     - **Corridori registrati nella banca dati SOLV**  
     Utenti già registrati nella banca dati dei concorrenti SOLV possono usare l'opzione `Ricerca` per importare i propri dati, cercando per numero SOLV o per nome e cognome.  
@@ -48,19 +48,19 @@ Annunciarsi (login) con il proprio utente e completare i dati.
 
 - Aggiungere altri concorrenti al proprio profilo.  
   Per poter iscrivere altri corridori (famigliari, compagni di società, amici, ecc.) connetterli al proprio profilo.
-    - Cliccare su `Gestire il corridore`
+    - Cliccare su `Gestione corridore`
     - Ricercare il/i corridore/i nella banca dati dei concorrenti SOLV cliccando su `Ricerca`
-    - Cercare via numero SOLV o via nome e cognome.  
-      Nota: cercando per numero SOLV, il collegamento è automaticamente attivato nel proprio profilo. Il concorrente aggiunto al profilo riceve un email di informazione, con indicazioni su come contattare il portale per far rimuovere il collegamento.  
-      Cercando per nome o cognome, invece, il collegamento è subito visibile nel profilo, ma diventa attivo solo dopo l'esplicita approvazione del concorrente aggiunto al profilo, che riceve un email di informazione con un apposito link.
+    - Cercare per numero SOLV o per nome e cognome.  
+          - Cercando **per numero SOLV**, il collegamento è automaticamente attivato nel proprio profilo. Il concorrente aggiunto al profilo riceve un email di informazione, con indicazioni su come contattare il portale per far rimuovere il collegamento.  
+          - Cercando **per nome o cognome**, invece, il collegamento è subito visibile nel profilo, ma diventa attivo solo dopo l'esplicita approvazione del concorrente aggiunto al profilo, che riceve un email di informazione con un apposito link.
 
 ## Iscrizione
 
 Per iscriversi alle gare
 
-- Cliccare su `Le gare` nel menu a sinistra per mostrare la lista delle prossime gare
+- Cliccare su `Gare` nel menu a sinistra per mostrare la lista delle prossime gare
 - Cliccare sulla scheda della gara alla quale ci si vuole iscrivere
-- Cliccare sul bottone blu `Login`
+- Cliccare sul bottone blu `Iscriviti`
 - Nella lista con tutti i concorrenti aggiunti al proprio profilo, selezionare la categoria per ogni concorrente da iscrivere.  
   I concorrenti vengono automaticamenti aggiunti al carrello della spesa
 - Cliccare sull'icona del carrello della spesa in alto a destra
@@ -68,7 +68,7 @@ Per iscriversi alle gare
   A dipendenza della gara, inserire le possibili informazioni supplementari (ad esempio desideri di partenza, utilizzo di mezzi di trasporto pubblici, ecc.).  
   Ogni scheda mostra un'icona `cestino` con la quale cancellare l'iscrizione del relativo concorrente.
 - Accettare i termini e le condizioni legali e cliccare sul bottone blu `comprare`.  
-  Nota: questo conferma l'iscrizione di tutti i concorrenti nel carrello della spesa.
+  Nota: questo conferma l'iscrizione di **tutti** i concorrenti nel carrello della spesa.
 
 - Fatturazione
 !!! Info ":asti-tmo: TMO"
