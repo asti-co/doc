@@ -15,7 +15,7 @@ Utenti già annunciati vedono come pagina principale il pannello di controllo co
 ![Homepage utente registrato](inc/homeUtenteRegistrato.png)
 
 
-## Registrazione Iniziale
+## Registrazione Iniziale {#registrazione}
 
 Per iscriversi alle gare bisogna registrarsi (gratuitamente) come utente, rispettivamente annuciarsi come utente (Login) se si è già registrati.
 
