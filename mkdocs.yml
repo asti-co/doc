@@ -101,12 +101,18 @@ nav:
           - Creazione gara: software/olevents/organizzatori.md
           - Iscrizioni: software/olevents/concorrenti.md
       - O2rank:
+          - "software/o2rank/index.md"
           - Creazione gara: software/o2rank/creazione_gara.md
           - Punti radio: software/o2rank/punti_radio.md
+          - Visualizzazione: software/o2rank/concorrenti.md
+      - SOLV DB:
+          - Registrazione concorrente: software/solvDB.md
+          - Mutazione concorrente: software/solvDB.md
   - Sito ASTI:
       - "sito_asti/index.md"
       - Classifiche TMO: sito_asti/classifiche_tmo.md
       - Classifiche Sprintup: sito_asti/classifiche_sprintcup.md
+      - RouteGadget: sito-asti/routegadget.md
   - About:
       - "about/index.md"
       - Documentazione: about/documentazione.md

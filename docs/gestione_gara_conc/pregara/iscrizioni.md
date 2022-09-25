@@ -6,7 +6,8 @@ Inoltre, esistono vari portali per le iscrizioni, e per alcune gare (ad esempio 
 Questa pagina descrive la procedura d'iscrizione i portali principali usati in Svizzera.
 
 **Nota**: tutti i portali svizzeri si basano sulla banca dati concorrenti SOLV.   
-![Lavori in corso](../../img/lavori_in_corso.png){width=50px} `Aggiungere link / pagina per DB SOLV`
+DB sul portale SOLV: [o-l.ch/solvdb](https://www.o-l.ch/cgi-bin/solvdb)
+Guida per i concorrenti: nella sezione [software > solvDB](../../../software/solvDB)
   
 
 
