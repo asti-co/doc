@@ -24,7 +24,7 @@ Guida per i concorrenti: nella sezione [software > go2ol](../../../software/go2o
 ## PICO EVENTS
 
 Portale svizzero: [entry.picoevents.ch](https://entry.picoevents.ch/index_it.php)  
-Guida per i concorrenti: nella sezione [software > picoevents](../../../software/picoevents/concorrenti)
+
 
 ## EVENTOR
 
