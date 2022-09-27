@@ -113,8 +113,9 @@ Permette di iscrivere concorrenti, ricercandoli per cognome e nome tra gli utent
 Permette la visione e modifica della maggior parte dei campi "utili". Vedi la [prossima sezione](#modificaDettagli) per i dettagli
 
 - `Gestione documenti`  
-Caricare documenti (ad esempio i PDF dell'annuncio gara e delle ultime info) trascinandoli nell'apposita sezione, o selezionandoli cliccando sul tasto `+`.  
+È possibile caricare documenti (ad esempio i PDF dell'annuncio gara e delle ultime info) trascinandoli nell'apposita sezione, o selezionandoli cliccando sul tasto `+`.  
 Assegnare `additional` come tipo di documento.  
+**NOTA**: visto che i documenti vanno caricati comunque sul sito ASTi, vale la pena non caricarli su OL-Events ma far sempre e solo riferimento a quelli sul sito ASTi.
 
 - `Gestione tempi di partenza`  
 Questa opzione crea confusione, in quanto non permette in realtà la selezione della finestra delle partenze (dall'orario della prima partenza a quello dell'ultima), bensì sono unicamente le relative date.  
@@ -152,8 +153,58 @@ Permette l'esportazione di vari rapporti, inclusi i dati da caricare su OL-Einze
 
 ## Modifica dettagli {#modificaDettagli}
 
-![Lavori in corso](../../img/lavori_in_corso.png){width=30px} **QUESTA SEZIONE È ANCORA DA FARE**  ![Lavori in corso](../../img/lavori_in_corso.png){width=30px}
+La pagina per la modifica delle informazioni dettagliate della gara presenta una scheda `Dettagli gara`con varie sezioni.
 
+![Export dei dati](inc/modificaDettagli.png)
+
+**NOTA**: a differenza di altre pagine, i campi in questa pagina non sono salvati automaticamente. Ricordarsi pertanto di cliccare sul bottone `Salvare`in fondo alla pagina.  
+  
+Le varie sezioni sono:
+
+- `Informazione Generale`  
+Nome della gara, società organizzatrice e recapito del capo gara.  
+![Info generale](inc/infoGenerali.png)  
+
+- `Eventi`  
+Di regola, la data della scadenza delle mutazioni è la stessa della scadenza delle iscrizioni.  
+![Media](inc/eventi.png)  
+
+- `Media`  
+Il campo relativo alla foto di copertina indica `No file chosen` anche se è stata caricata una foto. Il campo mostra il nome del file selezionato solo fino al salvataggio della pagina.   
+![Media](inc/media.png)  
+  
+    Esempio di foto di copertina: foto di default (9. TMO) e foto personalizzata (8. TMO).  
+    ![foto copertina](inc/fotoCopertina.png)
+
+
+- `Annuncio gara` e `Ultime info`  
+Se il campo di una lingua è vuoto, per quella lingua verrà mostrato il tedesco tedesco. Quindi, se l'annuncio gara e le ultime info sono disponibili solo in una lingua, aggiungere il link solo al tedesco.  
+Nell'esempio, l'annuncio è stato caricato sul sito OL-Events, mentre le ultime info sono prese dal sito ASTi. Visto che i documenti sono caricati comunque sul sito ASTi, è consigliabile non caricare documenti su OL-Events ma far riferimento sempre a quelli sul sito ASTi.  
+![annuncio gara e ultime info](inc/annuncio_ultimeInfo.png)
+
+
+- `Informazioni sulla gara`  
+Dettagli relati alla gara: cartina, centro gara, tracciatore e controllore.  
+![informazioni sulla gara](inc/infoGara.png)  
+  
+    Le coordinate del centro gara permettono la visualizzazione della posizione sulla cartina nella panoramica della gara.   
+    ![panoramica gara](inc/infoGara_xUtenti.png)
+
+- `Commissioni`  
+In questa scheda la `Tassa d'iscrizione` è il supplemento per l'iscrizione via portale. Quindi lasciare il testo vuoto per non mostrare un testo fuorviante.  
+![commissioni](inc/commissioni.png)
+
+- `Impostazioni`  
+Impostare l'`ora zero` e eventualmente il link alle liste di partenza sul sito SOLV.  
+Anche se i TMO hanno un delegato tecnico, non selezionare la relativa casella: questa va selezionata solo per gare nazionali o campionati svizzeri.  
+![Impostazioni](inc/impostazioni.png)
+
+- `Commenti`  
+Questo testo è mostrato nella panoramica della gara. Se il campo relativo ad una lingua è vuoto, gli utenti che hanno impostato quella lingua nel loro profilo vedranno il testo in tedesco.  
+![Commenti](inc/commenti.png)  
+
+
+Ricordarsi di salvare le modifiche.
 
 ## Esportazioni {#esportazioni}
 
