@@ -1,5 +1,8 @@
 **QUESTA PAGINA È ANCORA DA FARE**  
-![Lavori in corso](../../img/lavori_in_corso.png)
+![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
+
+SU QUESTA PAGINA SOLO UNA PANORAMICA DELLE COSE DA FARE.   
+SPIEGAZIONI DETTAGLIATE IN /hardware/sportident/...
 
 # Sincronizzazione delle scatolette
 ## Ora del Timemaster corretta
