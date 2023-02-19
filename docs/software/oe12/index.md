@@ -12,5 +12,5 @@ Descrive l'applicazione in generale, le sue funzioni principali, le varie applic
 Descrive la navigazione e varie caratteristiche comuni a tutte le finestre dell'applicazione.
 
 - [Punti radio](punti_radio.md)  
-Mostra la procedura di configurazione per l'integrazione dei [punti radio SPORTIdent](punti_radio.md).
+Mostra la procedura di configurazione per l'integrazione dei punti radio SPORTIdent.
 
