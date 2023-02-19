@@ -73,6 +73,7 @@ nav:
           - Classifiche Online: gestione_gara_org/pregara/o2rank_pregara.md
           - OL-Einzel: gestione_gara_org/pregara/oleinzel_pregara.md
           - Scatolette Punti: gestione_gara_org/pregara/punti_sportident.md
+          - Punti radio: gestione_gara_prg/pregara/punti_radio.md
       - Gara:
           - "gestione_gara_org/gara/index.md"
           - Rete: gestione_gara_org/gara/rete.md
@@ -87,11 +88,16 @@ nav:
       - Router: materiale/router.md
       - Ponti radio: materiale/ponti_radio.md
       - TV: materiale/tv.md
+      - SPORTIdent:
+          - "materiale/sportident/index.md"
+          - Punti Radio: "materiale/sportident/punti_radio.md"
   - Software:
       - "software/index.md"
       - OE 12:
+          - "software/oe12/index.md"
           - Panoramica: software/oe12/panoramica.md
           - Interfaccia grafica: software/oe12/interfaccia_grafica.md
+          - Punti radio SPORTIdent: software/oe12/punti_radio.md
       - Go2ol: 
           - "software/go2ol/index.md"
           - Creazione gara: software/go2ol/organizzatori.md
