@@ -1,13 +1,33 @@
-**QUESTA PAGINA È ANCORA DA FARE**  
-![Lavori in corso](../../img/lavori_in_corso.png)
+# Preparazione gara in OL-Einzel
 
-**Documentazione attuale**: [capitoli 2, 3, 4 e 7 nel file PDF](../inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf).
+Preparazione della gara in OL-Einzel prima della gara.  
 
-Preparazione della gara in OL-Einzel prima della gara.
-- creazione della gara
+## OL-Einzel OE12
+
+Per OL-Einzel 2010 fare riferimento al [documento PDF](../inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf):  
+
+- [Descrizione dell'interfaccia grafica](../../software/oe12/interfaccia_grafica.md)
+- [Creazione della gara](../../software/oe12/creazione_gara.md)
 - import delle iscrizioni
 - import dei percorsi
 - preparazione e pubblicazione delle liste di partenza
 - stampa etichette per le cartine
 
+## OL-Einzel 2010
+
+Per OL-Einzel 2010 fare riferimento al [documento PDF](../inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf):  
+
+- Capitolo 2: Liste di spunta (checklists)
+- Capitolo 3: Descrizione dell'interfaccia grafica
+- Capitolo 4: Preparazione pre-gara
+    - Capitolo 4.1: Creazione gara da modello
+    - Capitolo 4.2: Importazione iscrizioni
+    - Capitolo 4.3: Importazione percorsi
+    - Capitolo 4.4: Iscrizioni tardive
+    - Capitolo 4.5: Liste di partenza
+    - Capitolo 4.6: Etichette per cartine
+- Capitolo 7: Appendici
+    - Capitolo 7.1: Installazione
+    - Capitolo 7.2: Aggiornamento archivio SOLV
+    - Capitolo 7.3: Creazione gara da zero
 
