@@ -24,7 +24,7 @@ Controlla le impostazioni delle cartelle dell'applicazione (non dovrebbero cambi
 
 Segui le istruzioni a dipendenza della tipologia di gara:
 
-??? Info "Utilizzo di OL-Events"
+??? Example "Utilizzo di OL-Events"
     
     1. Seleziona `Gara > Nuovo`  
     ![Gara > Nuovo](inc/menu_gara_nuovo.png)  
@@ -36,10 +36,10 @@ Segui le istruzioni a dipendenza della tipologia di gara:
         
         1. La denominazione della gara è il testo che appare sulle stampe, ad esempio `1. TMO GOLD Novaggio`  
         
-        1. Imposta la cartella di gara nel formato `TMO_**##_SOCIETA_LUOGO_XX`  
+        1. Imposta la cartella di gara nel formato `TMO_AANN_SOCIETA_LUOGO_XX`  
         dove  
-        `**` è l'anno a due cifre  
-        `##`è il numero della gara a due cifre  
+        `AA` è l'anno a due cifre  
+        `NN`è il numero della gara a due cifre  
         `SOCIETA` è la sigla della società  
         `LUOGO` è il posto della gara  
         `_XX` è un suffisso opzionale per gare speciali (ad es. _CTCO)  
@@ -49,7 +49,7 @@ Segui le istruzioni a dipendenza della tipologia di gara:
           
         `TMO_2309_GOV_Cimalmotto_CTCO` per i campionati ticinesi, nono TMO del 2023 organizzato dal GOV a Cimalmotto  
           
-        Per gare speciali usa `GARA_**`, es. `StaffettaSele_23` per la gara del 2023
+        Per gare speciali usa `GARA_AA`, es. `StaffettaSele_23` per la gara del 2023
         
         1. Seleziona `Standard` come tipo di gara  
         1. Imposta la data e l'ora zero. 
@@ -57,7 +57,7 @@ Segui le istruzioni a dipendenza della tipologia di gara:
         1. Seleziona `SPORTident` come sistema chip
 
 
-??? Info "Creazione con gara modello" 
+??? Example "Creazione con gara modello" 
     
     1. Seleziona `Gara > Copia`.  
     Se il comando non è attivo, seleziona prima una gara a caso con `Gara > Seleziona`  
@@ -75,7 +75,7 @@ Segui le istruzioni a dipendenza della tipologia di gara:
     1. Premi `Avvia`, `OK` e `Chiudi`
 
 
-??? Info "Creazione completamente manuale"
+??? Example "Creazione completamente manuale"
     Seguire le istruzioni in `Utilizzo di OL-Events`
 
 
