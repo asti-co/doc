@@ -8,7 +8,7 @@ Esistono varie opzioni per la creazione della gara in OL-Einzel v.12 (OE12) a di
 
 Nelle sezioni seguenti molte istruzioni sono in comune alle tre tipologie. In caso di differenze, queste sono chiaramente marcate e descritte in sezioni separate. Espandi la relativa sezione per accedere alle istruzioni specifiche. 
 
-## Controllo delle impostazioni delle cartelle {#cartelle}
+## Controllo delle cartelle
 
 Controlla le impostazioni delle cartelle dell'applicazione (non dovrebbero cambiare...):  
 
@@ -62,7 +62,7 @@ Segui le istruzioni a dipendenza della tipologia di gara:
     1. Seleziona `Gara > Copia`.  
     Se il comando non è attivo, seleziona prima una gara a caso con `Gara > Seleziona`  
       
-    1. Scegli `Gara modello per TMO` come gara d'origine  
+    1. Scegli `Gara modello per TMO` o `Gata Modello per SpintCup`come gara d'origine.
       
     1. Imposta `Crea nuova gara`  
       
@@ -79,7 +79,7 @@ Segui le istruzioni a dipendenza della tipologia di gara:
     Seguire le istruzioni in `Utilizzo di OL-Events`
 
 
-## Controlla le impostazioni del sistema chip
+## Controllo del sistema chip
 
 Per evitare continue richieste di verifica da parte del programma, controlla subito le impostazioni del sistema chip.  
 
@@ -97,10 +97,29 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 1. Chiudi la finestra con `OK`
 
 
-## Con portale d'iscrizione OL-Events {#ol-events}
+## Impostazione categorie
 
-Creare una gara "vuota" e importare categorie e concorrenti direttamente da OL-Einzel
-## Con gara modello {#gara-modello}
+??? Example "Utilizzo di OL-Events"
+    da fare
 
-## Completamente manuale {#manuale}
+??? Example "Creazione con gara modello" 
+    Creando la gara dalla gara modello imposta già in automatico le categorie del tipo di gara selezionato (TMO o SprintCup)
+
+??? Example "Creazione completamente manuale"
+    da fare
+
+## Importazione iscrizioni
+
+??? Example "Utilizzo di OL-Events"
+    da fare
+
+??? Example "Creazione con gara modello" 
+    da fare
+
+??? Example "Creazione completamente manuale"
+    da fare
+
+
+
+
 
