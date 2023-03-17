@@ -6,7 +6,7 @@ Esistono varie opzioni per la creazione della gara in OL-Einzel v.12 (OE12) a di
 - Creazione da gara modello
 - Creazione completamente manuale
 
-Nelle sezioni seguenti molte istruzioni sono in comune alle tre tipologie. In caso di differenze, queste sono chiaramente marcate e mostrano i passi relativi all'uso del portale OL-Events. Per le altre tipologie di gare espandere le relative sezioni per accedere alle istruzioni specifiche. 
+Nelle sezioni seguenti molte istruzioni sono in comune alle tre tipologie. In caso di differenze, queste sono chiaramente marcate e descritte in sezioni separate. Espandi la relativa sezione per accedere alle istruzioni specifiche. 
 
 ## Controllo delle impostazioni delle cartelle {#cartelle}
 
@@ -24,7 +24,7 @@ Controlla le impostazioni delle cartelle dell'applicazione (non dovrebbero cambi
 
 Segui le istruzioni a dipendenza della tipologia di gara:
 
-???+ Info "Utilizzo di OL-Events"
+??? Info "Utilizzo di OL-Events"
     
     1. Seleziona `Gara > Nuovo`  
     ![Gara > Nuovo](inc/menu_gara_nuovo.png)  
@@ -38,18 +38,17 @@ Segui le istruzioni a dipendenza della tipologia di gara:
         
         1. Imposta la cartella di gara nel formato `TMO_**##_SOCIETA_LUOGO_XX`  
         dove  
-            ** è l'anno a due cifre  
-            ## è il numero della gara a due cifre  
-            SOCIETA è la sigla della società  
-            LUOGO è il posto della gara  
-            _XX è un suffisso opzionale per gare speciali (ad es. _CTCO)  
+        `**` è l'anno a due cifre  
+        `##`è il numero della gara a due cifre  
+        `SOCIETA` è la sigla della società  
+        `LUOGO` è il posto della gara  
+        `_XX` è un suffisso opzionale per gare speciali (ad es. _CTCO)  
+          
         Esempi:  
-            TMO_2301_GOLD_Novaggio  
-            per il primo TMO del 2023 a Novaggio organizzato dal GOLD  
-        
-            TMO_2309_GOV_Cimalmotto_CTCO  
-            per i campionati ticinesi, nono TMO del 2023 organizzato dal GOV a Cimalmotto  
-           
+        `TMO_2301_GOLD_Novaggio` per il primo TMO del 2023 a Novaggio organizzato dal GOLD  
+          
+        `TMO_2309_GOV_Cimalmotto_CTCO` per i campionati ticinesi, nono TMO del 2023 organizzato dal GOV a Cimalmotto  
+          
         Per gare speciali usa `GARA_**`, es. `StaffettaSele_23` per la gara del 2023
         
         1. Seleziona `Standard` come tipo di gara  
