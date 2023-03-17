@@ -4,7 +4,7 @@ Preparazione della gara in OL-Einzel prima della gara.
 
 ## OL-Einzel OE12
 
-Per OL-Einzel 2010 fare riferimento al [documento PDF](../inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf):  
+Per OL-Einzel OE12 (del 2023):  
 
 - [Descrizione dell'interfaccia grafica](../../software/oe12/interfaccia_grafica.md)
 - [Creazione della gara](../../software/oe12/creazione_gara.md)

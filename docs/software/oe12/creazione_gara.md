@@ -2,11 +2,11 @@
 
 Esistono varie opzioni per la creazione della gara in OL-Einzel v.12 (OE12) a dipendenza del portale d'iscrizione o della tipologia di gara.
 
-- Con portale d'iscrizione OL-Events
+- Importazione dati dal portale d'iscrizione OL-Events
 - Creazione da gara modello
 - Creazione completamente manuale
 
-Le sezioni seguenti molte istruzioni sono in comune alle tre tipologie. In caso di differenze, queste sono chiaramente marcate e mostrano i passi relativi all'uso del portale OL-Events. Per le altre tipologie di gare espandere le relative sezioni per accedere alle istruzioni specifiche. 
+Nelle sezioni seguenti molte istruzioni sono in comune alle tre tipologie. In caso di differenze, queste sono chiaramente marcate e mostrano i passi relativi all'uso del portale OL-Events. Per le altre tipologie di gare espandere le relative sezioni per accedere alle istruzioni specifiche. 
 
 ## Controllo delle impostazioni delle cartelle {#cartelle}
 
@@ -24,7 +24,7 @@ Controlla le impostazioni delle cartelle dell'applicazione (non dovrebbero cambi
 
 Segui le istruzioni a dipendenza della tipologia di gara:
 
-???+ Info  Utilizzo di OL-Events
+???+ Info "Utilizzo di OL-Events"
     
     1. Seleziona `Gara > Nuovo`  
     ![Gara > Nuovo](inc/menu_gara_nuovo.png)  
@@ -34,9 +34,9 @@ Segui le istruzioni a dipendenza della tipologia di gara:
     
     1. Riempi la scheda della nuova gara  
         
-        a. La denominazione della gara è il testo che appare sulle stampe, ad esempio `1. TMO GOLD Novaggio`  
+        1. La denominazione della gara è il testo che appare sulle stampe, ad esempio `1. TMO GOLD Novaggio`  
         
-        a. Imposta la cartella di gara nel formato `TMO_**##_SOCIETA_LUOGO_XX`  
+        1. Imposta la cartella di gara nel formato `TMO_**##_SOCIETA_LUOGO_XX`  
         dove  
             ** è l'anno a due cifre  
             ## è il numero della gara a due cifre  
@@ -52,13 +52,13 @@ Segui le istruzioni a dipendenza della tipologia di gara:
            
         Per gare speciali usa `GARA_**`, es. `StaffettaSele_23` per la gara del 2023
         
-        a. Seleziona `Standard` come tipo di gara  
-        a. Imposta la data e l'ora zero. 
+        1. Seleziona `Standard` come tipo di gara  
+        1. Imposta la data e l'ora zero. 
         Per l'ora zero imposta un orario anticipato di 15-30 minuti rispetto alle prime partenze, per permettere la partenza di alcuni concorrenti (es. collaboratori) prima dell'ora zero ufficiale.  
-        a. Seleziona `SPORTident` come sistema chip
+        1. Seleziona `SPORTident` come sistema chip
 
 
-??? Info Creazione con gara modello  
+??? Info "Creazione con gara modello" 
     
     1. Seleziona `Gara > Copia`.  
     Se il comando non è attivo, seleziona prima una gara a caso con `Gara > Seleziona`  
@@ -76,7 +76,7 @@ Segui le istruzioni a dipendenza della tipologia di gara:
     1. Premi `Avvia`, `OK` e `Chiudi`
 
 
-??? Info Creazione completamente manuale
+??? Info "Creazione completamente manuale"
     Seguire le istruzioni in `Utilizzo di OL-Events`
 
 
@@ -89,12 +89,12 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 ![Sistema chip](inc/modifica_impostazioni_gara.png)  
 1. Verifica le impostazioni di SPORTident.  
 ![Impostazioni SPORTident](inc/impostazioni_sportident.png)  
-    a. Verifica data e ora
-    a. Imposta la precisione del cronometraggio a SECONDI `OO:MM:SS`
-    a. Imposta l'uso della scatoletta all'arrivo ma non alla partenza.
-    a. Imposta la modalità di lettura del tempo dal chip
-    a. Seleziona una durata di gara inferiore alle 12 ore.
-    a. Conferma con `OK`
+    1. Verifica data e ora
+    1. Imposta la precisione del cronometraggio a SECONDI `OO:MM:SS`
+    1. Imposta l'uso della scatoletta all'arrivo ma non alla partenza.
+    1. Imposta la modalità di lettura del tempo dal chip
+    1. Seleziona una durata di gara inferiore alle 12 ore.
+    1. Conferma con `OK`
 1. Chiudi la finestra con `OK`
 
 
