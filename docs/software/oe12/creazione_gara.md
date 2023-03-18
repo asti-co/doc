@@ -22,9 +22,9 @@ Controlla le impostazioni delle cartelle dell'applicazione (non dovrebbero cambi
 
 ## Creazione gara
 
-Segui le istruzioni a dipendenza della tipologia di gara:
+Segui le istruzioni a dipendenza della procedura scelta:
 
-??? Example "Utilizzo di OL-Events"
+??? Example "Creazione per utilizzo di OL-Events"
     
     1. Seleziona `Gara > Nuovo`  
     ![Gara > Nuovo](inc/menu_gara_nuovo.png)  
@@ -99,7 +99,7 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 
 ## Impostazione categorie {#categorie}
 
-??? Example "Utilizzo di OL-Events"
+??? Example "Importazione categorie da OL-Events"
     Le categorie vengono importate da OL-Events.  
     **Nota**: è possibile eseguire questo passo più volte.
 
@@ -153,10 +153,10 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
         ![Categorie](inc/iscrizioni_categorie.png)
 
 
-??? Example "Creazione con gara modello" 
+??? Example "Importazione categorie da gara modello" 
     Creando la gara dalla gara modello imposta già in automatico le categorie del tipo di gara selezionato (TMO o SprintCup)
 
-??? Example "Creazione completamente manuale"
+??? Example "Inserimento manuale delle categorie"
     Inserendo le categorie manualmente, assicurati di mantenere i nomi e le ID come definite dal SOLV e le tasse d'iscrizione come definite nel [RECO](https://www.asti-ticino.ch/co/index.php?folder=ctco&main=reco).  
 
         1. Nella finestra principale di OE12, nel menu `Iscrizioni` seleziona `Modifica > Iscrizioni`  
@@ -171,7 +171,7 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 
 ## Importazione iscrizioni
 
-??? Example "Utilizzo di OL-Events"
+??? Example "Importazione delle iscrizioni da OL-Events"
     Le iscrizioni vengono importate da OL-Events.  
     **Nota**: è possibile eseguire questi passi più volte già prima della chiusura delle iscrizioni.
 
@@ -195,10 +195,10 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
     ![Iscrizioni](inc/iscrizioni.png)          
 
 
-??? Example "Creazione con gara modello" 
+??? Example "Importazione con file CSV/XML" 
     da fare
 
-??? Example "Creazione completamente manuale"
+??? Example "Inserimento manuale dei concorrenti"
     da fare
 
 
