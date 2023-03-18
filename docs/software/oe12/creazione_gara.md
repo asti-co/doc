@@ -101,7 +101,7 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 
 ??? Example "Utilizzo di OL-Events"
     Le categorie vengono importate da OL-Events.  
-    *Nota*: è possibile eseguire questo passo più volte.
+    **Nota**: è possibile eseguire questo passo più volte.
 
     1. Recupera il Bearer Token da OL-Events  
          
@@ -165,7 +165,7 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
         1. Seleziona il tab `Categorie`.  
 
         1. Clicca il bottone `+ Nuovo` e inserisci tutte le categorie.  
-        *Nota*: per gare TMO mantieni il numero e la denominazione corta come definite dal SOLV e la tassa d'iscrizione come specificato nel RECO (vedi immagine).  
+        **Nota**: per gare TMO mantieni il numero e la denominazione corta come definite dal SOLV e la tassa d'iscrizione come specificato nel RECO (vedi immagine).  
         I campi `Età` e `Sesso` non vengono usati.  
         ![Categorie](inc/categorie.png)
 
@@ -173,7 +173,7 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 
 ??? Example "Utilizzo di OL-Events"
     Le iscrizioni vengono importate da OL-Events.  
-    *Nota*: è possibile eseguire questi passi più volte già prima della chiusura delle iscrizioni.
+    **Nota**: è possibile eseguire questi passi più volte già prima della chiusura delle iscrizioni.
 
     1. Si suppone che OE12 sia già connesso alla gara corretta in OL-Events come descritto [sopra](#categorie).  
       
@@ -188,10 +188,10 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
     ![OL-Events conferma l'import delle categorie](inc/olevents_iscrizioni_conferma.png)  
       
     1. Verifica che non ci siano messaggi di errore.  
-    *Nota*: è normale che alcuni campi del file XML vengano ignorati.  
+    **Nota**: è normale che alcuni campi del file XML vengano ignorati.  
     ![OL-Events verifica import iscrizioni](inc/olevents_iscrizioni_verifica.png)  
       
-    1. Verifica le iscrizioni selezionando `Modifica > Iscrizioni` nel menu `Iscrizioni`.  
+    1. Verifica le iscrizioni nel tab `Concorrenti` selezionando `Modifica > Iscrizioni` nel menu `Iscrizioni`.  
     ![Iscrizioni](inc/iscrizioni.png)          
 
 
