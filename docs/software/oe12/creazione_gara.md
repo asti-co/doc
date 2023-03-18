@@ -99,6 +99,8 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 
 ## Impostazione categorie {#categorie}
 
+Segui le istruzioni a dipendenza della procedura scelta:
+
 ??? Example "Importazione categorie da OL-Events"
     Le categorie vengono importate da OL-Events.  
     **Nota**: è possibile eseguire questo passo più volte.
@@ -170,6 +172,8 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
         ![Categorie](inc/categorie.png)
 
 ## Importazione iscrizioni
+
+Segui le istruzioni a dipendenza della procedura scelta:
 
 ??? Example "Importazione delle iscrizioni da OL-Events"
     Le iscrizioni vengono importate da OL-Events.  
