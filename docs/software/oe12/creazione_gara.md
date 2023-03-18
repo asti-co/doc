@@ -100,7 +100,54 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 ## Impostazione categorie
 
 ??? Example "Utilizzo di OL-Events"
-    da fare
+    Le categorie vengono importate da OL-Events.  
+
+    1. Recuperare il Bearer Token da OL-Events  
+        1. Accedere a [ol-events](https://portal.ol-events.ch) come amministratore della gara
+          
+        1. Nel menu a sinistra, sotto `organizzatore` selezionare `Le mie gare`
+          
+        1. Selezionare la propria gara
+          
+        1. Nel menu `Gestione gara` selezionare `Esportazioni`  
+        ![OL-Events menu export](inc/olevents_menu_esportazione.png) 
+           
+        1. Dalla schermata `Scambio di dati` copiare il Bearer Token  
+        ![OL-Events bearer token](inc/olevents_bearer_token.png)
+      
+    1. Connettere OE12 alla gara in OL-Events
+        1. Nella finestra principale di OE-12, selezionare `OL-Events` nel menu `Web`  
+        ![Menu Web](inc/menu_web.png)  
+          
+        1. Nel menu specifico di OL-Events, selezionare `Impostazioni` 
+        ![Menu Web OL-Events](inc/menu_web_olevents_impostazioni.png)
+          
+        1. Incollare il Bearer Token di OL-Events nel campo `Token` e premere il bottone `Cerca`.   
+        Appaiono le impostazioni della gara come definite in OL-Events. Attualmente queste informazioni sono di controllo per assicurarsi di aver collegato OE12 alla gara corretta in OL-Events, ma i dati non vengono ripresi da OE12.  
+        ![OL-Events impostazioni](inc/olevents_impostazioni.png)
+          
+    1. Importare le categorie da OL-Events
+        1. Nel menu `Web > OL-Events` selezionare `Scaricare > Categorie`  
+        ![OL-Events scarica categorie](inc/menu_web_olevents_categorie.png)  
+          
+        1. Verifica che la gara sia quella corretta e `Scarica`  
+        ![OL-Events categorie](inc/menu_web_olevents_categorie.png)  
+          
+        1. Conferma di scaricare le categorie  
+        ![OL-Events conferma l'import delle categorie](inc/olevents_categorie_conferma.png)  
+          
+        1. Verifica che non ci siano errori e che il numero corretto di categorie sia stato importato.  
+        ![OL-Events verifica import categorie](inc/olevents_categorie_verifica.png)  
+          
+        1. Chiudi la finestra di verifica.
+          
+    1. Verifica le categorie
+        1. Nella finestra principale di OE12, nel menu `Iscrizioni` selezionare `Iscrizioni`  
+        ![Iscrizioni](inc/menu_iscrizioni_iscrizioni.png)  
+          
+        1. Seleziona il tab `Categorie` e verifica i dati  
+        ![Categorie](inc/iscrizioni_categorie.png)
+
 
 ??? Example "Creazione con gara modello" 
     Creando la gara dalla gara modello imposta già in automatico le categorie del tipo di gara selezionato (TMO o SprintCup)
