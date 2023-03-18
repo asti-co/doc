@@ -101,6 +101,7 @@ nav:
           - "software/oe12/index.md"
           - Panoramica: software/oe12/panoramica.md
           - Interfaccia grafica: software/oe12/interfaccia_grafica.md
+          - Creazione gara: software/oe12/creazione_gara.md
           - Punti radio SPORTIdent: software/oe12/punti_radio.md
       - Go2ol: 
           - "software/go2ol/index.md"
