@@ -97,10 +97,11 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 1. Chiudi la finestra con `OK`
 
 
-## Impostazione categorie
+## Impostazione categorie {#categorie}
 
 ??? Example "Utilizzo di OL-Events"
     Le categorie vengono importate da OL-Events.  
+    *Nota*: è possibile eseguire questo passo più volte.
 
     1. Recupera il Bearer Token da OL-Events  
          
@@ -171,7 +172,28 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 ## Importazione iscrizioni
 
 ??? Example "Utilizzo di OL-Events"
-    da fare
+    Le iscrizioni vengono importate da OL-Events.  
+    *Nota*: è possibile eseguire questi passi più volte già prima della chiusura delle iscrizioni.
+
+    1. Si suppone che OE12 sia già connesso alla gara corretta in OL-Events come descritto [sopra](#categorie).  
+      
+    1. Nel menu `Web > OL-Events` seleziona `Scarica > Iscrizioni`  
+    ![OL-Events scarica iscrizioni](inc/menu_web_olevents_iscrizioni.png)  
+      
+    1. Verifica che la gara collegata sia quella corretta e imposta `Cancella e ricrea` per i concorrenti e per le società.  
+    Importa i blocchi di partenza ma non i tempi di partenza.  
+    ![OL-Events iscrizioni](inc/olevents_iscrizioni.png)  
+      
+    1. Conferma di scaricare le iscrizioni  
+    ![OL-Events conferma l'import delle categorie](inc/olevents_iscrizioni_conferma.png)  
+      
+    1. Verifica che non ci siano messaggi di errore.  
+    *Nota*: è normale che alcuni campi del file XML vengano ignorati.  
+    ![OL-Events verifica import iscrizioni](inc/olevents_iscrizioni_verifica.png)  
+      
+    1. Verifica le iscrizioni selezionando `Modifica > Iscrizioni` nel menu `Iscrizioni`.  
+    ![Iscrizioni](inc/iscrizioni.png)          
+
 
 ??? Example "Creazione con gara modello" 
     da fare
