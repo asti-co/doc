@@ -156,7 +156,17 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
     Creando la gara dalla gara modello imposta già in automatico le categorie del tipo di gara selezionato (TMO o SprintCup)
 
 ??? Example "Creazione completamente manuale"
-    da fare
+    Inserendo le categorie manualmente, assicurati di mantenere i nomi e le ID come definite dal SOLV e le tasse d'iscrizione come definite nel [RECO](https://www.asti-ticino.ch/co/index.php?folder=ctco&main=reco).  
+
+        1. Nella finestra principale di OE12, nel menu `Iscrizioni` seleziona `Modifica > Iscrizioni`  
+        ![Iscrizioni](inc/menu_iscrizioni_iscrizioni.png)  
+          
+        1. Seleziona il tab `Categorie`.  
+
+        1. Clicca il bottone `+ Nuovo` e inserisci tutte le categorie.  
+        *Nota*: per gare TMO mantieni il numero e la denominazione corta come definite dal SOLV e la tassa d'iscrizione come specificato nel RECO (vedi immagine).  
+        I campi `Età` e `Sesso` non vengono usati.  
+        ![Categorie](inc/categorie.png)
 
 ## Importazione iscrizioni
 
