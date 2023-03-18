@@ -144,10 +144,11 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
         1. Chiudi la finestra di verifica.
           
     1. Verifica le categorie
-        1. Nella finestra principale di OE12, nel menu `Iscrizioni` seleziona `Iscrizioni`  
+        1. Nella finestra principale di OE12, nel menu `Iscrizioni` seleziona `Modifica > Iscrizioni`  
         ![Iscrizioni](inc/menu_iscrizioni_iscrizioni.png)  
           
-        1. Seleziona il tab `Categorie` e verifica i dati  
+        1. Seleziona il tab `Categorie` e verifica i dati.  
+        In OL-Events il nome lungo delle categorie è in tedesco. In OE12 usiamo unicamente la versione corta.  
         ![Categorie](inc/iscrizioni_categorie.png)
 
 
