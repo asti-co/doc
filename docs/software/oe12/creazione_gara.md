@@ -103,6 +103,7 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
     Le categorie vengono importate da OL-Events.  
 
     1. Recuperare il Bearer Token da OL-Events  
+         
         1. Accedere a [ol-events](https://portal.ol-events.ch) come amministratore della gara
           
         1. Nel menu a sinistra, sotto `organizzatore` selezionare `Le mie gare`
