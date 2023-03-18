@@ -128,10 +128,12 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
         ![OL-Events impostazioni](inc/olevents_impostazioni.png)
           
     1. Importa le categorie da OL-Events
+        
         1. Nel menu `Web > OL-Events` seleziona `Scarica > Categorie`  
+        ![OL-Events categorie](inc/menu_web_olevents_categorie.png)  
           
         1. Verifica che la gara sia quella corretta e premi `Scarica`  
-        ![OL-Events categorie](inc/menu_web_olevents_categorie.png)  
+        ![OL-Events categorie](inc/olevents_categorie.png)
           
         1. Conferma di scaricare le categorie  
         ![OL-Events conferma l'import delle categorie](inc/olevents_categorie_conferma.png)  
