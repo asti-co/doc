@@ -207,7 +207,7 @@ Segui le istruzioni a dipendenza della procedura scelta:
 
 ## Gestione coppie/gruppi
 
-OE12 ha introdotto il concetto di squadre per gestire coppie o gruppi di concorrenti che corrono insieme. OL-Events esporta i dati (sia via API che via file CSV) al nuovo formato di OE12.  
+OE12 ha introdotto il concetto di squadre per gestire coppie o gruppi di concorrenti che corrono insieme. OL-Events esporta i dati (sia via API che via file CSV) nel nuovo formato di OE12.  
   
 Secondo il [RECO](https://www.asti-ticino.ch/co/index.php?folder=ctco&main=reco) è possibile correre in coppia nelle categorie H/D 10-12-14-B e in OK, ma deve essere ben visibile sulle liste di partenza e sulle classifiche chi ha corso in coppia, in quanto questi concorrenti non ricevono punti per la classifica annuale del TMO.  
   
