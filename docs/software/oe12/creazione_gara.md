@@ -223,10 +223,10 @@ Segui le istruzioni a dipendenza della procedura scelta:
         
     1. Imposta i valori
         
-        1. Cancella e ricrea i concorrenti
-        1. Identifica i concorrenti tramite l'ID della banca dati
+        1. `Cancella e ricrea` i concorrenti
+        1. Identifica i concorrenti tramite l'`ID della banca dati`
         1. Ignora le impostazioni per le iscrizioni tardive
-        1. Cancella e ricrea le società
+        1. `Cancella e ricrea` le società
         1. Imposta il formato del file esportato dal portale delle iscrizioni.  
         Per OL-Events imposta 
           
@@ -271,6 +271,39 @@ Per i TMO continuiamo quindi ad usare il formato dei nomi e cognomi uniti da un 
 
 ## Importazione percorsi
 
+Importare i percorsi in OE12 usando un file XML esportato da OCAD.
 
+1. Esporta i percorsi da OCAD
+    1. In OCAD seleziona `Tracciati (XML, IOF Versione 3.0)` dal menu `Tracciamento percorsi > Esporta`  
+    ![Menu esporta in OCAD](inc/ocad_menu_export.png)  
+  
+1. Importa i percorsi in OE12
+    1. In OE12 seleziona `Percorsi > Importa > Percorsi`  
+    ![Menu importa percorsi](inc/menu_percorsi_importa.png)  
+      
+    1. Imposta i valori
+          
+        1. `Cancella e ricrea` i percorsi
+        1. Identifica i percorsi dalla `denominazione`
+        1. `Cancella e ricrea` i punti
+        1. Imposta il formato del file a `XML`
+        1. Seleziona il file esportato da OCAD  
+        ![Import percorsi da file XML](inc/percorsi_importa.png)
+        
+    1. Conferma la cancellazione degli abbinamenti tra percorsi e categorie  
+    ![Cancella gli abbinamenti](inc/percorsi_importa_cancella_abbinamenti.png)  
+        
+    1. Conferma il caricamento dei percorsi  
+    ![Conferma il caricamente delle iscrizioni](inc/percorsi_importa_conferma.png)  
+      
+    1. Verifica che abbia importato i percorsi e che non ci siano errori.  
+    ![Verifica il caricamento dei percorsi](inc/percorsi_importa_verifica.png)  
 
+1. Verifica gli abbinamenti tra percorsi e categorie
+    1. Nel menu `Percorsi` selezione `Modifica > Categorie`  
+    ![Menu abbinamento percorsi - categorie](inc/menu_percorsi_categorie.png)  
 
+    1. Verifica e eventuamlmente imposta il percorso abbinato ad ogni categoria  
+    ![Verifica abbinamenti percorsi - categorie](inc/percorsi_abbinamenti_categorie.png)
+  
+  
