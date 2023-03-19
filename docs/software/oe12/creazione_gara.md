@@ -176,7 +176,7 @@ Segui le istruzioni a dipendenza della procedura scelta:
 Segui le istruzioni a dipendenza della procedura scelta:
 
 ??? Example "Importazione delle iscrizioni da OL-Events"
-    Le iscrizioni vengono importate da OL-Events.  
+    Le iscrizioni vengono importate direttamente da OL-Events, **senza** esportazione/importazione di file.  
     **Nota**: è possibile eseguire questi passi più volte già prima della chiusura delle iscrizioni.
 
     1. Si suppone che OE12 sia già connesso alla gara corretta in OL-Events come descritto [sopra](#categorie).  
@@ -200,7 +200,51 @@ Segui le istruzioni a dipendenza della procedura scelta:
 
 
 ??? Example "Importazione con file CSV/XML" 
-    da fare
+    OE12 permette sempre ancora di importare le iscrizioni utilizzando dei file CSV o XML.  
+    **Nota**: è possibile eseguire questi passi più volte già prima della chiusura delle iscrizioni.
+    
+    1. I passi per ottenere il file di importazione con tutte le iscrizioni dipende dal portale d'iscrizione utilizzato.  
+    Per OL-Events:  
+    
+        1. Accedi a [ol-events](https://portal.ol-events.ch) come amministratore della gara
+          
+        1. Nel menu a sinistra, sotto `organizzatore` seleziona `Le mie gare`
+          
+        1. Seleziona la tua gara
+          
+        1. Nel menu `Gestione gara` seleziona `Esportazioni`  
+        ![OL-Events menu export](inc/olevents_menu_esportazione.png) 
+           
+        1. Dalla schermata `Scambio di dati` copia il Bearer Token  
+        ![OL-Events bearer token](inc/olevents_esportazione.png)
+        
+    1. Nel menu `Iscrizioni` seleziona `Importa > Iscrizioni`  
+    ![OL-Events scarica iscrizioni](inc/menu_iscrizioni_importa.png)  
+        
+    1. Imposta i valori
+        
+        1. Cancella e ricrea i concorrenti
+        1. Identifica i concorrenti tramite l'ID della banca dati
+        1. Ignora le impostazioni per le iscrizioni tardive
+        1. Cancella e ricrea le società
+        1. Imposta il formato del file esportato dal portale delle iscrizioni.  
+        Per OL-Events imposta 
+          
+            1. `CSV` come formato del file
+            1. `Punto e virgola` come separatore 
+            1. I doppi apici come delimitatore di testo
+        1. Seleziona il file esportato dal portale delle iscrizioni  
+        ![Import iscrizioni da file](inc/iscrizioni_import_csv.png)
+        
+    1. Conferma il caricamento delle iscrizioni  
+    ![Conferma il caricamente delle iscrizioni](inc/iscrizioni_import_csv_conferma.png)  
+      
+    1. Verifica che abbia importato concorrenti e che non ci siano errori.  
+    ![Verifica il caricamento delle iscrizioni](inc/iscrizioni_import_csv_verifica.png)  
+      
+    1. Verifica le iscrizioni nel tab `Concorrenti` selezionando `Modifica > Iscrizioni` nel menu `Iscrizioni`.  
+    ![Iscrizioni](inc/iscrizioni.png)          
+
 
 ??? Example "Inserimento manuale dei concorrenti"
     da fare
