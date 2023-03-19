@@ -38,7 +38,7 @@ Si possono adattare le tabelle alle proprie esigenze spostando le varie colonne 
 **Nota**: il campo della ricerca cerca sempre solo nella colonna attualmente utilizzata per l'ordinamento.  
 ![Tabelle](inc/gui_tabella.png)  
   
-L'icona con una tabella stilizzata e una colonna marcata in rosso, in alto a sinistra sulla barra del titolo, permette di selezionare le colonne da mostrare. La lista permette anche, tramite trascinamento, di cambiare la posizione delle colonne nella tabella.
+L'icona con una tabella stilizzata e una colonna marcata in rosso, in alto a sinistra sulla barra del titolo, permette di selezionare le colonne da mostrare. La lista permette anche, tramite trascinamento, di cambiare la posizione delle colonne nella tabella.  
 ![Selezione colonne](inc/gui_selezione_colonne.png)  
   
 L'icona con la tabella e la riga in blu permette di impostare vari layout predefiniti, normalmente non utili per i fini dei TMO.  
