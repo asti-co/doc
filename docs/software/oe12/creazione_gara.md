@@ -205,6 +205,27 @@ Segui le istruzioni a dipendenza della procedura scelta:
 ??? Example "Inserimento manuale dei concorrenti"
     da fare
 
+## Gestione coppie/gruppi
+
+OE12 ha introdotto il concetto di squadre per gestire coppie o gruppi di concorrenti che corrono insieme. OL-Events esporta i dati (sia via API che via file CSV) al nuovo formato di OE12.  
+  
+Secondo il [RECO](https://www.asti-ticino.ch/co/index.php?folder=ctco&main=reco) è possibile correre in coppia nelle categorie H/D 10-12-14-B e in OK, ma deve essere ben visibile sulle liste di partenza e sulle classifiche chi ha corso in coppia, in quanto questi concorrenti non ricevono punti per la classifica annuale del TMO.  
+  
+In OE12 ogni concorrente è presente con una riga dedicata. Un campo supplementare contiene il nome della squadra che "collega" i concorrenti che corrono insieme. 
+Per i TMO continuiamo ad usare il formato dei nomi e cognomi uniti da un `+` nello stesso campo.
+
+1. Apri la lista degli iscritti selezionando `Modifica > Iscrizioni` nel menu `Iscrizioni`
+1. Nel tab `Concorrenti` ordina la tabella per `Squadra`  
+![Squadre in formato OE12](inc/squadre_separate.png)
+1. Identifica il concorrente principale (quello con tutti i dati: numero chip, ID banca dati, ecc.)
+1. Aggiungi nome e cognome del/dei compagno/i nei campi `Nome` e `Cognome` del concorrente principale
+![Squadre unite ma ancora separate](inc/squadre_unite_separate.png)
+1. Cancella la riga del compagno: seleziona la riga e premi su `- Cancella`
+![Cancella squadra](inc/squadre_cancella.png)
+1. Cancella il campo `Squadra` del concorrente principale.
+![Cancella nome squadra](inc/squadra_cancella_nome.png)
+
+## Importazione percorsi
 
 
 
