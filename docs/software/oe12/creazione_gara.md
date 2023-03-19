@@ -278,7 +278,7 @@ Importare i percorsi in OE12 usando un file XML esportato da OCAD.
     ![Menu esporta in OCAD](inc/ocad_menu_export.png)  
   
 1. Importa i percorsi in OE12
-    1. In OE12 seleziona `Percorsi > Importa > Percorsi`  
+    1. In OE12 nel menu `Percorsi` seleziona `Importa > Percorsi`  
     ![Menu importa percorsi](inc/menu_percorsi_importa.png)  
       
     1. Imposta i valori
@@ -303,7 +303,7 @@ Importare i percorsi in OE12 usando un file XML esportato da OCAD.
     1. Nel menu `Percorsi` selezione `Modifica > Categorie`  
     ![Menu abbinamento percorsi - categorie](inc/menu_percorsi_categorie.png)  
 
-    1. Verifica e eventuamlmente imposta il percorso abbinato ad ogni categoria  
+    1. Verifica e eventualmente imposta il percorso abbinato ad ogni categoria  
     ![Verifica abbinamenti percorsi - categorie](inc/percorsi_abbinamenti_categorie.png)
   
   
