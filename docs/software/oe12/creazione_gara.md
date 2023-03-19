@@ -215,8 +215,8 @@ Segui le istruzioni a dipendenza della procedura scelta:
         1. Nel menu `Gestione gara` seleziona `Esportazioni`  
         ![OL-Events menu export](inc/olevents_menu_esportazione.png) 
            
-        1. Dalla schermata `Scambio di dati` copia il Bearer Token  
-        ![OL-Events bearer token](inc/olevents_esportazione.png)
+        1. Dalla schermata `Scambio di dati` seleziona `OE12` nella sezione `Sportsoftware`  
+        ![OL-Events export per OE12](inc/olevents_esportazione.png)
         
     1. Nel menu `Iscrizioni` seleziona `Importa > Iscrizioni`  
     ![OL-Events scarica iscrizioni](inc/menu_iscrizioni_importa.png)  
@@ -253,10 +253,10 @@ Segui le istruzioni a dipendenza della procedura scelta:
 
 OE12 ha introdotto il concetto di squadre per gestire coppie o gruppi di concorrenti che corrono insieme. OL-Events esporta i dati (sia via API che via file CSV) nel nuovo formato di OE12.  
   
-Secondo il [RECO](https://www.asti-ticino.ch/co/index.php?folder=ctco&main=reco) è possibile correre in coppia nelle categorie H/D 10-12-14-B e in OK, ma deve essere ben visibile sulle liste di partenza e sulle classifiche chi ha corso in coppia, in quanto questi concorrenti non ricevono punti per la classifica annuale del TMO.  
+Secondo il [RECO](https://www.asti-ticino.ch/co/index.php?folder=ctco&main=reco) è possibile correre in coppia nelle categorie H/D 10-12-14, H/DB e in OK, ma deve essere ben visibile sulle liste di partenza e sulle classifiche chi ha corso in coppia, in quanto questi concorrenti non ricevono punti per la classifica annuale del TMO.  
   
-In OE12 ogni concorrente è presente con una riga dedicata. Un campo supplementare contiene il nome della squadra che "collega" i concorrenti che corrono insieme. 
-Per i TMO continuiamo ad usare il formato dei nomi e cognomi uniti da un `+` nello stesso campo.
+In OE12 ogni concorrente è presente con una riga dedicata. Un campo supplementare contiene il nome della squadra che "collega" i concorrenti che corrono insieme. I sistemi attuali non soddisfano i criteri definiti dal RECO in quanto sulle liste di partenza e classifiche apparirebbe unicamente il primo concorrente della squadra.  
+Per i TMO continuiamo quindi ad usare il formato dei nomi e cognomi uniti da un `+` nello stesso campo.
 
 1. Apri la lista degli iscritti selezionando `Modifica > Iscrizioni` nel menu `Iscrizioni`
 1. Nel tab `Concorrenti` ordina la tabella per `Squadra`  
