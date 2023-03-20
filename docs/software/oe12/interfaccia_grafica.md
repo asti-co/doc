@@ -1,8 +1,5 @@
 # Interfaccia grafica di OE12
 
-**QUESTA PAGINA È ANCORA DA FARE**  
-![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
-
 Questo capitolo descrive alcune caratteristiche comuni a molte finestre nel programma. Molte sono di uso comune in quanto presenti anche in altre applicazioni, ma vengono riportate per sottolineare la differenza rispetto alla versione precedente.
 
 ## Multifinestre
@@ -55,16 +52,17 @@ A volte le opzioni sono raggruppate in sezioni all'interno del pannello, e posso
 ![Opzioni con sezioni nascoste](inc/gui_opzioni_aperte_chiuse.png)
 
 ## Pannello supplementare
-{==
+
 Alcune finestre hanno un pannello supplementare nella parte bassa. Simile al pannello delle
-opzioni, anche questo pannello nasconde di regola i dati, ma ha la puntina per fissarlo in
-modalità "sempre visibile".
+opzioni, anche questo presenta i bottoni con le freccette per mostrare o nascondere il pannello stesso.
 
 La funzionalità di questo pannello varia a seconda della finestra in cui si trova.
 Ad esempio nel dialogo delle iscrizioni questo pannello mostra l'archivio SOLV, mentre nelle
 liste di partenza e nelle classifiche permette di selezionare le categorie da elaborare.
-==}
-![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
+Nell'esempio, la finestra della lettura chip con il pannello supplementare con i posti di riserva.  
+![Pannello supplementare aperto](inc/gui_pannello_supplementare_aperto.png)  
+  
+![Pannello supplementare chiuso](inc/gui_pannello_supplementare_chiuso.png)  
 
 ## Rapporti e etichette
 
