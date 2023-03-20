@@ -33,7 +33,8 @@ Segui le istruzioni a dipendenza della procedura scelta:
     ![Gara singola](inc/gara_singola.png)  
     
     1. Riempi la scheda della nuova gara  
-        
+    ![Crea gara](inc/crea_gara.png)  
+      
         1. La denominazione della gara è il testo che appare sulle stampe, ad esempio `1. TMO GOLD Novaggio`  
         
         1. Imposta la cartella di gara nel formato `TMO_AANN_SOCIETA_LUOGO_XX`  
@@ -49,30 +50,40 @@ Segui le istruzioni a dipendenza della procedura scelta:
           
         `TMO_2309_GOV_Cimalmotto_CTCO` per i campionati ticinesi, nono TMO del 2023 organizzato dal GOV a Cimalmotto  
           
-        Per gare speciali usa `GARA_AA`, es. `StaffettaSele_23` per la gara del 2023
+        Per gare speciali usa `GARA_AA`, es. `StaffettaSele_23` per la gara del 2023.  
+          
+        L'idea è di avere le gare ordinate cronologicamente almeno per tipo di gara.  
         
         1. Seleziona `Standard` come tipo di gara  
         1. Imposta la data e l'ora zero. 
         Per l'ora zero imposta un orario anticipato di 15-30 minuti rispetto alle prime partenze, per permettere la partenza di alcuni concorrenti (es. collaboratori) prima dell'ora zero ufficiale.  
-        1. Seleziona `SPORTident` come sistema chip
+        1. Seleziona `SPORTident` come sistema chip.  
+        `Emit` è un altro sistema non compatibile con i nostri chip e le nostre scatolette.
+        1. Imposta testi come "Trofeo Quadri" in `Supplemento 1` e `Supplemento 2` e attiva la checkbox `Mostra la riga con i campi supplementari nei rapporti`.
 
 
 ??? Example "Creazione con gara modello" 
     
     1. Seleziona `Gara > Copia`.  
     Se il comando non è attivo, seleziona prima una gara a caso con `Gara > Seleziona`  
+    ![Menu copia gara](inc/menu_gara_copia.png)
       
-    1. Scegli `Gara modello per TMO` o `Gata Modello per SpintCup`come gara d'origine.
+    1. Riempi i campi come segue  
+    ![Copia gara](inc/copia_gara.png)  
       
-    1. Imposta `Crea nuova gara`  
+        1. Scegli `Gara modello per TMO` o `Gara Modello per SprintCup`come gara d'origine.
       
-    1. La denominazione della gara è il testo che appare sulle stampe, ad esempio `1. TMO GOLD Novaggio`  
+        1. Imposta `Crea nuova gara`  
       
-    1. Imposta la cartella seguendo le regole descritte sopra per le gare con OL-Events (formato `TMO_AANN_SOCIETA_LUOGO_XX`)  
+        1. La denominazione della gara è il testo che appare sulle stampe, ad esempio `1. TMO GOLD Novaggio`  
       
-    1. Seleziona `Tutto` nelle opzioni
+        1. Imposta la cartella seguendo le regole descritte sopra per le gare con OL-Events (formato `TMO_AANN_SOCIETA_LUOGO_XX`)  
+      
+        1. Seleziona `Tutto` nelle opzioni
 
-    1. Premi `Avvia`, `OK` e `Chiudi`
+        1. Premi `Avvia`, `OK` e `Chiudi`  
+      
+    1. Controlla le impostazioni della gara in `Gara > Impostazioni` seguendo le indicazioni descritte sopra nella sezione per le gare con OL-Events.
 
 
 ??? Example "Creazione completamente manuale"
