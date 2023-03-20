@@ -152,7 +152,8 @@ Segui le istruzioni a dipendenza della procedura scelta:
         1. Conferma di scaricare le categorie  
         ![OL-Events conferma l'import delle categorie](inc/olevents_categorie_conferma.png)  
           
-        1. Verifica il numero di categorie e che non ci siano errori.  
+        1. Verifica il numero di categorie e che non ci siano né errori né avvisi.  
+        **Nota**: è normale che alcuni campi del file XML vengano ignorati.    
         ![OL-Events verifica import categorie](inc/olevents_categorie_verifica.png)  
           
         1. Chiudi la finestra di verifica.
