@@ -46,14 +46,13 @@ In alcuni casi, tuttavia, questo menu nasconde delle impostazioni utili, come pe
 ![Layout tabelle](inc/gui_layout_tabella.png)  
 
 ## Inpostazioni
-{==
-Le impostazioni si trovano generalmente in una parte che si nasconde sul bordo sinistro della relativa finestra.
 
-Normalmente il pannello delle opzioni nasconde i dati su cui si sta lavorando. Premendo sulla
-"puntina" in alto a destra del pannello questo resta fisso ed è così possibile lavorare coi dati e
-le opzioni simultaneamente
-==}
-![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
+Le impostazioni si trovano generalmente in una parte che si nasconde sul bordo sinistro della relativa finestra.  
+Premi sulla freccetta per nascondere o mostrare il pannello delle opzioni.  
+![Opzioni visibili](inc/gui_opzioni_aperte.png) ![Opzioni nascoste](inc/gui_opzioni_chiuse.png)  
+  
+A volte le opzioni sono raggruppate in sezioni all'interno del pannello, e possono a loro volta essere visibili o nascoste.   
+![Opzioni con sezioni nascoste](inc/gui_opzioni_aperte_chiuse.png)
 
 ## Pannello supplementare
 {==
