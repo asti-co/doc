@@ -67,13 +67,14 @@ Se vi sono più luoghi di partenza bisogna indicare quali categorie partono da q
 
 1. Numera le partenze in maniera sequenziale
 1. Assegna nel campo `Luogo di partenza` lo stesso numero a tutte le categorie che partono dalla stessa partenza.  
-**Consiglio**: assegna il luogo di patenza alla prima categoria e imposta il filtro per luogo di partenza in alto. Ogni categoria aggiunta alla griglia avrà automaticamente assegnato questo luogo di partenza.  
-![Filtro per luogo di partenza](inc/partenza_regole_categoria_menu_filtro_luogo.png)  
+
+    - **Consiglio**: assegna il luogo di patenza alla prima categoria e imposta il filtro per luogo di partenza in alto. Ogni categoria aggiunta alla griglia avrà automaticamente assegnato questo luogo di partenza.  
+    ![Filtro per luogo di partenza](inc/partenza_regole_categoria_menu_filtro_luogo.png)  
   
     - Il programma controlla che le cateogrie nello stesso corridoio condividano la stessa partenza.  
-    **Consiglio**: per non fare confusione, conviene mantenere le due partenze separate inserendo una (o più) colonne vuote.
       
-    - La prossima immagine mostra un esempio con due partenze, separate graficamente dalla colonne 3, lasciata volutamente vuota.  
+    - **Consiglio**: per non fare confusione, conviene mantenere le due partenze separate inserendo una (o più) colonne vuote.  
+    La prossima immagine mostra un esempio con due partenze, separate graficamente dalla colonne 3, lasciata volutamente vuota.  
     ![Regole con più partenze](inc/partenza_regole_categoria_piu_partenze.png)
       
 
