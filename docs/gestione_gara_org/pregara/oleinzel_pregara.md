@@ -10,7 +10,7 @@ Per OL-Einzel OE12 (del 2023):
 - [Creazione della gara](../../software/oe12/creazione_gara.md)
     - [Import delle iscrizioni](../../software/oe12/creazione_gara.md#import_iscrizioni)
     - [Import dei percorsi](../../software/oe12/creazione_gara.md#import_percorsi)
-- preparazione e pubblicazione delle liste di partenza
+- [Preparazione e pubblicazione delle liste di partenza](../../software/oe12/liste_partenza.md)
     - stampa etichette per le cartine
 
 ## OL-Einzel 2010
