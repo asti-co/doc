@@ -5,9 +5,9 @@ I passi per la creazione delle liste di partenza sono:
 - Definire la griglia di partenza tramite le regole per ogni categoria (intervallo, orario del primo concorrente, numero vacanti, ecc.)
 - Sorteggiare le liste di partenza, cioè assegnare un tempo di partenza casuale ad ogni concorrente, rispettando le regole
 - Assegnare un numero di pettorale ad ogni concorrente
-- Stampa delle liste e griglie di partenza
-- Stampa delle etichette personalizzate da incollare sulle cartine
-- Pubblicazione delle liste di partenza
+- Stampare le liste e griglie di partenza
+- Stampare le etichette personalizzate da incollare sulle cartine
+- Pubblicare le liste di partenza
 
 ## Regole per categoria
 
@@ -17,7 +17,7 @@ Definisci la griglia di partenza creando le regole di partenza per ogni categori
 ![Regole per categoria](inc/menu_partenza_regole_categoria.png)  
   
 1. La videata contiene varie sezioni  
-![Regole delle liste di partenza](inc/partenza_regole_categoria_inizio.png)  
+![Regole delle liste di partenza](inc/partenza_regole_categoria_inizio_scritte.png)  
   
     - Sulla destra appaiono le categorie ancora da inserire in griglia.  
     **Nota**: categorie con lo stesso primo punto non dovrebbero avere concorrenti che partono allo stesso minuto. Ordinando le categorie per primo punto facilita enormemente il lavoro, permettendo facilmente di mettere le relative categorie nello stesso corridoio.
@@ -50,7 +50,7 @@ Definisci la griglia di partenza creando le regole di partenza per ogni categori
 ![Menu controlla panoramica](inc/partenza_regole_categoria_menu_panoramica.png)  
 
     - Tutte le categorie dovrebbero partire più o meno entro lo stesso intervallo di partenza, per fare in modo che tutti i concorrenti abbiano la stessa possibilità di incontrarne altri sul percorso.  
-    - Questo rapporto mostra l'ora del primo e dell'ultimo concorrente di ogni categoria. Verifica soprattutto che l'orario di partenza degli ultimi concorrenti sia nella finestra temporale prevista.
+    - Questo rapporto mostra l'ora del primo e dell'ultimo concorrente di ogni categoria. Verifica soprattutto che l'orario di partenza degli ultimi concorrenti sia nella finestra temporale prevista.  
     **Nota**: Scrollando la griglia si può vedere quando parte l’ultimo concorrente anche graficamente.   
     ![controlla panoramica](inc/partenza_regole_categoria_panoramica.png)  
   
@@ -61,20 +61,20 @@ Definisci la griglia di partenza creando le regole di partenza per ogni categori
     - **Nota**: è possibile tenere aperte le due finestre, la griglia e il rapporto di controllo. Dopo ogni modifica nella griglia, basta premere su `Aggiorna` nel rapporto di controllo per aggiornarne lo stato.  
     ![Menu verifica regole](inc/partenza_regole_categoria_verifica.png)  
 
-# Gare con più partenze
+## Gare con più partenze
 
 Se vi sono più luoghi di partenza bisogna indicare quali categorie partono da quale partenza in modo da poter poi creare le griglie di partenza cartacee per i collaboratori di ogni partenza, con le sole categorie di quel luogo.  
 
-    1. Numera le partenze in maniera sequenziale
-    1. Assegna nel campo `Luogo di partenza` lo stesso numero a tutte le categorie che partono dalla stessa partenza. 
-    **Consiglio**: assegna il luogo di patenza alla prima categoria e imposta il filtro per luogo di partenza in alto. Ogni categoria aggiunta alla griglia avrà automaticamente assegnato questo luogo di partenza.  
-    ![Filtro per luogo di partenza](inc/partenza_regole_categoria_menu_filtro_luogo.png)  
+1. Numera le partenze in maniera sequenziale
+1. Assegna nel campo `Luogo di partenza` lo stesso numero a tutte le categorie che partono dalla stessa partenza.  
+**Consiglio**: assegna il luogo di patenza alla prima categoria e imposta il filtro per luogo di partenza in alto. Ogni categoria aggiunta alla griglia avrà automaticamente assegnato questo luogo di partenza.  
+![Filtro per luogo di partenza](inc/partenza_regole_categoria_menu_filtro_luogo.png)  
+  
+    - Il programma controlla che le cateogrie nello stesso corridoio condividano la stessa partenza.  
+    **Consiglio**: per non fare confusione, conviene mantenere le due partenze separate inserendo una (o più) colonne vuote.
       
-        - Il programma controlla che le cateogrie nello stesso corridoio condividano la stessa partenza.  
-        **Consiglio**: per non fare confusione, conviene mantenere le due partenze separate inserendo una (o più) colonne vuote.
-      
-        - La prossima immagine mostra un esempio con due partenze, separate graficamente dalla colonne 3, lasciata volutamente vuota.  
-        ![Regole con più partenze](inc/partenza_regole_categoria_piu_partenze.png)
+    - La prossima immagine mostra un esempio con due partenze, separate graficamente dalla colonne 3, lasciata volutamente vuota.  
+    ![Regole con più partenze](inc/partenza_regole_categoria_piu_partenze.png)
       
 
   
