@@ -22,9 +22,9 @@ Controlla le impostazioni delle cartelle dell'applicazione (non dovrebbero cambi
 
 ## Creazione gara
 
-Segui le istruzioni a dipendenza della procedura scelta:
+Segui le istruzioni a dipendenza della procedura scelta (normalmente per TMO, SprintCup e nazionali seleziona la prima opzione):
 
-??? Example "Creazione per utilizzo di OL-Events"
+??? Example ":asti-tmo: :asti-sprintCup: :asti-naz: Creazione per utilizzo di OL-Events"
     
     1. Seleziona `Gara > Nuovo`  
     ![Gara > Nuovo](inc/menu_gara_nuovo.png)  
@@ -110,9 +110,9 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 
 ## Impostazione categorie {#categorie}
 
-Segui le istruzioni a dipendenza della procedura scelta:
+Segui le istruzioni a dipendenza della procedura scelta (normalmente per TMO, SprintCup e nazionali seleziona la prima opzione):
 
-??? Example "Importazione categorie da OL-Events"
+??? Example ":asti-tmo: :asti-sprintCup: :asti-naz: Importazione categorie da OL-Events"
     Le categorie vengono importate da OL-Events.  
     **Nota**: è possibile eseguire questo passo più volte.
 
@@ -185,9 +185,9 @@ Segui le istruzioni a dipendenza della procedura scelta:
 
 ## Importazione iscrizioni {#import_iscrizioni}
 
-Segui le istruzioni a dipendenza della procedura scelta:
+Segui le istruzioni a dipendenza della procedura scelta (normalmente per TMO, SprintCup e nazionali seleziona la prima opzione):
 
-??? Example "Importazione delle iscrizioni da OL-Events"
+??? Example ":asti-tmo: :asti-sprintCup: :asti-naz: Importazione delle iscrizioni da OL-Events"
     Le iscrizioni vengono importate direttamente da OL-Events, **senza** esportazione/importazione di file.  
     **Nota**: è possibile eseguire questi passi più volte già prima della chiusura delle iscrizioni.
 
