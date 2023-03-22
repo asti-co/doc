@@ -60,8 +60,11 @@ La funzionalità di questo pannello varia a seconda della finestra in cui si tro
 Ad esempio nel dialogo delle iscrizioni questo pannello mostra l'archivio SOLV, mentre nelle
 liste di partenza e nelle classifiche permette di selezionare le categorie da elaborare.
 Nell'esempio, la finestra della lettura chip con il pannello supplementare con i posti di riserva.  
+  
+*Pannello visibile*  
 ![Pannello supplementare aperto](inc/gui_pannello_supplementare_aperto.png)  
   
+*Pannello nascosto*  
 ![Pannello supplementare chiuso](inc/gui_pannello_supplementare_chiuso.png)  
 
 ## Rapporti e etichette
