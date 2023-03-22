@@ -3,7 +3,8 @@
 
 **Documentazione attuale**: [capitoli 2, 3 e 6 nel file PDF](../inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf).
 
-Gestione post-gara con OL-Einzel.
+Gestione post-gara con OL-Einzel.  
+  
 - pubblicazione delle classifiche
 - spedizione fatture
 

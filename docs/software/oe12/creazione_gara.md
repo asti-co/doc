@@ -183,7 +183,7 @@ Segui le istruzioni a dipendenza della procedura scelta:
         I campi `Età` e `Sesso` non vengono usati.  
         ![Categorie](inc/categorie.png)
 
-## Importazione iscrizioni
+## Importazione iscrizioni {#import_iscrizioni}
 
 Segui le istruzioni a dipendenza della procedura scelta:
 
@@ -281,7 +281,7 @@ Per i TMO continuiamo quindi ad usare il formato dei nomi e cognomi uniti da un 
 1. Cancella il campo `Squadra` del concorrente principale.
 ![Cancella nome squadra](inc/squadra_cancella_nome.png)
 
-## Importazione percorsi
+## Importazione percorsi {#import_percorsi}
 
 Importare i percorsi in OE12 usando un file XML esportato da OCAD.
 

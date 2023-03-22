@@ -8,10 +8,10 @@ Per OL-Einzel OE12 (del 2023):
 
 - [Descrizione dell'interfaccia grafica](../../software/oe12/interfaccia_grafica.md)
 - [Creazione della gara](../../software/oe12/creazione_gara.md)
-- import delle iscrizioni
-- import dei percorsi
+    - [Import delle iscrizioni](../../software/oe12/creazione_gara.md#import_iscrizioni)
+    - [Import dei percorsi](../../software/oe12/creazione_gara.md#import_percorsi)
 - preparazione e pubblicazione delle liste di partenza
-- stampa etichette per le cartine
+    - stampa etichette per le cartine
 
 ## OL-Einzel 2010
 

@@ -35,7 +35,9 @@ Caratteristiche:
     - Controllare la copertura in zona punto, anche a livello di terreno.
     - Controllare la copertura delle reti 2G (vecchie) e 4G
 
-- Posa semplice e veloce ![Punti radio SPORTIdent](inc/puntiRadioSportIdent.png){width=100px}
+- Posa semplice e veloce  
+![Punti radio SPORTIdent](inc/puntiRadioSportIdent.png){width=100px}  
+  
 - Non necessita di alcuna autorizzazione
 - Tempi di trasmissione di diversi secondi
 - Affidabilità relativa (1-2% di concorrenti non trasmessi)
