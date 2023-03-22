@@ -22,7 +22,7 @@ Controlla le impostazioni delle cartelle dell'applicazione (non dovrebbero cambi
 
 ## Creazione gara
 
-Segui le istruzioni a dipendenza della procedura scelta (normalmente per TMO, SprintCup e nazionali seleziona la prima opzione):
+Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-tmo: TMO, :asti-sprintCup: SprintCup e :asti-naz: nazionali seleziona la prima opzione):
 
 ??? Example ":asti-tmo: :asti-sprintCup: :asti-naz: Creazione per utilizzo di OL-Events"
     
@@ -110,7 +110,7 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 
 ## Impostazione categorie {#categorie}
 
-Segui le istruzioni a dipendenza della procedura scelta (normalmente per TMO, SprintCup e nazionali seleziona la prima opzione):
+Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-tmo: TMO, :asti-sprintCup: SprintCup e :asti-naz: nazionali seleziona la prima opzione):
 
 ??? Example ":asti-tmo: :asti-sprintCup: :asti-naz: Importazione categorie da OL-Events"
     Le categorie vengono importate da OL-Events.  
@@ -185,7 +185,7 @@ Segui le istruzioni a dipendenza della procedura scelta (normalmente per TMO, Sp
 
 ## Importazione iscrizioni {#import_iscrizioni}
 
-Segui le istruzioni a dipendenza della procedura scelta (normalmente per TMO, SprintCup e nazionali seleziona la prima opzione):
+Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-tmo: TMO, :asti-sprintCup: SprintCup e :asti-naz: nazionali seleziona la prima opzione):
 
 ??? Example ":asti-tmo: :asti-sprintCup: :asti-naz: Importazione delle iscrizioni da OL-Events"
     Le iscrizioni vengono importate direttamente da OL-Events, **senza** esportazione/importazione di file.  
