@@ -94,26 +94,25 @@ Crea le liste di partenza sorteggiando i concorrenti rispetto alle regole di par
     - Nel pannello a sinistra si impostano i valori di base  
         - Posizione vacanti: in Ticino di regola i vacanti si trovano alla fine della lista di partenza visto che sono spesso usati per le iscrizioni sul posto per cui il concorrente ha bisogno di tempo per prepararsi e raggiungere la partenza.  
         - Presorteggio: impostato su `Blocco di partenza` in ordine `ascendente`  
-        OL-Events imposta i blocchi di partenza con i seguenti valori:
-            1 = a disposizione per i collaboratori che partono per primi
+        OL-Events imposta i blocchi di partenza con i seguenti valori:  
+            1 = a disposizione per i collaboratori che partono per primi  
             2 = partenza presto  
               
-            :asti-tmo: TMO e :asti-sprintCup: SprintCup  
-                5 = per le gare TMO e SprintCup, tutti i concorrenti senza desideri di partenza sono nel blocco 5.  
-            :asti-naz: gare nazionali  
-                3, 5, 7 = primo, secondo e terzo blocco secondo le regioni SOLV  
+            5 = per le gare :asti-tmo: TMO e :asti-sprintCup: SprintCup, tutti i concorrenti senza desideri di partenza sono nel blocco 5.   
+            3, 5, 7 = per le gare :asti-naz: gare nazionali, primo, secondo e terzo blocco secondo le regioni SOLV  
               
-            8 = partenza tardi
-            9 = a disposizione per i collaboratori che partono per ultimi
+            8 = partenza tardi  
+            9 = a disposizione per i collaboratori che partono per ultimi  
+              
        - Separa società: impostato per la separazione automatica, evita (o almeno ci prova) che due concorrenti della stessa società corrano uno dopo l'altro
 
 1. Seleziona il tab `Panoramica`  
 ![Tab panoramica in crea liste di partenza](inc/partenza_crea_menu_panoramica.png)  
   
-1. Nel menu `Griglia di partenza` seleziona `Tutte le categorie`. Questo sorteggia i concorrenti di tutte le catorie, assegnando loro un tempo di partenza.  
+1. Nel menu `Griglia di partenza` seleziona `Tutte le categorie`. Questo sorteggia i concorrenti di tutte le categorie, assegnando loro un tempo di partenza.  
 ![Sorteggia liste di partenza](inc/partenza_crea_menu_griglia_tutte.png)  
   
-    - Di regola appare un messaggio con il numero di coppie separate (concorrenti della stessa società) e il numero di quelle che non è stato possibile separare.  
+    - Appare un messaggio con il numero di coppie separate (concorrenti della stessa società) e il numero di quelle che non è stato possibile separare.  
     ![Separa società](inc/partenza_crea_separa_societa.png)  
       
     - Sulla schermata riassuntiva, verifica che non ci siano errori a parte i pettorali mancanti (non ancora assegnati) e le coppie non separate.  
@@ -133,7 +132,7 @@ Crea le liste di partenza sorteggiando i concorrenti rispetto alle regole di par
     - **Nota**: spostare un concorrente semplicemente trascinandolo e rilasciandolo all'interno della griglia fino alla posizione desiderata.
       
 1. Assegna i pettorali quando le liste di partenza sono in versione definitiva.  
-**Nota**: la procedura descrive l'assegnazione dei pettorali in ordine di categoria. Neile gare in cui non viene distribuito il pettorale, questo è unicamente un mezzo tecnico per identificare un concorrente e questa procedura funziona bene. Se invece vengono distribuiti i pettorali e si desidera assegnarli seguendo certe logiche (es. gli élite iniziano dal numero 1), bisogna assegnarli separatamente per ogni categoria.  
+**Nota**: la procedura descrive l'assegnazione dei pettorali in ordine di categoria. Nelle gare in cui non viene distribuito il pettorale, questo è unicamente un mezzo tecnico per identificare un concorrente e questa procedura funziona bene. Se invece vengono distribuiti i pettorali e si desidera assegnarli seguendo certe logiche (es. gli élite iniziano dal numero 1), bisogna assegnarli separatamente per ogni categoria.  
 
     1. Seleziona il tab `Panoramica`  
       
