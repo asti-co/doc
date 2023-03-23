@@ -96,12 +96,12 @@ Crea le liste di partenza sorteggiando i concorrenti rispetto alle regole di par
         - Presorteggio: impostato su `Blocco di partenza` in ordine `ascendente`  
         OL-Events imposta i blocchi di partenza con i seguenti valori:  
             1 = a disposizione per i collaboratori che partono per primi  
-            2 = partenza presto  
+            2 = desiderio di partenza presto  
               
             5 = per le gare :asti-tmo: TMO e :asti-sprintCup: SprintCup, tutti i concorrenti senza desideri di partenza sono nel blocco 5.   
-            3, 5, 7 = per le gare :asti-naz: gare nazionali, primo, secondo e terzo blocco secondo le regioni SOLV  
+            3, 5, 7 = per le gare :asti-naz: nazionali, primo, secondo e terzo blocco secondo le regioni SOLV  
               
-            8 = partenza tardi  
+            8 = desiderio di partenza tardi  
             9 = a disposizione per i collaboratori che partono per ultimi  
               
        - Separa società: impostato per la separazione automatica, evita (o almeno ci prova) che due concorrenti della stessa società corrano uno dopo l'altro
