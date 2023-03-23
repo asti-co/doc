@@ -77,5 +77,72 @@ Se vi sono più luoghi di partenza bisogna indicare quali categorie partono da q
     La prossima immagine mostra un esempio con due partenze, separate graficamente dalla colonne 3, lasciata volutamente vuota.  
     ![Regole con più partenze](inc/partenza_regole_categoria_piu_partenze.png)
       
+## Allestimento delle liste di partenza {#crea_liste_partenza}
 
+Crea le liste di partenza sorteggiando i concorrenti rispetto alle regole di partenza.
+
+1. Nel menu `Liste di partenza` seleziona `Crea > Categorie`  
+![Menu crea liste di partenza per categoria](inc/menu_partenza_crea_categoria.png)  
+  
+1.  La videata contiene varie sezioni  
+![Crea le liste di partenza](inc/partenza_crea_inizio_scritte.png)  
+  
+    - Sulla destra appaiono le categorie ancora da sorteggiare.  
+
+    - In basso sono visualizzati i dettagli del concorrente selezionato
+      
+    - Nel pannello a sinistra si impostano i valori di base  
+        - Posizione vacanti: in Ticino di regola i vacanti si trovano alla fine della lista di partenza visto che sono spesso usati per le iscrizioni sul posto per cui il concorrente ha bisogno di tempo per prepararsi e raggiungere la partenza.  
+        - Presorteggio: impostato su `Blocco di partenza` in ordine `ascendente`  
+        OL-Events imposta i blocchi di partenza con i seguenti valori:
+            1 = a disposizione per i collaboratori che partono per primi
+            2 = partenza presto  
+              
+            :asti-tmo: TMO e :asti-sprintCup: SprintCup  
+                5 = per le gare TMO e SprintCup, tutti i concorrenti senza desideri di partenza sono nel blocco 5.  
+            :asti-naz: gare nazionali  
+                3, 5, 7 = primo, secondo e terzo blocco secondo le regioni SOLV  
+              
+            8 = partenza tardi
+            9 = a disposizione per i collaboratori che partono per ultimi
+       - Separa società: impostato per la separazione automatica, evita (o almeno ci prova) che due concorrenti della stessa società corrano uno dopo l'altro
+
+1. Seleziona il tab `Panoramica`  
+![Tab panoramica in crea liste di partenza](inc/partenza_crea_menu_panoramica.png)  
+  
+1. Nel menu `Griglia di partenza` seleziona `Tutte le categorie`. Questo sorteggia i concorrenti di tutte le catorie, assegnando loro un tempo di partenza.  
+![Sorteggia liste di partenza](inc/partenza_crea_menu_griglia_tutte.png)  
+  
+    - Di regola appare un messaggio con il numero di coppie separate (concorrenti della stessa società) e il numero di quelle che non è stato possibile separare.  
+    ![Separa società](inc/partenza_crea_separa_societa.png)  
+      
+    - Sulla schermata riassuntiva, verifica che non ci siano errori a parte i pettorali mancanti (non ancora assegnati) e le coppie non separate.  
+    ![Verifica sorteggio](inc/partenza_crea_verifica.png)  
+
+1. Seleziona il tab `Categorie` e controlla il sorteggio di ogni categoria
+![Tab categorie in crea liste di partenza](inc/partenza_crea_menu_categorie.png)  
+  
+    - Seleziona ogni categoria e controlla:
+        - che il desiderio di partenza sia stato esaudito.  
+        La funzione `Separa società` a volte rimescola i concorrenti senza tener conto di questa impostazione.  
+          
+        - che i concorrenti della stessa società siano effettivamente separati.  
+        La funzione `Separa società` separa i concorrenti inserendo un singolo avversario tra due compagni di società, anche se a volte è possibile separarli maggiormente.  
+        **Nota**: i vacanti non vengono considerati "compagni di società" e restano pertanto in fondo alla lista di partenza. A volte è utile usarli per separare concorrenti della stessa società. 
+           
+    - **Nota**: spostare un concorrente semplicemente trascinandolo e rilasciandolo all'interno della griglia fino alla posizione desiderata.
+      
+1. Assegna i pettorali quando le liste di partenza sono in versione definitiva.  
+**Nota**: la procedura descrive l'assegnazione dei pettorali in ordine di categoria. Neile gare in cui non viene distribuito il pettorale, questo è unicamente un mezzo tecnico per identificare un concorrente e questa procedura funziona bene. Se invece vengono distribuiti i pettorali e si desidera assegnarli seguendo certe logiche (es. gli élite iniziano dal numero 1), bisogna assegnarli separatamente per ogni categoria.  
+
+    1. Seleziona il tab `Panoramica`  
+      
+    1. Nel menu `Pettorali` seleziona `Tutte le categorie`  
+    ![Menu assegna pettorali](inc/partenza_crea_menu_pettorali_tutte.png)  
+      
+    1. Assegna in pettorali iniziando dal numero 1 in ordine ascendente  
+    ![Numera i pettorali](inc/partenza_crea_assegna_pettorali.png)  
+      
+    1. Verifica nuovamente il sorteggio delle liste di partenza.  
+    **Nota**: la finestra riassuntiva è la stessa di quella mostrata dopo il sorteggio delle categorie.
   
