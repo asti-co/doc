@@ -20,7 +20,7 @@ Spiega come gestire le iscrizioni o le mutazioni inoltrate dopo la creazione del
 - [Liste di partenza](liste_partenza.md)  
 Copre la creazione delle liste di partenza, la loro stampa e pubblicazione online.  
   
-- [Altro pre-gara](altro_pre_gara.md)  
+- [Varie pre-gara](varie_pre_gara.md)  
 Riassume altre manipolazioni necessarie prima del giorno di gara, come ad esempio la stampa delle etichette per le cartine, fatture per le società che pagano al centro gara, backup, migrazione dei dati dal PC personale a quelli ASTI, ecc.
   
 - [Mutazioni il giorno di gara](mutazioni_giorno_gara.md)  
@@ -29,11 +29,11 @@ Descrive come gestire le iscrizioni sul posto e le mutazioni il giorno di gara, 
 - [Lettura chip](lettura_chip.md)  
 Descrive le attività relative alla lettura chip, compresa la stampa dei tempi intermedi e la gestione di casi speciali  
   
-- [Non partiti, mancanti, ecc](non_partiti.md)  
-Spiega come gestire varie casistiche comuni a tutte le gare.  
-  
 - [Classifiche](classifiche.md)  
 Copre la creazione e pubblicazione delle classifiche, comprese quelle in tempo reale su O2Rank, quella del TMS e la pubblicazione sul sito SOLV, ASTI e RouteGadget.  
+  
+- [Casi normali](casi_normali.md)  
+Spiega come gestire varie casistiche comuni a tutte le gare quale i concorrenti non partiti, mancanti, ecc..  
   
 - [Casi speciali](casi_speciali.md)  
 Spiega come gestire casi particolari che si spera non siano mai necessari (per esempio annullamenti di tratte o categorie, ritardi di partenza, ecc.).  
