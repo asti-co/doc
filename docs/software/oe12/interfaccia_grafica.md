@@ -19,25 +19,39 @@ Alcune finestre coprono varie funzionalità mediante l'uso di `tab`, invero non 
 
 ## Impostazioni delle finestre
 
+### Aiuto contestuale
+
 Praticamente ogni finestra offre un aiuto contestuale (in inglese) premendo sul punto di domanda in alto a destra.  
 ![Aiuto contestuale](inc/gui_aiuto.png)  
   
+### Sistema chip
+
 Le finestre che possono interagire con un'unità di lettura chip hanno un menu per l'impostazione della connessione alla scatoletta connessa via una porta seriale USB.  
 ![Connessione a scatoletta di lettura](inc/gui_chip.png)  
   
+### Impostazioni varie 
+
 Il menu con l'icona dell'ingranaggio offre opzioni per il formato dei tempi (precisi al secondo, al decimo, ecc.), ma ha un impatto unicamente sulla finestra selezionata. L'impostazione importante per la definizione della precisione del cronometraggio è quella in `Gara > Impostazioni > Sistema chip`.  
+  
 In questo menu si trova anche l'opzione per definire l'ordine tra nome e cognome.  
+La scelta è libera tra `Nome Cognome` e `Cognome Nome`, ma non utilizzare la versione con la virgola in quanto può creare problemi con alcuni sistemi esterni.  
 ![Tempi e nomi](inc/gui_tempi_nomi.png)
 
 ## Personalizzazione delle tabelle
+
+### Ordinamento e posizione colonne
 
 Si possono adattare le tabelle alle proprie esigenze spostando le varie colonne tramite trascinamento sul loro titolo (drag&drop), e ordinandole rispetto ad una singola colonna premendo sul relativo titolo.  
 **Nota**: il campo della ricerca cerca sempre solo nella colonna attualmente utilizzata per l'ordinamento.  
 ![Tabelle](inc/gui_tabella.png)  
   
+### Selezione delle colonne
+
 L'icona con una tabella stilizzata e una colonna marcata in rosso, in alto a sinistra sulla barra del titolo, permette di selezionare le colonne da mostrare. La lista permette anche, tramite trascinamento, di cambiare la posizione delle colonne nella tabella.  
 ![Selezione colonne](inc/gui_selezione_colonne.png)  
   
+### Selezione layout
+
 L'icona con la tabella e la riga in blu permette di impostare vari layout predefiniti, normalmente non utili per i fini dei TMO.  
 In alcuni casi, tuttavia, questo menu nasconde delle impostazioni utili, come per il raggruppamento per categoria nella finestra delle iscrizioni.  
 ![Layout tabelle](inc/gui_layout_tabella.png)  
