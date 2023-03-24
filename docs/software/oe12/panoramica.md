@@ -1,7 +1,8 @@
 # Panoramica di OL-Einzel
 
-![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
-
+![Lavori in corso](../../img/lavori_in_corso.png){width=100px}  
+Vedi [PDF della vecchia versione, capitolo 1, 7.1](../../gestione_gara_org/inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf)  
+  
 Da descrivere: 
 
 - SportSoftware: chi/dove
@@ -16,5 +17,3 @@ Da descrivere:
 - Archivio
 - Download, Installazione, configurazione di base e licenza
 
-![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
-Vedi [PDF della vecchia versione, capitolo 1](../../gestione_gara_org/inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf): 
