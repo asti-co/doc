@@ -14,7 +14,7 @@ Descrive la navigazione e varie caratteristiche comuni a tutte le finestre dell'
 - [Creazione gara](creazione_gara.md)  
 Descrive in dettaglio la creazione delle gare in OE con la configurazione di base come pure l'importazione di categorie, iscrizioni e percorsi.  
   
-- [Iscrizioni tardive](inscrizioni_tardive.md)  
+- [Iscrizioni tardive](iscrizioni_tardive.md)  
 Spiega come gestire le iscrizioni o le mutazioni inoltrate dopo la creazione della gara ma prima della creazione delle liste di partenza.  
   
 - [Liste di partenza](liste_partenza.md)  
