@@ -147,10 +147,12 @@ Crea le liste di partenza sorteggiando i concorrenti rispetto alle regole di par
   
 ## Stampa
 
-Servono di regola due tipologie di liste di partenza:  
+Servono di regola due tipologie di liste di partenza su carta:  
 
 - Liste di partenza per categoria, da usare dai collaboratori all'info e in partenza, con una copia da appendere alla  pre-partenza per i concorrenti.  
 - Griglia di partenza come lista di partenza progressiva usata in partenza e in pre-partenza per chiamare i concorrenti.  
+
+I relativi passi sono:
 
 1. Stampa le liste di partenza per categoria  
     1. Nel menu `Liste di partenza` seleziona `Rapporti liste di partenza > Categorie`  
