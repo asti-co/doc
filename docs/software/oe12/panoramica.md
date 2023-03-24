@@ -3,6 +3,7 @@
 ![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
 
 Da descrivere: 
+
 - SportSoftware: chi/dove
 - Versioni
 - Licenze
