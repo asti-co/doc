@@ -104,11 +104,11 @@ nav:
           - Creazione gara: software/oe12/creazione_gara.md
           - Iscrizioni tardive: software/oe12/iscrizioni_tardive.md
           - Liste di partenza: software/oe12/liste_partenza.md
-          - Varie pre-gara: software/oe12/altro_pre_gara.md
+          - Varie pre-gara: software/oe12/varie_pre_gara.md
           - Mutazioni: software/oe12/mutazioni_giorno_gara.md
           - Lettura Chip: software/oe12/lettura_chip.md
-          - Casi Nomali: software/oe12/non_partiti.md
           - Classifiche: software/oe12/classifiche.md
+          - Casi Nomali: software/oe12/casi_normali.md
           - Casi Speciali: software/oe12/casi_speciali.md
           - Finanze Post-Gara: software/oe12/finanze_post_gara.md
           - Archivio: software/oe12/archivio.md
