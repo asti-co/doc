@@ -145,3 +145,52 @@ Crea le liste di partenza sorteggiando i concorrenti rispetto alle regole di par
     1. Verifica nuovamente il sorteggio delle liste di partenza.  
     **Nota**: la finestra riassuntiva è la stessa di quella mostrata dopo il sorteggio delle categorie.
   
+## Stampa
+
+Servono di regola due tipologie di liste di partenza:  
+
+- Liste di partenza per categoria, da usare dai collaboratori all'info e in partenza, con una copia da appendere alla  pre-partenza per i concorrenti.  
+- Griglia di partenza come lista di partenza progressiva usata in partenza e in pre-partenza per chiamare i concorrenti.
+
+1. Stampa li liste di partenza per categoria  
+    1. Nel menu `Liste di partenza` seleziona `Rapporti liste di partenza > Categorie`  
+    ![Menu liste per categoria](inc/menu_partenza_lista_categoria.png)  
+      
+    1. La finestra mostra le liste di partenza di tutte le categorie, ordinate per ora di partenza.  
+    ![Liste di partenza](inc/partenza_lista_categoria.png)  
+      
+        - Nel pannello `Impostazioni` sulla sinistra deinisci l'ordinamento dei concorrenti per tempo di parenza. 
+        - Di base sono selezionate tutte le categorie. 
+        Se vuoi stampare unicamente singole categorie, selezionale nel pannello in basso e poi clicca su `Aggiornare` in alto a sinistra nella finestra.
+        - Per selezionare unicamente le categorie di un luogo di partenza, selezionare il luogo in basso  
+        ![Lista per luogo di partenza](inc/partenza_lista_categoria_luogo.png)
+      
+    1. Seleziona `TMO` come modello del rapporto e premi su `Stampa`  
+    ![Menu stampa la lista di partenza per categoria](inc/partenza_lista_categoria_menu_stampa.png)  
+      
+    1. Seleziona la stampante ASTI laser A4 per stampe in bianco e nero e imposta `Separa pagine`.  
+    ![Impostazioni stampante](inc/partenza_lista_categoria_stampante_asti.png)  
+      
+1. Stampa le griglie di partenza  
+    1. Nel menu `Liste di partenza` seleziona `Rapporti liste di partenza > Griglia di partenza`  
+    ![Menu liste per categoria](inc/menu_partenza_lista_griglia.png)  
+      
+    1. La finestra mostra la griglia a partire dall'ora zero impostata per la gara, quindi eventualmente tanto *prima* della partenza del primo concorrente.  
+    ![Griglia di partenza](inc/partenza_lista_griglia.png)  
+      
+        - Nella parte bassa, imposta l'ora di inizio della griglia e clicca su `Aggiorna` in alto a sinistra.
+        - Per gare con più partenze, crea griglie separate per ogni luogo di partenza selezionandoli in basso a sinistra
+      
+    1. Seleziona `TMO` o `TMO con corridoio` come modello del rapporto e premi `Stampa`  
+    ![Menu stampa griglia di partenza](inc/partenza_lista_categoria_menu_stampa.png)  
+      
+    1. Seleziona la stampante ASTI laser A4 per stampe in bianco e nero e non impostare `Separa pagine`.  
+    ![Impostazioni stampante](inc/partenza_lista_griglia_stampante_asti.png)  
+        
+
+## Pubblicazione
+
+Le liste di partenza vanno pubblicati sia sul sito web di Swiss Orienteering che sul sito ASTI O2Rank.
+
+![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
+Vedi [PDF della vecchia versione, capitolo 4.5.5](../../gestione_gara_org/inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf): 
