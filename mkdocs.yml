@@ -108,11 +108,11 @@ nav:
           - Mutazioni: software/oe12/mutazioni_giorno_gara.md
           - Lettura Chip: software/oe12/lettura_chip.md
           - Classifiche: software/oe12/classifiche.md
-          - Casi Nomali: software/oe12/casi_normali.md
+          - Casi Normali: software/oe12/casi_normali.md
           - Casi Speciali: software/oe12/casi_speciali.md
           - Finanze Post-Gara: software/oe12/finanze_post_gara.md
           - Archivio: software/oe12/archivio.md
-          - Punti radio SPORTIdent: software/oe12/punti_radio.md
+          - Punti radio SPORTident: software/oe12/punti_radio.md
       - Go2ol: 
           - "software/go2ol/index.md"
           - Creazione gara: software/go2ol/organizzatori.md
