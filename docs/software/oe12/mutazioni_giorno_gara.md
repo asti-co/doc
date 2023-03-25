@@ -1,17 +1,17 @@
 # Iscrizioni e mutazioni sul posto
 
-Questa sezione descrive le iscrizioni sul posto e le mutazioni effettuate il giorno di gara.  
-  
-
 ![Lavori in corso](../../img/lavori_in_corso.png){width=100px}  
 Vedi [PDF della vecchia versione, capitolo 5.2](../../gestione_gara_org/inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf): 
   
+Questa sezione descrive le iscrizioni sul posto e le mutazioni effettuate il giorno di gara.  
+ 
+1. Nel menu `Iscrizioni` seleziona `Modifica > Iscrizioni`
+1. Seleziona il concorrente (o vacante) da mutare
+
 ## Domicilio / indirizzo del concorrente
 
 Per inseririe o modificare il domicilio di un concorrente:  
 
-1. Nel menu `Iscrizioni` seleziona `Modifica > Iscrizioni`
-1. Seleziona un concorrente
 1. Nell'angolo in alto a destra, seleziona `Dettagli`
 **Nota**: dell'indirizzo serve unicamente il domicilio (campo `Luogo`). Via, numero, codice d'avviamento postale, numeri di telefono ecc. non sono utilizzati.  
 ![Domicilio](inc/iscrizioni_indirizzo.png)
@@ -37,5 +37,6 @@ Se la società non è presente nell'archivio
 1. Clicca sul bottone `Crea società`
 1. Inserisci il nome della società nel campo `Luogo`  
 **Nota**: la distinzione tra sigla e luogo non è rilevante e verrà probabilmente presto soppressa.  
-1. Premi `Enter` per salvare
-![Crea società](inc/iscrizioni_crea_societa.png)
+1. Premi `Enter` per salvare  
+![Crea società](inc/iscrizioni_crea_societa.png)  
+  
