@@ -8,7 +8,7 @@ Questa sezione descrive le iscrizioni sul posto e le mutazioni effettuate il gio
 1. Nel menu `Iscrizioni` seleziona `Modifica > Iscrizioni`
 1. Seleziona il concorrente (o vacante) da mutare
 
-## Domicilio / indirizzo del concorrente
+## Indirizzo del concorrente
 
 Per inseririe o modificare il domicilio di un concorrente:  
 
@@ -16,7 +16,7 @@ Per inseririe o modificare il domicilio di un concorrente:
 **Nota**: dell'indirizzo serve unicamente il domicilio (campo `Luogo`). Via, numero, codice d'avviamento postale, numeri di telefono ecc. non sono utilizzati.  
 ![Domicilio](inc/iscrizioni_indirizzo.png)
 
-## Selezione di una società dall'archivio SOLV
+## Società dall'archivio SOLV
 
 Se il concorrente è di una società non ancora presente nella gara (quindi nella tendina di selezione delle società)  
 
@@ -29,7 +29,7 @@ Se il concorrente è di una società non ancora presente nella gara (quindi nell
   
 ![Società dall'archivio](inc/iscrizioni_importa_societa_da_archivio.png)  
 
-## Crea nuova società
+## Nuova società
 
 Se la società non è presente nell'archivio
 
