@@ -20,9 +20,11 @@ quella utilizzata per il controllo delle partenze al minuto -1).
   
 **Nota**: le schermate seguenti sono fatte con una gara con soli tre iscritti con nomi eloquenti...
   
-    - Test1 Arrivato
-    - Test2 In giro
-    - Test3 Non partito
+| Cognome | Nome        |
+| ------- | ----------- |
+| Test1   | Arrivato    |
+| Test2   | In giro     |
+| Test3   | Non partito |
 
 1. Nel menu `Giorno di gara` seleziona `Chip > Elabora stazione SI`  
 ![Menu elabora stazione SI](inc/giorno_menu_elabora_stazioni_si.png)  

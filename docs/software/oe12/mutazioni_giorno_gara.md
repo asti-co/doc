@@ -12,7 +12,7 @@ Questa sezione descrive le iscrizioni sul posto e le mutazioni effettuate il gio
 
 Per inseririe o modificare il domicilio di un concorrente:  
 
-1. Nell'angolo in alto a destra, seleziona `Dettagli`
+1. Nell'angolo in alto a destra, seleziona `Dettagli`  
 **Nota**: dell'indirizzo serve unicamente il domicilio (campo `Luogo`). Via, numero, codice d'avviamento postale, numeri di telefono ecc. non sono utilizzati.  
 ![Domicilio](inc/iscrizioni_indirizzo.png)
 
