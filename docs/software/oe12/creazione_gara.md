@@ -318,7 +318,7 @@ Importare i percorsi in OE12 usando un file XML esportato da OCAD.
     1. Verifica ed eventualmente imposta il percorso abbinato ad ogni categoria  
     ![Verifica abbinamenti percorsi - categorie](inc/percorsi_abbinamenti_categorie.png)
 
- ## Controllo frequenza ai punti
+## Controllo frequenza ai punti
 
 Ora che tutti i concorrenti sono inseriti, e se non è già stato fatto questo lavoro in OCAD, controlla le percorrenze ai punti. Questo rapporto mostra per ogni punto il numero di concorrenti totali e quanti lo hanno come primo punto:
 

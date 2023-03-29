@@ -33,6 +33,19 @@ quella utilizzata per il controllo delle partenze al minuto -1).
 ![Leggi stazioni SI](inc/giorno_elabora_stazione_si_inizio.png)  
   
 1. Verifica la connessione alla scatoletta di lettura (pallino verde in basso a destra).  
+!!! Bug "ATTENZIONE A NON ELIMINARE TUTTE LE PUNZONATURE"  
+    La finestra che appare ha almeno tre problemi:  
+
+    1. Non è possibile chiudere la finestra.  
+    La `crocetta` in alto a destra per chiudere la finestra `NON` funziona se prima non viene eseguita un'azione.  
+    Per chiudere la finestra, premere su `Verifica ora`, eventualmente accettare il messaggio di errore e poi chiudere la finestra normalmente.  
+      
+    1. Il bottone `Cancella` non chiude la finestra, quindi non si comporta come un bottone `Cancel`/`Annulla`, ma `CANCELLA TUTTE LE PUNZONATURE` sulla scatoletta.  
+    Questo bottone va rinominato `Elimina` per non fare confusione. 
+      
+    1. Il bottone `Cancella` `NON` chiede la conferma da parte dell'utente, ma cancella tutto immediatamente, senza una verifica e senza possibilità di ripensamento.  
+      
+
 ![Verifica connessione alla scatoletta di lettura](inc/giorno_elabora_stazione_si_connetti.png)  
   
     - Chiudi tutte le finestre connesse alla scatoletta (es. lettura chip)
