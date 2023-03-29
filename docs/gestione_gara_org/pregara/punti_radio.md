@@ -55,4 +55,4 @@ Dettagli sui punti radio SPORTident in [materiale > sportident > punti radio](..
 
 ## Punti radio Simon
 
-I punti radio di Simon Harston, utilizzati alle nazionali 2015 al San Bernardino e alla 5 giorni EGK 2018 (gara di contorno degli EOC), non sono più disponibili.
+I punti radio di Simon Harston, utilizzati alle nazionali 2015 al San Bernardino e alla 5 giorni EGK 2018 (gara di contorno degli EOC), non sono più disponibili.  
