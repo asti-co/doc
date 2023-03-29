@@ -51,7 +51,7 @@ Caratteristiche:
 
     - __Richiedere per tempo a SPORTident l'assegnazione dei modem all'account__ 
 
-Dettagli sui punti radio SPORTident in [materiale > sportident > punti radio](../../software/sportident/punti_radio.md) e sul loro utilizzo con OL-Einzel in [software > oe12 > punti radio SPORTident](../../software/oe12/punti_radio_sportident.md).
+Dettagli sui punti radio SPORTident in [materiale > sportident > punti radio](../../materiale/sportident/punti_radio.md) e sul loro utilizzo con OL-Einzel in [software > oe12 > punti radio SPORTident](../../software/oe12/punti_radio.md).
 
 ## Punti radio Simon
 
