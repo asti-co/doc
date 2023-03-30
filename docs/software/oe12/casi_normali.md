@@ -33,6 +33,7 @@ quella utilizzata per il controllo delle partenze al minuto -1).
 ![Leggi stazioni SI](inc/giorno_elabora_stazione_si_inizio.png)  
   
 1. Verifica la connessione alla scatoletta di lettura (pallino verde in basso a destra).  
+       
     ???+ Bug "ATTENZIONE A NON ELIMINARE TUTTE LE PUNZONATURE"  
         La finestra che appare ha almeno tre problemi:  
           
@@ -46,7 +47,7 @@ quella utilizzata per il controllo delle partenze al minuto -1).
         1. Il bottone `Cancella` `NON` chiede la conferma da parte dell'utente, ma cancella tutto immediatamente, senza una verifica e senza possibilità di ripensamento.  
       
   
-![Verifica connessione alla scatoletta di lettura](inc/giorno_elabora_stazione_si_connetti.png)  
+    ![Verifica connessione alla scatoletta di lettura](inc/giorno_elabora_stazione_si_connetti.png)  
   
     - Chiudi tutte le finestre connesse alla scatoletta (es. lettura chip)
     - Imposta la modalità `Master`
