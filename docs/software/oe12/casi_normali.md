@@ -26,6 +26,7 @@ quella utilizzata per il controllo delle partenze al minuto -1).
 | Test2   | In giro     |
 | Test3   | Non partito |
 
+1. Chiudi tutte le finestre connesse alla scatoletta di lettura, per esempio `Leggi Chip`
 1. Nel menu `Giorno di gara` seleziona `Chip > Elabora stazione SI`  
 ![Menu elabora stazione SI](inc/giorno_menu_elabora_stazioni_si.png)  
   
@@ -49,7 +50,6 @@ quella utilizzata per il controllo delle partenze al minuto -1).
   
     ![Verifica connessione alla scatoletta di lettura](inc/giorno_elabora_stazione_si_connetti.png)  
   
-    - Chiudi tutte le finestre connesse alla scatoletta (es. lettura chip)
     - Imposta la modalità `Master`
     - Seleziona la porta `COM... SPORTident...`
   
