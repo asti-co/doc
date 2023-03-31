@@ -4,7 +4,7 @@ Esistono vari tipi di punti radio, con caratteristiche diverse a dipendenza dell
 
 ## Punti radio VELPOZ
 
-Velpoz ([www.velpoz.ch](www.velpoz.ch)) è un gruppo svizzero focalizzato sull'utilizzo dei punti elettronici nella CO.  
+Velpoz ([www.velpoz.ch](http://www.velpoz.ch)) è un gruppo svizzero focalizzato sull'utilizzo dei punti elettronici nella CO.  
 Sono gli unici in Svizzera ad avere i punti radio basati sulle frequenze radioamatori.
 
 Caratteristiche:

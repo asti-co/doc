@@ -133,7 +133,7 @@ nav:
       - "sito_asti/index.md"
       - Classifiche TMO: sito_asti/classifiche_tmo.md
       - Classifiche Sprintup: sito_asti/classifiche_sprintcup.md
-      - RouteGadget: sito-asti/routegadget.md
+      - RouteGadget: sito_asti/routegadget.md
   - About:
       - "about/index.md"
       - Documentazione: about/documentazione.md
