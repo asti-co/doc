@@ -10,6 +10,9 @@ OE12 è un sistema a più finestre. Di base si aprono due finestre, una con la l
 Selezionando le voci nei vari menu della finestra principale apre finestre supplementari. Queste finestre sono aggiunte alla lista delle finestre aperte da dove è possibile accedere direttamente alla finestra desiderata.  
 ![Finestra di finestre](inc/gui_finestre.png)  
 
+- Il tastino `+` vicino ad ogni finestra la marca come favorita e la aggiunge alla relativa lista in cima alla finestra. Premendo su una finestra `favorita` la apre direttamente, senza bisogno di accederci via menu.
+- Il tastino `x` chiude la finestra.
+
 **Nota**: alle singole finestre manca la possibilità di ridimensionamento veloce a schermo intero.  
 
 ## Tab
@@ -26,8 +29,15 @@ Praticamente ogni finestra offre un aiuto contestuale (in inglese) premendo sul 
   
 ### Sistema chip
 
-Le finestre che possono interagire con un'unità di lettura chip hanno un menu per l'impostazione della connessione alla scatoletta connessa via una porta seriale USB.  
+Le finestre che possono interagire con un'unità di lettura chip hanno un menu per l'impostazione della connessione alla scatoletta connessa via una porta seriale USB e un indicatore dello stato della connessione nell'angolo in basso a destra della finestra.  
 ![Connessione a scatoletta di lettura](inc/gui_chip.png)  
+![Stato della scatoletta di lettura](inc/gui_chip_stato.png)  
+  
+Se lo stato in basso a destra non è verde, assicurati che non ci siano altre finestre collegate alla stazione di lettura e eventualmente chiudile.  
+  
+- Seleziona la porta COM usata dalla scatoletta di lettura (es. `COM3 SPORTident - xxx`)
+- Premi su `Inizializza` per aggiornare lo stato della connessione.
+- Le `Impostazioni` sono quelle definite durante la creazione della gara e non dovrebbero avere un impatto sulla finestra in questione
   
 ### Impostazioni varie 
 
@@ -56,7 +66,7 @@ L'icona con la tabella e la riga in blu permette di impostare vari layout predef
 In alcuni casi, tuttavia, questo menu nasconde delle impostazioni utili, come per il raggruppamento per categoria nella finestra delle iscrizioni.  
 ![Layout tabelle](inc/gui_layout_tabella.png)  
 
-## Inpostazioni
+## Impostazioni
 
 Le impostazioni si trovano generalmente in una parte che si nasconde sul bordo sinistro della relativa finestra.  
 Premi sulla freccetta per nascondere o mostrare il pannello delle opzioni.  
