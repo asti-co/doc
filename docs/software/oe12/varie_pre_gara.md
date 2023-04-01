@@ -13,7 +13,8 @@ Il numero di cartine necessarie per ogni categoria è dato da:
 - Cartine supplementari richieste con l'iscrizione
 - Riserva (di solito 1)
 
-Per ottenere il numero di iscritti per categoria, compresi i vacanti:
+Per ottenere il numero di iscritti per categoria, compresi i vacanti:  
+  
 1. Nel menu `Iscrizioni` seleziona `Riassunto delle iscrizioni > Categorie`  
 ![Menu riassunto iscrizioni per categorie](inc/iscrizioni_menu_riassunto_per_categoria.png)
 
