@@ -1,8 +1,11 @@
 # Gestione di varie casistiche normali
 
 ![Lavori in corso](../../img/lavori_in_corso.png){width=100px}  
-Vedi [PDF della vecchia versione, capitolo 5.3, 5.5, 5.6, 5.7, 5.8](../../gestione_gara_org/inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf)  
+Vedi [PDF della vecchia versione, capitolo 5.3, 5.7, 5.8](../../gestione_gara_org/inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf) per i capitoli riguardanti
   
+- Chip noleggiati (5.3)
+- Correzione motivo di non classifica (5.7)
+- Controllo orari di partenza (5.8)
 
 ## Non partiti
 
@@ -11,7 +14,22 @@ partenza.
 
 ### Procedura manuale
 
-da fare...
+Inserisci i non partiti in base al rapporto della partenza  
+  
+1. Nel menu `Cronometraggio` seleziona `Manualmente > Immissione manuale`  
+![Menu cronometraggio manuale](inc/cronometraggio_menu_manuale.png)  
+  
+1. Annulla la finestra di stampa
+1. Imposta nel pannello a sinistra `Valutazione rapida` a `Nessuno`
+1. Imposta lo stato di classifica in basso a destra a `N.Part.`
+![Inserimento manuale non partiti](inc/cronometraggio_inserimento_manuale_stato_non_partiti.png)  
+  
+1. Per ogni concorrente non partito  
+    
+    1. Inserisci il numero di pettorale e premi `Enter`.  
+    ![Inserimento manuale non partiti](inc/cronometraggio_inserimento_manuale_non_partiti.png)  
+      
+    1. Verifica sempre che il nome che appare nella lista corrisponda a quello del concorrente non partito
 
 ### Procedura tramite lettura check
 
