@@ -14,7 +14,7 @@ I passi per la creazione delle liste di partenza sono:
 Definisci la griglia di partenza creando le regole di partenza per ogni categoria.  
 
 1. Nel menu `Liste di partenza` seleziona `Regole > Categorie`  
-![Regole per categoria](inc/menu_partenza_regole_categoria.png)  
+![Regole per categoria](inc/partenza_menu_regole_categoria.png)  
   
 1. La videata contiene varie sezioni  
 ![Regole delle liste di partenza](inc/partenza_regole_categoria_inizio_scritte.png)  
@@ -82,7 +82,7 @@ Se vi sono più luoghi di partenza bisogna indicare quali categorie partono da q
 Crea le liste di partenza sorteggiando i concorrenti rispetto alle regole di partenza.
 
 1. Nel menu `Liste di partenza` seleziona `Crea > Categorie`  
-![Menu crea liste di partenza per categoria](inc/menu_partenza_crea_categoria.png)  
+![Menu crea liste di partenza per categoria](inc/partenza_menu_crea_categoria.png)  
   
 1.  La videata contiene varie sezioni  
 ![Crea le liste di partenza](inc/partenza_crea_inizio_scritte.png)  
@@ -156,7 +156,7 @@ I relativi passi sono:
 
 1. Stampa le liste di partenza per categoria  
     1. Nel menu `Liste di partenza` seleziona `Rapporti liste di partenza > Categorie`  
-    ![Menu liste per categoria](inc/menu_partenza_lista_categoria.png)  
+    ![Menu liste per categoria](inc/partenza_menu_lista_categoria.png)  
       
     1. La finestra mostra le liste di partenza di tutte le categorie, ordinate per ora di partenza.  
     ![Liste di partenza](inc/partenza_lista_categoria.png)  
@@ -176,7 +176,7 @@ I relativi passi sono:
 
 1. Stampa le griglie di partenza  
     1. Nel menu `Liste di partenza` seleziona `Rapporti liste di partenza > Griglia di partenza`  
-    ![Menu liste per categoria](inc/menu_partenza_lista_griglia.png)  
+    ![Menu liste per categoria](inc/partenza_menu_lista_griglia.png)  
       
     1. La finestra mostra la griglia a partire dall'ora zero impostata per la gara, quindi eventualmente tanto *prima* della partenza del primo concorrente.  
     ![Griglia di partenza](inc/partenza_lista_griglia.png)  
@@ -193,7 +193,7 @@ I relativi passi sono:
 
 ## Pubblicazione
 
-Le liste di partenza vanno pubblicati sia sul sito web di Swiss Orienteering che sul sito ASTI O2Rank.
+Le liste di partenza vanno pubblicate sia sul sito web di Swiss Orienteering che sul sito ASTI O2Rank.
 
 ![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
-Vedi [PDF della vecchia versione, capitolo 4.5.5](../../gestione_gara_org/inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf): 
+Vedi [PDF della vecchia versione, capitolo 4.5.5](../../gestione_gara_org/inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf)

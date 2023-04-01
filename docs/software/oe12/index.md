@@ -38,8 +38,8 @@ Spiega come gestire varie casistiche comuni a tutte le gare quale i concorrenti 
 - [Casi speciali](casi_speciali.md)  
 Spiega come gestire casi particolari che si spera non siano mai necessari (per esempio annullamenti di tratte o categorie, ritardi di partenza, ecc.).  
   
-- [Gestione finanziaria (dopo la gara)](finanze_post_gara.md)  
-Descrive le attività legate alla fatturazione dopo la gara.  
+- [Gestione finanziaria (prima e dopo la gara)](finanze.md)  
+Descrive le attività legate alla fatturazione delle iscrizioni di gara.  
   
 - [Archivio](archivio.md)  
 Descrive la gestione dell'archivio della banca dati dei concorrenti (SOLV-DB).  

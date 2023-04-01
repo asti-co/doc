@@ -13,10 +13,10 @@ Nelle sezioni seguenti molte istruzioni sono in comune alle tre tipologie. In ca
 Controlla le impostazioni delle cartelle dell'applicazione (non dovrebbero cambiare...):  
 
 1. Sulla finestra principale, seleziona `cartelle dell'applicazione` dal menu delle impostazioni in alto a destra.  
-![Menu impostazioni](inc/menu_impostazioni_cartelle.png)  
+![Menu impostazioni](inc/impostazioni_menu_cartelle.png)  
   
 1. Imposta le cartelle e la configurazione standard di SportSoftware.  
-![Cartelle dell'applicazione](inc/cartelle.png)  
+![Cartelle dell'applicazione](inc/impostazioni_cartelle.png)  
   
 1. Conferma premendo `OK`  
 
@@ -27,13 +27,13 @@ Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-t
 ??? Example ":asti-tmo: :asti-sprintCup: :asti-naz: Creazione per utilizzo di OL-Events"
     
     1. Seleziona `Gara > Nuovo`  
-    ![Gara > Nuovo](inc/menu_gara_nuovo.png)  
+    ![Gara > Nuovo](inc/gara_menu_nuovo.png)  
     
     1. Seleziona `Gara singola`  
     ![Gara singola](inc/gara_singola.png)  
     
     1. Riempi la scheda della nuova gara  
-    ![Crea gara](inc/crea_gara.png)  
+    ![Crea gara](inc/gara_crea_gara.png)  
       
         1. La denominazione della gara è il testo che appare sulle stampe, ad esempio `1. TMO GOLD Novaggio`  
         
@@ -45,15 +45,17 @@ Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-t
         `LUOGO` è il posto della gara  
         `_XX` è un suffisso opzionale per gare speciali (ad es. _CTCO)  
           
-        Esempi:  
-        `TMO_2301_GOLD_Novaggio` per il primo TMO del 2023 a Novaggio organizzato dal GOLD  
+                Esempi:  
+                TMO_2301_GOLD_Novaggio  
+                per il primo TMO del 2023 a Novaggio organizzato dal GOLD  
+                  
+                TMO_2309_GOV_Cimalmotto_CTCO  
+                per i campionati ticinesi, nono TMO del 2023 organizzato dal GOV a Cimalmotto  
           
-        `TMO_2309_GOV_Cimalmotto_CTCO` per i campionati ticinesi, nono TMO del 2023 organizzato dal GOV a Cimalmotto  
+            Per gare speciali usa `GARA_AA`, es. `StaffettaSele_23` per la gara del 2023.  
           
-        Per gare speciali usa `GARA_AA`, es. `StaffettaSele_23` per la gara del 2023.  
+            L'idea è di avere le gare ordinate cronologicamente almeno per tipo di gara.  
           
-        L'idea è di avere le gare ordinate cronologicamente almeno per tipo di gara.  
-        
         1. Seleziona `Standard` come tipo di gara  
         1. Imposta la data e l'ora zero. 
         Per l'ora zero imposta un orario anticipato di 15-30 minuti rispetto alle prime partenze, per permettere la partenza di alcuni concorrenti (es. collaboratori) prima dell'ora zero ufficiale.  
@@ -66,10 +68,10 @@ Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-t
     
     1. Seleziona `Gara > Copia`.  
     Se il comando non è attivo, seleziona prima una gara a caso con `Gara > Seleziona`  
-    ![Menu copia gara](inc/menu_gara_copia.png)
+    ![Menu copia gara](inc/gara_menu_copia.png)
       
     1. Riempi i campi come segue  
-    ![Copia gara](inc/copia_gara.png)  
+    ![Copia gara](inc/gara_copia_gara.png)  
       
         1. Scegli `Gara modello per TMO` o `Gara Modello per SprintCup`come gara d'origine.
       
@@ -96,9 +98,9 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 
 1. Seleziona `Gara > Impostazioni`
 1. Clicca sul bottone `Sistema chip`  
-![Sistema chip](inc/modifica_impostazioni_gara.png)  
+![Sistema chip](inc/gara_modifica_impostazioni_gara.png)  
 1. Verifica le impostazioni di SPORTident.  
-![Impostazioni SPORTident](inc/impostazioni_sportident.png)  
+![Impostazioni SPORTident](inc/gara_impostazioni_sportident.png)  
     1. Verifica data e ora
     1. Imposta la precisione del cronometraggio a SECONDI `OO:MM:SS`
     1. Imposta l'uso della scatoletta all'arrivo ma non alla partenza.
@@ -132,35 +134,35 @@ Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-t
       
     1. Connetti OE12 alla gara in OL-Events
         1. Nella finestra principale di OE-12, seleziona `OL-Events` nel menu `Web`  
-        ![Menu Web](inc/menu_web.png)  
+        ![Menu Web](inc/web_menu.png)  
           
         1. Nel menu specifico di OL-Events, seleziona `Impostazioni` 
-        ![Menu Web OL-Events](inc/menu_web_olevents_impostazioni.png)
+        ![Menu Web OL-Events](inc/web_menu_olevents_impostazioni.png)
           
         1. Incolla il Bearer Token di OL-Events nel campo `Token` e premi il bottone `Cerca`.   
         Appaiono le impostazioni della gara come definite in OL-Events. Attualmente queste informazioni sono di controllo per assicurarsi di aver collegato OE12 alla gara corretta in OL-Events, ma i dati non vengono ripresi da OE12.  
-        ![OL-Events impostazioni](inc/olevents_impostazioni.png)
+        ![OL-Events impostazioni](inc/web_olevents_impostazioni.png)
           
     1. Importa le categorie da OL-Events
         
         1. Nel menu `Web > OL-Events` seleziona `Scarica > Categorie`  
-        ![OL-Events categorie](inc/menu_web_olevents_categorie.png)  
+        ![OL-Events categorie](inc/web_menu_olevents_categorie.png)  
           
         1. Verifica che la gara sia quella corretta e premi `Scarica`  
-        ![OL-Events categorie](inc/olevents_categorie.png)
+        ![OL-Events categorie](inc/web_olevents_categorie.png)
           
         1. Conferma di scaricare le categorie  
-        ![OL-Events conferma l'import delle categorie](inc/olevents_categorie_conferma.png)  
+        ![OL-Events conferma l'import delle categorie](inc/web_olevents_categorie_conferma.png)  
           
         1. Verifica il numero di categorie e che non ci siano né errori né avvisi.  
         **Nota**: è normale che alcuni campi del file XML vengano ignorati.    
-        ![OL-Events verifica import categorie](inc/olevents_categorie_verifica.png)  
+        ![OL-Events verifica import categorie](inc/web_olevents_categorie_verifica.png)  
           
         1. Chiudi la finestra di verifica.
           
     1. Verifica le categorie
         1. Nella finestra principale di OE12, nel menu `Iscrizioni` seleziona `Modifica > Iscrizioni`  
-        ![Iscrizioni](inc/menu_iscrizioni_iscrizioni.png)  
+        ![Iscrizioni](inc/iscrizioni_menu_iscrizioni.png)  
           
         1. Seleziona il tab `Categorie` e verifica i dati.  
         In OL-Events il nome lungo delle categorie è in tedesco. In OE12 usiamo unicamente la versione corta.  
@@ -172,16 +174,18 @@ Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-t
 
 ??? Example "Inserimento manuale delle categorie"
     Inserendo le categorie manualmente, assicurati di mantenere i nomi e le ID come definite dal SOLV e le tasse d'iscrizione come definite nel [RECO](https://www.asti-ticino.ch/co/index.php?folder=ctco&main=reco).  
-
-        1. Nella finestra principale di OE12, nel menu `Iscrizioni` seleziona `Modifica > Iscrizioni`  
-        ![Iscrizioni](inc/menu_iscrizioni_iscrizioni.png)  
-          
-        1. Seleziona il tab `Categorie`.  
-
-        1. Clicca il bottone `+ Nuovo` e inserisci tutte le categorie.  
-        **Nota**: per gare TMO mantieni il numero e la denominazione corta come definite dal SOLV e la tassa d'iscrizione come specificato nel RECO (vedi immagine).  
-        I campi `Età` e `Sesso` non vengono usati.  
-        ![Categorie](inc/categorie.png)
+      
+    1. Nella finestra principale di OE12, nel menu `Iscrizioni` seleziona `Modifica > Iscrizioni`  
+    ![Iscrizioni](inc/iscrizioni_menu_iscrizioni.png)  
+      
+    1. Seleziona il tab `Categorie`.  
+      
+    1. Clicca il bottone `+ Nuovo` e inserisci tutte le categorie.  
+    ![Categorie](inc/iscrizioni_categorie_nuovo.png)
+      
+        - I campi `Età` e `Sesso` non vengono usati.  
+        - **Nota**: per gare TMO mantieni il numero e la denominazione corta come definite dal SOLV e la tassa d'iscrizione come specificato nel RECO (vedi immagine).  
+        ![Lista categorie con ID e prezzi](inc/iscrizioni_categorie_id_prezzi.png)
 
 ## Importazione iscrizioni {#import_iscrizioni}
 
@@ -194,21 +198,21 @@ Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-t
     1. Si suppone che OE12 sia già connesso alla gara corretta in OL-Events come descritto [sopra](#categorie).  
       
     1. Nel menu `Web > OL-Events` seleziona `Scarica > Iscrizioni`  
-    ![OL-Events scarica iscrizioni](inc/menu_web_olevents_iscrizioni.png)  
+    ![OL-Events scarica iscrizioni](inc/web_menu_olevents_iscrizioni.png)  
       
     1. Verifica che la gara collegata sia quella corretta e imposta `Cancella e ricrea` per i concorrenti e per le società.  
     Importa i blocchi di partenza ma non i tempi di partenza.  
-    ![OL-Events iscrizioni](inc/olevents_iscrizioni.png)  
+    ![OL-Events iscrizioni](inc/web_olevents_iscrizioni.png)  
       
     1. Conferma di scaricare le iscrizioni  
-    ![OL-Events conferma l'import delle categorie](inc/olevents_iscrizioni_conferma.png)  
+    ![OL-Events conferma l'import delle categorie](inc/web_olevents_iscrizioni_conferma.png)  
       
     1. Verifica che non ci siano messaggi di errore.  
     **Nota**: è normale che alcuni campi del file XML vengano ignorati.  
-    ![OL-Events verifica import iscrizioni](inc/olevents_iscrizioni_verifica.png)  
+    ![OL-Events verifica import iscrizioni](inc/web_olevents_iscrizioni_verifica.png)  
       
     1. Verifica le iscrizioni nel tab `Concorrenti` selezionando `Modifica > Iscrizioni` nel menu `Iscrizioni`.  
-    ![Iscrizioni](inc/iscrizioni.png)          
+    ![Iscrizioni](inc/iscrizioni_concorrenti.png)          
 
 
 ??? Example "Importazione con file CSV/XML" 
@@ -231,7 +235,7 @@ Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-t
         ![OL-Events export per OE12](inc/olevents_esportazione.png)
         
     1. Nel menu `Iscrizioni` seleziona `Importa > Iscrizioni`  
-    ![OL-Events scarica iscrizioni](inc/menu_iscrizioni_importa.png)  
+    ![OL-Events scarica iscrizioni](inc/iscrizioni_menu_importa.png)  
         
     1. Imposta i valori
         
@@ -255,7 +259,7 @@ Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-t
     ![Verifica il caricamento delle iscrizioni](inc/iscrizioni_import_csv_verifica.png)  
       
     1. Verifica le iscrizioni nel tab `Concorrenti` selezionando `Modifica > Iscrizioni` nel menu `Iscrizioni`.  
-    ![Iscrizioni](inc/iscrizioni.png)          
+    ![Iscrizioni](inc/iscrizioni_concorrenti.png)          
 
 
 ??? Example "Inserimento manuale dei concorrenti"
@@ -272,14 +276,14 @@ Per i TMO continuiamo quindi ad usare il formato dei nomi e cognomi uniti da un 
 
 1. Apri la lista degli iscritti selezionando `Modifica > Iscrizioni` nel menu `Iscrizioni`
 1. Nel tab `Concorrenti` ordina la tabella per `Squadra`  
-![Squadre in formato OE12](inc/squadre_separate.png)
+![Squadre in formato OE12](inc/iscrizioni_squadre_separate.png)
 1. Identifica il concorrente principale (quello con tutti i dati: numero chip, ID banca dati, ecc.)
 1. Aggiungi nome e cognome del/dei compagno/i nei campi `Nome` e `Cognome` del concorrente principale
-![Squadre unite ma ancora separate](inc/squadre_unite_separate.png)
+![Squadre unite ma ancora separate](inc/iscrizioni_squadre_unite_separate.png)
 1. Cancella la riga del compagno: seleziona la riga e premi su `- Cancella`
-![Cancella squadra](inc/squadre_cancella.png)
+![Cancella squadra](inc/iscrizioni_squadre_cancella.png)
 1. Cancella il campo `Squadra` del concorrente principale.
-![Cancella nome squadra](inc/squadra_cancella_nome.png)
+![Cancella nome squadra](inc/iscrizioni_squadra_cancella_nome.png)
 
 ## Importazione percorsi {#import_percorsi}
 
@@ -291,7 +295,7 @@ Importare i percorsi in OE12 usando un file XML esportato da OCAD.
   
 1. Importa i percorsi in OE12
     1. In OE12 nel menu `Percorsi` seleziona `Importa > Percorsi`  
-    ![Menu importa percorsi](inc/menu_percorsi_importa.png)  
+    ![Menu importa percorsi](inc/percorsi_menu_importa.png)  
       
     1. Imposta i valori
           
@@ -313,7 +317,7 @@ Importare i percorsi in OE12 usando un file XML esportato da OCAD.
 
 1. Verifica gli abbinamenti tra percorsi e categorie
     1. Nel menu `Percorsi` selezione `Modifica > Categorie`  
-    ![Menu abbinamento percorsi - categorie](inc/menu_percorsi_categorie.png)  
+    ![Menu abbinamento percorsi - categorie](inc/percorsi_menu_categorie.png)  
 
     1. Verifica ed eventualmente imposta il percorso abbinato ad ogni categoria  
     ![Verifica abbinamenti percorsi - categorie](inc/percorsi_abbinamenti_categorie.png)
@@ -323,6 +327,6 @@ Importare i percorsi in OE12 usando un file XML esportato da OCAD.
 Ora che tutti i concorrenti sono inseriti, e se non è già stato fatto questo lavoro in OCAD, controlla le percorrenze ai punti. Questo rapporto mostra per ogni punto il numero di concorrenti totali e quanti lo hanno come primo punto:
 
 1. Nel menu `Percorsi` seleziona `Riassunto dei concorrent > Punti`  
-![Menu percorsi riassunto concorrenti per punto](inc/menu_percorsi_riassunto_punti.png)  
+![Menu percorsi riassunto concorrenti per punto](inc/percorsi_menu_riassunto_punti.png)  
 
 
