@@ -128,7 +128,7 @@ Nella cartella appena creata
         git push
         ```
           
-## VSCode
+### VSCode
 
 Puoi usare qualsiasi editor di testo.  
 L'editor `VSCode` è disponibile gratuitamente su windows, Linux e MacOS ed ha tanti plugin a disposizione, tra cui anche quelli per la gestione integrata di `git` e delle pagine `markdown`.
@@ -140,7 +140,7 @@ Per MacOS, seguire queste [istruzioni](https://code.visualstudio.com/docs/setup/
 **Nota:** se è attivo il plugin di git sarà possibile eseguire i comandi descritti sopra direttamente dal tool.
 1. Utilizza `VSCode` in locale come quello online (vedi la [descrizione sopra](#vscodeOnline))
 
-## Crea localmente
+### Crea localmente
 
 ??? Example "Per la generazione delle pagine su Linux/MaxOS"
     
