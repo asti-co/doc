@@ -1,6 +1,6 @@
 # O2Rank
 
-O2Rank è un [portale di classifiche online](https://classifiche.asti-ticino.ch/o2rank) dell'ASTI dedicato alle gare di corsa d'orientamento.
+O2Rank è un [portale di classifiche online](http://classifiche.asti-ticino.ch/o2rank) dell'ASTI dedicato alle gare di corsa d'orientamento.
 
 Questa sezione contiene le seguenti guide d'utilizzo:
 
