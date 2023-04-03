@@ -74,7 +74,9 @@ I tool richiesti sono:
 1. Installa `git`
 1. Configura `git`  
     1. Apri il file `.gitconfig` nella cartella utente con un editor di testo.  
-    **Nota:** il file è nascosto, per cui abilita la visione dei file nascosti.
+    **Nota:** il file è nascosto, per cui abilita la visione dei file nascosti.  
+    **Nota:** se il file non esiste, crealo.  
+      
     1. Imposta il nome e indirizzo email  
     *Contenuto file*
         ```
