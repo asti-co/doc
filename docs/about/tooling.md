@@ -101,7 +101,7 @@ I tool richiesti sono:
 Nella cartella appena creata  
     *Comando*  
     ```
-    https://github.com/asti-co/doc.git
+    git clone https://github.com/asti-co/doc.git
     ```    
   
 1. Usa i seguenti comandi per gestire i file da command line  
