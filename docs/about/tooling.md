@@ -71,7 +71,10 @@ I tool richiesti sono:
   
 ### git
 
-1. Installa `git`
+Git è un programma per la gestione di file condivisi che permette la collaborazione di varie persone nella creazione e nell'aggiornamento dei file, mantenendo tutte le modifiche come versioni dei file.   
+  
+1. Installa `git` scaricandolo dal sito ufficiale [git-scm.com/downloads](https://git-scm.com/downloads)  
+**Nota:** per Windows scegli `Standalone installer`  
 1. Configura `git`  
     1. Apri il file `.gitconfig` nella cartella utente con un editor di testo.  
     **Nota:** il file è nascosto, per cui abilita la visione dei file nascosti.  
@@ -85,7 +88,8 @@ I tool richiesti sono:
 	        email = sandro.corsi@bluewin.ch
         ```
 
-    1. Verifica che la configurazione sia corretta  
+ 1. Apri un terminale con il comando `cmd.exe` di Windows
+ 1. Verifica che la configurazione sia corretta  
     *Comando*
         ```
         git config --global -l
@@ -97,43 +101,64 @@ I tool richiesti sono:
         ```
       
 1. Crea una cartella per la documentazione ASTI
+    ```
+    mkdir c:\DocAsti
+    ```
+1. Spostati nella cartella appena creata
+    ```
+    cd c:\DocAsti
+    ```
 1. Copia tutta la documentazione in locale.  
-Nella cartella appena creata  
-    *Comando*  
     ```
     git clone https://github.com/asti-co/doc.git
     ```    
+
+A questo punto hai tutta la documentazione sul tuo PC. Puoi editare i file `.md` con qualsiasi editor di testo (`notepad`, `notepad++`, `ultraedit`, `VSCode` ecc. ma **NON** programmi come `Word`).  
+I file sono nelle cartelle sotto `C:\DocAsti\doc\docs`  
   
-1. Usa i seguenti comandi per gestire i file da command line  
-    1. Aggiorna i file locali (prendi l'ultima versione disponibile sul server)  
-    *Comando*  
-    ```
-    git pull
-    ```
-      
-    1. Dopo aver modificato dei file, pubblicali sul server  
-        1. Identifica tutti i file modificati  
-        *Comando*  
+Usa i seguenti comandi per gestire i file da command line  
+  
+- Prima di cominciare a lavorare, aggiorna i file sul PC prendendo l'ultima versione disponibile sul server
+
+    1. Apri un terminale con il comando `cmd.exe` di Windows
+    1. Spostati nella cartella della documentazione
+        ```
+        cd c:\DocAsti\doc
+        ```
+    1. Aggiorna i file locali prendendo l'ultima versione dal server  
+        ```
+        git pull
+        ```
+  
+- Dopo aver modificati dei file, pubblicali sul server  
+  
+    1. Apri un terminale con il comando `cmd.exe` di Windows
+    1. Spostati nella cartella della documentazione
+        ```
+        cd c:\DocAsti\doc
+        ```
+    1. Identifica tutti i file modificati  
+    **Nota:** occhio al `punto` finale... è necessario!
         ```
         git add .
         ```
-          
-        1. Aggiungi un commento che descrive le modifiche fatte (corto, max 50 caratteri)  
-        *Comando*  
+    1. Aggiungi un commento che descrive le modifiche fatte (corto, max 50 caratteri)  
         ```
         git commit -m "la descrizione di quel che hai fatto"
-        ```
-          
-        1. Manda le modifiche al server  
-        *Comando*  
+        ```  
+    1. Manda le modifiche al server  
         ```
         git push
+        ```
+    1. Aggiorna i file locali prendendo l'ultima versione dal server  
+        ```
+        git pull
         ```
           
 ### VSCode
 
 Puoi usare qualsiasi editor di testo.  
-L'editor `VSCode` è disponibile gratuitamente su windows, Linux e MacOS ed ha tanti plugin a disposizione, tra cui anche quelli per la gestione integrata di `git` e delle pagine `markdown`.
+L'editor `VSCode` è disponibile gratuitamente su Windows, Linux e MacOS ed ha tanti plugin a disposizione, tra cui anche quelli per la gestione integrata di `git` e delle pagine `markdown`.
 
 1. Scarica [VSCode](https://code.visualstudio.com/)
 1. Di regola è consigliato lanciare VSCode con `code .`, configurazione di default su Windows e Linux.  
@@ -146,7 +171,11 @@ Per MacOS, seguire queste [istruzioni](https://code.visualstudio.com/docs/setup/
 
 ??? Example "Per la generazione delle pagine su Linux/MaxOS"
     
-    1. In un terminale, vai nella cartella della documentazione ASTI
+    1. Apri un terminale con il comando `cmd.exe` di Windows
+    1. Spostati nella cartella della documentazione
+        ```
+        cd c:\DocAsti\doc
+        ```
     1. Inizialmente (solo una volta) inizializza il sistema  
     ```
     make venv serve
@@ -166,11 +195,14 @@ Per MacOS, seguire queste [istruzioni](https://code.visualstudio.com/docs/setup/
     **Nota:** il sistema si accorge autonomamente del cambiamento del contenuto delle pagine e ogni volta che salvi un file questo viene compilato e la pagina è aggiornata nel browser.
 
 ??? Example "Per la generazione delle pagine in Windows"
-    Se hai coraggio, prova questa procedura ma senza garanzia...  
-    Per andare sul sicuro è consigliabile usare il subsystem Linux su Windows.  
+    La seguente descrizione usa comandi `python` da lanciare in un terminale di Windows. 
       
     1. Installa Python3 da [https://www.python.org/downloads/](https://www.python.org/downloads/)  
-    1. In un terminale, vai nella cartella della documentazione ASTI
+    1. Apri un terminale con il comando `cmd.exe` di Windows
+    1. Spostati nella cartella della documentazione
+        ```
+        cd c:\DocAsti\doc
+        ```
     1. Inizialmente (solo una volta) inizializza il sistema  
         1. Crea l'ambiente
         ```
@@ -214,13 +246,14 @@ Per MacOS, seguire queste [istruzioni](https://code.visualstudio.com/docs/setup/
 ??? Example "Per la generazione delle pagine in Windows col Subsystem for Linux"
     Questa soluzione utilizza il Windows Subsystem for Linux per eseguire alcuni comandi in Windows ed alcuni in Linux.  
       
-    1. In un terminale installa il Windows Subsystem for Linux (WSL) con Ubuntu (vedi la [documentazione Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install))
-    ```
-    wsl --install
-    ```
+    1. Installa e configura WSL (solo una volta)  
       
-    1. Configura WSL (solo una volta)
-        1. Apri il terminale di WSL
+        1. Apri un terminale con il comando `cmd.exe` di Windows
+        1. Installa il Windows Subsystem for Linux (WSL) con Ubuntu (vedi la [documentazione Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install))
+        ```
+        wsl --install
+        ```
+        1. Apri il terminale di WSL con il comando `wsl.exe`
         1. Inizializza il sistema
         ```
         # assicurati che il sistema sia aggiornato
@@ -236,7 +269,7 @@ Per MacOS, seguire queste [istruzioni](https://code.visualstudio.com/docs/setup/
         1. Vai nella cartella della documentazione ASTI  
         **Nota:** il disco `C:` è accessibile in WSL come cartella `/mnt/c`
         ```
-        cd /mnt/c/path/alla/catella/ASTI
+        cd /mnt/c/DocAsti/doc
         ```
           
         1. Crea l'ambiente e lancia il server
@@ -245,11 +278,11 @@ Per MacOS, seguire queste [istruzioni](https://code.visualstudio.com/docs/setup/
         ```
           
     1. In seguito, usa unicamente questi comandi
-        1. Apri il terminale di WSL
+        1. Apri il terminale di WSL con il comando `wsl.exe`
         1. Vai nella cartella della documentazione ASTI  
         **Nota:** il disco `C:` è accessibile in WSL come cartella `/mnt/c`
         ```
-        cd /mnt/c/path/alla/catella/ASTI
+        cd /mnt/c/DocAsti/doc
         ```
           
         1. Lancia il server  
