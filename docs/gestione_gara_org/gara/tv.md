@@ -3,5 +3,5 @@
 
 Pubblicazione delle classifiche online come pure sulle TV al centro gara.
 
-**Documentazione attuale**: [file PDF](../inc/Classifiche%20Online-Televisioni%20_%20impostazioniV8.pdf).
+**Documentazione attuale**: [file PDF](../inc/Classifiche%20Online-Televisioni%20_%20impostazioniV2023.4.pdf).
 
