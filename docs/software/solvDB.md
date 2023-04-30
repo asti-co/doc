@@ -21,7 +21,19 @@ Cliccare su [Eingabeformular](https://www.o-l.ch/cgi-bin/solvdb?&competitor=newf
 <span style="color:red">DA ELABORARE....</span>  
 
 - Verifica se esiste un record
-- riempire i campi / traduzione campi
+- riempire i campi con i vostri dati
+    -SiCard: numero chip  
+    -IOF Athlete: solo per tesserati IOF, lasciare vuoto  
+    -Geschl: sesso  
+    -Vorname: nome  
+    -NachName: cognome  
+    -Geb.jahr: anno di nascita  
+    -Land: paese  
+    -PLZ: luogo dove si abita (inserire cap e dovrebbe già comparire il luogo corretto)  
+    -Kanton: cantone  
+    -Kategorie: categoria corsa  
+    -Club: cercare la propria società  
+    -Nation: nazionalità  
 - traduzione protezione dati
 
 ### Modifica concorrente {#mutazione}
