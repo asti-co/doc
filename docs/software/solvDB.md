@@ -17,13 +17,13 @@ Il sito può essere visualizzato in tedesco, francese e italiano. Alcune parti p
 
 
 ### Creazione nuovo concorrente {#nuovo}
-
-Cliccare su [Eingabeformular](https://www.o-l.ch/cgi-bin/solvdb?&competitor=newform) per registrare un nuovo concorrente nella banca dati.
+Verifica se esiste già un record inserendo il numero SOLV o nome, cognome e anno di nascita.   
+Se non esite cliccare su [Eingabeformular](https://www.o-l.ch/cgi-bin/solvdb?&competitor=newform) per registrare un nuovo concorrente nella banca dati.
 
 <span style="color:red">DA ELABORARE....</span>  
 
-- Verifica se esiste un record
-- riempire i campi con i vostri dati
+
+- riempire i campi con i vostri dati (attenzione riempire i campi in ordine di riga, altrimenti il sistema può dare dei problemi)  
     -SiCard: numero chip  
     -IOF Athlete: solo per tesserati IOF, lasciare vuoto  
     -Geschl: sesso  
@@ -35,7 +35,10 @@ Cliccare su [Eingabeformular](https://www.o-l.ch/cgi-bin/solvdb?&competitor=newf
     -Kanton: cantone  
     -Kategorie: categoria corsa  
     -Club: cercare la propria società  
-    -Nation: nazionalità  
+    -Nation: nazionalità 
+
+Una volta inseriti i dati cliccare sul tasto Eingabe. Il sistema visualizzerà il vostro nuovo numero SOLV. Questo codice è molto importante perchè vi servirà per iscrivervi alle gare! Dovrete poi ricevere una mail con cui potete impostare la password. Numero SOLV e password servono per accedere alle iscrizioni.
+
 - traduzione protezione dati
 
 ### Modifica concorrente {#mutazione}
