@@ -12,8 +12,7 @@ I concorrenti si registrano e mantengono i propri dati.
 ## Gestione per concorrenti
 
 <span style="color:red">DA ELABORARE....</span>  
-La banca dati dei concorrenti SOLV è gestita sul [sito della federazione svizzera di corsa d'orientamento](https://www.o-l.ch/cgi-bin/solvdb) (Swiss Orienteering).  
-La pagina è disponibile in tedesco, francese e italiano. Alcune pagine però sono solo in tedesco.
+La banca dati dei concorrenti SOLV è gestita sul [sito della federazione svizzera di corsa d'orientamento](https://www.o-l.ch/cgi-bin/solvdb) (Swiss Orienteering). 
 ### Creazione nuovo concorrente {#nuovo}
 
 Cliccare su [Eingabeformular](https://www.o-l.ch/cgi-bin/solvdb?&competitor=newform) per registrare un nuovo concorrente nella banca dati.
