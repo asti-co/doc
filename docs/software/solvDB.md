@@ -20,26 +20,36 @@ Il sito può essere visualizzato in tedesco, francese e italiano. Alcune parti p
 Verifica se esiste già un record inserendo il numero SOLV o nome, cognome e anno di nascita.   
 Se non esite cliccare su [Eingabeformular](https://www.o-l.ch/cgi-bin/solvdb?&competitor=newform) per registrare un nuovo concorrente nella banca dati.
 
-<span style="color:red">DA ELABORARE....</span>  
-
 
 - riempire i campi con i vostri dati (attenzione riempire i campi in ordine di riga, altrimenti il sistema può dare dei problemi)  
-    -SiCard: numero chip  
-    -IOF Athlete: solo per tesserati IOF, lasciare vuoto  
-    -Geschl: sesso  
-    -Vorname: nome  
-    -NachName: cognome  
-    -Geb.jahr: anno di nascita  
-    -Land: paese  
-    -PLZ: luogo dove si abita (inserire cap e dovrebbe già comparire il luogo corretto)  
-    -Kanton: cantone  
-    -Kategorie: categoria corsa  
-    -Club: cercare la propria società  
-    -Nation: nazionalità 
+    - SiCard: numero chip  
+    - IOF Athlete: solo per tesserati IOF, lasciare vuoto  
+    - Geschl: sesso  
+    - Vorname: nome  
+    - NachName: cognome  
+    - Geb.jahr: anno di nascita  
+    - Land: paese  
+    - PLZ: luogo dove si abita (inserire cap e dovrebbe già comparire il luogo corretto)  
+    - Kanton: cantone  
+    - Kategorie: categoria corsa  
+    - Club: cercare la propria società  
+    - Nation: nazionalità 
 
 Una volta inseriti i dati cliccare sul tasto Eingabe. Il sistema visualizzerà il vostro nuovo numero SOLV. Questo codice è molto importante perchè vi servirà per iscrivervi alle gare! Dovrete poi ricevere una mail con cui potete impostare la password. Numero SOLV e password servono per accedere alle iscrizioni.
 
-- traduzione protezione dati
+---
+
+Riportiamo la traduzione della protezioni dei dati che si trova nella pagina per l'iscrizione del nuovo concorrente SOLVDB:  
+
+Utilizzando la banca dati dei corridori (Runners' DB), accetto l'informazione sulla privacy (24.08.2021) di Swiss Orienteering.
+
+Di seguito sono riassunti alcuni punti importanti dell'informativa sulla privacy. In caso di dubbio, valgono le disposizioni dell'informazione sulla privacy. 
+- Chiunque desideri che i propri dati vengano utilizzati per scopi diversi dalle competizioni può annotarlo nella propria iscrizione.
+- Chiunque partecipi a una manifestazione di corsa d'orientamento inserita nel calendario di Swiss Orienteering su o-l.ch accetta di comparire nelle liste di partenza e di classifica pubblicate. È esclusa una successiva rimozione del nome o anche del tempo o della posizione in classifica.
+- Gli organizzatori di Orienteering ricevono una copia della banca dati dei corridori di Swiss Orienteering, che può essere utilizzata solo per l'organizzazione della gara.
+- L'indirizzo e-mail memorizzato nella banca dati dei corridori può essere utilizzato dall'organizzatore dell'orienteering, dall'ufficio di Swiss Orienteering e dall'amministratore della banca dati per l'organizzazione della gara per scopi amministrativi. Altrimenti sarà trasmesso solo con il consenso della persona.
+- Il numero di cellulare memorizzato nella banca dati dei corridori viene utilizzato esclusivamente dall'organizzatore dell'orienteering per motivi di sicurezza (ad es. per verificare se un corridore che non ha ancora letto la classifica dopo la gara è già tornato dalla gara) e dall'ufficio per scopi amministrativi (ad es. nell'ambito del Covid-Contact Tracing).
+- Le richieste di non utilizzo di dati personali dal database dei corridori devono essere inviate a info@swiss-orienteering.ch.
 
 ### Modifica concorrente {#mutazione}
 
