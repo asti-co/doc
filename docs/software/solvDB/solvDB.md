@@ -1,7 +1,7 @@
 # Banca Dati dei Concorrenti SOLV
 
 **QUESTA PAGINA È ANCORA DA FARE**  
-![Lavori in corso](../img/lavori_in_corso.png){width=30px}
+![Lavori in corso](../../img/lavori_in_corso.png){width=30px}
 
 ## Panoramica
 
