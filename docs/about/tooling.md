@@ -163,7 +163,7 @@ L'editor `VSCode` è disponibile gratuitamente su Windows, Linux e MacOS ed ha t
 1. Scarica [VSCode](https://code.visualstudio.com/)
 1. Di regola è consigliato lanciare VSCode con `code .`, configurazione di default su Windows e Linux.  
 Per MacOS, seguire queste [istruzioni](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
-1. In VSCode apri la cartella della documentazione ASTI (in `File > Open Folder...`)  
+1. In VSCode apri la cartella della documentazione ASTI (in `File > Open Folder...`), secondo l'esempio `C:\DocAsti\doc`  
 **Nota:** se è attivo il plugin di git sarà possibile eseguire i comandi descritti sopra direttamente dal tool.
 1. Utilizza `VSCode` in locale come quello online (vedi la [descrizione sopra](#vscodeOnline))
 
