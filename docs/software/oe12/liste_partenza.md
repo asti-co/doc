@@ -77,7 +77,7 @@ Se vi sono più luoghi di partenza bisogna indicare quali categorie partono da q
     La prossima immagine mostra un esempio con due partenze, separate graficamente dalla colonne 3, lasciata volutamente vuota.  
     ![Regole con più partenze](inc/partenza_regole_categoria_piu_partenze.png)
       
-## Allestimento delle liste di partenza {#crea_liste_partenza}
+## Allestimento delle liste {#crea_liste_partenza}
 
 Crea le liste di partenza sorteggiando i concorrenti rispetto alle regole di partenza.
 
@@ -161,12 +161,14 @@ I relativi passi sono:
     1. La finestra mostra le liste di partenza di tutte le categorie, ordinate per ora di partenza.  
     ![Liste di partenza](inc/partenza_lista_categoria.png)  
       
+        - Assicurati che i tempi siano mostrati nel formato `OO:MM:SS`.  
+        Altrimenti, impostalo nel menu `ingranaggio` in alto a destra.
         - Nel pannello `Impostazioni` sulla sinistra definisci l'ordinamento dei concorrenti per tempo di partenza. 
-        - Di base sono selezionate tutte le categorie. 
-        Se vuoi stampare unicamente singole categorie, selezionale nel pannello in basso e poi clicca su `Aggiorna` in alto a sinistra nella finestra.
+        - Di base sono selezionate tutte le categorie. Se vuoi stampare unicamente singole categorie, selezionale nel pannello in basso.
         - Per selezionare unicamente le categorie di un luogo di partenza, selezionare il luogo in basso  
         ![Lista per luogo di partenza](inc/partenza_lista_categoria_luogo.png)
       
+    1. Se nel passo precedente hai modificato qualsiasi parametro, premi su `Aggiorna` nel menu in alto a sinistra.
     1. Seleziona `TMO` come modello del rapporto e premi su `Stampa`  
     ![Menu stampa la lista di partenza per categoria](inc/partenza_lista_categoria_menu_stampa.png)  
       
@@ -193,7 +195,88 @@ I relativi passi sono:
 
 ## Pubblicazione
 
-Le liste di partenza vanno pubblicate sia sul sito web di Swiss Orienteering che sul sito ASTI O2Rank.
+Le liste di partenza vanno pubblicate sia sul sito web di Swiss Orienteering che sul sito ASTI O2Rank.  
+Il formato del file è lo stesso, per cui basta esportare le liste di partenza una volta.
 
-![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
-Vedi [PDF della vecchia versione, capitolo 4.5.5](../../gestione_gara_org/inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf)
+### Su O2Rank {#pubblica_liste_partenza_o2rank}
+
+1. Recupera il token FTP della gara da `O2Rank`  
+
+    - Se non hai ancora una gara su `O2Rank`, creala seguendo le istruzioni in [Software > O2Rank > Creazione gara](../o2rank/creazione_gara.md)
+
+    1. Accedi a `O2Rank` su [classifiche.asti-ticino.ch/o2rank](http://classifiche.asti-ticino.ch/o2rank)
+    1. Seleziona `Login` in alto a destra e accedi come amministratore  
+    (utente `co@asti-ticino.ch`, password `class1f1che`)
+    1. Seleziona `edit` sulla destra della tua gara
+    1. Copia il token cliccando su `Copy to clipboard`  
+    ![Copia il token](../o2rank/inc/ftpToken.png)
+
+1. Esporta le liste di partenza  
+
+    1. Nel menu `Liste di partenza` seleziona `Rapporti liste di partenza > Categorie`  
+        ![Menu liste per categoria](inc/partenza_menu_lista_categoria.png)  
+
+        - Assicurati che i tempi siano mostrati nel formato `OO:MM:SS`.  
+        Altrimenti, impostalo nel menu `ingranaggio` in alto a destra.
+        - Nel pannello `Impostazioni` sulla sinistra definisci l'ordinamento dei concorrenti per tempo di partenza. 
+        - Seleziona tutte le categorie nel pannello in basso.
+        - Seleziona tutti i luoghi di partenza nella tendina in basso.
+
+    1. Se nel passo precedente hai modificato qualsiasi parametro, premi su `Aggiorna` nel menu in alto a sinistra.
+    1. Premi su `Esporta` nel menu in alto.
+    1. Imposta i seguenti campi  
+        ![Esporta](inc/partenza_lista_categoria_esporta.png)
+
+        - `Colonne con separatori (CSV)`
+        - Separatore `Punto e virgola` 
+        - Delimitatore di testo `Nessuno`
+        - Seleziona `Formatta i tempi per Excel` 
+
+        Nella sezione `File`  
+
+        - Esporta il file nella cartella `C:\Temp\tmo\<anno>`
+        - Imposta il nome del file a `LP_<FTP-Token>.csv`
+            - Es. `C:\Temp\tmo\2023\LP_XDRIZRPK.csv`
+        - Seleziona `Nome file univoco con orario`
+        - Seleziona `Carica file nel web`
+        - Non selezionare `Elabora file con DLL`
+
+    1. Nel dialogo `Carica file nel web` imposta i campi  
+    ![Carica file nel web](inc/partenza_carica_file_nel_web.png)  
+
+        - Sito web `asti.cryms.info`
+        - Cartella `/`
+        - Non attivare la connessione sicura SSL/TLS
+        - Nome utente `asti`
+        - Password `class1f2che`
+
+    1. Attendi uno-due minuti e verifica le liste in internet (sito [classifiche.asti-ticino.ch/o2rank](http://classifiche.asti-ticino.ch/o2rank))
+
+### Su Swiss Orienteering {#pubblica_liste_partenza_solv}
+
+Carica sul sito di Swiss Orienteering il file esportato per O2Rank (vedi [sopra](#pubblica_liste_partenza_o2rank)).  
+**Nota**: il nome del file contiene come prefisso la data e l'ora dell'esportazione.  
+  
+1. Vai sul sito SOLV [www.swiss-orienteering.ch](https://www.swiss-orienteering.ch)
+1. Nel menu in alto, seleziona `Gare > Liste di partenza`  
+![Menu sito solv](inc/partenza_carica_solv_menu.ch.png)  
+  
+1. Seleziona `Webformular` nella sezione `Veranstalter` (`organizzatori`)  
+![Webformular](inc/partenza_carica_solv_webformular_link.png)  
+  
+1. Seleziona la tua gara e premi `Weiter` (`continua`)
+1. Imposta tutti i campi  
+![Upload](inc/partenza_carica_solv_upload2.png)  
+  
+    - Controlla tutti i campi
+    - Seleziona il file esportato da OL-Einzel cliccando su `Browse`
+    - **Importantissimo**: Imposta la stessa ora zero come impostata nella gara di OL-Einzel, quindi quella "tecnica", anticipata, e non quella "ufficiale".
+    - Seleziona OE12 come formato del file
+    - Inserisci il tuo numero SOLV
+    - Premi su `Abschicken` (`invia`)
+
+1. Controlla l'anteprima delle liste di partenza.
+    1. Confronta alcune categorie con le liste di partenza stampate da OL-Einzel
+    1. Controlla i dati (nome, pettorale, chip, orario di partenza) di alcuni concorrenti
+    1. Controlla i date dei concorrenti che partono anticipatamente
+1. Se non ci sono errori, conferma inserendo la tuo ID della banca dati SOLV.

@@ -1,7 +1,7 @@
 # OL-Einzel V.12
 
 [OL-Einzel](https://sportsoftware.de) è il software che viene maggiormente utilizzato in Ticino per la gestione delle gare.  
-La versione 12 è stata rilasciata nel 2022 e in usa in Ticino dal 2023.
+La versione 12 è stata rilasciata nel 2022 e in uso in Ticino dal 2023.
 
 Questa sezione contiene alcune guide d'utilizzo:
 
