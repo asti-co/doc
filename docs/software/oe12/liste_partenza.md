@@ -279,4 +279,5 @@ Carica sul sito di Swiss Orienteering il file esportato per O2Rank (vedi [sopra]
     1. Confronta alcune categorie con le liste di partenza stampate da OL-Einzel
     1. Controlla i dati (nome, pettorale, chip, orario di partenza) di alcuni concorrenti
     1. Controlla i date dei concorrenti che partono anticipatamente
+    1. RICORDA CHE: una volta spedita la lista delle partenze non puoi più ricaricarla dal sito SwissOrienteering ma devi scrivere a oltech@swiss-orienteering.ch allegando la lista modificata. Perciò sii sicuro che il documento che stai caricando è corretto!
 1. Se non ci sono errori, conferma inserendo la tuo ID della banca dati SOLV.

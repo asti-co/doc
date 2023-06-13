@@ -17,32 +17,46 @@ Il sito può essere visualizzato in tedesco, francese e italiano. Alcune parti p
 
 ### Creazione nuovo concorrente {#nuovo}
 Verifica se esiste già un record inserendo il numero SOLV o nome, cognome e anno di nascita.   
-Se non esite cliccare su [Eingabeformular](https://www.o-l.ch/cgi-bin/solvdb?&competitor=newform) per registrare un nuovo concorrente nella banca dati.
+Se non esite clicca su [Eingabeformular](https://www.o-l.ch/cgi-bin/solvdb?&competitor=newform) per registrare un nuovo concorrente nella banca dati.
 
 
-- riempire i campi con i vostri dati (attenzione riempire i campi in ordine di riga, altrimenti il sistema può dare dei problemi)  
+- riempi i campi con i tuoi dati (attenzione riempi i campi in ordine di riga, altrimenti il sistema può dare dei problemi)  
     - SiCard: numero chip  
-    - IOF Athlete: solo per tesserati IOF, lasciare vuoto  
+    - IOF Athlete: solo per tesserati IOF, lascia vuoto  
     - Geschl: sesso  
     - Vorname: nome  
     - NachName: cognome  
     - Geb.jahr: anno di nascita  
     - Land: paese  
-    - PLZ: luogo dove si abita (inserire cap e dovrebbe già comparire il luogo corretto)  
+    - PLZ: luogo dove abiti (inserisci cap e dovrebbe già comparire il luogo corretto)  
     - Kanton: cantone  
     - Kategorie: categoria corsa  
-    - Club: cercare la propria società  
+    - Club: cerca la tua società  
     - Nation: nazionalità 
 
-Una volta inseriti i dati cliccare sul tasto Eingabe. Il sistema visualizzerà il vostro nuovo numero SOLV. Questo codice è molto importante perchè serve per iscriversi alle gare! Riceverete poi una mail con cui potete impostare la password. Numero SOLV e password servono per accedere alle iscrizioni.
+Una volta inseriti i dati clicca sul tasto Eingabe. Il sistema visualizzerà il tuo nuovo numero SOLV. Questo codice è molto importante perchè serve per iscriversi alle gare! Ricevi poi una mail con cui puoi impostare la password. Numero SOLV e password servono per accedere alle iscrizioni.
 
----
+
+
+
+### Modifica concorrente {#mutazione}
+
+<span style="color:red">DA ELABORARE....</span>  
+
+- accesso diretto per numero SOLV 
+  - mail con codice d'accesso
+- ricerca per nome
+  - mail con numero SOLV e link diretto per le modifiche
+  - click sul link diretto, mail con codice d'accesso
+
+### Protezione dati
+
 
 Riportiamo di seguito la traduzione della protezioni dei dati di SwissOrienteering:  
 
 Utilizzando la banca dati dei corridori (LäuferDB), accetto le condizioni dell'informazione sulla privacy (24.08.2021) di Swiss Orienteering.
 
-Di seguito sono riassunti alcuni punti importanti del documento informazione sulla privacy. In caso di dubbio, valgono le disposizioni dettagliate descitte in tale documento. Per visualizzare l'originale cliccare al seguente [link](inc/ProtezioneDatiSwissO.pdf). 
+Di seguito sono riassunti alcuni punti importanti del documento informazione sulla privacy. In caso di dubbio, valgono le disposizioni dettagliate descitte in tale documento. Per visualizzare l'originale vai alla pagina Neuer Läufer tramite il seguente [link](https://www.o-l.ch/cgi-bin/solvdb?&competitor=newform) e clicca sulla scritta in rosso Datenschutzrichtlinie.
  
 
 - Chiunque desideri che i propri dati vengano utilizzati per scopi diversi dalle competizioni può annotarlo nella propria iscrizione 
@@ -57,21 +71,6 @@ Di seguito sono riassunti alcuni punti importanti del documento informazione sul
 
 - Le richieste di non utilizzo di dati personali dal database dei corridori devono essere inviate a info@swiss-orienteering.ch.
 
-### Modifica concorrente {#mutazione}
-
-<span style="color:red">DA ELABORARE....</span>  
-
-- accesso diretto per numero SOLV 
-  - mail con codice d'accesso
-- ricerca per nome
-  - mail con numero SOLV e link diretto per le modifiche
-  - click sul link diretto, mail con codice d'accesso
-
-### Protezione dati
-
-<span style="color:red">DA ELABORARE....</span>  
-
-Traduzione testo
 
 ## Gestione per organizzatori
 
