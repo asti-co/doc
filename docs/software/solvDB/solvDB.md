@@ -1,13 +1,10 @@
 # Banca Dati dei Concorrenti SOLV
 
-**QUESTA PAGINA È ANCORA DA FARE**  
-![Lavori in corso](../../img/lavori_in_corso.png){width=30px}
 
 ## Panoramica
 
-<span style="color:red">DA ELABORARE....</span>  
-Tutti i portali usano la banca dati.
-I concorrenti si registrano e mantengono i propri dati.
+Tutti i portali per l'iscrizione alle gare svizzere usano la banca dati SOLV DB.
+I concorrenti si registrano e mantengono i propri dati aggiornati.
 
 ## Gestione per concorrenti
 
@@ -40,16 +37,15 @@ Una volta inseriti i dati clicca sul tasto Eingabe. Il sistema visualizzerà il 
 
 
 ### Modifica concorrente {#mutazione}
+ 
 
-<span style="color:red">DA ELABORARE....</span>  
+- SOLV-Nr bekannt: accesso diretto con numero SOLV 
+    - il sistema ritorna una mail con un codice d'accesso che deve essere inserito nella pagina per poter poi modificare i propri dati
+- SOLV-NR nicht bekannt: numeroSOLV non conosciuto; ricerca per nome, cognome e data di nascita
+    - il sistema ritorna una mail con il numero SOLV e link diretto per le modifiche
+- Neuer Läufer: inserimento di un nuovo concorrente tramite formulario
 
-- accesso diretto per numero SOLV 
-  - mail con codice d'accesso
-- ricerca per nome
-  - mail con numero SOLV e link diretto per le modifiche
-  - click sul link diretto, mail con codice d'accesso
-
-### Protezione dati
+### Protezione dati {#protezione}
 
 
 Riportiamo di seguito la traduzione della protezioni dei dati di SwissOrienteering:  
