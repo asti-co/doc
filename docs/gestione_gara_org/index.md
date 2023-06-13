@@ -7,6 +7,7 @@ Questa sezione descrive le azioni relative all'IT gestite dall'organizzatore del
     - tracciamento dei percorsi
     - creazione della gara nel software di gestione gare
     - creazione e pubblicazione delle liste di partenza
+    - recupero dell'[Archivio](../software/oe12/archivio.md) (se prima gara dell'anno o se si prepara la gara sul proprio PC)
 
 - Durante la gara:
     - montaggio dell'infrastruttura IT
