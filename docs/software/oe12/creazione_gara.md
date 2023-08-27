@@ -110,7 +110,7 @@ Per evitare continue richieste di verifica da parte del programma, controlla sub
 1. Chiudi la finestra con `OK`
 
 
-## Impostazione categorie {#categorie}
+## Importazione categorie {#categorie}
 
 Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-tmo: TMO, :asti-sprintCup: SprintCup e :asti-naz: nazionali seleziona la prima opzione):
 
@@ -165,7 +165,7 @@ Segui le istruzioni a dipendenza della procedura scelta (normalmente per :asti-t
         ![Iscrizioni](inc/iscrizioni_menu_iscrizioni.png)  
           
         1. Seleziona il tab `Categorie` e verifica i dati.  
-        In OL-Events il nome lungo delle categorie è in tedesco. In OE12 usiamo unicamente la versione corta.  
+        **Nota**: In OL-Events il nome lungo delle categorie è in tedesco. Questo non è un problema in quanto in OE12 usiamo unicamente la versione corta.  
         ![Categorie](inc/iscrizioni_categorie.png)
 
 
