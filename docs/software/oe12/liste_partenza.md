@@ -196,7 +196,8 @@ I relativi passi sono:
 ## Pubblicazione
 
 Le liste di partenza vanno pubblicate sia sul sito web di Swiss Orienteering che sul sito ASTI O2Rank.  
-Il formato del file è lo stesso, per cui basta esportare le liste di partenza una volta.
+Il formato del file è lo stesso, per cui basta esportare le liste di partenza una volta.  
+Se la gara non è ancora aperta in O2Rank e non la vuoi aprire subito, puoi seguire le indicazioni relative all'esportazione del file descritto in O2Rank, ma senza `Carica file nel web`. Il file così esportato va poi caricato sul sito di Swiss Orienteering.
 
 ### Su O2Rank {#pubblica_liste_partenza_o2rank}
 
