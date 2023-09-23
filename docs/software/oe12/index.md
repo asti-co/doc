@@ -29,14 +29,14 @@ Descrive come gestire le iscrizioni sul posto e le mutazioni il giorno di gara, 
 - [Lettura chip](lettura_chip.md)  
 Descrive le attività relative alla lettura chip, compresa la stampa dei tempi intermedi e la gestione di casi speciali  
   
-- [Classifiche](classifiche.md)  
-Copre la creazione e pubblicazione delle classifiche, comprese quelle in tempo reale su O2Rank, quella del TMS e la pubblicazione sul sito SOLV, ASTI e RouteGadget.  
-  
 - [Casi normali](casi_normali.md)  
 Spiega come gestire varie casistiche comuni a tutte le gare quale i concorrenti non partiti, mancanti, ecc..  
   
 - [Casi speciali](casi_speciali.md)  
 Spiega come gestire casi particolari che si spera non siano mai necessari (per esempio annullamenti di tratte o categorie, ritardi di partenza, ecc.).  
+  
+- [Classifiche](classifiche.md)  
+Copre la creazione e pubblicazione delle classifiche, comprese quelle in tempo reale su O2Rank, quella del TMS e la pubblicazione sul sito SOLV, ASTI e RouteGadget.  
   
 - [Gestione finanziaria (prima e dopo la gara)](finanze.md)  
 Descrive le attività legate alla fatturazione delle iscrizioni di gara.  
