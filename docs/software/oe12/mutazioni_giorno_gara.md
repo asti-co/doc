@@ -1,14 +1,10 @@
 # Iscrizioni e mutazioni sul posto
-
 Questa sezione descrive le iscrizioni sul posto e le mutazioni effettuate il giorno di gara.  
 Per le iscrizioni e le mutazioni pervenute **prima** della creazione delle liste di partenza, vedi [Iscrizioni tardive](iscrizioni_tardive.md).  
  
-{==
-
-In OE12 è cambiata la gestione degli indirizzi, importante per l'inserimento del domicilio.  
-Anche l'importazione di società dall'archivio come pure la creazione di nuove società è cambiato.
-
-==}
+!!! Warning "Attenzione"
+    In OE12 è cambiata la gestione degli indirizzi, importante per l'inserimento del domicilio.  
+    Anche l'importazione di società dall'archivio come pure la creazione di nuove società è cambiato.
   
 Di base viene stampato un numero limitato di cartine, corrispondente agli iscritti più i vacanti previsti durante la creazione delle liste di partenza. 
 Quindi il giorno di gara non vengono mai aggiunte iscrizioni, bensì unicamente sostituiti dei vacanti oppure dei concorrenti assenti  

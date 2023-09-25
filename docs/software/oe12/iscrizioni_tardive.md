@@ -3,12 +3,9 @@
 Questa sezione descrive le iscrizioni tardive e le mutazioni effettuate dopo l'importazione delle iscrizioni ma prima della creazione delle liste di partenza.  
 Per le mutazioni dopo la creazione delle liste di partenza, vedi [Mutazioni il giorno di gara](mutazioni_giorno_gara.md).  
  
-{==
-
-In OE12 è cambiata la gestione degli indirizzi, importante per l'inserimento del domicilio.  
-Anche l'importazione di società dall'archivio come pure la creazione di nuove società è cambiato.
-
-==}
+!!! Warning "Attenzione"
+    In OE12 è cambiata la gestione degli indirizzi, importante per l'inserimento del domicilio.  
+    Anche l'importazione di società dall'archivio come pure la creazione di nuove società è cambiato.
 
 **Nota**: sebbene OL-Einzel abbia una funzionalità chiamata `Iscrizioni sul posto`, usiamo sempre solo la funzionalità generica di `Iscrizioni`.  
 ![Modifica > Iscrizioni](inc/iscrizioni_menu_iscrizioni.png) 
