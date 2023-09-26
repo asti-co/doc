@@ -5,15 +5,18 @@ Vedi [PDF della vecchia versione, capitolo 5.9 e 6.1](../../gestione_gara_org/in
 
 ## Classifiche provvisorie
 
-Le classifiche provvisorie sono classifiche pubblicate durante la gara, quando non tutti i concorrenti sono giunti all'arrivo. Ai TMO, queste classifiche vengono di regola mostrate sulle TV al centro gara e caricate in internet sul sito [O2Rank](https://classifiche.asti-ticino.ch/o2rank). Come alternativa vengono stampate a intervalli regolari e appese al centro gara.
+Le classifiche provvisorie sono classifiche pubblicate durante la gara, quando non tutti i concorrenti sono giunti all'arrivo. Nella testata di ogni categoria vengono indicati il numero di concorrenti arrivati rispetto al numero di concorrenti iscritti (ad es. `(13/18)`).  
+Ai TMO, queste classifiche vengono di regola mostrate sulle TV al centro gara e caricate in internet sul sito [O2Rank](https://classifiche.asti-ticino.ch/o2rank). Come alternativa vengono stampate a intervalli regolari e appese al centro gara.
   
 1. Nel menu `Classifiche` seleziona `Classifica provvisoria > Categorie`.  
 ![Classifica provvisoria per categoria](inc/classifiche_menu_provvisoria.png)
+1. Seleziona il rapporto `TMO`.  
+![Report](inc/classifiche_provvisoria_report.png)
 1. Nelle `Impostazioni` a sinistra, nella sezione `Classifica`, seleziona  tutti i concorrenti, ma senza i non partiti.  
 ![Impostazioni](inc/classifiche_provvisoria_impostazioni.png)
 1. Seleziona le categorie da stampare nel pannello di selezione in basso (di regola tutte).
 1. Assicurati che i tempi siano mostrati nel formato `OO:MM:SS`.  
-Altrimenti, impostalo nel menu `ingranaggio` in alto a destra.
+Altrimenti, imposta il formato nel menu `ingranaggio` in alto a destra.
 1. In caso di modifiche alle impostazioni, aggiorna le classifiche.
 ![Aggiorna](inc/classifiche_provvisoria_aggiorna.png)
 
@@ -21,7 +24,7 @@ Ci sono varie opzioni sull'utilizzo di queste classifiche.
   
 ??? Example "Stampa singola copia"
     1. Seleziona `Stampa` nella barra in alto.  
-    ![Stampa](inc/classifiche_provvisoria_stampa.png)
+    ![Menu stampa](inc/classifiche_provvisoria_stampa.png)
     1. Nel dialogo di stampa   
     ![Stampa](inc/classifiche_stampa.png)
         1. Imposta la stampante.
@@ -90,13 +93,36 @@ Ci sono varie opzioni sull'utilizzo di queste classifiche.
     1. Attendi uno-due minuti e verifica le classifiche in internet (sito [classifiche.asti-ticino.ch/o2rank](http://classifiche.asti-ticino.ch/o2rank))
 
 ## Classifiche finali
-
-### Stampa
-
-### Pubblicazione SOLV
+Stampa le classifiche finali quando tutti i concorrenti sono arrivati, hai fatto tutte le verifiche necessarie e hai corretto gli stati di non classifica.  
+Questa classifica serve quasi unicamente per la premiazione.
+  
+1. Nel menu `Classifiche`, seleziona `Classifiche Ufficiali > Categorie`.
+![Classifica provvisoria per categoria](inc/classifiche_menu_ufficiale.png)
+1. Seleziona il rapporto `TMO`.  
+![Report](inc/classifiche_ufficiale_report.png)
+1. Nelle `Impostazioni` a sinistra, nella sezione `Classifica`, seleziona  tutti i concorrenti, ma senza i non partiti.  
+![Impostazioni](inc/classifiche_ufficiale_impostazioni.png)
+1. Seleziona le categorie da stampare nel pannello di selezione in basso (di regola tutte).
+1. Assicurati che i tempi siano mostrati nel formato `OO:MM:SS`.  
+Altrimenti, imposta il formato nel menu `ingranaggio` in alto a destra.
+1. In caso di modifiche alle impostazioni, aggiorna le classifiche.
+![Aggiorna](inc/classifiche_ufficiale_aggiorna.png)
+1. Seleziona `Stampa` nella barra in alto.  
+![Menu stampa](inc/classifiche_ufficiale_stampa.png)
+1. Nel dialogo di stampa   
+![Stampa](inc/classifiche_stampa.png)
+    1. Imposta la stampante.
+    1. Imposta il formato della carta A4 verticale.
+    1. Imposta `separa pagine`.
+    1. Imposta i margini (10 sui 4 lati).
+    1. Premi `Stampa`.
 
 ## Classifiche TMS
 
+## Pubblicazione SOLV
+
 ## Classifiche ASTi
+
+
 
 
