@@ -70,7 +70,7 @@ Ci sono varie opzioni sull'utilizzo di queste classifiche.
 
     1. Nel dialogo di esportazione (appare solo la prima volta)  
     ![Esporta nel web](inc/classifiche_provvisoria_esporta_web.png)
-        - Imposta `Colonne con separatori (CSV)`.
+        1. Imposta `Colonne con separatori (CSV)`.
         1. Imposta separatore `Punto e virgola`.
         1. Imposta delimitatore testo `Nessuno`.
         1. Seleziona `Formatta i tempi per Excel`.
@@ -80,15 +80,17 @@ Ci sono varie opzioni sull'utilizzo di queste classifiche.
         1. Imposta `Nome file univoco con orario`.
         1. Imposta `Carica file nel web`.
         1. Non impostare `Elabora file con DLL`.
+        1. Premi `Ok`.
 
-    1. Nel dialogo `Carica file nel web` imposta i campi  
+    1. Nel dialogo `Carica file nel web`    
     ![Carica file nel web](inc/classifiche_provvisoria_carica_web.png)  
 
-        - Sito web `asti.cryms.info`
-        1. Cartella `/`
+        1. Imposta il sito web `asti.cryms.info`
+        1. Imposta la cartella `/`
         1. Non attivare la connessione sicura SSL/TLS
-        1. Nome utente `asti`
-        1. Password `class1f2che`
+        1. Imposta il nome utente `asti`
+        1. Imposta la password `class1f2che`
+        1. Premi `Carica`.
 
     1. Attendi uno-due minuti e verifica le classifiche in internet (sito [classifiche.asti-ticino.ch/o2rank](http://classifiche.asti-ticino.ch/o2rank))
 
@@ -117,7 +119,65 @@ Altrimenti, imposta il formato nel menu `ingranaggio` in alto a destra.
     1. Imposta i margini (10 sui 4 lati).
     1. Premi `Stampa`.
 
+## Esportazione classifiche
+Esporta le classifiche in file CSV da utilizzare per le classifiche TMS, per il sito SOLV (Swiss Orienteering), per il sito ASTi (classifiche annuali), per RouteGadget e per Livelox.  
+
+1. Nel menu `Classifiche`, seleziona `Tempi intermedi > Categorie`.  
+![Intermedi per categoria](inc/classifiche_menu_intermedi.png)
+1. Nelle `Impostazioni` a sinistra, nella sezione `Classifica`, seleziona  tutti i concorrenti, ma senza i non partiti.  
+![Impostazioni](inc/classifiche_intermedi_impostazioni.png)
+1. Seleziona le categorie da esportare nel pannello di selezione in basso (di regola tutte).
+1. Seleziona `Esporta`.  
+![Menu esporta](inc/classifiche_intermedi_menu_esporta.png)
+1. Nel dialogo di esportazione  
+![Esporta](inc/classifiche_intermedi_esporta.png)
+    - Imposta `Colonne con separatori (CSV)`.
+    1. Imposta separatore `Punto e virgola`.
+    1. Imposta delimitatore testo `Nessuno`.
+    1. Seleziona `Formatta i tempi per Excel`.
+    1. Imposta il nome e la cartella di destinazione del file.
+    1. Imposta il nome del file nel formato `classificaTMO_AANN_SOCIETA_LUOGO_XX` analogamente a quanto fatto per la cartella della gara (in [Creazione gara](creazione_gara.md)), dove  
+    `AA` è l'anno a due cifre  
+    `NN`è il numero della gara a due cifre  
+    `SOCIETA` è la sigla della società  
+    `LUOGO` è il posto della gara  
+    `_XX` è un suffisso opzionale per gare speciali (ad es. _CTCO)  
+        
+            Esempi:  
+            classificaTMO_2301_GOLD_Novaggio  
+            per il primo TMO del 2023 a Novaggio organizzato dal GOLD  
+                
+            classificaTMO_2309_GOV_Cimalmotto_CTCO  
+            per i campionati ticinesi, nono TMO del 2023  
+            organizzato dal GOV a Cimalmotto  
+        
+        Per gare speciali usa `classificaGARA_AA`, es. `classificaStaffettaSele_23` per la gara del 2023.  
+        
+        Questo file va poi mandato ai responsabili delle classifiche SOLV, TMO, TMS e RouteGadget/Livelox, per cui riconoscere dal nome del file di che gara si tratta è un bell'aiuto.  
+
+    1. Non impostare `Nome file univoco con orario`.
+    1. Non impostare `Carica file nel web`.
+    1. Non impostare `Elabora file con DLL`.
+    1. Premi `Ok`.
+
 ## Classifiche TMS
+Crea e stampa la classifica per il Trofeo Miglior Società ticinese (TMS).  
+
+1. Lancia il programma TMS (doppio click sull'icona sul desktop del PC server ASTi)
+1. Appare la finestra con le istruzioni su come esportare i dati da OL-Einzel.  
+Premi `OK`.  
+**Nota**: ignora la versione di OL-Einzel...  
+![TMS Help](inc/tms_help.png)
+1. Nella finestra delle impostazioni, seleziona il file esportato in [Esportazione classifiche](#esportazione-classifiche).
+**Nota**: i campi Gara, Luogo e Data sono utilizzati nell'intestazione della classifica.  
+![TMS Input](inc/tms_input.png)
+1. Appare una finestra con due tab: una con la classifica TMS, l'altra con la classifica di tutte le categorie e i punti assegnati ad ogni concorrente.  
+**Nota**: il programma genera due file HTML nella cartella in cui si trova il file CSV. I tre file vanno spediti al responsabile delle classifiche TMS (vedi [Classifiche ASTi](#classifiche-asti)).  
+![TMS Corto](inc/tms_corto.png){width=48%} ![TMS Lungo](inc/tms_lungo.png){width=48%}
+1. Seleziona il tab `Corto`.
+1. Premi `Stampa`.
+**Nota**: assicurati di selezionare la stampante A4.
+
 
 ## Pubblicazione SOLV
 
