@@ -171,18 +171,53 @@ Premi `OK`.
 1. Nella finestra delle impostazioni, seleziona il file esportato in [Esportazione classifiche](#esportazione-classifiche).
 **Nota**: i campi Gara, Luogo e Data sono utilizzati nell'intestazione della classifica.  
 ![TMS Input](inc/tms_input.png)
-1. Appare una finestra con due tab: una con la classifica TMS, l'altra con la classifica di tutte le categorie e i punti assegnati ad ogni concorrente.  
-**Nota**: il programma genera due file HTML nella cartella in cui si trova il file CSV. I tre file vanno spediti al responsabile delle classifiche TMS (vedi [Classifiche ASTi](#classifiche-asti)).  
+1. Appare una finestra con due tab: una con la classifica TMS, l'altra con la classifica di tutte le categorie e i punti assegnati ad ogni concorrente.    
 ![TMS Corto](inc/tms_corto.png){width=48%} ![TMS Lungo](inc/tms_lungo.png){width=48%}
 1. Seleziona il tab `Corto`.
-1. Premi `Stampa`.
+1. Premi `Stampa`.  
 **Nota**: assicurati di selezionare la stampante A4.
 
+!!! Note "Nota"
+    Il programma genera due file HTML nella cartella in cui si trova il file CSV delle classifiche.  
+    I tre file vanno spediti al responsabile delle classifiche TMS (vedi [Classifiche ASTi](#classifiche-asti)).
 
 ## Pubblicazione SOLV
+Pubblica la classifica sul sito della federazione svizzera (Swiss Orienteering / SOLV).
+
+1. Caricare il file CSV in internet, all’indirizzo [Classifiche sul sito SOLV](https://www.o-l.ch/cgi-bin/results).  
+**Nota**: questa è la normale pagina usata per accedere alle classifiche.
+1. Accedi al formulario per il caricamento delle classifiche cliccando sul link `Webformula` nella seziona per gli organizzatori (`Veranstalter`).  
+![Link Webformular](inc/solv_results_webformular_link.png)
+1. Seleziona la gara e premi `Weiter`.  
+**Nota**: sono selezionabili solo le gare più recenti.  
+![Link Webformular](inc/solv_results_select_event.png)
+1. Riempi i campi del formulario e poi premi `Abschicken`.  
+
+    ??? Image "Immagine d'esempio di un formulario riempito"
+        ![Solv Webformular](inc/solv_results_webformular.png)
+
+
+    - Nel campo `Ranglisten-File` seleziona il file delle classifiche esportato in [Esportazione classifiche](#esportazione-classifiche).
+    - Nel campo `Nullzeit` imposta l'ora zero come impostata nella gara (vedi `Gara > Impostazioni`).
+    - Il testo nel campo `Hinweistext` appare in cima alla classifica di ogni categoria. Questo è utile per comunicare ad esempio delle decisioni della giuria.
+    - Nel campo `format` seleziona `OE12/OE2010/OLEinzel (CSV)`.
+    - Se la gara aveva percorsi individuali (ad es. farfalle) e la sequenza dei punti non era la stessa per tutti i concorrenti di una categoria, seleziona `Postennr. anhand SiegerIn`.  
+    **Nota**: imposta questa opzione anche se i percorsi individuali concernono poche o una sola categoria.  
+    **Nota**: i grafici dei tempi intermedi saranno adattati alla sequenza dei punti del vincitore.  
+    - Nel campo `Eingabe durch: SOLV-Nr:` immetti il tuo numero SOLV.
+    - Il testo nel campo `Bemerkung` è visibile solo ai gestori del sito SOLV.  
+    **Nota**: puoi caricare la classifica più volte, ad esempio dopo una correzione. Tuttavia, puoi pubblicare autonomamente solo la prima versione. Dalla seconda classifica in poi devono intervenire i webmaster, per cui questo campo è utile per spiegare loro il motivo del caricamento supplementare.
+
+1. La prossima finestra mostra un breve testo e un link per testare le classifiche.  
+    1. Verifica la correttezza di varie categorie, soprattutto quelle dove ci stti dei problemi.  
+    1. Visualizza i tempi intermedi e i grafici di alcuni concorrenti, se possibile usando i dati di qualche concorrente presente che può giudicare se il grafico potrebbe corrispondere alla sua gara.
+    1. Se tutto è ok, conferma cliccando su `Freischalten` e immettendo il tuo numero SOLV.
 
 ## Classifiche ASTi
+Per l’allestimento e pubblicazione delle classifiche annuali TMO, SprintCup e TMS, come pure per il controllo dei punti del TMS, spedire i file ai responsabili ASTi.
 
-
-
-
+1. Spedire per e-mail i seguenti file all'indirizzo [co.classifiche@asti-ticino.ch](mailto://co.classifiche@asti-ticino.ch).  
+    - Il file delle classifiche esportato in [Esportazione classifiche](#esportazione-classifiche).
+    - I due file TMS generati in [Classifiche TMS](#classifiche-tms).
+    - Il file dei percorsi OCAD importato in [Creazione gara](creazione_gara.md).
+    - Il file OCAD della cartina.
