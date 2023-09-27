@@ -1,8 +1,5 @@
 # Generazione e pubblicazione delle classifiche
 
-![Lavori in corso](../../img/lavori_in_corso.png){width=100px}  
-Vedi [PDF della vecchia versione, capitolo 5.9 e 6.1](../../gestione_gara_org/inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf): 
-
 ## Classifiche provvisorie
 
 Le classifiche provvisorie sono classifiche pubblicate durante la gara, quando non tutti i concorrenti sono giunti all'arrivo. Nella testata di ogni categoria vengono indicati il numero di concorrenti arrivati rispetto al numero di concorrenti iscritti (ad es. `(13/18)`).  

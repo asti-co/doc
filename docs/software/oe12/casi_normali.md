@@ -3,6 +3,8 @@
 ![Lavori in corso](../../img/lavori_in_corso.png){width=100px}  
 Vedi [PDF della vecchia versione, capitolo 5.3, 5.7, 5.8](../../gestione_gara_org/inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf) per i capitoli riguardanti
   
+- Sostituzione punti.   
+**In OE12 la funzione è nel menu `Percorsi` sotto `Modifica > Sostituzione punti`**
 - Chip noleggiati (5.3)
 - Correzione motivo di non classifica (5.7)
 - Controllo orari di partenza (5.8)
