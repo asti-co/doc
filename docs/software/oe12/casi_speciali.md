@@ -11,3 +11,5 @@ Vedi [PDF della vecchia versione, capitolo 5.10](../../gestione_gara_org/inc/Ist
 - Modifica manuale tempi intermedi 
 - Annullamento di una tratta 
 - Annullamento di una categoria 
+
+## Ritardo nelle partenze
