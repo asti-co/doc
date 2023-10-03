@@ -92,7 +92,7 @@ Ci sono varie opzioni sull'utilizzo di queste classifiche.
     1. Attendi uno-due minuti e verifica le classifiche in internet (sito [classifiche.asti-ticino.ch/o2rank](http://classifiche.asti-ticino.ch/o2rank))
 
 ## Classifiche finali
-Stampa le classifiche finali quando tutti i concorrenti sono arrivati, hai fatto tutte le verifiche necessarie e hai corretto gli stati di non classifica.  
+Stampa le classifiche finali quando tutti i concorrenti sono arrivati, hai fatto tutte le verifiche necessarie (anche i [partiti in anticipo](casi_normali.md#verifica-orari-partenze)) e hai corretto gli stati di non classifica.  
 Questa classifica serve quasi unicamente per la premiazione.
   
 1. Nel menu `Classifiche`, seleziona `Classifiche Ufficiali > Categorie`.
@@ -119,6 +119,7 @@ Altrimenti, imposta il formato nel menu `ingranaggio` in alto a destra.
 ## Esportazione classifiche
 Esporta le classifiche in file CSV da utilizzare per le classifiche TMS, per il sito SOLV (Swiss Orienteering), per il sito ASTi (classifiche annuali), per RouteGadget e per Livelox.  
 
+1. Assicurati di aver controllato i concorrenti [partiti in anticipo](casi_normali.md#verifica-orari-partenze).
 1. Nel menu `Classifiche`, seleziona `Tempi intermedi > Categorie`.  
 ![Intermedi per categoria](inc/classifiche_menu_intermedi.png)
 1. Nelle `Impostazioni` a sinistra, nella sezione `Classifica`, seleziona  tutti i concorrenti, ma senza i non partiti.  
