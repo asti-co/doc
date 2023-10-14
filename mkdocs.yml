@@ -82,6 +82,7 @@ nav:
       - Post-gara:
           - "gestione_gara_org/postgara/index.md"
           - OL-Einzel: gestione_gara_org/postgara/oleinzel_postgara.md
+      - Staffetta Sele: gestione_gara_org/staffetta_sele.md     
   - Materiale:
       - "materiale/index.md"
       - Scatola gialla: materiale/materiale_informatico.md
