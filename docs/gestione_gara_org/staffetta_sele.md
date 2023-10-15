@@ -144,7 +144,84 @@ In OL-Staffel OS12:
     1. Nelle impostazioni a sinistra, ordina per pettorale, includi i concorrenti e stampa tutte le tratte.
     1. Seleziona `Stampa` e imposta separa pagine.
 
-    
+## Giorno di gara
+
+### Mutazioni
+Di regola ci sono diverse mutazioni da fare il giorno di gara, con spostamenti di concorrenti tra squadre.  
+Le cartine stampate corrispondono ai pettorali e ai percorsi importati in OS12, per cui modificare unicamente le squadre e i vacanti presenti. **Non creare nuove squadre**.  
+Per ogni concorrente servono pochi dati, per cui non vale la pena usare l'archivio.
+
+### Lettura chip
+La gestione della lettura chip non cambia rispetto ad una gara normale.  
+Da notare i seguenti punti:
+
+- Non vengono stampati i foglietti degli intertempi per non svelare le combinazioni delle squadre.  
+Quindi impostare `Valutaz. rapida` a `Nessuno`.
+- Tutti i concorrenti corrono con il pettorale, per cui vale la pena impostare `Chip sconosciuto: Richiedi il pettorale`.
+- Se un concorrente ha tanti punti sbagliati:
+    - Verifica se ha corso con la cartina corretta.  
+    Altrimenti se è colpa sua non sarà classificato. Se l'errore è dell'organizzatore va cambiata la variante del percorso.
+    - Verifica se nel programma la variante del percorso corrisponde a quella sulla cartina (in `Percorsi > Modifica > Combinazioni`).  
+    Se non corrisponde, modificala e ricontrolla le punzonature (in `Giorno di gara > Chip > Elabora Chip` cerca il concorrente per pettorale e clicca sul bottone `Controllo punzonature` nel menu).
+
+### Orari Partenze
+Spesso la partenza non avviene esattamente all'orario predefinito.  
+Dopo la partenza, imposta l'orario di partenza effettiva per ogni categoria in `Liste di partenza > Liste di partenza > Regole`.
+
+Imposta l'orario delle partenze in massa delle tratte 2, 3 e 4.  
+  
+1. Seleziona `Liste di partenza > Liste di partenza > Part. in massa`.
+1. Seleziona la categorie `Staffetta`.
+1. In basso, immetti l'orario di partenza di ogni tratta.   
+Per le tratte non ancora partite in massa, imposta un orario molto tardi ma ancora entro le 12 ore dall'ora zero della gara.
+1. Seleziona il tab della categoria `Staffetta` e verifica i concorrenti partiti in massa.  
+    - La tabella mostra una riga per ogni concorrente con il suo pettorale e tratta.
+    - La colonna `Arrivo` è l'orario di arrivo del concorrente della tratta precedente, quindi di quello che dovrebbe dare il cambio al concorrente della riga.
+    - La colonna `Partenza` è l'orario di partenza del concorrente. Normalmente è uguale all'orario `Arrivo`.  
+    In caso di partenza in massa, `Partenza` è l'orario della partenza in massa.
+    - I concorrenti sono automaticamente considerati come partiti in massa se l'orario di arrivo del concorrente precedente è dopo l'orario di partenza in massa.  
+    È possibile forzare la partenza in massa di un concorrente selezionando il flag `Impostato`. Ad esempio il concorrente precedente arriva prima della partenza in massa, ma quando il suo compagno non si trova in zona cambio ma già in zona partenza in massa.
+
+### Classifiche
+Il programma delle classifiche sulle TV e online non supporta le gare a staffetta.  
+
+1. Appendi le liste di partenza (per permettere un controllo del pettorale e del numero chip).
+1. Stampa (e appendi) regolarmente le classifiche di ogni tratta. 
+    1. Seleziona `Classifiche > Classifica provvisoria > Categorie`.
+    1. **Non** selezionare `Squadre con partiti in massa alla fine`.
+    1. Seleziona tutte le squadre ma senza i non partiti.
+    1. Seleziona `dopo tratta` e la tratta.
+    1. Non selezionare `2 righe (extra larghe)`.
+    1. Vale la pena usare la modalità automatica (imposta `solo categorie modificate`)
+
+Dopo la gara esporta le classifiche.
+
+1. Seleziona `Classifiche > Classfiche ufficiali > Categorie`.
+    1. **Non** selezionare `Squadre con partiti in massa alla fine`.
+    1. Includi i concorrenti e seleziona il formato esteso.
+    1. Seleziona tutte le squadre ma senza i non partiti.
+    1. Aggiorna le classifiche (in alto a sinistra).
+    1. Seleziona `Pubblica`.
+    1. Seleziona `File HTML (WWW)`.
+    1. Non selezionare separa pagine.
+    1. Seleziona `Colora le righe` e `UTF8`.
+    1. Non selezionare `Nome file univoco con orario` né `Carica file nel web`.
+    1. Salva col nome `staffettaSele2022_finale.html`.
+    **Nota**: ... adatta l'anno ...
+1. Seleziona `Classifiche > Tempi intermedi > Categorie`.
+    1. Seleziona tutti i concorrenti ma senza i non partiti.
+    1. Seleziona `Separa tratte`.
+    1. Aggiorna le classifiche (in alto a sinistra).
+    1. Seleziona `Pubblica`.
+    1. Seleziona `File HTML (WWW)`.
+    1. Non selezionare separa pagine.
+    1. Seleziona `Colora le righe` e `UTF8`.
+    1. Non selezionare `Nome file univoco con orario` né `Carica file nel web`.
+    1. Salva col nome `staffettaSele2022_intermedi.html`.
+    **Nota**: ... adatta l'anno ...
+1. Spedisci i due file a [co.classifiche@asti-ticino.ch](mailto://co.classifiche@asti-ticino.ch).
+
+
 
     
 
