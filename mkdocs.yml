@@ -50,7 +50,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Gestione gara per concorrenti:
+  - Gestione gara - concorrenti:
       - "gestione_gara_conc/index.md"
       - Pre-gara:
           - "gestione_gara_conc/pregara/index.md"
@@ -64,35 +64,24 @@ nav:
           - "gestione_gara_conc/postgara/index.md"
           - Classifiche: gestione_gara_conc/postgara/classifiche_conc.md
           - RouteGadget: gestione_gara_conc/postgara/routegadget_conc.md
-  - Gestione gara per organizzatori:
+  - Gestione gara - organizzatori:
       - "gestione_gara_org/index.md"
-      - Pre-gara:
-          - "gestione_gara_org/pregara/index.md"
-          - Portale Iscrizioni: gestione_gara_org/pregara/iscrizioni.md
-          - OCAD: gestione_gara_org/pregara/ocad_pregara.md
-          - Classifiche Online: gestione_gara_org/pregara/o2rank_pregara.md
-          - OL-Einzel: gestione_gara_org/pregara/oleinzel_pregara.md
-          - Scatolette Punti: gestione_gara_org/pregara/punti_sportident.md
-          - Punti radio: gestione_gara_org/pregara/punti_radio.md
-      - Gara:
-          - "gestione_gara_org/gara/index.md"
-          - Rete: gestione_gara_org/gara/rete.md
-          - TV: gestione_gara_org/gara/tv.md
-          - OL-Einzel: gestione_gara_org/gara/oleinzel_gara.md
-      - Post-gara:
-          - "gestione_gara_org/postgara/index.md"
-          - OL-Einzel: gestione_gara_org/postgara/oleinzel_postgara.md
+      - TMO / Nazionali: gestione_gara_org/tmo_nazionali.md
       - Staffetta Sele: gestione_gara_org/staffetta_sele.md     
+      - sCOOLcup: gestione_gara_org/scool_cup.md     
   - Materiale:
       - "materiale/index.md"
       - Scatola gialla: materiale/materiale_informatico.md
       - Router: materiale/router.md
+      - Rete: materiale/rete.md
+      - Punti radio: materiale/punti_radio.md
       - Ponti radio: materiale/ponti_radio.md
       - TV: materiale/tv.md
-      - SPORTIdent:
+      - SPORTident:
           - "materiale/sportident/index.md"
           - Panoramica: "materiale/sportident/panoramica.md"
           - Punti: "materiale/sportident/scatolette.md"
+          - Sincronizzazione Punti: materiale/sportident/sincronizzazione_punti.md
           - Chip: "materiale/sportident/chip.md"
           - Paletti: "materiale/sportident/paletti.md"
           - Punti Radio: "materiale/sportident/punti_radio.md"
@@ -114,14 +103,14 @@ nav:
           - Gestione Finanziaria: software/oe12/finanze.md
           - Archivio: software/oe12/archivio.md
           - Punti radio SPORTident: software/oe12/punti_radio.md
-      - Go2ol: 
-          - "software/go2ol/index.md"
-          - Creazione gara: software/go2ol/organizzatori.md
-          - Iscrizioni: software/go2ol/concorrenti.md
-      - OL-Events: 
-          - "software/olevents/index.md"
-          - Creazione gara: software/olevents/organizzatori.md
-          - Iscrizioni: software/olevents/concorrenti.md
+      - Portali Iscrizioni: 
+          - "software/portali_iscrizioni/index.md"
+          - OL-Events: 
+              - "software/portali_iscrizioni/olevents/index.md"
+              - Creazione gara: software/portali_iscrizioni/olevents/organizzatori.md
+              - Iscrizioni: software/portali_iscrizioni/olevents/concorrenti.md
+      - OCAD:
+          - Per tracciatori: "software/ocad/ocad_tracciatore.md"
       - O2rank:
           - "software/o2rank/index.md"
           - Creazione gara: software/o2rank/creazione_gara.md

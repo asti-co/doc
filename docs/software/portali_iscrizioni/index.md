@@ -1,3 +1,4 @@
+# Portali Iscrizioni
 Esistono varie modalità per la gestione delle iscrizioni alle gare, a dipendenza del tipo di gara. 
 
 - **Gare TMO**  
@@ -18,12 +19,12 @@ Di seguito i link ai portali usati per in Svizzera.
 ## OL-Events
 
 Portale svizzero: [ol-events.ch](https://portal.ol-events.ch/it)  
-Guida per gli organizzatori: nella sezione [software > olevents](../../../software/olevents/organizzatori)
+Guida per gli organizzatori nella sezione [olevents > Creazione gara](olevents/organizzatori)  
+Guida per i concorrenti nella sezione [olevents > Iscrizioni](olevents/concorrenti.md)
 
 ## GO2OL
 
 Portale svizzero: [go2ol.ch](https://go2ol.ch/)  
-Guida per gli organizzatori: nella sezione [software > go2ol](../../../software/go2ol/organizzatori)
 
 ## PICO EVENTS
 

@@ -1,6 +1,8 @@
 I punti radio sono dispositivi che trasmettono in tempo reale (o quasi) i dati relativi al passaggio del concorrente ad un punto.  
 
-Esistono vari tipi di punti radio, con caratteristiche diverse a dipendenza delle esigenze, e possono richiedere la pianificazione di molti mesi, anche oltre un anno. 
+Esistono vari tipi di punti radio, con caratteristiche diverse a dipendenza delle esigenze, e possono richiedere la pianificazione di molti mesi, anche oltre un anno.  
+  
+**Nota**: l'ASTi non dispone di punti radio propri.
 
 ## Punti radio VELPOZ
 
@@ -49,9 +51,9 @@ Caratteristiche:
 
 - Richiede un account sul sito SPORTident e i modem registrati sul proprio account. 
 
-    - __Richiedere per tempo a SPORTident l'assegnazione dei modem all'account__ 
+    - **Richiedere per tempo a SPORTident l'assegnazione dei modem all'account**  
 
-Dettagli sui punti radio SPORTident in [materiale > sportident > punti radio](../../materiale/sportident/punti_radio.md) e sul loro utilizzo con OL-Einzel in [software > oe12 > punti radio SPORTident](../../software/oe12/punti_radio.md).
+Dettagli sui punti radio SPORTident in [materiale > sportident > punti radio](sportident/punti_radio.md) e sul loro utilizzo con OL-Einzel in [software > oe12 > punti radio SPORTident](../software/oe12/punti_radio.md).
 
 ## Punti radio Simon
 

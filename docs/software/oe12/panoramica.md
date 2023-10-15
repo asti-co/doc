@@ -2,7 +2,7 @@
 
 ## OL-Einzel
 OL-Einzel è uno (il più usato) di una serie di programmi di gestione delle corse di orientamento.  
-Il presente sito fa riferimento alla versione 12 di OL-Einzel, mentre la documentazione della versione precedente è disponibile in formato PDF ([Documentazione OL-Einzel 2010](../../gestione_gara_org/inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf)).  
+Il presente sito fa riferimento alla versione 12 di OL-Einzel, mentre la documentazione della versione precedente è disponibile in formato PDF ([Documentazione OL-Einzel 2010](inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf)).  
   
 Parlare di OL-Einzel è in realtà improprio, poiché [SportSoftware](https://www.sportsoftware.de), la ditta di Stephan Krämer che ha sviluppato il programma, ha creato una serie di applicazioni per gestire varie tipologie di gare.  
   

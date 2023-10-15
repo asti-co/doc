@@ -14,12 +14,11 @@ Guida per i concorrenti: nella sezione [software > solvDB](../../../software/sol
 ## OL-Events
 
 Portale svizzero: [ol-events.ch](https://portal.ol-events.ch/it)  
-Guida per i concorrenti: nella sezione [software > olevents](../../../software/olevents/concorrenti)
+Guida per i concorrenti: nella sezione [software > portali iscrizioni > olevents](../../../software/portali_iscrizioni/olevents/concorrenti)
 
 ## GO2OL
 
 Portale svizzero: [go2ol.ch](https://go2ol.ch/)  
-Guida per i concorrenti: nella sezione [software > go2ol](../../../software/go2ol/concorrenti)
 
 ## PICO EVENTS
 
