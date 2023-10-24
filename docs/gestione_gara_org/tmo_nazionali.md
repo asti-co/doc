@@ -56,7 +56,7 @@ Le azioni sono suddivise in lassi di tempo relative alla data della gara.
     - **Montaggio dell'infrastruttura IT.**  
         I PC ASTi 1, 2 e 3 hanno la batteria che non tiene più e funzionano quindi unicamente collegati alla corrente elettrica.  
         Quindi usare il PC4 come server e in primo luogo il nuovo PC5 come stazione di lettura, e usare i PC 1, 2 e 3 come stazioni di lettura supplementari. Notare comunque che in mancanza di corrente, anche la rete tra il PC5 e il server salta, e pure le stampantine non funzionano più.
-        Vedi i dettaglia nella pagina [Materiale > Rete](../materiale/rete.md).
+        Vedi i dettaglia nella pagina [Software > OE12 > Montaggio](../software/oe12/montaggio.md).
     - **Gestione delle TV e delle classifiche online.**  
         Le TV mostrano le classifiche prendendo i dati da internet dal portale [O2Rank](http://classifiche.asti-ticino.ch). Pertanto, è necessario creare una gara su O2Rank e caricare le classifiche provvisorie ogni minuto per aggiornare le classifiche online.  
         Inoltre, le TV devono avere accesso al WiFi ASTi e avere connessione internet per recuperare i dati.    

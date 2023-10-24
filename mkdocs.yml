@@ -73,7 +73,6 @@ nav:
       - "materiale/index.md"
       - Scatola gialla: materiale/materiale_informatico.md
       - Router: materiale/router.md
-      - Rete: materiale/rete.md
       - Punti radio: materiale/punti_radio.md
       - Ponti radio: materiale/ponti_radio.md
       - TV: materiale/tv.md
@@ -95,6 +94,7 @@ nav:
           - Iscrizioni tardive: software/oe12/iscrizioni_tardive.md
           - Liste di partenza: software/oe12/liste_partenza.md
           - Varie pre-gara: software/oe12/varie_pre_gara.md
+          - Montaggio: software/oe12/montaggio.md
           - Mutazioni: software/oe12/mutazioni_giorno_gara.md
           - Lettura Chip: software/oe12/lettura_chip.md
           - Casi Normali: software/oe12/casi_normali.md

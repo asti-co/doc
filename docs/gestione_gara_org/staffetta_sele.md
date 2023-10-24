@@ -80,15 +80,16 @@ In OL-Staffel OS12:
         1. `Denom`.: nomi delle squadre. Nota: anche le categorie Open hanno il nome di squadra.
         1. `NC`: imposta a 0 (zero) per tutte le squadre valide e a 1 (uno) per le squadre che corrono fuori gara (es. maschi in tratte femminili, adulti in tratte giovanili, ecc.).
         1. `Stato class`: imposta a 0 (zero) per tutti
-        1. `Numero società`, `Sigla`, `Luogo`: dati della società. Imposta un numero società univoco per ogni società. 
-        **Nota**: la società inserita nella gara per generare il file di esempio verrà eliminata durante l'importazione delle iscrizioni.
+        1. `Numero società`, `Sigla`, `Luogo`: dati della società.  
+        **Nota**: puoi lasciare vuoti sia il numero che la sigla e impostare unicamente il luogo. Il numero verrà generato automaticamente.  
+        **Nota**: la società inserita nella gara per generare il file di esempio verrà eliminata durante l'importazione delle iscrizioni.  
         **Nota**: la sigla è opzionale, il luogo è obbligatorio.
-        1. `Nr cat.`, `Corto`, `Lungo`,`Tratte`: dati della categoria.
+        1. `Nr cat.`, `Corto`, `Lungo`,`Tratte`: dati della categoria.  
         **Nota**: devono corrispondere ai dati in OS12. `1 Staffetta Staffetta 4` o `2 Open Open 1`.
         1. `Tassa d'iscrizione`, `Pagato`, `Xtra1`: impostati a 0 (zero) per tutti.
-        1. Inserisci i dati dei concorrenti per ogni tratta.
-        **Nota**: per gli Open, lascia vuote le colonne delle tratte 2, 3 e 4.
-        **Nota**: se una squadra è incompleta, lascia vuoti campi delle tratte in cui manca un concorrente.
+        1. Inserisci i dati dei concorrenti per ogni tratta.  
+        **Nota**: per gli Open, lascia vuote le colonne delle tratte 2, 3 e 4.  
+        **Nota**: se una squadra è incompleta, lascia vuoti campi delle tratte in cui manca un concorrente.  
             1. I nomi delle colonne hanno il suffisso della tratta, da 1 a 20.  
             Esempio: Cognome1 è il cognome del concorrente sulla prima tratta, Chip3 è il numero chip del concorrente in terza tratta.  
             Negli esempi sotto viene usata una X per il numero di tratta.
@@ -102,7 +103,7 @@ In OL-Staffel OS12:
             1. `NoleggiatoX`: sempre `0` (zero). 
             1. Tutti gli altri campi della tratta sono vuoti.
     1. Aggiungi squadre vacanti in modo da avere dati per ogni pettorale definito in OCAD.
-    1. Salva il file come CSV.
+    1. Salva il file come CSV.  
     **Nota**: Excel avverte che perdi la formattazione. Ignoralo, il file deve essere in formato CSV.
     1. Apri il file con un editor di testo per verificare il separatore usato da Excel.
 1. Importa il file delle iscrizioni in OS12
@@ -113,9 +114,17 @@ In OL-Staffel OS12:
         1. Formato file CSV, separatore (quello usato da Excel).
         1. Seleziona il file salvato in Excel.
     1. Conferma di sapere quel che stai facendo.
-    1. Verifica che non ci siano errori.
-    **Nota**: un errore che capita spesso è l'utilizzo multiplo dello stesso chip. In questo caso, cancella il chip a tutti i concorrenti coinvolti in maniera da obbligarli a venire all'info e annunciare il proprio numero di chip.
+    1. Verifica che non ci siano errori.  
+    **Nota**: un errore che capita spesso è l'utilizzo multiplo dello stesso chip. In questo caso, cancella il chip a tutti i concorrenti coinvolti in maniera da obbligarli a venire all'info e annunciare il proprio numero di chip.  
+    **Nota**: verifica (in `Iscrizioni > Modifica > Iscrizioni`) se i concorrenti vacanti sono riconosciuto come tali. Altrimenti, impostali tramite il tasto `Vacante` nel menu.
 1. Importa il file dei percorsi.
+    1. Modifica il file in un editor di testo, aggiungendo le parti in rosso.  
+    {==  <span style='font-family: "Lucida Console", "Courier New", monospace'>  
+    &lt;Course&gt;   
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;Name&gt;Open<span style="color:red">_1</span>&lt;/Name&gt;   
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red">&lt;CourseFamily&gt;Open&lt;/CourseFamily&gt;</span>  
+    </span>  
+    ==}  
     1. Seleziona `Percorsi > Importa > Percorsi`.
         1. Cancella e ricrea i percorsi
         1. Identifica i percorsi dalla denominazione.
@@ -126,7 +135,8 @@ In OL-Staffel OS12:
     1. Verifica che non ci siano errori.
     1. Seleziona `Percorsi > Modifica > Percorsi` per vedere i due percorsi.
     1. Seleziona `Percorsi > Modifica > Categoria`
-        1. Assegna il percorso `Staffetta` ad ogni tratta della categoria `Staffetta`, e il percorso `Open` alla categoria `Open`.
+        1. Assegna il percorso `Staffetta` ad ogni tratta della categoria `Staffetta`.
+        1. Assegna il percorso `Open` alla categoria `Open`.
 1. Assegna un percorso ad ogni concorrente.
     1. Seleziona `Percorsi > Importa > Combinazioni`.
         1. Modifica solo squadre esistenti.
@@ -135,10 +145,11 @@ In OL-Staffel OS12:
     1. Conferma di sapere quel che stai facendo.
     1. Verifica che non ci siano errori.
     1. Seleziona `Percorsi > Modifica > Combinazioni`
-        1. Verifica che ad ogni concorrenti sia stato assegnato un percorso (anche agli open).
+        1. Verifica che ad ogni concorrenti sia stato assegnato un percorso.
+        1. Verifica che ogni concorrente Open abbia un percorso assegnato. In caso contrario, assegnare  `#1`.
 1. Imposta l'orario di partenza.
     1. Seleziona `Liste di partenza > Liste di partenza > Regole`.
-        1. Seleziona ogni categoria a destra e nella parte bassa imposta l'orario di partenza e zero vacanti.
+        1. Seleziona ogni categoria a destra e nella parte bassa imposta l'orario di partenza e il numero di vacanti presenti nelle iscrizioni.
 1. Stampa le liste di partenza.
     1. Seleziona `Liste di partenza > Rapporti liste di partenza > Categorie`.
     1. Nelle impostazioni a sinistra, ordina per pettorale, includi i concorrenti e stampa tutte le tratte.
@@ -206,7 +217,7 @@ Dopo la gara esporta le classifiche.
     1. Non selezionare separa pagine.
     1. Seleziona `Colora le righe` e `UTF8`.
     1. Non selezionare `Nome file univoco con orario` né `Carica file nel web`.
-    1. Salva col nome `staffettaSele2022_finale.html`.
+    1. Salva col nome `staffettaSele2022_finale.html`.  
     **Nota**: ... adatta l'anno ...
 1. Seleziona `Classifiche > Tempi intermedi > Categorie`.
     1. Seleziona tutti i concorrenti ma senza i non partiti.
@@ -217,7 +228,7 @@ Dopo la gara esporta le classifiche.
     1. Non selezionare separa pagine.
     1. Seleziona `Colora le righe` e `UTF8`.
     1. Non selezionare `Nome file univoco con orario` né `Carica file nel web`.
-    1. Salva col nome `staffettaSele2022_intermedi.html`.
+    1. Salva col nome `staffettaSele2022_intermedi.html`.  
     **Nota**: ... adatta l'anno ...
 1. Spedisci i due file a [co.classifiche@asti-ticino.ch](mailto://co.classifiche@asti-ticino.ch).
 
