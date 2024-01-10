@@ -166,7 +166,8 @@ Nome della gara, società organizzatrice e recapito del capo gara.
 ![Info generale](inc/infoGenerali.png)  
 
 - `Eventi`  
-Di regola, la data della scadenza delle mutazioni è la stessa della scadenza delle iscrizioni.  
+Data di apertura e scadenza delle iscrizioni.  
+**Nota**: Di regola, la data della scadenza delle mutazioni è la stessa della scadenza delle iscrizioni.  
 ![Media](inc/eventi.png)  
 
 - `Media`  
