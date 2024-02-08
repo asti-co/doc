@@ -2,10 +2,10 @@
 Esistono varie modalità per la gestione delle iscrizioni alle gare, a dipendenza del tipo di gara. 
 
 - **Gare TMO**  
-Iscrizione tramite uno dei portali d'iscrizione svizzeri OL-Events o Go2OL. Per l'autunno 2022 la scelta tra questi due portali è libera. Per il 2023 la CTCO deciderà il portale da usare.  
+Iscrizione tramite il portale d'iscrizione svizzero OL-Events.  
 Le tasse d'iscrizione non vengono riscosse direttamente dal portale, ma la fattura viene mandata alle società. L'organizzatore dovrà prevedere modalità speciali per i concorrenti non affiliati alle società ticinesi.
 - **Gare Nazionali**  
-Iscrizione tramite uno dei portali d'iscrizione svizzeri OL-Events, Go2OL o PicoEvents.  
+Iscrizione tramite uno dei portali d'iscrizione svizzeri OL-Events o PicoEvents.  
 Le tasse d'iscrizione vengono riscosse direttamente dai portali.
 - **Gare Mondiali**  
 Per gare valide per la federazione internazionale IOF, ad esempio gare WRE (World Ranking Events), l'iscrizione per le categorie elite (HE/DE e H20/D20) deve avvenire anche via Eventor.
@@ -24,7 +24,7 @@ Guida per i concorrenti nella sezione [olevents > Iscrizioni](olevents/concorren
 
 ## GO2OL
 
-Portale svizzero: [go2ol.ch](https://go2ol.ch/)  
+Portale svizzero (Non più in funzione dall'autunno 2023): [go2ol.ch](https://go2ol.ch/)  
 
 ## PICO EVENTS
 
