@@ -117,8 +117,7 @@ nav:
           - Punti radio: software/o2rank/punti_radio.md
           - Visualizzazione: software/o2rank/concorrenti.md
       - SOLV DB:
-          - Registrazione concorrente: software/solvDB/solvDB.md
-          - Mutazione concorrente: software/solvDB/solvDB.md
+          - "software/solvDB/index.md"
   - Sito ASTI:
       - "sito_asti/index.md"
       - Classifiche TMO: sito_asti/classifiche_tmo.md
