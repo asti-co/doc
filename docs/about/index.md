@@ -1,3 +1,10 @@
 # Il team ASTi
 
-Mettiamo una bella foto di gruppo!
+Hanno contribuito:
+
+- Sandro Corsi
+- Michela Bianchi
+- Michele Dolfi
+- Lorenzo Patocchi
+- Camilla Moreni
+- Matteo Moreni
