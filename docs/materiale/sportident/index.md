@@ -13,7 +13,7 @@ Descrizione delle varie tipologie di chip.
 - [Punti e scatolette speciali](scatolette.md)  
 Descrizione delle varie tipologie di scatolette SPORTIdent in dotazione.
 
-- [Utilizzo in gara](gara.md)  
+- [Utilizzo in gara](partecipazione_gara.md)  
 Descrizione delle varie tipologie di scatolette SPORTIdent in dotazione.
 
 - [Paletti](paletti.md)  
