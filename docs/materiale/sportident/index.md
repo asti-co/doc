@@ -7,11 +7,14 @@ L'ASTI ha in dotazione parecchio materiale SPORTIdent a disposizione delle socie
 - [Panoramica](panoramica.md)  
 Introduzione a grandi linee al funzionamento dei punti SPORTIdent.
 
+- [Chip e chip speciali](chip.md)  
+Descrizione delle varie tipologie di chip.
+
 - [Punti e scatolette speciali](scatolette.md)  
 Descrizione delle varie tipologie di scatolette SPORTIdent in dotazione.
 
-- [Chip e chip speciali](chip.md)  
-Descrizione delle varie tipologie di chip.
+- [Utilizzo in gara](gara.md)  
+Descrizione delle varie tipologie di scatolette SPORTIdent in dotazione.
 
 - [Paletti](paletti.md)  
 Lista delle tipologie di paletti e di lanterne.

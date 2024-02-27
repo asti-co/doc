@@ -52,14 +52,6 @@ nav:
   - Home: index.md
   - Gestione gara - concorrenti:
       - "gestione_gara_conc/index.md"
-      - Gara:
-          - "gestione_gara_conc/gara/index.md"
-          - SIAC: gestione_gara_conc/gara/siac.md
-          - Partecipazione alla gara: gestione_gara_conc/gara/partecipazione_gara.md
-      - Post-gara:
-          - "gestione_gara_conc/postgara/index.md"
-          - Classifiche: gestione_gara_conc/postgara/classifiche_conc.md
-          - RouteGadget: gestione_gara_conc/postgara/routegadget_conc.md
   - Gestione gara - organizzatori:
       - "gestione_gara_org/index.md"
       - TMO / Nazionali: gestione_gara_org/tmo_nazionali.md
@@ -75,9 +67,10 @@ nav:
       - SPORTident:
           - "materiale/sportident/index.md"
           - Panoramica: "materiale/sportident/panoramica.md"
-          - Punti: "materiale/sportident/scatolette.md"
-          - Sincronizzazione Punti: materiale/sportident/sincronizzazione_punti.md
           - Chip: "materiale/sportident/chip.md"
+          - Punti: "materiale/sportident/scatolette.md"
+          - Uso in Gara: "materiale/sportident/partecipazione_gara.md"
+          - Sincronizzazione Punti: materiale/sportident/sincronizzazione_punti.md
           - Paletti: "materiale/sportident/paletti.md"
           - Punti Radio: "materiale/sportident/punti_radio.md"
   - Software:
@@ -112,13 +105,17 @@ nav:
           - Creazione gara: software/o2rank/creazione_gara.md
           - Punti radio: software/o2rank/punti_radio.md
           - Visualizzazione: software/o2rank/concorrenti.md
+      - Analisi:
+          - "software/analisi/index.md"
+          - Classifiche SOLV: "software/analisi/solv.md"
+          - Livelox: "software/analisi/livelox.md"
+          - RouteGadget: "software/analisi/routegadget.md"
       - SOLV DB:
           - "software/solvDB/index.md"
-  - Sito ASTI:
-      - "sito_asti/index.md"
-      - Classifiche TMO: sito_asti/classifiche_tmo.md
-      - Classifiche Sprintup: sito_asti/classifiche_sprintcup.md
-      - RouteGadget: sito_asti/routegadget.md
+#  - Sito ASTI:
+#      - "sito_asti/index.md"
+#      - Classifiche TMO: sito_asti/classifiche_tmo.md
+#      - Classifiche Sprintup: sito_asti/classifiche_sprintcup.md
   - About:
       - "about/index.md"
       - Documentazione: about/documentazione.md
