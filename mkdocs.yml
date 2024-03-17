@@ -59,7 +59,7 @@ nav:
       - sCOOLcup: gestione_gara_org/scool_cup.md     
   - Materiale:
       - "materiale/index.md"
-      - Scatola gialla: materiale/materiale_informatico.md
+      - Scatole gialle: materiale/materiale_informatico.md
       - Router: materiale/router.md
       - Punti radio: materiale/punti_radio.md
       - Ponti radio: materiale/ponti_radio.md
