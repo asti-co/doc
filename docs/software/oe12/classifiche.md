@@ -92,8 +92,9 @@ Ci sono varie opzioni sull'utilizzo di queste classifiche.
     1. Attendi uno-due minuti e verifica le classifiche in internet (sito [classifiche.asti-ticino.ch/o2rank](http://classifiche.asti-ticino.ch/o2rank))
 
 ## Classifiche finali
-Stampa le classifiche finali quando tutti i concorrenti sono arrivati, hai fatto tutte le verifiche necessarie (anche i [partiti in anticipo](casi_normali.md#verifica-orari-partenze)) e hai corretto gli stati di non classifica.  
-Questa classifica serve quasi unicamente per la premiazione.
+Per le classifiche finali, assicurati che tutti i concorrenti sono arrivati, hai fatto tutte le verifiche necessarie (anche i [partiti in anticipo](casi_normali.md#verifica-orari-partenze)) e hai corretto gli stati di non classifica.  
+  
+Verifica se ti serve veramente la stampa di questa classifica. Storicamente serviva quasi esclusivamente come copia data ai giornalisti e per la premiazione. Attualmente, i giornalisti accedono alle classifiche online e la premiazione viene fatta con la classifica sul tablet (vedi la sezione [TMS](#classifiche-tms)).
   
 1. Nel menu `Classifiche`, seleziona `Classifiche Ufficiali > Categorie`.
 ![Classifica provvisoria per categoria](inc/classifiche_menu_ufficiale.png)
@@ -158,7 +159,7 @@ Esporta le classifiche in file CSV da utilizzare per le classifiche TMS, per il 
     1. Non impostare `Elabora file con DLL`.
     1. Premi `Ok`.
 
-## Classifiche TMS
+## Classifiche TMS / Premiazione
 Crea e stampa la classifica per il Trofeo Miglior Società ticinese (TMS).  
 
 1. Lancia il programma TMS (doppio click sull'icona sul desktop del PC server ASTi)
@@ -169,15 +170,39 @@ Premi `OK`.
 1. Nella finestra delle impostazioni, seleziona il file esportato in [Esportazione classifiche](#esportazione-classifiche).
 **Nota**: i campi Gara, Luogo e Data sono utilizzati nell'intestazione della classifica.  
 ![TMS Input](inc/tms_input.png)
-1. Appare una finestra con due tab: una con la classifica TMS, l'altra con la classifica di tutte le categorie e i punti assegnati ad ogni concorrente.    
-![TMS Corto](inc/tms_corto.png){width=48%} ![TMS Lungo](inc/tms_lungo.png){width=48%}
-1. Seleziona il tab `Corto`.
-1. Premi `Stampa`.  
-**Nota**: assicurati di selezionare la stampante A4.
+1. Appare una finestra con tre tab: una con la classifica TMS, l'altra con la classifica di tutte le categorie e i punti assegnati ad ogni concorrente, e una con la classifica per la premiazione.   
+![TMS Corto](inc/tms_corto.png){width=48%} ![TMS Lungo](inc/tms_lungo.png){width=48%}  
+**Nota**: la classifica per la premiazione ha elementi dinamici che non funzionano in questa app. Ad esempio vengono mostrati sempre tutti i concorrenti, e i bottoni `Espandi` non funzionano.
+Basta aprire il file generato in un browser per vedere la pagina correttamente.
+![Premiazione](inc/tms_premiazione.png){width=48%}  
+1. Se usi il tablet per la premiazione:
+    1. Il programma ha copiato automaticamente il file sul server della documentazione.
+    1. Sul tablet, apri il web browser `Edge` (l'icona si trova sul desktop).
+    1. Dalla barra dei link salvati, seleziona `Premiazione`.
+    1. Assicurati che il file sia quello della gara attuale e non quello della gara precedente preso dalla cache del browser (controlla i dettagli in cima alla pagina).  
+    1. La classifica mostra le categorie nell'ordine usato solitamente per la premiazione (es. OK, D10, H10, D12, H12, .... DAL, HAL) seguite dalla classifica TMS.
+    1. Vengono mostrati alcuni commenti a fianco dei concorrenti per permettere qualche commento supplementare a chi legge le classifiche.
+        1. Indicazione a livello di categoria se ci sono tanti non-classificati.  
+        ![Pochi classificati](inc/tms_premiazione_classificati.png)
+        1. Parimerito  
+        ![Pari](inc/tms_premiazione_pari.png)
+        1. Distacchi minimi tra i concorrenti sul podio.  
+        ![Distacchi minimini](inc/tms_premiazione_distacchi.png)
+        1. Distacco minimo tra il terzo e il quarto posto (*giù dal podio per un soffio*).  
+        ![Giù dal podio per poco](inc/tms_premiazione_giu_dal_podio.png)
+        1. Se sul podio ci sono solo concorrenti non ticinesi, viene mostrato anche il primo ticinese.  
+        ![Primo ticinese](inc/tms_premiazione_ti.png)
+    1. Ogni categoria ha un bottone `Espandi` per vedere la classifica completa, rispettivamente `Comprimi` per tornare alla visualizzazione minima del podio.  
+    ![Espandi](inc/tms_premiazione_espandi.png)  
+
+1. Se non usi il tablet per la premiazione, ma la versione stampata su carta:
+    1. Seleziona il tab `Corto`.
+    1. Premi `Stampa`.  
+    **Nota**: assicurati di selezionare la stampante A4.
 
 !!! Note "Nota"
-    Il programma genera due file HTML nella cartella in cui si trova il file CSV delle classifiche.  
-    I tre file vanno spediti al responsabile delle classifiche TMS (vedi [Classifiche ASTi](#classifiche-asti)).
+    Il programma genera tre file HTML nella cartella in cui si trova il file CSV delle classifiche.  
+    I quattro file vanno spediti al responsabile delle classifiche TMS (vedi [Classifiche ASTi](#classifiche-asti)).
 
 ## Pubblicazione SOLV
 Pubblica la classifica sul sito della federazione svizzera (Swiss Orienteering / SOLV).
