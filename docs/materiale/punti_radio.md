@@ -28,7 +28,7 @@ Caratteristiche:
 
 ## Punti radio SportIdent
 
-SPORTIdent ([sportident.com](https://www.sportident.com/products.html#stations)) ha sviluppato punti radio delle dimensioni delle normali scatolette "vecchie" (quelle più grandi).
+SPORTIdent ([sportident.com](https://www.sportident.com/products.html#stations)) ha sviluppato punti radio con scatolette della dimensione dei punti "nuovi" (piccoli) e il modem delle dimensioni delle normali scatolette "vecchie" (quelle più grandi).
 
 Caratteristiche:
 
@@ -46,6 +46,7 @@ Caratteristiche:
 - Ideale per 
     - classifiche online a punti intermedi
     - per classifiche online con tempo finale se l'arrivo è lontano dalla lettura chip.
+    - per controllo dei concorrenti arrivati se l'arrivo è lontano dalla lettura chip (quindi anche senza risultati online).
     - per punti di preavviso per speaker
     - per punti di preavviso prima dei punti televisivi (per cameraman e regia)
 

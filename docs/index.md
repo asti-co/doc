@@ -7,4 +7,4 @@ Le varie pagine coprono le esigenze sia degli organizzatori che dei concorrenti,
   
 !!! Info "Documentazione sui PC ASTi"
     Questa documentazione è presente sui PC ASTi usati ai TMO anche in modalità offline.  
-    Dai PC in rete e anche dal table, accedere da un browser (Firefox, Chrome, Edge, ecc.) inserendo l'indirizzo `https://asti-pc-4:8000`
+    Dai PC in rete e anche dal tablet, accedere da un browser (Firefox, Chrome, Edge, ecc.) inserendo l'indirizzo `https://asti-pc-4:8000`
