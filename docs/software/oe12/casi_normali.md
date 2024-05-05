@@ -150,34 +150,28 @@ quella utilizzata per il controllo delle partenze al minuto -1).
   
 1. Verifica la connessione alla scatoletta di lettura (pallino verde in basso a destra).  
        
-    ???+ Bug "ATTENZIONE A NON ELIMINARE TUTTE LE PUNZONATURE"  
-        La finestra che appare ha almeno tre problemi:  
-          
-        1. Non è possibile chiudere la finestra.  
-        La `crocetta` in alto a destra per chiudere la finestra `NON` funziona se prima non viene eseguita un'azione.  
-        Per chiudere la finestra, premere su `Verifica ora`, eventualmente accettare il messaggio di errore e poi chiudere la finestra normalmente.  
-          
-        1. Il bottone `Cancella` non chiude la finestra, quindi non si comporta come un bottone `Cancel`/`Annulla`, ma `CANCELLA TUTTE LE PUNZONATURE` sulla scatoletta.  
-        Questo bottone va rinominato `Elimina` per non fare confusione. 
-          
-        1. Il bottone `Cancella` `NON` chiede la conferma da parte dell'utente, ma cancella tutto immediatamente, senza una verifica e senza possibilità di ripensamento.  
-      
-  
-    ![Verifica connessione alla scatoletta di lettura](inc/giorno_elabora_stazione_si_connetti.png)  
+     ![Verifica connessione alla scatoletta di lettura](inc/giorno_elabora_stazione_si_connetti.png)  
   
     - Imposta la modalità `Master`
     - Seleziona la porta `COM... SPORTident...`
   
-1. Posiziona la scatoletta dello start check sulla scatoletta di lettura usando il magnete.
-1. Seleziona `Scarica`  
-![Scarica punzonature](inc/giorno_elabora_stazione_si_scarica.png)  
-  
-    - Verifica nella barra in basso che il numero di punzonature scaricate corrisponda circa al numero di iscritti
+1. Per ogni scatoletta dello start check:  
+**Nota**: di solito ai TMO abbiamo una sola partenza e quindi una sola scatoletta start-check, ma in caso di più corridoi o di più partenze avrai più scatolette.   
+**Nota**: inizia questa procedura solo quando hai tutte le scatolette start-check di tutte le partenze.
+    1. Verifica che la scatoletta sia ancora accesa.  
+    **Nota**: controlla il display sul retro. Se è spenta, accendila con un chip viola (anche se sul chip è indicato `OFF`).
+    1. Posiziona la scatoletta dello start check sulla scatoletta di lettura usando la barretta (o perlomeno allineando i buchi).
+    1. Verifica la connessione premendo su `Verifica ora`. Nel pannello vengono mostrati i dati della scatoletta letta.  
+    **Nota**: in caso di problemi di connessione, prova a premere su punto verde in basso a destra, o seleziona una porta COM diversa.
+    1. `SENZA` modificare i dati, seleziona `Scarica`.  
+    ![Scarica punzonature](inc/giorno_elabora_stazione_si_scarica.png)  
       
-1. Verifica che vi siano tanti concorrenti nella schermata di elaborazione SI e che i tempi siano nell'intervallo previsto  
-![Verifica tempi start check](inc/giorno_elabora_stazione_si_scaricati.png)  
+        - Verifica nella barra in basso che il numero di punzonature scaricate corrisponda circa al numero di iscritti (in caso di più scatolette start-check, che corrisponda ai partiti previsti per il corridoio o la partenza della scatoletta).
+          
+    1. Verifica che vi siano tanti concorrenti nella schermata di elaborazione SI e che i tempi siano nell'intervallo previsto  
+    ![Verifica tempi start check](inc/giorno_elabora_stazione_si_scaricati.png)  
   
-    - Evita di usare questa procedura se vi sono tempi sballati. La scatoletta Start Check potrebbe contenere dati di una gara precedente (se non è stata fatta la sincronizzazione con la stazione SI-Master in modalità estesa) 
+        - Evita di usare questa procedura se vi sono tempi sballati. La scatoletta Start Check potrebbe contenere dati di una gara precedente (se non è stata fatta la sincronizzazione con la stazione SI-Master in modalità estesa) 
   
 1. Chiudi la finestra di `Elabora Stazioni SI`  
   
