@@ -60,7 +60,7 @@ Le azioni sono suddivise in lassi di tempo relative alla data della gara.
     - **Gestione delle TV e delle classifiche online.**  
         Le TV mostrano le classifiche prendendo i dati da internet dal portale [O2Rank](http://classifiche.asti-ticino.ch). Pertanto, è necessario creare una gara su O2Rank e caricare le classifiche provvisorie ogni minuto per aggiornare le classifiche online.  
         Inoltre, le TV devono avere accesso al WiFi ASTi e avere connessione internet per recuperare i dati.    
-        Vedi i passi dettagliati nella pagina [Software > O2Rank > Creazione gara](../software/o2rank/concorrenti.md).
+        Vedi i passi dettagliati nella pagina [Software > O2Rank > Creazione gara](../software/o2rank/creazione_gara.md).
     - **Gestione delle mutazioni e delle iscrizioni sul posto.**  
         Gestisci le iscrizioni sul posto e le mutazioni in OL-Einzel tenendo conto delle cartine a disposizione in partenza.  
         Vedi i passi dettagliati nella pagina [Software > OE12 > Mutazioni](../software/oe12/mutazioni_giorno_gara.md).

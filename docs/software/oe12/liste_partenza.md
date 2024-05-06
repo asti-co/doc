@@ -236,7 +236,8 @@ Se la gara non è ancora aperta in O2Rank e non la vuoi aprire subito, puoi segu
         Nella sezione `File`  
 
         - Esporta il file nella cartella `C:\Temp\tmo\<anno>`
-        - Imposta il nome del file a `LP_<FTP-Token>.csv`
+        - Imposta il nome del file a `LP_<FTP-Token>.csv`  
+        **Nota**: assicurati di usare il `Ftp Token` della tua gara e non quello già impostato in OL-Einzel, che probabilmente è il token della gara precedente.
             - Es. `C:\Temp\tmo\2023\LP_XDRIZRPK.csv`
         - Seleziona `Nome file univoco con orario`
         - Seleziona `Carica file nel web`
@@ -245,7 +246,7 @@ Se la gara non è ancora aperta in O2Rank e non la vuoi aprire subito, puoi segu
     1. Nel dialogo `Carica file nel web` imposta i campi  
     ![Carica file nel web](inc/partenza_carica_file_nel_web.png)  
 
-        - Sito web `asti.cryms.info`
+        - Sito web `classifiche.asti-ticino.ch`
         - Cartella `/`
         - Non attivare la connessione sicura SSL/TLS
         - Nome utente `asti`

@@ -63,7 +63,6 @@ nav:
       - Router: materiale/router.md
       - Punti radio: materiale/punti_radio.md
       - Ponti radio: materiale/ponti_radio.md
-      - TV: materiale/tv.md
       - SPORTident:
           - "materiale/sportident/index.md"
           - Panoramica: "materiale/sportident/panoramica.md"
@@ -75,6 +74,16 @@ nav:
           - Punti Radio: "materiale/sportident/punti_radio.md"
   - Software:
       - "software/index.md"
+      - OCAD:
+          - Per tracciatori: "software/ocad/ocad_tracciatore.md"
+      - SOLV DB:
+          - "software/solvDB/index.md"
+      - Portali Iscrizioni: 
+          - "software/portali_iscrizioni/index.md"
+          - OL-Events: 
+              - "software/portali_iscrizioni/olevents/index.md"
+              - Creazione gara: software/portali_iscrizioni/olevents/organizzatori.md
+              - Iscrizioni: software/portali_iscrizioni/olevents/concorrenti.md
       - OE 12:
           - "software/oe12/index.md"
           - Panoramica: software/oe12/panoramica.md
@@ -92,26 +101,16 @@ nav:
           - Gestione Finanziaria: software/oe12/finanze.md
           - Archivio: software/oe12/archivio.md
           - Punti radio SPORTident: software/oe12/punti_radio.md
-      - Portali Iscrizioni: 
-          - "software/portali_iscrizioni/index.md"
-          - OL-Events: 
-              - "software/portali_iscrizioni/olevents/index.md"
-              - Creazione gara: software/portali_iscrizioni/olevents/organizzatori.md
-              - Iscrizioni: software/portali_iscrizioni/olevents/concorrenti.md
-      - OCAD:
-          - Per tracciatori: "software/ocad/ocad_tracciatore.md"
       - O2rank:
           - "software/o2rank/index.md"
           - Creazione gara: software/o2rank/creazione_gara.md
-          - Punti radio: software/o2rank/punti_radio.md
-          - Visualizzazione: software/o2rank/concorrenti.md
+#          - Punti radio: software/o2rank/punti_radio.md
+          - Visualizzazione: software/o2rank/visualizzazione.md
       - Analisi:
           - "software/analisi/index.md"
           - Classifiche SOLV: "software/analisi/solv.md"
           - Livelox: "software/analisi/livelox.md"
           - RouteGadget: "software/analisi/routegadget.md"
-      - SOLV DB:
-          - "software/solvDB/index.md"
 #  - Sito ASTI:
 #      - "sito_asti/index.md"
 #      - Classifiche TMO: sito_asti/classifiche_tmo.md

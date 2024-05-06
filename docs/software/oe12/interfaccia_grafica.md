@@ -91,6 +91,8 @@ Nell'esempio, la finestra della lettura chip con il pannello supplementare con i
 *Pannello nascosto*  
 ![Pannello supplementare chiuso](inc/gui_pannello_supplementare_chiuso.png)  
 
+<!--
 ## Rapporti e etichette
 
 ![Lavori in corso](../../img/lavori_in_corso.png){width=100px}
+-->
