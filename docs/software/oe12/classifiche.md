@@ -4,17 +4,20 @@
 
 Le classifiche per le TV mostrate al centro gara dei TMO e le classifiche online pubblicate sul sito [O2Rank](http://classifiche.asti-ticino.ch/o2rank) aggiornate in tempo reale sono ottenute tramite un'unica classifica esportata a intervalli regolari. Questa classifica viene pubblicate durante la gara, quando non tutti i concorrenti sono giunti all'arrivo.  
 In caso di problemi con la rete internet o con le TV, come alternativa le classifiche vengono stampate a intervalli regolari e appese al centro gara. La relativa procedura è descritta [più sotto](#classifiche-provvisorie).  
-**Nota**: il sito o2rank supporta sia le classifiche provvisorie che quelle con tempi intermedi. La procedura descritta è la stessa, ma caricando i tempi intermedi è possibile visualizzare i grafici, per contro i file saranno più grandi sollecitando maggiormente la rete.
+
+!!! Warning "Usa le classifiche provvisorie"
+    Il sito o2rank supporta sia le classifiche provvisorie che quelle con tempi intermedi. La procedura descritta è la stessa, ma caricando i tempi intermedi è possibile visualizzare i grafici, per contro i file saranno più grandi sollecitando maggiormente la rete.  
+    Tuttavia, attualmente le classifiche con tempi intermedi creano un problema sul server, per cui **non vanno usate**.
   
-1. Nel menu `Classifiche` seleziona `Tempi intermedi > Categorie`.  
-![Classifica con tempi intermedi per categoria](inc/classifiche_menu_intermedi.png)
+1. Nel menu `Classifiche` seleziona `Classifica provvisoria > Categorie`.  
+![Classifica provvisoria per categoria](inc/classifiche_menu_provvisoria.png)
 1. Nelle `Impostazioni` a sinistra, nella sezione `Classifica`, seleziona  tutti i concorrenti, ma senza i non partiti.  
-![Impostazioni](inc/classifiche_intermedi_impostazioni.png)
+![Impostazioni](inc/classifiche_provvisoria_impostazioni.png)
 1. Seleziona le categorie da stampare nel pannello di selezione in basso (di regola tutte).
 1. Assicurati che i tempi siano mostrati nel formato `OO:MM:SS`.  
 Altrimenti, imposta il formato nel menu `ingranaggio` in alto a destra.
 1. In caso di modifiche alle impostazioni, aggiorna le classifiche.
-![Aggiorna](inc/classifiche_intermedi_aggiorna.png)
+![Aggiorna](inc/classifiche_provvisoria_aggiorna.png)
 
 1. Recupera il token FTP della gara da `O2Rank`.  
     1. Se non hai ancora una gara su `O2Rank`, creala seguendo le istruzioni in [Software > O2Rank > Creazione gara](../o2rank/creazione_gara.md)    
