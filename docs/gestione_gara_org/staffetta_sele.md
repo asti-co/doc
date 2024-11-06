@@ -156,6 +156,9 @@ In OL-Staffel OS12:
     1. Nelle impostazioni a sinistra, ordina per pettorale, includi i concorrenti e stampa tutte le tratte.
     1. Seleziona `Stampa` e imposta separa pagine.
 
+**Nota**: le liste di partenza non vengono pubblicate, né sul sito SOLV né come PDF sul sito ASTI. Vengono affisse al centro gara, comprendendo già anche le mutazioni giunte fino al giorno prima della gara (per evitare inutili domande all'info o perfino doppioni nelle mutazioni). 
+**Nota**: Vale la pena eseguire le mutazioni direttamente in OS12 e non nel file excel, per non rifare tutta la procedura di import delle iscrizioni, correzione degli errori e import delle combinazioni.
+
 ## Giorno di gara
 
 ### Mutazioni
