@@ -135,7 +135,7 @@ In OL-Staffel OS12:
     1. Verifica che non ci siano errori.
     1. Seleziona `Percorsi > Modifica > Percorsi` per vedere i due percorsi.
     1. Seleziona `Percorsi > Modifica > Categoria`
-        1. Assegna il percorso `Staffetta` ad ogni tratta della categoria `Staffetta`.
+        1. Assegna il percorso `Classica` ad ogni tratta della categoria `Classica`.
         1. Assegna il percorso `Open` alla categoria `Open`.
 1. Assegna un percorso ad ogni concorrente.
     1. Seleziona `Percorsi > Importa > Combinazioni`.
@@ -149,7 +149,8 @@ In OL-Staffel OS12:
         1. Verifica che ogni concorrente Open abbia un percorso assegnato. In caso contrario, assegnare  `#1`.
 1. Imposta l'orario di partenza.
     1. Seleziona `Liste di partenza > Liste di partenza > Regole`.
-        1. Seleziona ogni categoria a destra e nella parte bassa imposta l'orario di partenza e il numero di vacanti presenti nelle iscrizioni.
+        1. Seleziona ogni categoria a destra e nella parte bassa imposta l'orario di partenza.  
+        Visto che hai già importato anche i vacanti, non c'è bisogno di generare nuovi posti vacanti, per cui imposta il campo relativo in basso a `0`.
 1. Stampa le liste di partenza.
     1. Seleziona `Liste di partenza > Rapporti liste di partenza > Categorie`.
     1. Nelle impostazioni a sinistra, ordina per pettorale, includi i concorrenti e stampa tutte le tratte.
