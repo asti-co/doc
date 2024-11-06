@@ -7,8 +7,8 @@ Non vengono nemmeno trattate le problematiche del tracciare i percorsi in OCAD, 
 ## Formato Gara
 La Staffetta Sele prevede:  
 
-- Due categorie: `classica` e `open`
-- La categoria `classica`:
+- Due categorie: `Classica` e `Open`
+- La categoria `Classica`:
     - Gara a staffetta con 4 tratte
     - Le tratte hanno percorsi con lunghezze e difficoltà diverse
     - Tutti i concorrenti di una stessa tratta hanno percorsi con lunghezza e difficoltà uguali, tenuto conto dei farsta.
@@ -18,13 +18,13 @@ La Staffetta Sele prevede:
     - 3ª tratta: D15-18, H13-15, D+45, H+60 
     - 4ª tratta: Donne, H16-17, H+50 
     - Il tempo finale viene preso con la scatoletta Finish
-- La categoria `open`
+- La categoria `Open`
     - Gara individuale
     - Partenza in massa
     - Gara in linea
     - Aperta a tutti (senza restrizione di età).
   
-Anche la categoria `open` viene gestita con l’applicativo OL-Staffel (OS-2010), in quanto a partire dalla versione 12 permette di avere categorie con una singola tratta.  
+Anche la categoria `Open` viene gestita con l’applicativo OL-Staffel (OS-2010), in quanto a partire dalla versione 12 permette di avere categorie con una singola tratta.  
   
 Se scoprite maniere più efficienti per risolvere i problemi ticinesi, o se trovate errori o mancanze nel documento, fatelo sapere (co@asti-ticino.ch). Grazie.
 
@@ -51,7 +51,8 @@ In OL-Staffel OS12:
 1. Crea un file d'esempio per l'importazione delle iscrizioni
     1. Seleziona il tab `Società`
     1. Crea una società con `+ Nuovo`
-        1. Imposta ID = `1`, Sigla = `GOLD`, Luogo = `Savosa`
+        1. Imposta ID = `1`, Sigla = `` ``, Luogo = `GOLD Savosa`  
+        **Nota**: dal 2024 il SOLV tende a non più separare i nomi di società nei due campi `Sigla` e `Luogo` (es. `GOLD` e `Savosa`), ma utilizza unicamente il campo `Luogo` per il nome completo.
     1. Seleziona il tab `Squadre`
         1. Crea una squadra con `+ Nuovo`
             1. Imposta la squadra:  
@@ -103,6 +104,7 @@ In OL-Staffel OS12:
             1. `NoleggiatoX`: sempre `0` (zero). 
             1. Tutti gli altri campi della tratta sono vuoti.
     1. Aggiungi squadre vacanti in modo da avere dati per ogni pettorale definito in OCAD.
+    1. Cancella le due squadre originariamente esportate da OS12 (se ancora presenti nel file).
     1. Salva il file come CSV.  
     **Nota**: Excel avverte che perdi la formattazione. Ignoralo, il file deve essere in formato CSV.
     1. Apri il file con un editor di testo per verificare il separatore usato da Excel.
@@ -115,8 +117,8 @@ In OL-Staffel OS12:
         1. Seleziona il file salvato in Excel.
     1. Conferma di sapere quel che stai facendo.
     1. Verifica che non ci siano errori.  
-    **Nota**: un errore che capita spesso è l'utilizzo multiplo dello stesso chip. In questo caso, cancella il chip a tutti i concorrenti coinvolti in maniera da obbligarli a venire all'info e annunciare il proprio numero di chip.  
-    **Nota**: verifica (in `Iscrizioni > Modifica > Iscrizioni`) se i concorrenti vacanti sono riconosciuto come tali. Altrimenti, impostali tramite il tasto `Vacante` nel menu.
+    **Nota**: un errore che capita spesso è l'utilizzo multiplo dello stesso chip. In questo caso, cancella il chip a tutti i concorrenti coinvolti in maniera da obbligarli a venire all'info e annunciare il proprio numero di chip. In `Iscrizioni > Modifica > Iscrizioni` utilizza l'apposito campo `Trova testimone SI` nella barra del menu in alto.     
+    **Nota**: verifica (in `Iscrizioni > Modifica > Iscrizioni`) se i concorrenti vacanti sono riconosciuti come tali (ad esempio i nomi devono essere impostati a `N.N.`). Altrimenti, impostali tramite il tasto `Vacante` nel menu.
 1. Importa il file dei percorsi.
     1. Modifica il file in un editor di testo, aggiungendo le parti in rosso.  
     {==  <span style='font-family: "Lucida Console", "Courier New", monospace'>  
@@ -186,10 +188,10 @@ Dopo la partenza, imposta l'orario di partenza effettiva per ogni categoria in `
 Imposta l'orario delle partenze in massa delle tratte 2, 3 e 4.  
   
 1. Seleziona `Liste di partenza > Liste di partenza > Part. in massa`.
-1. Seleziona la categorie `Staffetta`.
+1. Seleziona la categorie `Classica`.
 1. In basso, immetti l'orario di partenza di ogni tratta.   
 Per le tratte non ancora partite in massa, imposta un orario molto tardi ma ancora entro le 12 ore dall'ora zero della gara.
-1. Seleziona il tab della categoria `Staffetta` e verifica i concorrenti partiti in massa.  
+1. Seleziona il tab della categoria `Classica` e verifica i concorrenti partiti in massa.  
     - La tabella mostra una riga per ogni concorrente con il suo pettorale e tratta.
     - La colonna `Arrivo` è l'orario di arrivo del concorrente della tratta precedente, quindi di quello che dovrebbe dare il cambio al concorrente della riga.
     - La colonna `Partenza` è l'orario di partenza del concorrente. Normalmente è uguale all'orario `Arrivo`.  
