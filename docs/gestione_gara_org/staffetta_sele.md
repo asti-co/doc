@@ -7,8 +7,8 @@ Non vengono nemmeno trattate le problematiche del tracciare i percorsi in OCAD, 
 ## Formato Gara
 La Staffetta Sele prevede:  
 
-- Due categorie: classica e open
-- La categoria staffetta:
+- Due categorie: `classica` e `open`
+- La categoria `classica`:
     - Gara a staffetta con 4 tratte
     - Le tratte hanno percorsi con lunghezze e difficoltà diverse
     - Tutti i concorrenti di una stessa tratta hanno percorsi con lunghezza e difficoltà uguali, tenuto conto dei farsta.
@@ -18,13 +18,13 @@ La Staffetta Sele prevede:
     - 3ª tratta: D15-18, H13-15, D+45, H+60 
     - 4ª tratta: Donne, H16-17, H+50 
     - Il tempo finale viene preso con la scatoletta Finish
-- La categoria classica
+- La categoria `open`
     - Gara individuale
     - Partenza in massa
     - Gara in linea
     - Aperta a tutti (senza restrizione di età).
   
-Anche la categoria classica viene gestita con l’applicativo OL-Staffel (OS-2010), in quanto a partire dalla versione 12 permette di avere categorie con una singola tratta.  
+Anche la categoria `open` viene gestita con l’applicativo OL-Staffel (OS-2010), in quanto a partire dalla versione 12 permette di avere categorie con una singola tratta.  
   
 Se scoprite maniere più efficienti per risolvere i problemi ticinesi, o se trovate errori o mancanze nel documento, fatelo sapere (co@asti-ticino.ch). Grazie.
 
@@ -45,7 +45,7 @@ In OL-Staffel OS12:
     1. Seleziona `Iscrizioni > Iscrizioni > Modifica`
     1. Seleziona il tab `Categorie`
     1. Crea categoria con `+ Nuovo`
-        1. Imposta ID = `1`, nome corto e lungo = `Staffetta`, tratte = `4`, Tassa = `0` 
+        1. Imposta ID = `1`, nome corto e lungo = `Classica`, tratte = `4`, Tassa = `0` 
         1. Imposta ID = `2`, nome corto e lungo = `Open`, tratte = `1`, Tassa = `0` 
 
 1. Crea un file d'esempio per l'importazione delle iscrizioni
@@ -55,7 +55,7 @@ In OL-Staffel OS12:
     1. Seleziona il tab `Squadre`
         1. Crea una squadra con `+ Nuovo`
             1. Imposta la squadra:  
-            Pettorale = `100`, Categoria = `Staffetta`, Denom. = `Squadra1`, Società = `GOLD Savosa`   
+            Pettorale = `100`, Categoria = `Classica`, Denom. = `Squadra1`, Società = `GOLD Savosa`   
             1. Imposta i concorrenti:  
             Cognome = `Cognome1`, Nome = `Nome1`, Anno = `2001`, Sesso = `U`, Chip = `111111`  
             Cognome = `Cognome2`, Nome = `Nome2`, Anno = `2002`, Sesso = `U`, Chip = `222222`  
@@ -85,7 +85,7 @@ In OL-Staffel OS12:
         **Nota**: la società inserita nella gara per generare il file di esempio verrà eliminata durante l'importazione delle iscrizioni.  
         **Nota**: la sigla è opzionale, il luogo è obbligatorio.
         1. `Nr cat.`, `Corto`, `Lungo`,`Tratte`: dati della categoria.  
-        **Nota**: devono corrispondere ai dati in OS12. `1 Staffetta Staffetta 4` o `2 Open Open 1`.
+        **Nota**: devono corrispondere ai dati in OS12. `1 Classica Classica 4` o `2 Open Open 1`.
         1. `Tassa d'iscrizione`, `Pagato`, `Xtra1`: impostati a 0 (zero) per tutti.
         1. Inserisci i dati dei concorrenti per ogni tratta.  
         **Nota**: per gli Open, lascia vuote le colonne delle tratte 2, 3 e 4.  
