@@ -8,7 +8,7 @@ Queste pagine descrivono il materiale per il cronometraggio e l'elaborazione dat
   
 Per una gara `normale` sono di regola necessari:  
 
-- 1 borsa biance con il PC-4 Server
+- 1 borsa bianca con il PC-4 Server
 - 2 scatole grigie contenenti
     - 3 PC per lettura chip
     - mouse e tappetini
@@ -22,7 +22,7 @@ Per una gara `normale` sono di regola necessari:
 - 1 stampante A4 per classifiche
 - 2 TV per classifiche con supporti (3 piedi, 3 supporti verticali, 2 supporti orizzontali)
 - bobina corrente
-- scatolette di legno con materiale SPORTident
+- scatola di legno con materiale SPORTident
   
 
 Da valutare di volta in volta materiale aggiuntivo come ad esempio:  
