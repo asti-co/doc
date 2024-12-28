@@ -59,10 +59,12 @@ nav:
       - sCOOLcup: gestione_gara_org/scool_cup.md     
   - Materiale:
       - "materiale/index.md"
-      - Scatole gialle: materiale/materiale_informatico.md
-      - Router: materiale/router.md
+      - Materiale ASTI IT:
+          - "materiale/materiale_asti/index.md"
+          - Materiale informatico: materiale/materiale_asti/materiale_informatico.md
+          - Router: materiale/materiale_asti/router.md
+          - Ponti radio: materiale/materiale_asti/ponti_radio.md
       - Punti radio: materiale/punti_radio.md
-      - Ponti radio: materiale/ponti_radio.md
       - SPORTident:
           - "materiale/sportident/index.md"
           - Panoramica: "materiale/sportident/panoramica.md"

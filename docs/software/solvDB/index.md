@@ -41,7 +41,7 @@ Una volta inseriti i dati clicca sul tasto Eingabe. Il sistema visualizzerà il 
 
 - SOLV-Nr bekannt: accesso diretto con numero SOLV 
     - il sistema ritorna una mail con un codice d'accesso che deve essere inserito nella pagina per poter poi modificare i propri dati
-- SOLV-NR nicht bekannt: numeroSOLV non conosciuto; ricerca per nome, cognome e data di nascita
+- SOLV-NR nicht bekannt: numero SOLV non conosciuto; ricerca per nome, cognome e data di nascita
     - il sistema ritorna una mail con il numero SOLV e link diretto per le modifiche
 - Neuer Läufer: inserimento di un nuovo concorrente tramite formulario
 

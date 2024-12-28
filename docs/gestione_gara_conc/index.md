@@ -1,6 +1,6 @@
 Questa sezione descrive le azioni relative all'IT richieste da ogni concorrente.  
   
-Le azioni sono suddivise in lassi di tempo relative alla data della gara.
+Le azioni sono suddivise in lassi di tempo relativi alla data della gara.
 
 - Inizio dell'anno / molti mesi prima della gara:
     - **Scegli le gare alle quali partecipare.**  
@@ -46,10 +46,11 @@ Le azioni sono suddivise in lassi di tempo relative alla data della gara.
     
 - Dopo la gara:
     - **Consulta la classifica**  
-        Le classifiche dei TMO e delle gare nazionali le trovi sul sito della [federazione](https://www.swiss-orienteering.ch/it/) sotto [GARE > Classifiche](https://www.o-l.ch/cgi-bin/results). Seleziona la gara nel campo *Anlass* e clicca su *Rangliste*.
+        Le classifiche dei TMO e delle gare nazionali le trovi sul sito della [federazione](https://www.swiss-orienteering.ch/it/) sotto [GARE > Classifiche](https://www.o-l.ch/cgi-bin/results). Seleziona la gara nel campo *Anlass* e clicca su *Rangliste*.  
+        Nota l'opzione a piè di pagina "Zwischenzeiten" per vedere i tempi intermedi. L'impostazione "Grafik" permette di scegliere i concorrenti da mostrare in un grafico in cui vengono visualizzati i distacchi ai vari punti. 
     - **Condividi il tuo percorso**  
         Carica il tuo percorso su [Livelox](https://www.livelox.com/) e confronta le tue scelte con quelle degli altri concorrenti, paragonando i tempi di ogni tratta.
     - **Trova le classifiche annuali**  
         Ad ogni gara del TMO si ottengono punti a dipendenza del distacco dal vincitore, che riceve 1000 punti. La classifica dei punti ottenuti, che tiene conto delle gare di scarto, è consultabile sul sito ASTI sotto [classifiche > TMO](https://asti-ticino.ch/co/index.php?folder=resultate&main=tmo).  
         Inoltre, ogni conorrente classificato alle gare TMO e alcune altre gare ticinesi porta anche punti al proprio club per il trofeo miglior società TMS, pure consultabile sul sito [ASTI](https://asti-ticino.ch/co/resultate/classifica-TMS-2024.pdf).  
-        A livello nazione viene allestita una classifica annuale a punti sul sito di Swiss Orienteering sotto [Gare > Classifica a punti](https://www.o-l.ch/cgi-bin/pliste). Contano per questa graduatoria i risultati ottenuti ai campionati svizzeri e alle gare nazionali e regionali (le gare marcate con un asterisco nel calendario di [Swiss Orienteering](https://www.o-l.ch/cgi-bin/fixtures)). 
+        A livello nazionale viene allestita una classifica annuale a punti sul sito di Swiss Orienteering sotto [Gare > Classifica a punti](https://www.o-l.ch/cgi-bin/pliste). Contano per questa graduatoria i risultati ottenuti ai campionati svizzeri e alle gare nazionali e regionali (le gare marcate con un asterisco nel calendario di [Swiss Orienteering](https://www.o-l.ch/cgi-bin/fixtures)). 

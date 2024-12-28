@@ -28,7 +28,7 @@ Le azioni sono suddivise in lassi di tempo relative alla data della gara.
     - **Verifica copertura Natel.**  
         La pubblicazione delle classifiche online in tempo reale richiede la connessione a internet allo scarico chip. Il materiale ASTi contiene un router per la connessione via telefonia mobile.  
         Verifica la copertura di rete nella postazione prevista per la lettura chip. In mancanza di copertura, l'ASTi ha in dotazione anche delle antenne per portare la rete in zone remote. 
-        Vedi dettagli in [Ponti radio](../materiale/ponti_radio.md).
+        Vedi dettagli in [Ponti radio](../materiale/materiale_asti/ponti_radio.md).
     - **Aggiornamento dell'archivio.**  
         In OL-Einzel sui PC ASTi è installata una versione dell'archivio SOLV usata per le mutazioni il giorno di gara (vedi i dettagli in [Mutazioni](../software/oe12/mutazioni_giorno_gara.md)).  
         L'archivio viene aggiornato periodicamente dal responsabile materiale IT dell'ASTI seguendo i passi descritti in [Archivio](../software/oe12/archivio.md).

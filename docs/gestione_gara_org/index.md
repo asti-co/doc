@@ -2,11 +2,11 @@
 
 Questa sezione descrive le azioni relative all'IT gestite dall'organizzatore della gara per vari tipi di gare.
 
-- TMO / Nazionali  
+- [TMO / Nazionali](tmo_nazionali.md) 
 Descrive le procedure per la gestione delle normali gare.
 
-- Staffetta Sele  
+- [Staffetta Sele](staffetta_sele.md)  
 Descrive i passi necessari per la gestione della staffetta Sele con OL-Staffel OS12.
     
-- sCOOLcup  
+- [sCOOLcup](scool_cup.md)  
 Copre le specificità della finale della sCOOL cup.

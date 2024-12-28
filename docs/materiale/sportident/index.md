@@ -14,7 +14,7 @@ Descrizione delle varie tipologie di chip.
 Descrizione delle varie tipologie di scatolette SPORTIdent in dotazione.
 
 - [Utilizzo in gara](partecipazione_gara.md)  
-Descrizione delle varie tipologie di scatolette SPORTIdent in dotazione.
+Descrizione sull'utilizzo di SPORTIdent in gara.
 
 - [Paletti](paletti.md)  
 Lista delle tipologie di paletti e di lanterne.
