@@ -62,18 +62,17 @@ nav:
       - Materiale ASTI IT:
           - "materiale/materiale_asti/index.md"
           - Materiale informatico: materiale/materiale_asti/materiale_informatico.md
+          - Materiale SPORTident: materiale/materiale_asti/materiale_sportident.md
           - Router: materiale/materiale_asti/router.md
           - Ponti radio: materiale/materiale_asti/ponti_radio.md
       - Punti radio: materiale/punti_radio.md
       - SPORTident:
           - "materiale/sportident/index.md"
           - Panoramica: "materiale/sportident/panoramica.md"
+          - Uso in Gara: "materiale/sportident/uso_in_gara.md"
           - Chip: "materiale/sportident/chip.md"
-          - FAQ sui Chip: "materiale/sportident/FAQ SI Air.md"
-          - Punti: "materiale/sportident/scatolette.md"
-          - Uso in Gara: "materiale/sportident/partecipazione_gara.md"
+          - FAQ sui Chip Air SIAC: "materiale/sportident/faq_siac.md"
           - Sincronizzazione Punti: materiale/sportident/sincronizzazione_punti.md
-          - Paletti: "materiale/sportident/paletti.md"
           - Punti Radio SPORTident: "materiale/sportident/punti_radio.md"
   - Software:
       - "software/index.md"

@@ -1,8 +1,12 @@
 # SI AIR+
 
-La seguente lista di domande frequenti può aiutare i concorrenti e organizzatori nell'utilizzo dei chip SPORTident, soprattutto le SIAC in modalità SI-Air.
+La seguente lista di domande frequenti può aiutare i concorrenti e organizzatori nell'utilizzo dei chip SPORTident, soprattutto le SIAC in modalità SI-Air. La sezione per gli organizzatori contiene suggerimenti su come posizionare i punti.
 
-[FAQ Concorrenti](#faq-concorrenti)
+- [FAQ Concorrenti](#faq-concorrenti)
+- [FAQ Organizzatori](#faq-organizzazione)
+
+
+## FAQ Concorrenti {#faq-concorrenti}
 
 - [Cosa è SI-AIR? Come posso usarla?](#cosa-è-si-air?-come-posso-usarla?)
 - [Cosa è una SIAC?](#cosa-è-una-siac?)
@@ -22,28 +26,6 @@ La seguente lista di domande frequenti può aiutare i concorrenti e organizzator
 - [Quanto costa una SIAC?](#quanto-costa-una-siac?)
 - [Vantaggi/svantaggi della SIAC rispetto al chip tradizionale?](#vantaggi-e-svantaggi-della-SIAC?)
 - [È un sistema affidabile?](#è-un-sistema-affidabile?)
-
-[FAQ Organizzazione](#faq-organizzazione)
-
-- [Devo sostituire le mie scatolette “vecchie” per usare le SIAC?](#devo-sostituire-le-mie-scatolette-“vecchie”-per-usare-le-siac?)
-- [Devo programmare le scatolette ASTi?](#devo-programmare-le-scatolette-asti?)
-- [Quanto mi costa usare la modalità a distanza?](#quanto-mi-costa-usare-la-modalità-a-distanza?)
-- [Posso usare il chip viola ON/OFF o la scatoletta TimeMaster per abilitare/disabilitare la modalità “a distanza”?](#posso-usare-il-chip-viola-on/off-o-la-scatoletta-timemaster-per-abilitare/disabilitare-la-modalità-“a-distanza”?)
-- [Posso scegliere di disabilitare la funzione AIR per la mia gara?](#posso-scegliere-di-disabilitare-la-funzione-air-per-la-mia-gara?)
-- [Quali scatolette sono configurate con modalità “a distanza”?](#quali-scatolette-sono-configurate-con-modalità-“a-distanza”?)
-- [Cambia l’organizzazione della partenza per le SIAC?](#cambia-l’organizzazione-della-partenza-per-le-siac?)
-- [Posso configurare le scatolette START in modalità a distanza?](#posso-configurare-le-scatolette-start-in-modalità-a-distanza?)
-- [Ci vogliono infrastrutture speciali all’arrivo per le SIAC?](#ci-vogliono-infrastrutture-speciali-all’arrivo-per-le-siac?)
-- [Devo istruire in maniera speciale i collaboratori?](#devo-istruire-in-maniera-speciale-i-collaboratori?)
-- [Ci sono regole speciali per posare i punti?](#ci-sono-regole-speciali-per-posare-i-punti?)
-- [Ci sono regole speciali per i tracciatori?](#ci-sono-regole-speciali-per-i-tracciatori?)
-- [Ci sono regole speciali per programmare le proprie scatolette di società?](#ci-sono-regole-speciali-per-programmare-le-proprie-scatolette-di-società?)
-- [Cosa sono le scatolette BATTERY-TEST e SIAC OFF?](#cosa-sono-le-scatolette-battery-test-e-siac-off?)
-- [La modalità AIR consuma più batteria?](#la-modalità-air-consuma-più-batteria?)
-- [Mi devo aspettare più ricorsi da concorrenti con la SIAC?](#mi-devo-aspettare-più-ricorsi-da-concorrenti-con-la-siac?)
-- [A cos’altro devo fare attenzione?](#a-cos’altro-devo-fare-attenzione?)
-
-## FAQ Concorrenti {#faq-concorrenti}
 
 ### **Cosa è SI-AIR? Come posso usarla?** {#cosa-è-si-air?-come-posso-usarla?}
 
@@ -160,6 +142,25 @@ In casi limite questo può però portare a riempire le 128 memorie del chip con 
 
 
 ## FAQ Organizzazione {#faq-organizzazione}
+
+- [Devo sostituire le mie scatolette “vecchie” per usare le SIAC?](#devo-sostituire-le-mie-scatolette-“vecchie”-per-usare-le-siac?)
+- [Devo programmare le scatolette ASTi?](#devo-programmare-le-scatolette-asti?)
+- [Quanto mi costa usare la modalità a distanza?](#quanto-mi-costa-usare-la-modalità-a-distanza?)
+- [Posso usare il chip viola ON/OFF o la scatoletta TimeMaster per abilitare/disabilitare la modalità “a distanza”?](#posso-usare-il-chip-viola-on/off-o-la-scatoletta-timemaster-per-abilitare/disabilitare-la-modalità-“a-distanza”?)
+- [Posso scegliere di disabilitare la funzione AIR per la mia gara?](#posso-scegliere-di-disabilitare-la-funzione-air-per-la-mia-gara?)
+- [Quali scatolette sono configurate con modalità “a distanza”?](#quali-scatolette-sono-configurate-con-modalità-“a-distanza”?)
+- [Cambia l’organizzazione della partenza per le SIAC?](#cambia-l’organizzazione-della-partenza-per-le-siac?)
+- [Posso configurare le scatolette START in modalità a distanza?](#posso-configurare-le-scatolette-start-in-modalità-a-distanza?)
+- [Ci vogliono infrastrutture speciali all’arrivo per le SIAC?](#ci-vogliono-infrastrutture-speciali-all’arrivo-per-le-siac?)
+- [Devo istruire in maniera speciale i collaboratori?](#devo-istruire-in-maniera-speciale-i-collaboratori?)
+- [Ci sono regole speciali per posare i punti?](#ci-sono-regole-speciali-per-posare-i-punti?)
+- [Ci sono regole speciali per i tracciatori?](#ci-sono-regole-speciali-per-i-tracciatori?)
+- [Ci sono regole speciali per programmare le proprie scatolette di società?](#ci-sono-regole-speciali-per-programmare-le-proprie-scatolette-di-società?)
+- [Cosa sono le scatolette BATTERY-TEST e SIAC OFF?](#cosa-sono-le-scatolette-battery-test-e-siac-off?)
+- [La modalità AIR consuma più batteria?](#la-modalità-air-consuma-più-batteria?)
+- [Mi devo aspettare più ricorsi da concorrenti con la SIAC?](#mi-devo-aspettare-più-ricorsi-da-concorrenti-con-la-siac?)
+- [A cos’altro devo fare attenzione?](#a-cos’altro-devo-fare-attenzione?)
+
 
 ### **Devo sostituire le mie scatolette “vecchie” per usare le SIAC?** {#devo-sostituire-le-mie-scatolette-“vecchie”-per-usare-le-siac?}
 
