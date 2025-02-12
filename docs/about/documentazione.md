@@ -267,7 +267,7 @@ Esempio di una riga molto lunga, ma proprio molto molto molto molto molto molto 
 
 
 
-- Testo incluso tra `{==` e `==}`
+- Testo incluso tra `{ ==` e `== }` (senza spazi)
     - Il testo può contenere formattazioni in markdown
     - Il testo è messo in evidenza in maniera più o meno predominante a dipendenza delle righe vuote e dell'indentazione.
 

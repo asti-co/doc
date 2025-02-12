@@ -14,9 +14,9 @@ Per una gara `normale` sono di regola necessari:
     - mouse e tappetini
     - materiale di rete
         - 1 router per connessione a internet
-        - 1 switch 24x e 8x
+        - 2 switch da 24x e 8x porte
         - cavi di rete
-    - ciabatte 220V
+    - 2 ciabatte 220V
     - 1 tablet per premiazione
 - 3 stampantine per tempi intermedi
 - 1 stampante A4 per classifiche

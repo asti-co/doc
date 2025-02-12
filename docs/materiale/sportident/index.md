@@ -20,5 +20,5 @@ Descrizione sull'utilizzo di SPORTIdent in gara.
 Lista delle tipologie di paletti e di lanterne.
 
 - [Punti radio](punti_radio.md)  
-Descrizione dei punti radio (modem e punti SRR) e del loro utilizzo.
+Descrizione dei punti radio di SPORTident (modem e punti SRR) e del loro utilizzo.
 

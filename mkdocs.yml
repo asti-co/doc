@@ -69,11 +69,12 @@ nav:
           - "materiale/sportident/index.md"
           - Panoramica: "materiale/sportident/panoramica.md"
           - Chip: "materiale/sportident/chip.md"
+          - FAQ sui Chip: "materiale/sportident/FAQ SI Air.md"
           - Punti: "materiale/sportident/scatolette.md"
           - Uso in Gara: "materiale/sportident/partecipazione_gara.md"
           - Sincronizzazione Punti: materiale/sportident/sincronizzazione_punti.md
           - Paletti: "materiale/sportident/paletti.md"
-          - Punti Radio: "materiale/sportident/punti_radio.md"
+          - Punti Radio SPORTident: "materiale/sportident/punti_radio.md"
   - Software:
       - "software/index.md"
       - OCAD:

@@ -38,9 +38,9 @@ I due switch da 5 porte si trovano nella sezione del materiale di riserva.
 ### Cavi di rete
 
 Una delle scatole grigie contiene tanti cavi di rete di varie lunghezze.  
-**Nota**: per favore non prendere un'estremità di un cavo e tirarlo per estrarlo dalla scatola, in quanto è molto probabile che così facendo si rompa la linguetta di plastica della pinza, rendendo il cavo inutilizzabile (funzionante, ma basta poco per disconnetterlo dal dispositivo a cui dovrebbe restare collegato).  
+**Nota**: per favore non estrarre i cavi dalla scatola tirandone un'estremità, in quanto è molto probabile che così facendo si rompa la linguetta di plastica della pinza, rendendo il cavo inutilizzabile (funzionante, ma basta poco per disconnetterlo dal dispositivo a cui dovrebbe restare collegato).  
 
-
+<!--
 | Quantità | Lunghezza [m] | Colore | Protezione pinza |
 |----------|---------------|--------|------------------|
 | 1        | 1             | Grigio | No               |
@@ -56,7 +56,7 @@ Una delle scatole grigie contiene tanti cavi di rete di varie lunghezze.
 | 2        | ROTTO         | Giallo | Sì               |
 
 ![Cavi di rete](inc/cavi-rete-asti.jpg)
-
+-->
 
 ## Stampanti
 
