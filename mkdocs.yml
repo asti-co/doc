@@ -111,7 +111,10 @@ nav:
       - Analisi:
           - "software/analisi/index.md"
           - Classifiche SOLV: "software/analisi/solv.md"
-          - Livelox: "software/analisi/livelox.md"
+          - Livelox:
+              - "software/analisi/livelox/index.md"
+              - Per Concorrenti: "software/analisi/livelox/concorrenti.md"
+              - Per Organizzatori: "software/analisi/livelox/organizzatori.md"
           - RouteGadget: "software/analisi/routegadget.md"
 #  - Sito ASTI:
 #      - "sito_asti/index.md"

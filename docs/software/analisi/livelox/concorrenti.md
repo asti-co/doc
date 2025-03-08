@@ -1,8 +1,7 @@
-# Livelox
+# Livelox per concorrenti
+Questa pagina descrive come accedere a Livelox, come trovare le gare, come vedere i percorsi e come caricare la propria traccia, sia per chi ha un orologio GPS che per chi vuole disegnare il proprio percorso a mano.
 
-## Che cos’è Livelox?
-Livelox è uno [strumento online](https://www.livelox.com) di analisi sviluppato per la corsa d'orientamento. Il servizio è offerto dalla società Norvegese Livelox AS. La loro missione è di permettere agli utenti di visualizzare le loro tracce GPS e le loro scelte di percorso sulla cartina. È divertente poter ripercorrere la propria gara nel bosco, ma gli strumenti attualmente disponibili richiedono molteplici passaggi per abbinare la cartina alla traccia. Con Livelox invece il tutto è automatico e puoi concentrarti sull’analisi della tua performance, in allenamento e in gara.  
-  
+
 ## Accedere 
 Per accedere a Livelox:  
 
@@ -51,5 +50,5 @@ Ci sono vari modi per caricare il tuo percorso, a dipendenza del tuo equipaggiam
     - Inserisci l'orario di partenza e il tempo di gara (come controllo d'identità).
 
 
-Ulteriori istruzioni sul sito [SOLV > Gare > Livelox](https://www.swiss-orienteering.ch/files/Livelox_italiano_11_2023.pdf)
+Ulteriori istruzioni sul sito [SOLV > Gare > Livelox](https://www.swiss-orienteering.ch/files/Livelox_italiano_11_2023.pdf).
   

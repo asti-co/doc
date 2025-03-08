@@ -1,3 +1,5 @@
+# Gestione gare da parte del concorrente
+
 Questa sezione descrive le azioni relative all'IT richieste da ogni concorrente.  
   
 Le azioni sono suddivise in lassi di tempo relativi alla data della gara.
