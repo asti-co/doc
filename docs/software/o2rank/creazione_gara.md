@@ -71,7 +71,7 @@ Se l’evento è futuro, presente o passato (se meno di 5 giorni), nel giro di q
 
 
 ## Pubblicazione classifiche
-Per pubblicare le classifiche con OL-Einzel, vedi i dettagli in [software > OE12 > Classifiche > Classifiche TV / Online](../oe12/classifiche.md#classifiche-tv--online).  
+Per pubblicare le classifiche con OL-Einzel, vedi i dettagli in [software > OE12 > Classifiche > Classifiche TV / Online](../oe12/classifiche.md#classifiche-tv-online).  
 
 !!! Warning "Usa il token della tua gara"
     Nel nome del file `<FTP-TOKEN>.csv` assicurati di usare il `Ftp Token` della tua gara e non quello già impostato in OL-Einzel, che probabilmente è il token della gara precedente.  

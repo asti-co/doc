@@ -188,8 +188,8 @@ scritto come `[doc ufficiale](#doc-ufficiale)`
 Nota: il link punta ad un titolo (quelli che iniziano con i caratteri `##`, di qualsiasi livello).  
 Nota: se il titolo indica un ID, indicarla come target del link `[testo visibile](#ID_del_titolo)`.
 Altrimenti, se il titolo non ha un ID, trasformare tutto il titolo in lettere minuscole e sostituire gli spazi con dei trattini (meno).
-- Link a una sezione interna di un'altra pagina, ad esempio alla sezione [visual studio in tooling](tooling.md#editor-visual-studio-code).  
-scritto come `[visual studio in tooling](tooling.md#editor-visual-studio-code)`
+- Link a una sezione interna di un'altra pagina, ad esempio alla sezione [visual studio in tooling](tooling.md#vscodeOnline).  
+scritto come `[visual studio in tooling](tooling.md#vscodeOnline)`
 
 
 ??? Example "Esempio Markdown"

@@ -21,14 +21,14 @@ Gare ticinesi quali le SprintCup, Fragori, Lui&Lei, Staffetta Sele, Notturna deg
 Di seguito i link ai portali usati in Svizzera.  
 **Nota**: tutti i portali svizzeri si basano sulla banca dati concorrenti SOLV ([o-l.ch/solvdb](https://www.o-l.ch/cgi-bin/solvdb)).    
 I concorrenti sono tenuti a mantenere aggiornate le proprie informazioni nella banca dati.  
-Guida per i concorrenti nella sezione [software > solvDB](../solvDB)
+Guida per i concorrenti nella sezione [software > solvDB](../solvDB/index.md)
 
 
 
 ## OL-Events
 
 Portale svizzero: [ol-events.ch](https://portal.ol-events.ch/it)  
-Guida per gli organizzatori nella sezione [olevents > Creazione gara](olevents/organizzatori)  
+Guida per gli organizzatori nella sezione [olevents > Creazione gara](olevents/organizzatori.md)  
 Guida per i concorrenti nella sezione [olevents > Iscrizioni](olevents/concorrenti.md)
 
 ## GO2OL

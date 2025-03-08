@@ -9,7 +9,7 @@ Le azioni sono suddivise in lassi di tempo relativi alla data della gara.
     - **Mantieni attuali i tuoi dati nell'annuario online.**  
         I portali delle iscrizioni si basano sulle informazioni presenti nella banca dati del SOLV.  
         Tutti i concorrenti sono responsabili di mantenere i propri dati aggiornati, soprattutto il numero chip.  
-        Istruzioni sotto [Software / SolvDB](../software/solvDB/).
+        Istruzioni sotto [Software / SolvDB](../software/solvDB/index.md).
 - Varie settimane prima della gara:
     - **Leggi l'annuncio gara.**  
         L'*annuncio gara* (spesso chiamato anche col termine tedesco *Ausschreibung*) è un documento che contiene le informazioni generali sul tipo di gara, data e orari, luogo del centro gara, lunghezze dei percorsi e soprattutto il portale d'iscrizione da usare e il termine ultimo entro cui iscriversi.  
@@ -17,7 +17,7 @@ Le azioni sono suddivise in lassi di tempo relativi alla data della gara.
         Per le nazionali, fai riferimento ai link nel calendario (*Terminliste*) del sito [Swiss Orienteering / Gare / Calendario](https://www.o-l.ch/cgi-bin/fixtures).
 - 1-2 settimane prima della gara:
     - **Iscriviti alla gara.**
-        Per le istruzioni riguardo all'iscrizione alle gare, vedi [software / portali iscrizione](../software/portali_iscrizioni).  
+        Per le istruzioni riguardo all'iscrizione alle gare, vedi [software / portali iscrizione](../software/portali_iscrizioni/index.md).  
         Il termine d'iscrizione è di regola una settimana prima della gara per i TMO e due settimane prima per le gare nazionali e campionati svizzeri.  
         **Nota**: la possibilità di iscriversi sul posto è descritto nell'annuncio gara. Non sono ammesse iscrizioni sul posto o tardive per campionati ticinesi e svizzeri.
     - **Leggi le ultime info gara.**  
@@ -30,7 +30,7 @@ Le azioni sono suddivise in lassi di tempo relativi alla data della gara.
         Per altre gare speciali a livello ticinese, fai riferimento al sito [ASTI](https://asti-ticino.ch/co/).
     - **Familiarizzati con SPORTident**  
         A differenza di alcune nazioni soprattutto scandinave che usano il sistema EMIT, in Svizzera e in tutti i paesi limitrofi la verifica della sequenza di punti trovata viene gestita tramite il sistema SPORTident.  
-        La relativa pagina sotto [materiale > SPORTident](../materiale/sportident/) fornisce utili informazioni per i possessori di [chip a contatto e di chip air (SIAC)](../materiale/sportident/chip.md), come pure la [procedure da seguire durante la gara](../materiale/sportident/uso_in_gara.md).  
+        La relativa pagina sotto [materiale > SPORTident](../materiale/sportident/index.md) fornisce utili informazioni per i possessori di [chip a contatto e di chip air (SIAC)](../materiale/sportident/chip.md), come pure la [procedure da seguire durante la gara](../materiale/sportident/uso_in_gara.md).  
 - Durante la gara:
     - **Usa correttamente il chip**  
         Attieniti alla [procedure da seguire durante la gara](../materiale/sportident/uso_in_gara.md). In partenza c'è sempre chi controlla ed eventualmente aiuta, in gara basta timbrare tutti i punti (se timbri punti in più non del tuo percorso non fa niente, verranno semplicemente ignorati), ma ricordati che la sequenza è importante. Se ad esempio timbri il primo punto, poi il terzo, ti accorgi e torni al secondo punto e lo timbri, **DEVI** tornare al terzo punto e timbrarlo di nuovo, così da ottenere la sequenza corretta 1 - 3 (viene ignorato) - 2 - **3** - 4 - ...  

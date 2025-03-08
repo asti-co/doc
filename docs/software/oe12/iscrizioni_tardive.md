@@ -32,7 +32,7 @@ Controlla le impostazioni e configura la finestra delle iscrizioni
     È tuttavia importante che `TUTTE` le impostazioni archivio siano come indicate nell'immagine.
     
 1. Ottimizza la tabella  
-Vedi [Personalizzazione delle tabelle](../interfaccia_grafica/#personalizzazione-delle-tabelle) per dettagli sulla gestione dell'interfaccia grafica.  
+Vedi [Personalizzazione delle tabelle](interfaccia_grafica.md#personalizzazione-delle-tabelle) per dettagli sulla gestione dell'interfaccia grafica.  
 
     1. Seleziona le colonne rilevanti   
     **Nota**: puoi selezionare le colonne premendo sull'icona `colonne` in alto a destra.  
@@ -116,8 +116,8 @@ Alla lettura chip apparirà un relativo messaggio, permettendo il ritiro del chi
 **Nota**: se un concorrente paga una parte (ad esempio il noleggio chip oppure la sovratassa), inserisci nel campo della tassa solo la quota ancora da pagare e non
 selezionare il campo `Pagato`. In questo modo la fattura che verrà inviata alla società sarà corretta. La contabilità delle sovratasse va invece gestita separatamente e esternamente a OE.
 1. Inserisci l’eventuale preferenza di partenza nel campo `blocco`.  
-Imposta i valori come definiti in [Allestimento delle liste di partenza](../liste_partenza/#crea_liste_partenza)
-1. Salva l'iscrizione premendo `Enter` o premendo sull'icona del dischetto in alto a sinistra.  
+Imposta i valori come definiti in [Allestimento delle liste di partenza](liste_partenza.md#crea_liste_partenza)
+1. Salva l'iscrizione premendo `Enter` o premendo sull'icona del dischetto in altonistra.  
 **Nota**: Premi `Esc` per annullare le modifiche / l'inserimento del nuovo concorrente.
 
 ## Disiscrizione di un concorrente
@@ -150,7 +150,7 @@ Alternativamente puoi
 Non avendo ancora sorteggiato la lista di partenza, lo scambio di due concorrenti si risolve semplicemente nella mutazione delle rispettive categorie e/o numero chip.
 
 ## Desideri di partenza
-Puoi tener conto dei desideri di partenza anche prima di creare le liste di partenza, impostando il campo `Blocco` di ogni concorrente, assegnando i valori come definiti in [Allestimento delle liste di partenza](../liste_partenza/#crea_liste_partenza).  
+Puoi tener conto dei desideri di partenza anche prima di creare le liste di partenza, impostando il campo `Blocco` di ogni concorrente, assegnando i valori come definiti in [Allestimento delle liste di partenza](liste_partenza.md#crea_liste_partenza).  
   
 ## Cambio di categoria
 Non avendo ancora sorteggiato la lista di partenza e non avendo ancora stampato le cartine, il cambio di categoria si risolve semplicemente con la mutazione del campo `Categoria`.

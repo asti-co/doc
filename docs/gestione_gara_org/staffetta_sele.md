@@ -1,7 +1,7 @@
 # Staffetta Sele
 
 Questa pagina descrive l’utilizzo di OL-Staffel v.12 (OS12) per l’organizzazione della staffetta Sele.  
-Prerequisito fondamentale è una buona conoscenza di [OL-Einzel v.12 (OE12)](../../software/oe12) e di Excel, in quanto vengono solo indicati i passi da fare, non necessariamente come farli.  
+Prerequisito fondamentale è una buona conoscenza di [OL-Einzel v.12 (OE12)](../software/oe12/index.md) e di Excel, in quanto vengono solo indicati i passi da fare, non necessariamente come farli.  
 Non vengono nemmeno trattate le problematiche del tracciare i percorsi in OCAD, con farsta e assegnazione dei pettorali.
 
 ## Formato Gara

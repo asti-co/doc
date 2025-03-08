@@ -2,7 +2,7 @@
 Questa sezione descrive le attività relative all'IT gestite dall'organizzatore di gare "normali" come TMO o gare Nazionali.  
   
 
-Le descrizioni si basano sul software [OL-Einzel](../software/oe12/) per la gestione delle gare ed è richiesta una certa dimestichezza con il software e il suo uso generale (vedi [Software > OE12 > Interfaccia Grafica](../software/oe12/interfaccia_grafica.md)).  
+Le descrizioni si basano sul software [OL-Einzel](../software/oe12/index.md) per la gestione delle gare ed è richiesta una certa dimestichezza con il software e il suo uso generale (vedi [Software > OE12 > Interfaccia Grafica](../software/oe12/interfaccia_grafica.md)).  
   
 Le azioni sono suddivise in lassi di tempo relative alla data della gara.
 
@@ -21,7 +21,7 @@ Le azioni sono suddivise in lassi di tempo relative alla data della gara.
         Spedisci il file PDF a [co@asti-ticino.ch](mailto://co@asti-ticino.ch).
     - **Attivazione della gara su un portale delle iscrizioni.**  
         Esistono varie modalità per la gestione delle iscrizioni alle gare, a dipendenza del tipo di gara.  
-        Vedi i dettagli per i tipi di gare e relative ai vari portali a disposizione nella pagina [Portali d'iscrizione](../software/portali_iscrizioni/).
+        Vedi i dettagli per i tipi di gare e relative ai vari portali a disposizione nella pagina [Portali d'iscrizione](../software/portali_iscrizioni/index.md).
 - Settimane prima della gara:
     - **Pubblicazione delle ultime info gara** (le cosiddette `Weisungen`).  
         Spedisci il file PDF a [co@asti-ticino.ch](mailto://co@asti-ticino.ch).
@@ -34,7 +34,7 @@ Le azioni sono suddivise in lassi di tempo relative alla data della gara.
         L'archivio viene aggiornato periodicamente dal responsabile materiale IT dell'ASTI seguendo i passi descritti in [Archivio](../software/oe12/archivio.md).
 - La settimana prima della gara, alla chiusura delle iscrizioni:
     - **Creazione della gara nel software di gestione gare.**  
-        Crea la gara in OL-Einzel ([OE12](../software/oe12/)) e importa le iscrizioni e i percorsi.  
+        Crea la gara in OL-Einzel ([OE12](../software/oe12/index.md)) e importa le iscrizioni e i percorsi.  
         Vedi i passi dettagliati nella pagina [Creazione gara in OE12](../software/oe12/creazione_gara.md).
     - **Creazione della gara sul portale delle classifiche online.**  
         Crea la gara su [O2Rank](http://classifiche.asti-ticino.ch/o2rank/)) per la pubblicazione delle liste di partenza e delle classifiche online.  

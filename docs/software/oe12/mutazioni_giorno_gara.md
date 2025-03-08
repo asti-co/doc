@@ -34,7 +34,7 @@ Controlla le impostazioni e configura la finestra delle iscrizioni
     È tuttavia importante che `TUTTE` le impostazioni archivio siano come indicate nell'immagine.
     
 1. Ottimizza la tabella  
-Vedi [Personalizzazione delle tabelle](../interfaccia_grafica/#personalizzazione-delle-tabelle) per dettagli sulla gestione dell'interfaccia grafica.  
+Vedi [Personalizzazione delle tabelle](interfaccia_grafica.md#personalizzazione-delle-tabelle) per dettagli sulla gestione dell'interfaccia grafica.  
 
     1. Seleziona le colonne rilevanti   
     **Nota**: puoi selezionare le colonne premendo sull'icona `colonne` in alto a destra.  

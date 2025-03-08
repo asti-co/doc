@@ -1,6 +1,6 @@
 # Generazione e pubblicazione delle classifiche
 
-## Classifiche TV / online
+## Classifiche TV / online  {#classifiche-tv-online}
 
 Le classifiche per le TV mostrate al centro gara dei TMO e le classifiche online pubblicate sul sito [O2Rank](http://classifiche.asti-ticino.ch/o2rank) aggiornate in tempo reale sono ottenute tramite un'unica classifica esportata a intervalli regolari. Questa classifica viene pubblicate durante la gara, quando non tutti i concorrenti sono giunti all'arrivo.  
 In caso di problemi con la rete internet o con le TV, come alternativa le classifiche vengono stampate a intervalli regolari e appese al centro gara. La relativa procedura è descritta [più sotto](#classifiche-provvisorie).  
@@ -179,7 +179,7 @@ Esporta le classifiche in file CSV da utilizzare per le classifiche TMS, per il 
     1. Non impostare `Elabora file con DLL`.
     1. Premi `Ok`.
 
-## Classifiche TMS / Premiazione
+## Classifiche TMS / Premiazione {#classifiche-tms}
 Crea e stampa la classifica per il Trofeo Miglior Società ticinese (TMS).  
 
 1. Lancia il programma TMS (doppio click sull'icona sul desktop del PC server ASTi)

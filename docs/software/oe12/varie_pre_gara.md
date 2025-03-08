@@ -24,7 +24,7 @@ Per ottenere il numero di cartine supplementari richieste ad esempio dagli iscri
     
     Purtroppo la procedure di importazione automatica tra OE12 e OL-Events non è (ancora) in grado di importare anche il numero di cartine supplementari.  
       
-    1. Il OL-Events, esporta le iscrizioni come file CSV per OE12 (vedi [Esportazioni in OL-Events](/software/olevents/organizzatori/#esportazioni))
+    1. In OL-Events, esporta le iscrizioni come file CSV per OE12 (vedi [Esportazioni in OL-Events](../portali_iscrizioni/olevents/organizzatori.md#esportazioni))
     1. Il file viene salvato nella cartella di default dei download col nome *data*\_export\_OE12\_*numeroGara*.csv (ad esempio `10_03_2023_export_OE12_175.csv`)
     1. Apri il file con Excel
     1. Seleziona la prima colonna premendo sull'intestazione `A`  

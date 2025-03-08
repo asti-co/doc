@@ -113,7 +113,7 @@ In caso di interruzione delle partenze, ad esempio per problemi nel trasporto de
 1. Crea una copia di sicurezza nel menu `Gara` voce `Manutenzione > Copia di sicurezza`.
 1. Nel menu `Giorno di gara` seleziona `Funzioni speciali > Interruzione delle partenze`.
 1. Imposta `Iniziando da` al tempo di partenza del primo concorrente che non è partito al suo orario.  
-**Nota**: questo campo non permette orari negativi. Se l'ora zero nelle impostazioni di gara non è impostata come suggerito nella sezione [Creazione gara](creazione_gara/#creazione-gara_1) a 15-30 minuti prima dell'ora zero effettiva e vi sono concorrenti che partono prima dell'ora zero, questi vanno gestiti a mano.
+**Nota**: questo campo non permette orari negativi. Se l'ora zero nelle impostazioni di gara non è impostata come suggerito nella sezione [Creazione gara](creazione_gara.md#creazione-gara_1) a 15-30 minuti prima dell'ora zero effettiva e vi sono concorrenti che partono prima dell'ora zero, questi vanno gestiti a mano.
 1. Imposta `Sposta di` alla durata dell’intervallo.
 1. Imposta `Luoghi di partenza` alla/e partenza/e interessate dall’interruzione in gare con più partenze.
 1. Imposta `Corridoi` a `Tutti`.  
@@ -139,7 +139,7 @@ Se i concorrenti sono partiti prima dell’ora corretta, devi specificare un int
 1. Premi `Avvia`.
 1. Controlla la lista.
 1. Correggi manualmente in `Iscrizioni > Modifica` tutti i concorrenti partiti prima dell’ora zero.  
-**Nota**: non dovresti avere questi casi se hai seguito il consiglio di impostare l'ora zero a 15-30 minuti prima della prima partenza "ufficiale" come descritto in [Creazione gara](creazione_gara/#creazione-gara_1)
+**Nota**: non dovresti avere questi casi se hai seguito il consiglio di impostare l'ora zero a 15-30 minuti prima della prima partenza "ufficiale" come descritto in [Creazione gara](creazione_gara.md#creazione-gara_1)
 
 **Esempio 2**: i concorrenti hanno un tempo di gara di 35 secondi troppo basso.
 
