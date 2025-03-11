@@ -150,7 +150,7 @@ Alternativamente puoi
 Non avendo ancora sorteggiato la lista di partenza, lo scambio di due concorrenti si risolve semplicemente nella mutazione delle rispettive categorie e/o numero chip.
 
 ## Desideri di partenza
-Puoi tener conto dei desideri di partenza anche prima di creare le liste di partenza, impostando il campo `Blocco` di ogni concorrente, assegnando i valori come definiti in [Allestimento delle liste di partenza](liste_partenza.md#crea_liste_partenza).  
+Puoi tener conto dei desideri di partenza anche prima di creare le liste di partenza, impostando il campo `Blocco` di ogni concorrente, assegnando i valori come definiti in [Gestione desideri di partenza](creazione_gara.md#desideri_partenza).  
   
 ## Cambio di categoria
 Non avendo ancora sorteggiato la lista di partenza e non avendo ancora stampato le cartine, il cambio di categoria si risolve semplicemente con la mutazione del campo `Categoria`.

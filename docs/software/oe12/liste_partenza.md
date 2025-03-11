@@ -94,16 +94,7 @@ Crea le liste di partenza sorteggiando i concorrenti rispetto alle regole di par
     - Nel pannello a sinistra si impostano i valori di base  
         - Posizione vacanti: in Ticino di regola i vacanti si trovano alla fine della lista di partenza visto che sono spesso usati per le iscrizioni sul posto per cui il concorrente ha bisogno di tempo per prepararsi e raggiungere la partenza.  
         - Presorteggio: impostato su `Blocco di partenza` in ordine `ascendente`  
-        OL-Events imposta i blocchi di partenza con i seguenti valori:  
-            - 1 = a disposizione per i collaboratori che partono per primi  
-            - 2 = desiderio di partenza presto  
-              
-            - 5 = per le gare :asti-tmo: TMO e :asti-sprintCup: SprintCup, tutti i concorrenti senza desideri di partenza sono nel blocco 5.   
-            - 3, 5, 7 = per le gare :asti-naz: nazionali, primo, secondo e terzo blocco secondo le regioni SOLV  
-              
-            - 8 = desiderio di partenza tardi  
-            - 9 = a disposizione per i collaboratori che partono per ultimi  
-              
+        Vedi i valori in [Gestione desideri di partenza](creazione_gara.md#desideri_partenza)     
        - Separa società: impostato per la separazione automatica, evita (o almeno ci prova) che due concorrenti della stessa società corrano uno dopo l'altro
 
 1. Seleziona il tab `Panoramica`  
@@ -129,7 +120,7 @@ Crea le liste di partenza sorteggiando i concorrenti rispetto alle regole di par
         La funzione `Separa società` separa i concorrenti inserendo un singolo avversario tra due compagni di società, anche se a volte è possibile separarli maggiormente.  
         **Nota**: i vacanti non vengono considerati "compagni di società" e restano pertanto in fondo alla lista di partenza. A volte è utile usarli per separare concorrenti della stessa società. 
            
-    - **Nota**: spostare un concorrente semplicemente trascinandolo e rilasciandolo all'interno della griglia fino alla posizione desiderata.
+    - **Nota**: sposta un concorrente semplicemente trascinandolo e rilasciandolo all'interno della griglia fino alla posizione desiderata.
       
 1. Assegna i pettorali quando le liste di partenza sono in versione definitiva.  
 **Nota**: la procedura descrive l'assegnazione dei pettorali in ordine di categoria. Nelle gare in cui non viene distribuito il pettorale, questo è unicamente un mezzo tecnico per identificare un concorrente e questa procedura funziona bene. Se invece vengono distribuiti i pettorali e si desidera assegnarli seguendo certe logiche (es. gli élite iniziano dal numero 1), bisogna assegnarli separatamente per ogni categoria.  
@@ -165,7 +156,7 @@ I relativi passi sono:
         Altrimenti, impostalo nel menu `ingranaggio` in alto a destra.
         - Nel pannello `Impostazioni` sulla sinistra definisci l'ordinamento dei concorrenti per tempo di partenza. 
         - Di base sono selezionate tutte le categorie. Se vuoi stampare unicamente singole categorie, selezionale nel pannello in basso.
-        - Per selezionare unicamente le categorie di un luogo di partenza, selezionare il luogo in basso  
+        - Per selezionare unicamente le categorie di un luogo di partenza, seleziona il luogo in basso  
         ![Lista per luogo di partenza](inc/partenza_lista_categoria_luogo.png)
       
     1. Se nel passo precedente hai modificato qualsiasi parametro, premi su `Aggiorna` nel menu in alto a sinistra.

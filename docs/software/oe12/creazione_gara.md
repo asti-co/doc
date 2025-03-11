@@ -285,6 +285,32 @@ Per i TMO continuiamo quindi ad usare il formato dei nomi e cognomi uniti da un 
 1. Cancella il campo `Squadra` del concorrente principale.
 ![Cancella nome squadra](inc/iscrizioni_squadra_cancella_nome.png)
 
+## Gestione desideri di partenza {#desideri_partenza}
+
+OL-Einzel prevede un campo `blocco` con cui gestire i desideri di partenza.  
+Questo campo viene usato durante il sorteggio delle liste di partenza, facendo partire i concorrenti in ordine ascendente rispetto al valore in questo campo (quindi i concorrenti con valori più bassi partono prima di quelli con valori alti).  
+**Nota**: secondo il [RECO](https://www.asti-ticino.ch/co/index.php?folder=ctco&main=reco) non è permesso esprimere desideri di partenza nei campionati ticinesi e nei campionati svizzeri.
+  
+OL-Events imposta per ogni concorrente un valore secondo i desideri espressi dal concorrente durante l'iscrizione, oppure (per gare nazionali) tenendo conto della provenienza dei concorrenti.  
+Vengono utilizzati i seguenti valori: 
+
+- 1 = a disposizione per i collaboratori che partono per primi  
+- 2 = desiderio di partenza presto  
+- 5 = per le gare :asti-tmo: TMO e :asti-sprintCup: SprintCup, tutti i concorrenti senza desideri di partenza sono nel blocco 5.   
+- 3, 5, 7 = per le gare :asti-naz: nazionali, primo, secondo e terzo blocco secondo le regioni SOLV  
+- 8 = desiderio di partenza tardi  
+- 9 = a disposizione per i collaboratori che partono per ultimi    
+  
+
+I collaboratori molto probabilmente non hanno espresso il proprio desiderio sul portale d'iscrizione, per cui in OE12 imposta manualmente il campo blocco soprattutto per i collaboratori che devono partire per primi o per ultimi.
+
+1. Apri la lista degli iscritti selezionando `Modifica > Iscrizioni` nel menu `Iscrizioni`
+1. Apri il tab `Concorrenti`
+1. Cerca il concorrente
+1. Imposta il campo blocco a uno dei valori indicati sopra
+1. Salva
+
+
 ## Importazione percorsi {#import_percorsi}
 
 Importare i percorsi in OE12 usando un file XML esportato da OCAD.
