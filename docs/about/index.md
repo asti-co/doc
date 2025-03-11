@@ -6,5 +6,6 @@ Hanno contribuito:
 - Michela Bianchi
 - Michele Dolfi
 - Lorenzo Patocchi
+- Sebastian Inderst
 - Camilla Moreni
 - Matteo Moreni
