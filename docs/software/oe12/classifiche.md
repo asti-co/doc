@@ -65,7 +65,7 @@ Altrimenti, imposta il formato nel menu `ingranaggio` in alto a destra.
 ## Classifiche provvisorie
 
 Le classifiche provvisorie sono classifiche pubblicate durante la gara, quando non tutti i concorrenti sono giunti all'arrivo. Nella testata di ogni categoria vengono indicati il numero di concorrenti arrivati rispetto al numero di concorrenti iscritti (ad es. `(13/18)`).  
-Ai TMO, queste classifiche vengono di regola mostrate sulle TV al centro gara e caricate in internet sul sito [O2Rank](https://classifiche.asti-ticino.ch/o2rank).  
+Ai TMO, queste classifiche vengono di regola mostrate sulle TV al centro gara e caricate in internet sul sito [O2Rank](http://classifiche.asti-ticino.ch/o2rank).  
 Come alternativa in caso di problemi con le TV vengono stampate a intervalli regolari e appese al centro gara.
     
 1. Nel menu `Classifiche` seleziona `Classifica provvisoria > Categorie`.  
