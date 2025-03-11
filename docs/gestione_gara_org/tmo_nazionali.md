@@ -46,6 +46,9 @@ Le azioni sono suddivise in lassi di tempo relative alla data della gara.
     - **Stampa delle cartine.**  
         L'ASTi possiede una stampante speciale per la stampa di qualità delle cartine di gara, con i colori calibrati. Per la stampa delle descrizioni punti è sufficiente una normale stampante, ad esempio la stampante A4 dell'ASTi.  
         Per la stampa delle etichette personalizzate dei concorrenti da attaccare alle cartine, vedi i passi dettagliati nella pagina [Varie pre-gara](../software/oe12/varie_pre_gara.md).  
+    - **Creazione della gara su Livelox.**  
+        È possibile creare l'evento in Livelox già qualche giorno prima della gara, senza che la cartina e i percorsi siano visibili ai concorrenti.  
+        Vedi [Livelox per organizzatori](../software/analisi/livelox/organizzatori.md).  
 
 - Il giorno di gara;
     - **Sincronizzazione scatolette SPORTident.**  
@@ -71,14 +74,21 @@ Le azioni sono suddivise in lassi di tempo relative alla data della gara.
         Per la premiazione, stampa le classifiche di categoria e genera la classifica TMS.
         Vedi i passi dettagliati nella pagina [Software > OE12 > Classifiche](../software/oe12/classifiche.md). 
 - Dopo la gara:
-    - **Pubblicazione delle classifiche della gara.**  
+    - **Pubblicazione delle classifiche della gara sul sito SOLV.**  
         Pubblica le classifiche con i tempi intermedi sul sito SOLV.  
-        Ricordati anche di mandare le classifiche (comprese quelle TMS) a [co.classifiche@asti-ticino.ch](mailto://co.classifiche@asti-ticino.ch).  
         Vedi i passi dettagliati nella pagina [Software > OE12 > Classifiche](../software/oe12/classifiche.md). 
-    - **Pubblicazione dei percorsi su RouteGadget o LiveLox.**  
-        Per la pubblicazione dei percorsi su RouteGadget o LiveLox, spedisci i percorsi OCAD e la cartina OCAD a [co.classifiche@asti-ticino.ch](mailto://co.classifiche@asti-ticino.ch).  
-        Questo permette anche l'archiviazione dei dati da parte dell'ASTi.  
-        Vedi i passi dettagliati nella pagina [Software > OE12 > Classifiche](../software/oe12/classifiche.md#classifiche-asti). 
+    - **Pubblicazione dei percorsi su Livelox.**  
+        Per la pubblicazione dei risultati su Livelox, segui le istruzioni su [Livelox per organizzatori](../software/analisi/livelox/organizzatori.md).  
+    - **Aggiornamento delle classifiche del TMO e del TMS e dell'archivio gare.**  
+        Per l'aggiornamento delle classifiche annuali del TMO e TMS sul sito ASTi, come pure dell'archivio delle gare, spedisci a [co.classifiche@asti-ticino.ch](mailto://co.classifiche@asti-ticino.ch):
+
+        - La cartina OCAD
+        - I percorsi OCAD
+        - Il file CSV delle classifiche (quello caricato sul sito SOLV)
+        - I file generati dal programma TMS  
+
+        Vedi i passi dettagliati nella pagina [Software > OE12 > Classifiche](../software/oe12/classifiche.md#classifiche-asti).  
+        
     - **Gestione finanziaria.**  
         In OL-Einzel, genera le fatture da spedire alle società.  
         Vedi i passi dettagliati nella pagina [Software > OE12 > Gestione Finanziaria](../software/oe12/finanze.md). 
