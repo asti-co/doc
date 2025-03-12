@@ -241,7 +241,7 @@ Se la gara non è ancora aperta in O2Rank e non la vuoi aprire subito, puoi segu
         - Cartella `/`
         - Non attivare la connessione sicura SSL/TLS
         - Nome utente `asti`
-        - Password `class1f2che`
+        - Password `class1f1che`
 
     1. Attendi uno-due minuti e verifica le liste in internet (sito [classifiche.asti-ticino.ch/o2rank](http://classifiche.asti-ticino.ch/o2rank))
 
