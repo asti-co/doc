@@ -34,10 +34,8 @@
     | Password | *vedi scatola gialla* |
 
 
-!!! danger ""
-
+!!! Warning "ATTENZIONE"
     UTILIZZARE LA CONNESSIONE UNICAMENTE PER GLI SCOPI DI INVIO DATI DI CLASSIFICHE, NON PER USO DI SVAGO.
-
 
 ## Ricarica del credito
 
@@ -59,8 +57,7 @@ Pacchetti aggiuntivi
 - 1GB al costo di CHF 35.-
 - 24h Speed al costo di CHF 5.-
 
-!!! danger ""
-
+!!! Warning "Attenzione"
     NON LASCIARE SCADERE IL CREDITO A CHF 0.- !!!
 
 
@@ -90,16 +87,16 @@ Pacchetti aggiuntivi
     ![](inc/router-sms-list.png)
 
 
-!!! warning "Attenzione"
-
-    La carta SIM del router può contenere solo 50 messaggi.
-    Quanto il limite è raggiunto, le notifiche successive non vengono ricevute.
+!!! Warning "Attenzione"
+    La carta SIM del router può contenere solo 50 messaggi.  
+    Quando il limite è raggiunto, le notifiche successive non vengono ricevute.  
     **È importante eliminare regolarmente i vecchi messaggi**
 
 
 ## Configurazione router
 
 Impostazione DHCP
+
 - Gateway `192.168.1.1`
 - Sottorete `255.255.255.0`
 - Indirizzi dinamici:
