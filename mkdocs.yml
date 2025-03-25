@@ -122,6 +122,7 @@ nav:
 #      - Classifiche Sprintup: sito_asti/classifiche_sprintcup.md
   - About:
       - "about/index.md"
+      - Feedback: about/feedback.md
       - Documentazione: about/documentazione.md
       - Tooling: about/tooling.md
       - Cambiamenti: about/cambiamenti.md
