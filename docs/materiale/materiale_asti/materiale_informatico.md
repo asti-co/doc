@@ -1,6 +1,6 @@
 # Materiale informatico
 
-Una gran parte del materiale informatico si trova in due grandi scatole di plastica grigia. Per le gare sono necessarie entrambe le scatole, come pure il PC nella borsa bianca.  
+Una gran parte del materiale informatico si trova in due grandi scatole di plastica gialle. Per le gare sono necessarie entrambe le scatole, come pure il PC nella borsa bianca.  
 
 - [Computer](#computer)
 - [Materiale di rete](#materiale-di-rete)
@@ -11,17 +11,17 @@ Una gran parte del materiale informatico si trova in due grandi scatole di plast
 
 | Nome                 | Modello              | Processore                  | RAM  | Disco | Anno | OS     | IP            | 
 |----------------------|----------------------|-----------------------------|------|-------|------|--------|---------------|
-| asti-pc-1            | HP                   |                             |      |       | 20xx | Win 7  | 192.168.1.101 |
-| asti-pc-2            | HP                   |                             |      |       | 20xx | Win 7  | 192.168.1.102 |
-| asti-pc-3            | HP                   |                             |      |       | 20xx | Win 7  | 192.168.1.103 |
+| asti-pc-1 RISERVA    | HP                   |                             |      |       | 20xx | Win 7  | 192.168.1.101 |
+| asti-pc-2 RISERVA    | HP                   |                             |      |       | 20xx | Win 7  | 192.168.1.102 |
+| asti-pc-3 RISERVA    | HP                   |                             |      |       | 20xx | Win 7  | 192.168.1.103 |
 | **asti-pc-4 SERVER** | Lenovo ThinkPad L560 | Intel Core i5-6200U 2.3GHz  |  8GB | 256GB | 201x | Win 10 | 192.168.1.104 |
 | asti-pc-5            | Acer Aspire A515-56  | Intel Core i7-1156G7 2.8GHz | 16GB | 1 TB  | 2022 | Win 11 | 192.168.1.105 |
 | asti-pc-6            | Asus                 |                             | 16GB | 1 TB  | 2024 | Win 11 | 192.168.1.106 |
 | asti-pc-7            | Asus                 |                             | 16GB | 1 TB  | 2024 | Win 11 | 192.168.1.107 |
 
 Per facilitare la preparazione delle gara a casa prima del ritiro di tutto il materiale, il Server (PC-4) è in una borsa per PC bianca, con il suo caricatore, un mouse e tappetino.  
-I PC 5, 6 e 7 sono in una delle scatole grigie. **Nota**: i PC 6 e 7 non hanno la presa di rete, per cui necessitano di un adattatore `USB-C - Ethernet` (presenti in una delle scatole grigie) per il collegamento in rete.
-I PC 1, 2 e 3, più datati, si trovano nella parte del materiale di riserva in una scatola di plastica gialla. Questi PC funzionano solo con corrente 220V (le batterie non tengono più neanche un secondo). 
+I PC 5, 6 e 7 sono in una delle scatole gialle. **Nota**: i PC 6 e 7 non hanno la presa di rete, per cui necessitano di un adattatore `USB-C - Ethernet` (presenti in una delle scatole grigie) per il collegamento in rete.
+I PC 1, 2 e 3, più datati, si trovano nella parte del materiale di riserva in una scatola di plastica grigia. Questi PC funzionano solo con corrente 220V (le batterie non tengono più neanche un secondo). 
 
 ## Materiale di rete
 
@@ -37,7 +37,7 @@ I due switch da 5 porte si trovano nella sezione del materiale di riserva.
 
 ### Cavi di rete
 
-Una delle scatole grigie contiene tanti cavi di rete di varie lunghezze.  
+Una delle scatole gialle contiene tanti cavi di rete di varie lunghezze.  
 **Nota**: per favore non estrarre i cavi dalla scatola tirandone un'estremità, in quanto è molto probabile che così facendo si rompa la linguetta di plastica della pinza, rendendo il cavo inutilizzabile (funzionante, ma basta poco per disconnetterlo dal dispositivo a cui dovrebbe restare collegato).  
 
 <!--
@@ -78,6 +78,6 @@ La stampante A4 si trova in una scatola separata, di plastica grigia senza coper
 | Quantità | Materiale              | Posizione      |
 |----------|------------------------|----------------|
 | 1x       | Bobina blu             | Separata       |
-| 1x       | Ciabatta rossa 5 prese | Scatola grigia |
-| 1x       | Ciabatta rossa 8 prese | Scatola grigia |
-| 3x       | Prese italiane         | Scatola grigia |
+| 1x       | Ciabatta rossa 5 prese | Scatola gialla |
+| 1x       | Ciabatta rossa 8 prese | Scatola gialla |
+| 3x       | Prese italiane         | Scatola gialla |

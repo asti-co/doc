@@ -1,28 +1,30 @@
 # Materiale SPORTident dell'ASTI
 
 L'ASTI ha in dotazione parecchio materiale SPORTident a disposizione delle società.  
+Vedi la [lista completa](https://asti-ticino.ch/co/doc/2025/lista_materiale_2025.pdf) e aggiornata [sul sito ASTI](https://asti-ticino.ch/co/index.php?folder=doc&main=doc).  
   
-- XXX scatolette dei punti, numeri 31 - 110, con XXXx 100
-- XXX scatolette `CLEAR`
-- XXX scatolette `CHECK` di cui XXX marcate come `Start Check`
-- XXX scatolette `START`
-- XXX scatolette `FINISH`
+- 81 scatolette dei punti, numeri 31 - 110, con 2 scatolette `100`.   
+Ulteriori 30 punti da richiedere alla Sele.
+- 4 scatolette `CLEAR`
+- 4 scatolette `CHECK` di cui 1 marcata come `Start Check`
+- 4 scatolette `START`
+- 4 scatolette `FINISH`
 - 1 scatoletta `TIME MASTER`
 - 1 scatoletta `BATTERY TEST`
 - 1 scatoletta `SIAC OFF`
-- XXX scatolette di lettura
-- XXX chip viola di servizio `OFF`
-- 1 barra magnetica e 1 magnete nella scatoletta di un rullino di film
-- XXX chip da noleggiare (solo chip tradizionali, niente SIAC)
+- 4 scatolette di lettura
+- chip viola di servizio `OFF`
+- barra magnetica
+- magnete
+- chip da noleggiare (solo chip tradizionali, niente SIAC)
 
-Paletti e lanterne:  
+Supporti per punti (con relative lanterne):  
   
-- XXX paletti in fibra
-- XXX paletti in alu
-- XXX paletti per scatolette grandi (clear/check/partenza/arrivo)
-- XXX cavalletti in legno
-- XXX piedistalli in cemento per paletti in alu
-- XXX lanterne
+- paletti in fibra
+- paletti in alu
+- paletti per scatolette grandi (clear/check/partenza/arrivo)
+- cavalletti in legno
+- piedistalli in cemento per paletti in alu
 
 ## Altro materiale SPORTident
 
