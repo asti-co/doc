@@ -43,11 +43,11 @@ Ci sono vari modi per caricare il tuo percorso, a dipendenza del tuo equipaggiam
 - Disegnare il percorso a mano (in mancanza di un dispositivo GPS).
     - Accedi direttamente al percorso.
     - Nel menu (tre trattini) in alto a destra seleziona `Aggiungi traccia`.
-    - Seleziona `Me stesso` per disegnare il tuo percorso o seleziona il nome del concorrente.
+    - Seleziona `Una persona esistente` e poi seleziona te stesso dalla lista (o seleziona il nome del concorrente per il quale vuoi disegnare il percorso).  
+    **Nota**: non selezionare `me stesso`, altrimenti la traccia viene salvata per un concorrente nuovo e ti ritroverai due volte nella lista, una volta senza traccia ma con gli intertempi ufficiali, e una volta con la traccia e gli intertempi inventati da livelox.
     - Premi su `Disegna la traccia manualmente`.
     - Sulla cartina, disegna il percorso. Ogni click del mouse è un punto di passaggio.
     - Premu su `Salva` in alto a sinistra.
-    - Inserisci l'orario di partenza e il tempo di gara (come controllo d'identità).
 
 
 Ulteriori istruzioni sul sito [SOLV > Gare > Livelox](https://www.swiss-orienteering.ch/files/Livelox_italiano_11_2023.pdf).
