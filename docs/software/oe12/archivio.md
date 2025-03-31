@@ -1,8 +1,5 @@
 # Gestione Archivio
 
-![Lavori in corso](../../img/lavori_in_corso.png){width=100px}  
-Vedi [PDF della vecchia versione, capitolo 7.2](inc/Istruzioni_OL_einzel_per_TMO_v2_4.pdf): 
-
 Le iscrizioni effettuate tramite i portali d'iscrizione usano i dati della banca dati SOLV. Importare la banca dati come archivio in OL-Einzel permette di avere dati completi per le mutazioni e iscrizioni sul posto.  
   
 !!! Info

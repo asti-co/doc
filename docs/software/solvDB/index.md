@@ -71,4 +71,5 @@ Di seguito sono riassunti alcuni punti importanti del documento informazione sul
 ## Gestione per organizzatori
 
 Sul sito della banca dati SOLV si trova un link per organizzatori. Questo serve per scaricare la banca dati completa, da importare nel programma di gestione delle gare, ad esempio in OL-Einzel.  
-Per il Ticino, questa procedura viene eseguita dal responsabile del materiale un paio di volte all'anno, e non è quindi un compito degli organizzatori dei TMO.
+Per il Ticino, questa procedura viene eseguita dal responsabile del materiale un paio di volte all'anno, e non è quindi un compito degli organizzatori dei TMO.  
+Le relative azioni sono descritte nella seziona [archivio](../oe12/archivio.md) di OL-Einzel.
