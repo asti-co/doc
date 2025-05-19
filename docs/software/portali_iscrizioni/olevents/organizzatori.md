@@ -43,15 +43,16 @@ Gli utenti indicati come amministratori hanno la possibilità di modificare auto
 I dati contrassegnati con `(*)` non sono modificabili dagli amministratori, ma unicamente dal team di OL-Events. 
 ## Selezione gara
 
-Selezionare `Le mie gare` dal menu a sinistra per accedere alla lista delle gare per le quali si è registrati come amministratori.
+Per visualizzare le gare per le quali sei registrato come amministratore, seleziona `Corse` nel menu a sinistra, e attiva il filtro `Organizzatore`.
+![Le mie gare](inc/leMieGare_new.png){width=100%}
 
-![Le mie gare](inc/leMieGare_Annotate.png){width=100%}
-
-Nella parte bassa di ogni gara sono indicati il numero di concorrenti iscritti e il numero di concorrenti che hanno aggiunto la gara al loro carrello della spesa ma non hanno ancora confermato l'iscrizione. 
+Clicca sul nome della gara per visualizzare i dettagli e la lista dei concorrenti già iscritti.  
+Scrolla in basso per vedere la sezione `Amministrazione` e clicca il link `alla gestione della gara` per accedere al pannello di controllo della gara.  
+![Alla gestione della gara](inc/allaGestioneDellaGara.png){width=100%}
 
 ## Pannello di controllo della gara
 
-Premendo sulla scheda di una gara si accede al suo pannello di controllo, con ulteriori menu per la gestione della gara. 
+In qualità di amministratore della gara, premendo sul link `alla gestione della gara` mostra il seguente pannello di controllo. 
 
 ![Pannello di controllo di una gara](inc/pannelloGara.png){width=100%}
 
