@@ -169,7 +169,7 @@ Per MacOS, seguire queste [istruzioni](https://code.visualstudio.com/docs/setup/
 
 ### Crea localmente
 
-??? Example "Per la generazione delle pagine su Linux/MaxOS"
+??? Example "Per la generazione delle pagine su Linux/MacOS"
     
     1. Apri un terminale con il comando `cmd.exe` di Windows
     1. Spostati nella cartella della documentazione
