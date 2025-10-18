@@ -60,9 +60,9 @@ Il client Web è un processo che a intervalli regolari si connette al server del
 1. Nel menu in alto in centro, dal menu a tendina seleziona `SportIdent Center`.
 1. Nel menu a sinistra, nella sezione `SportIdent Center > Server`
     1. Non modificare i primi due campi `URL` e `Richiesta`.
-    1. Imposta la `Chiave API`al valore della `API Key`definita nel profilo del SI-Center di SPORTident.  
-    **Nota**: Per le gare ASTI, i dati necessari (API KEY e ID GARA) sono attaccati all'interno del coperchio della scatola dei punti radio. Per altre gare non ASTI, vedi [materiale > SPORTident > Punti radio > Sito SPORTident Center](../../materiale/sportident/punti_radio.md#si-center).
-    1. Imposta l'`ID` dell'evento creato sul SI-Center di SPORTident.
+    1. Imposta la `Chiave API`al valore della `API Key`definita nel profilo del SI-Center di SPORTident.
+    1. Imposta l'`ID` dell'evento creato sul SI-Center di SPORTident.  
+    **Nota**: Per le gare ASTI, i dati necessari (`Chiave API` e `ID GARA`) sono attaccati all'interno del coperchio della scatola dei punti radio. Per altre gare non ASTI, vedi [materiale > SPORTident > Punti radio > Sito SPORTident Center](../../materiale/sportident/punti_radio.md#si-center).
 1. Nel menu a sinistra, nella sezione `SportIdent Center > Punzonature a partire da`, imposta la data della gara, l'ora da quando prelevare le punzonature (qualche ora prima dell'ora zero, per ricevere anche le punzonature di test dei posatori), e eventualmente l'ID della prima punzonatura.  
 **Nota**: se vengono usate le unità di Maja Sieber, la sua API Key e l'evento con ID = 3, impostare la prima punzonatura ad un valore di 5000000.
 1. Nel menu a sinistra, nella sezione `Trasferimento (server online)`, verifica che la connessione sia stabilita.  
