@@ -81,18 +81,25 @@ Vale la pena testare ogni scatoletta sia con un chip a contatto che con una SIAC
 ## Sito SPORTIdent Center {#si-center}
 
 Le timbrature spedite al server di SPORTident vanno assegnate ad una gara nel proprio profilo. SPORTident fattura il servizio in base al numero di timbrature inoltrate.  
+  
+!!! Warning "Profilo ASTI"
+    Attenzione: tutte le gare dell'ASTI usano lo stesso profilo ASTI e una unica gara per anno.  
+    Quindi per l'uso dei punti radio ASTI non è necessario creare né un profilo né una gara e nemmeno assegnare modem alle gare.  
+    I dati necessari (API KEY e ID GARA) sono attaccati all'interno del coperchio della scatola dei punti radio. 
 
-- Connettiti al sito di SPORTident [www.sportident.com](https://www.sportident.com/).
-- Seleziona `CENTER` nel menu in alto a destra.
-- Seleziona `ADMIN` in alto a destra.
-- Se non hai un profilo puoi crearne uno cliccando su `Sign up` in basso, altrimenti entra con le tue credenziali.
-- Nel menu a sinistra completa i dati nella varie pagine sotto `My Account`.  
-**Nota**: non serve né una `subscription` (non copre i punti radio) né un `token` (viene usato l'`API key`). 
-- Verifica in `Modems` nel menu a sinistra che i modem in dotazione siano assegnati al tuo profilo. Altrimenti scrivi una mail a [support@sportident.com](mailto:support@sportident.com).
-- In `Events` crea un evento per la tua gara (seleziona `New event`).
-- Inserisci tutti i dati e premi il bottone `Create`.
-- Seleziona la gara appena creata. Nella pagina `Settings` trovi l`ID` assegnata alla gara che serve nel programma di elaborazione dati (ad esempio `OL-Einzel`) per recuperare i dati.
-- Sotto `Modems` assegna i modem alla gara (puoi selezionare solo quelli connessi al tuo profilo).
-- Non specificare nulla sotto le altre voci in quanto non servono per l'uso dei punti radio.
+??? Info "Passi per la creazione di un profilo SportIdent Center"  
+
+    - Connettiti al sito di SPORTident [www.sportident.com](https://www.sportident.com/).
+    - Seleziona `CENTER` nel menu in alto a destra.
+    - Seleziona `ADMIN` in alto a destra.
+    - Se non hai un profilo puoi crearne uno cliccando su `Sign up` in basso, altrimenti entra con le tue credenziali.
+    - Nel menu a sinistra completa i dati nella varie pagine sotto `My Account`.  
+    **Nota**: non serve né una `subscription` (non copre i punti radio) né un `token` (viene usato l'`API key`). 
+    - Verifica in `Modems` nel menu a sinistra che i modem in dotazione siano assegnati al tuo profilo. Altrimenti scrivi una mail a [support@sportident.com](mailto:support@sportident.com).
+    - In `Events` crea un evento per la tua gara (seleziona `New event`).
+    - Inserisci tutti i dati e premi il bottone `Create`.
+    - Seleziona la gara appena creata. Nella pagina `Settings` trovi l`ID` assegnata alla gara che serve nel programma di elaborazione dati (ad esempio `OL-Einzel`) per recuperare i dati.
+    - Sotto `Modems` assegna i modem alla gara (puoi selezionare solo quelli connessi al tuo profilo).
+    - Non specificare nulla sotto le altre voci in quanto non servono per l'uso dei punti radio.
   
 ![SI Center](inc/si-center.png)

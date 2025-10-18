@@ -22,12 +22,14 @@ Definisci quali scatolette sono dei punti radio.
 1. Per la creazione di punti radio per l'arrivo o la partenza:  
     1. Seleziona la funzione del punto dal menu a tendina.  
     Le opzioni sono `Clear`, `Check`, `Start` e `Finish`.
-    1. Premi il bottone a destra del menu a tendina `Crea un punta radio con questa funzione`.
+    1. Premi il bottone a destra del menu a tendina `Crea un punto radio con questa funzione`.
     1. Imposta il `codice` della scatoletta e assegna un testo per riconoscere le punzonature di questa scatoletta. Premi `Enter` per salvare i dati.  
-    **Nota**: non modificare il `Numero punto` in quanto il valore impostato corrisponde alla funzione della scatoletta seleziona nel menu a tendina.  
-    **Nota**: nell'esempio, la gara aveva due arrivi, ognuno con due scatolette `Finish` con un codice univoco impostato con [SPORTident Config+](../../materiale/sportident/configplus.md)
+    **Nota**: le due scatolette `Finish` dell'ASTI hanno il `Codice` impostato a 4 e 5 (vedi etichetta sul fondo della scatoletta).  
+    **Nota**: non modificare il `Numero punto` in quanto il valore impostato corrisponde alla funzione della scatoletta selezionata nel menu a tendina (1=Start, 9=Finish).  
+    **Nota**: due `Finish` possono avere lo stesso codice, anche uguale a scatolette `Finish` tradizionali (non radio). Valori diversi permettono di riconoscere quale Finish viene punzonato dai concorrenti, utile unicamente in caso di arrivi separati.  
+    **Nota**: nell'esempio, la gara aveva due arrivi, ognuno con due scatolette `Finish` con un codice univoco impostato con [SPORTident Config+](../../materiale/sportident/configplus.md).
     ![Definisci arrivi](inc/speaker_punti_radio_arrivo.png)
-1. Per la punti radio ai "normali" punti di controllo:
+1. Per i punti radio ai "normali" punti di controllo:
     1. Inserisci il numero del punto.    
     **Nota**: devi già aver importato i percorsi e averli assegnati alle categorie.
     2. Premi sul bottone a destra col segno `Più`.  
@@ -58,7 +60,8 @@ Il client Web è un processo che a intervalli regolari si connette al server del
 1. Nel menu in alto in centro, dal menu a tendina seleziona `SportIdent Center`.
 1. Nel menu a sinistra, nella sezione `SportIdent Center > Server`
     1. Non modificare i primi due campi `URL` e `Richiesta`.
-    1. Imposta la `Chiave API`al valore della `API Key`definita nel profilo del SI-Center di SPORTident (vedi [materiale > SPORTident > Punti radio > Sito SPORTident Center](../../materiale/sportident/punti_radio.md#si-center)).
+    1. Imposta la `Chiave API`al valore della `API Key`definita nel profilo del SI-Center di SPORTident.  
+    **Nota**: Per le gare ASTI, i dati necessari (API KEY e ID GARA) sono attaccati all'interno del coperchio della scatola dei punti radio. Per altre gare non ASTI, vedi [materiale > SPORTident > Punti radio > Sito SPORTident Center](../../materiale/sportident/punti_radio.md#si-center).
     1. Imposta l'`ID` dell'evento creato sul SI-Center di SPORTident.
 1. Nel menu a sinistra, nella sezione `SportIdent Center > Punzonature a partire da`, imposta la data della gara, l'ora da quando prelevare le punzonature (qualche ora prima dell'ora zero, per ricevere anche le punzonature di test dei posatori), e eventualmente l'ID della prima punzonatura.  
 **Nota**: se vengono usate le unità di Maja Sieber, la sua API Key e l'evento con ID = 3, impostare la prima punzonatura ad un valore di 5000000.
