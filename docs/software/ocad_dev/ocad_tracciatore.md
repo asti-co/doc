@@ -1,4 +1,4 @@
-# < name="top"></a>OCAD per il tracciatore
+# <a name="top"></a>OCAD per il tracciatore
 
 **QUESTA PAGINA È IN FASE DI ELABORAZIONE  
 ALCUNE INFORMAZIONI DEVONO ANCORA ESSERE VALIDATE**  
@@ -1109,12 +1109,4 @@ Questo si può verificare come segue:
 > [ Ritorna sopra ](#top)
 
 ---
-
-
-
-
-
-
-
-
-
+18.01.2026
