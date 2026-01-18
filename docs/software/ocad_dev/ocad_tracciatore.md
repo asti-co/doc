@@ -1,4 +1,4 @@
-# OCAD per il tracciatore
+# < name="top"></a>OCAD per il tracciatore
 
 **QUESTA PAGINA È IN FASE DI ELABORAZIONE  
 ALCUNE INFORMAZIONI DEVONO ANCORA ESSERE VALIDATE**  
@@ -29,30 +29,27 @@ In queste pagine sono descritte le procedure per preparare i percorsi di una gar
 - [x] **Richiedete l’ultima versione del file della cartina** da utilizzare per la gara al/alla responsabile cartine ASTi.
 - [x] **Se, in qualità di organizzatori, effettuate aggiornamenti puntuali alla cartina**, eseguiteli direttamente sul file completo della carta. Al termine della gara, inviate nuovamente il file aggiornato (comprensivo di tutti gli elementi di layout) al/alla responsabile cartine ASTi.  
       Gli eventuali aggiornamenti puntuali, soprattutto nel caso di cartine nuove, dovrebbero essere effettuati dal cartografo che ha realizzato la cartina oppure, quantomeno, con il suo consenso. Per cartine meno recenti, possono essere eseguiti con il supporto di un cartografo della vostra società o da “orientisti esperti”. È fondamentale evitare modifiche rilevanti alla cartina; qualora queste siano necessarie, devono essere pianificate per tempo ed eseguite nell'ambito di un progetto di aggiornamento cartina.
-- [x] **Verificate di utilizzare l’ultima versione di OCAD**. Tra una versione e l’altra, oltre a nuove funzionalità, possono esserci modifiche al modello dei simboli di tracciato.
-      Se usate una licenza team su cloud, chiedete al responsabile della vostra società di aggiornare OCAD, se necessario. 
-    - **Come verificare la versione di OCAD**:  
-       Andate nel menu `> Guida > Informazioni su OCAD`
-    - **Note di rilascio e aggiornamenti:**
-        - Elenco aggiornamenti OCAD: vedi <a href="https://ocad.com/OCAD2018/OCAD_2018_Update.txt" target=_new><ins>Release Notes</ins></a>
-        - Novità OCAD vedi <a href="https://www.ocad.com/wiki/ocad/en/index.php?title=What_is_New" target=_new><ins>OCAD What is new</ins></a>
+- [x] **Verificate che state utilizzando l’ultima versione del software OCAD**. Tra una versione e l’altra, oltre a nuove funzionalità, possono esserci modifiche al modello dei simboli di tracciato.
+      Se usate una licenza team su cloud, chiedete al responsabile della vostra società di aggiornare OCAD, se necessario.  
+      > [Come verificare che versione del software OCAD sto usando](#ocad_check_version)
 - [x] **Durante il tracciamento dei percorsi**, considerate fin da subito il formato della cartina che verrà stampata, in modo da evitare problemi in seguito o inutili cambi/giro della cartina.
 - [x] **Denominazione delle categorie/tracciati**: per le gare ASTi, utilizzare le denominazioni ufficiali previste. Riferimento: <a href="https://www.asti-ticino.ch/co/index.php?folder=ctco&main=reco" target=_new><ins>RECO</ins></a>.
 
-
+> [ Ritorna sopra ](#top)
 ---
 ## <a name="cs_interfaccia_grafica"></a> [ 0 ] Interfaccia grafica OCAD Tracciamento percorsi
 
 ![Interfaccia grafica tracciamento](inc/ocad_interfaccia_grafica_tracciamento.png){width=500px}
 
 -  barra dei menu
--  barra degli strumneti
+-  barra degli strumenti
 -  barra di stato
 -  area di disegno
 -  riquadro dei simboli (symbol box):
 -  il riquadro dei simboli dei tracciati (course objects box)
 -  lista degli oggetti dei tracciati (course objects list)
 
+> [ Ritorna sopra ](#top)
 ---
 ## <a name="cs_creazione_file_tracciati"></a>[ 1 ] Creazione del file OCAD dei tracciati
 ???+ Info "File necessari per il tracciamento"
@@ -93,6 +90,11 @@ In queste pagine sono descritte le procedure per preparare i percorsi di una gar
     `> File > Nuovo`  
     Maggiori info > [Creazione manuale file tracciati di gara](#cs_creazione_manuale_file_tracciati)  
 
+???+ Failure "Errore scala sfondo"
+    Se quando aprite il file della cartina appare il seguente messaaggio d'errore *Lo sfondo è georiferito in scala ..... ma i percorsi sono in scala ....* significa che il vostro file dei percorsi non ha la medesima scala del file della cartina.  
+    Ricreate un nuovo file dei percorsi con la scala e simbologia corretta   
+    ![Errore scala sfondo](inc/cs_creazione_file_tracciati_erore_sfondo.png){width=300px}
+
 ???+ Warning "Impostazioni: bordino bianco - linee di connessione"
       - Bordino bianco:
           - Per gare bosco (ISOM): **non è permesso** - non attivate l'opzione.
@@ -107,74 +109,7 @@ In queste pagine sono descritte le procedure per preparare i percorsi di una gar
     Tra le cartine ASTi, esistono ancora alcune vecchie cartine non georeferenziate. Inoltre, alcune cartine, pur georeferenziate, sono state create con basi altimetriche e planimetriche vecchie (piani corografici), meno precise rispetto a quelle attuali, basate su dati lidar e misurazione ufficiale. Per questo motivo sovrapponendo una traccia GPS ci potrebbero essere delle discrepanze.
     Con il rifacimento delle cartine utilizzando tecniche aggiornate, in futuro non ci saranno più questi problemi.
 
-### <a name="cs_creazione_guidata_file_tracciati"></a> A. Creazione guidata tracciati di gara  
-
-- Seleziona il menu `File > Creazione Guidata Tracciati di Gara`
-- Appare la seguente finestra  
-![1.Nome della gara](inc/cs_creazione_file_tracciati_guidata_1_nome_gara.png){width=500px}   
-  **1.Nome della gara**  
-    - *Intestazione gara:* inserisci il nome della gara es. *1. TMO - ASTi*  
-    - *Disciplina:* seleziona *C-O*
-- Clicca sul pulsante `Avanti`  
-- Appare la seguente finestra  
-![2.File carta di sfondo](inc/cs_creazione_file_tracciati_guidata_2_file_carta.png){width=500px}   
-  **2.File carta di sfondo, set di simbologia e lingua**  
-    - *File carta:* clicca su sfoglia e seleziona il file della cartina (es. *mapSanGiorgio_250601.ocd*)
-    - *File di simbologia:* seleziona la libreria dei simboli corretta  
-        - Per cartine classiche 10'000 (ISOM):  
-        *Course Setting 10 000 ISCD 2024 - ISOM 2017.ocd*
-        - Per cartine sprint (ISSprOM):  
-        *Course Setting 4 000 ISCD 2024 - ISSprOM 2019.ocd*  
-    - *Nome del nuovo file tracciati:* indica il nome che vuoi assegnare al file dei tracciati e dove salvarlo sul tuo PC (es.*percorsiSanGiorgio_250615.ocd* )
-- Clicca sul pulsante `Avanti`  
-- Appare la seguente schermata  
-![3.Opzioni](inc/cs_creazione_file_tracciati_guidata_3_opzioni.png){width=500px}  
-    **3.Opzioni**  
-    - Attivando *Carica tracciati e categorie da un altro file tracciati* è possibile importare il nome dei tracciati e categorie da un altro file di percorsi (opzionale - non fatelo importeremo i tracciati/categorie in altro modo)
-    - *Lineee di connessione:* distanza tra il cerchio e la linea di collegamento imposta  {==0.00 mm==}
-    - *Bordo bianco sul progressivo*: se l'attivate viene creato un bordo bianco sul numero progressivo del punto   
-    ???+ Warning "Impostazioni: bordino bianco - linee di connessione"
-          - Bordino bianco:
-              - Per gare bosco (ISOM): **non è permesso** - non attivate l'opzione.
-              - Per cartine sprint (ISSprOM): è permesso per TMO/TMS - potete attivare l'opzione. Per gare nazionali da discutere con TD.    
-          - Lineee di connessione: distanza tra il cerchio e la linea di collegamento consigliato {==0.00 mm==}
-- Clicca sul pulsante `Crea`  
-- Il file dei percorsi viene creato e appare la seguente finestra con la cartina come sfondo    
-![Finestra iniziale file tracciati](inc/cs_creazione_file_tracciati_finestra_iniziale_con_cartina.png){width=500px}  
-
-
-### <a name="cs_creazione_manuale_file_tracciati"></a> B. Creazione manuale tracciati di gara  
-Per una creazione "manuale" del file dei tracciati  
-
-- Seleziona il menu  `> File > Nuovo`
-- Appare la seguente finestra  
-  ![Nuovo file](inc/cs_creazione_file_tracciati_manuale_nuovo_file.png){width=300px}    
-  **Nuovo file**  
-    - *Tipo di carta:* seleziona *Tracciati di gara di Orienteering* (a dipendenza dell'edizione di OCAD che state usando più opzioni sono attive)
-    - *Cartella di default per le simbologie*: lascia quella impostata di default che punta sulla cartella dove sono salvati i *modelli delle simbologie*  
-    - *Carica libreria di simboli da:* seleziona la simbologia corretta in base al vostro tipo di cartina. Di regola.  
-         - Per cartine classiche 10'000 (ISOM): *Course Setting 10 000 ISCD 2024 - ISOM 2017.ocd*
-         - Per cartine sprint (ISSprOM): *Course Setting 4 000 ISCD 2024 - ISSprOM 2019.ocd*
-    - *Dettagli della carta (note)*: indica la versione della simbologia che avete selezionato (verificate che sia quella corretta e che [sia la più recente](https://www.ocad.com/wiki/ocad/en/index.php?title=Symbol_Set_Overview#Course_Setting_Symbol_Sets))
-    - *Lingua*: impostate *italiano*
-    - *Scala della carta*: è la ***scala del file*** della cartina di regola per le cartine sprint 1:4'000 per le cartine classiche 1:10'000. Se avete selezionato la *libreria di simboli* corretta al punto precedente avrete la scala già corretta.
-- Cliccate sul pulsante `OK`
-- Il file dei percorsi viene creato e appare la seguente finestra
-![Finestra iniziale file tracciati](inc/cs_creazione_file_tracciati_finestra_iniziale_senza_cartina.png){width=500px}  
-- Per aggiungere la cartina come sfondo vai nel menu `> Sfondo > Gestione`  
-- Appare la seguente finestra    
-  ![Gestione carte di sfondo](inc/sfondo_gestione_sfondi_vuota.png){width=400px}  
-  **Gestione carte di sfondo**
-    - Cliccate sul pulsante *Apri* e seleziona il file ocad della tua cartina (p.es.*mapSanGiorgio_250601.ocd*)
-    - Nella finestra vedrete aggiungersi una riga con il collegamento alla mappa e nella finestra principale vi apparirà la cartina
-    - Cliccate sul pulsante *Chiudi*
-- Salvate il progetto  menu `> File > Salva` e denominalo ad es. *percorsiSanGiorgio_250615.ocd*
-
-???+ Failure "Errore scala sfondo"
-    Se quando aprite il file della cartina appare il seguente messaaggio d'errore *Lo sfondo è georiferito in scala ..... ma i percorsi sono in scala ....* significa che il vostro file dei percorsi non ha la medesima scala del file della cartina.  
-    Ricreate un nuovo file dei percorsi con la scala e simbologia corretta   
-    ![Errore scala sfondo](inc/cs_creazione_file_tracciati_erore_sfondo.png){width=300px}
-
+> [ Ritorna sopra ](#top)
 ---
 ## <a name="cs_impostazione_progetto_tracciati"></a>[ 2 ] Impostazione progetto OCAD dei tracciati
 
@@ -276,6 +211,7 @@ Maggiori informazioni vedi > <a href="https://www.ocad.com/wiki/ocad/en/index.ph
 ???+ Info "Descrizione punti"  
     Maggiori informazioni su come deve essere preparata la descrizione punti vedi guida <a href="https://www.swiss-orienteering.ch/files/kommission_ausbildung/ausbildungsmaterial/iof-postenbeschreibungen/iof_descrizioni_punti_ital.pdf" target=_new><ins>Descrizione dei punti IOF</ins></a> pubblicata da swiss-orienteering.
 
+> [ Ritorna sopra ](#top)
 ---
 ## <a name="cs_controllo_tracciati"></a> [ 5 ] Controllo dei tracciati
 - [x] Dopo che avete composto tutti i tracciati effettuate il controllo dei tracciati  
@@ -319,7 +255,7 @@ Maggiori informazioni vedi > <a href="https://www.ocad.com/wiki/ocad/en/index.ph
          - Ultimo punto arrivo
          - Descrizione punti
 
-
+> [ Ritorna sopra ](#top)
 ---
 ## <a name="cs_grafica_ed_elementi_tracciati"></a> [ 6 ] Grafica ed elementi dei tracciati
 ???+ Warning "Raccomandazioni"
@@ -346,13 +282,14 @@ Maggiori informazioni vedi > <a href="https://www.ocad.com/wiki/ocad/en/index.ph
 - [x] Se avete collegato un modello del terreno (per Route Analyer o altro) scollegatelo
 - [x] Nome categoria: dovrebbe essere posizionato al bordo della cartina (ideale in basso/alto a destra o sinistra) in modo che alla partenza il concorrente possa vederlo senza vedere la cartina con il percorso (che sarà coperto con un foglio).
 - [x] Inserite anche gli altri elementi di layout dei tracciati (scritte in magenta: nome gara, organizzatori, ecc.)   
-      Vedi > <a href="#cs_layout_checklist" target=_checklist><ins> Checklist elementi di layout</ins></a>
+      Vedi > <a href="#cs_layout_checklist" target=_checklist><ins> [100] Checklist elementi di layout</ins></a>
 - [x] Descrizione punti: se ci sta sulla cartina inseritela in formato (simboli) (non rimpicciolitela ! le caselle dimensione min ==6mm==)
   
 
     ???+ Warning "I testi devono essere orientati a nord"
         Tutti i testi e loghi stampati sulla cartina devono essere orientati a nord.
 
+> [ Ritorna sopra ](#top)
 ---
 ## <a name="cs_impaginazione_stampa"></a> [ 7 ] Impaginazione per la stampa (cartina e percorsi)
 
@@ -399,15 +336,15 @@ Come indicato esistono diversi modi per impaginare ed esportare i PDF delle cart
     -  per le categorie in scala "ingrandita" si esporterà i PDF e si stamperanno in formato A3 (rincondansi prima di esportare i pdf di cambiare il testo della scala indicato nell'impaginazione del file della cartina es. Scala: 1:10'000 -> 1:7'500)
 - ***B) Metodo canovacci (Canvas)***: si preparano due layout uno per la stampa in scala "standard" e uno per la scala "ingrandita" e si utilizzerà lo strumento Canovacci per generare i PDF.
 
-### <a neme="cs_impaginazione_metodo_vecchio"></a> A) Metodo "vecchio-tradizionale"  
+### <a neme="cs_impaginazione_metodo_vecchio"></a> A) Metodo "vecchio-tradizionale" {==DA RIVEDERE==} 
 **Preparate il file della cartina**
 
 - [x] Impaginate il file OCAD della cartina: per far ciò occorre utilizzare OCAD Orienteering o OCAD Mapping Solution. Se non siete esperti chiedete aiuto a qualcuno della vostra società.  
       - Avviate OCAD Orienteering o OCAD Mapping Solution
       - Aprite il file OCAD della cartina (es. *mapSanGiorgio_250601.ocd*)   
        menu `File > Apri` 
-      - Se necessario ritagliate la cartina 
-        Vedi > [Come ritagliare una cartina](#ocad_ritagliare_cartina)
+      - Se necessario ritagliate la cartina   
+        Vedi > [[ 112 ] Come ritagliare una cartina](#ocad_ritagliare_cartina)
         
       - Definite l'area di stampa
        **Definizione dell'area di stampa**
@@ -431,10 +368,10 @@ Come indicato esistono diversi modi per impaginare ed esportare i PDF delle cart
          Come indicato per inserire delle immagini utilizzate lo strumento Layout!  
 
 - [x] Verificate che tutti gli elementi di layout siano presenti  
-      Vedi > <a href="" target=#cs_layout_checklist><ins> > Checklist elementi layout</ins></a>   
+      Vedi > [[100] Checklist elementi di layout](#cs_layout_checklist)
    
 - [x] Verificate i colori della cartina per la stampante ASTi  
-      Vedi > [Come verificare/modificare i colori di un file OCAD](#ocad_colori_impostazione)
+      Vedi > [[ 106] Come verificare/modificare i colori di un file OCAD](#ocad_colori_impostazione)
 - [x] Verificate che la cartina non abbia degli sfondi
         - Menu `> Sfondi > Gestione`
         - Se sono presenti dei collegamenti a degli sfondi clicca sul pulsante `Elimina tutti`
@@ -448,7 +385,7 @@ Come indicato esistono diversi modi per impaginare ed esportare i PDF delle cart
      - Verificate che come sfondo avete solo il file della cartina che avete sistemato al punto precedente
      - Verificate che tutti gli elementi del layout siano presenti e posizionateli in modo adeguato
 - [x] Verificate i colori "magenta" dei tracciati  
-      Vedi > [Come verificare/modificare i colori di un file OCAD](#ocad_colori_impostazione)
+      Vedi > [[ 106] Come verificare/modificare i colori di un file OCAD](#ocad_colori_impostazione)
 - [x] Impostate l'area di stampa
 
 **Esportate i PDF dei tracciati/categorie**
@@ -482,16 +419,16 @@ Come indicato esistono diversi modi per impaginare ed esportare i PDF delle cart
      Non utilizzare > Stampa > PDF, Microsoft Print to PDF o altri strumenti per la scrittura di PDF, poiché convertono i dati in immagini raster, riducendo la qualità di stampa (pixelata). 
      Invece, esportate un PDF come idnicato e stampatelo utilizzando Adobe Reader. I file PDF così creati contengono dati vettoriali, che garantiscono una qualità di stampa superiore.
 
-
-### <a neme="cs_impaginazione_metodo_canovacci"></a> B) Metodo "canovacci" (Canvas)
+> [ Ritorna sopra ](#top)
+### <a neme="cs_impaginazione_metodo_canovacci"></a> B) Metodo "canovacci" (Canvas)  {==DA RIVEDERE==} 
 Con l’introduzione della stampa delle cartine ingrandite alcune categorie spesso c’è la necessità di avere due o più impaginazioni (layout) della cartina. 
 Qui viene spiegato un modo con lo strumento Canovacci su come fare per gestire più impaginazioni (layout) utilizzando un unico file con la cartina. Questo per evitare di stampare versioni diverse della cartina in base al layout.  
 
 - [x] Prepara il file OCAD della cartina senza elementi di layout (richiede OCAD Orienteering o OCAD Mapping Solution)
      - Apri con OCAD Orienteering il file della cartina
      - ==DA VALUTARE SE LASCIARE O MENO== 
-       Se necessario ritaglia la cartina
-       Vedi > [Come ritagliare una cartina](#ocad_ritagliare_cartina)
+       Se necessario ritaglia la cartina  
+       Vedi > [[ 112 ] Come ritagliare una cartina](#ocad_ritagliare_cartina)
      - Oppure Nascondete (o cancellate) gli oggetti del layout (es testi, loghi, ecc.) lasciando solo la cartina. Gli elementi del layout (nome cartina, loghi, ecc.) saranno inseriti nel file di layout.
      Attenzione: se nascondete dei simboli verificate che il simbolo non sia usato per degli oggetti della cartina. Esempio frecce nord spesso utilizzano colore blu dei fiumi o laghi.
      Dopo la gara se avete fatto aggiornamenti della cartina siete pregati di rionsegnare il file della cartina intero con anche gli elementi del layout (nome cartina, ecc.) che erano presenti nel file iniziale quindi prima di cancellare fate una copia.
@@ -501,13 +438,13 @@ Qui viene spiegato un modo con lo strumento Canovacci su come fare per gestire p
         - Menu `> Sfondi > Gestione`
         - Se sono presenti dei collegamenti a degli sfondi clicca sul pulsante `Elimina tutti`
      - Verificate che i colori siano impostati correttamente per la stampante ASTi  
-        Vedi > [Come verificare/modificare i colori di un file OCAD](#ocad_colori_impostazione)
+        Vedi > [[ 106] Come verificare/modificare i colori di un file OCAD](#ocad_colori_impostazione)
 
 - [x] Prepara il file layout per stampa in scala "standard (richiede OCAD Orienteering o OCAD Mapping Solution)  
-      Vedi > [Come preparare un file di layout](#ocad_impostazione_layout_file)
+      Vedi > [[ 108 ] Come preparare un file di layout](#ocad_impostazione_layout_file)
 
 - [x] Prepara il file layout per stampa in scala "ingrandita" (richiede OCAD Orienteering o OCAD Mapping Solution)  
-      Vedi > [Come preparare un file di layout](#ocad_impostazione_layout_file)
+      Vedi > [[ 108 ] Come preparare un file di layout](#ocad_impostazione_layout_file)
 
 - [x] Prepara il file dei percorsi
      - Apri il file dei percorsi 
@@ -525,7 +462,7 @@ Qui viene spiegato un modo con lo strumento Canovacci su come fare per gestire p
       - **Canovacci**: creiamo e impostiamo i vari *Canovacci* per la stampa. Per far ciò clicca su *Canovacci*
           - Clicca sul pulsante *Nuovo* per aggiungere un nuovo canovaccio
           - Imposta per canovaccio selezionato la *scala di esportazione* (scala di stampa) 
-          - Seleziona l'area di stampa (tra le aree di stampe che hai creato precedentemente o se non ancora definite clicca sul pulsante *Definisci*  vedi > [Definisci area di stampa](ocad_definisci_area_stampa) 
+          - Seleziona l'area di stampa (tra le aree di stampe che hai creato precedentemente o se non ancora definite clicca sul pulsante *Definisci*  vedi > [[ 118 ] Canovacci Definisci area di stampa](#ocad_canovacci_definisci_area_stampa) 
           - se descrizione punti stampata sulla cartina: imposta le dimensioni e il numero di righe massime per la descrizione punti per il canovacci che stai impostando 
         - seleziona le categorie/percorsi che avranno questo canovaccio
       - **Utilizzo**: clicca su *Utilizzo* per preselezionare i simboli e gli sfondi (cartina e layout) che verranno utilizzati in seguito nella sezione *Visibilità*
@@ -547,9 +484,8 @@ Qui viene spiegato un modo con lo strumento Canovacci su come fare per gestire p
 - [x] Verificate tutti i PDF che avete generato:
       - qualità: che la cartina sia in formato vettoriale, zoomando nel pdf su un dettaglio della cartina dovreste vederla vettoriale e non dei quadratini  (pixel)
       - contenuto: che i PDF sono stati generati correttamente     
-    
 
-
+> [ Ritorna sopra ](#top)
 ---
 ## <a name="cs_esportazione_descrizione_punti_pdf"></a> [ 8 ] Esportazione PDF descrizione punti
 
@@ -564,7 +500,7 @@ Qui viene spiegato un modo con lo strumento Canovacci su come fare per gestire p
  (consiglio) Consiglio per una gara generare 1 pdf per categoria con il numero di descrizioni punti che si desidera stampare per quella categoria oppure il numero massimo di descrizioni punti che ci stanno sul foglio per la categoria e poi si fanno le fotocopie  
 :warning: ricordati di generare anche il pdf della descrizione punti della rete punti *Tutti i punti*
 
-
+> [ Ritorna sopra ](#top)
 ---
 ## <a name="cs_esportazione_oe"></a> [ 9 ] Esportazione tracciati per OL-Einzel
 
@@ -578,8 +514,8 @@ Quando hai l'ultima versione definitiva dei tracciati:
 Il file contiene la sequenza dei punti di controllo per il controllo sigle.  
 Se eccezionalmente dopo l'elaborazione delle griglie di partenza ma prima dell'esportazione dei PDF/stampa delle cartine vengono effettuati dei cambiamenti sui tracciati occorre riesportare il fiel per l'elaborazione dati, così come naturalmente dei PDF dei percorsi e delle descrizione punti.
 
+> [ Ritorna sopra ](#top)
 ---
-
 ## <a name="st_stampa_cartine_gara"></a> [ 10 ] Stampa delle cartine di gara
 
 ???+ Warning "Stampa cartine per gare ASTi (TMO/TMS/...)"
@@ -623,9 +559,8 @@ Se eccezionalmente dopo l'elaborazione delle griglie di partenza ma prima dell'e
 
 https://www.swiss-orienteering.ch/files/03-KK-Tagung_2024_Kartendruck.pdf
 
-
+> [ Ritorna sopra ](#top)
 ---
-
 ## <a name="st_verifica_cartine_stampate"></a> [ 11 ] Verifica delle cartine stampate
 
 Verifica delle cartine stampate
@@ -641,17 +576,17 @@ Verifica delle cartine stampate
      semplice controllo "due linee del nord di regola (se cartina ok) dovrebbero essere distanti 3 cm"
  - [x] Percorsi + cartina: verificate che stampa sia ok
 
+> [ Ritorna sopra ](#top)
 ---
 ## <a name="cs_esportazione_livelox"></a> [ 12 ] Esportazione cartina e tracciati per Livelox
 
 Si rimanda a > [Livelox per organizzatori](../../analisi/livelox/organizzatori/#impostazioni)
 
 
-
+> [ Ritorna sopra ](#top)
 ---
 ## <a name="ocad_altro"></a> Altre informazioni supplementari
-
-
+---
 ## <a name="cs_layout_checklist"></a> [ 100 ] Checklist degli elementi da stampare sulle cartine
 Vedi "Checklist degli elementi da stampare sulle cartine" di swiss-orienteering  
 {==AGGIUNGERE LINK A PDF QUANDO PUBBLICATO==}  
@@ -689,9 +624,9 @@ Per gare ASTi (TMO, TMS e promozionali)
  Per inserire dei loghi OCAD   
  Vedi > [[ 109 ] Come inserire un logo (simbolo OCAD) in un file ocd esistente ](#ocad_importazione_simbolo)       
 
+> [ Ritorna sopra ](#cs_grafica_ed_elementi_tracciati)
+
 ---
-
-
 ## <a name="cs_partenza_svedese"></a>[ 101 ] Come inserire una partenza svedese (percorso segnalato dal punto di consegna della cartina)
 (Tratto da <a href="https://ocad.com/blog/2022/05/map-issue-point-correct-placement/" target=_new><ins>OCAD blog</a></ins>)  
 Il punto di consegna della cartina viene spesso utilizzato in modo errato, ecco quindi una guida su come utilizzarlo correttamente:
@@ -700,6 +635,8 @@ Il punto di consegna della cartina viene spesso utilizzato in modo errato, ecco 
  - Seleziona il percorso segnalato e inserite un vertice d'angolo (quadrato rosso sotto) per contrassegnare la posizione del punto di consegna della cartina.  
 
 ![Partenza svedese](inc/cs_punto_consegna_cartina.png){width=400}
+
+> [ Ritorna sopra ](#cs_controllo_tracciati) 
 
 ---
 ## <a name="cs_ultimo_punto_arrivo"></a>[ 102 ] Come inserire ultimo punto-arrivo segnalato
@@ -715,6 +652,7 @@ Se il percorso dall'ultimo punto all'arrivo viene segnalato con bandierine o nas
       ![Percorso segnalato ad imbuto](inc/cs_percorso_segnalato_imbuto.png)  
       ![Percorso segnalato ad imbuto](inc/cs_percorso_segnalato.png)
 
+> [ Ritorna sopra ](#cs_descrizione_punti)
 
 ---
 ## <a name="cs_cambio_cartina_virtuale"></a> [ 103 ] Come inserire un cambio cartina virtuale (map flip) (voltare la cartina)
@@ -733,6 +671,8 @@ Se il percorso dall'ultimo punto all'arrivo viene segnalato con bandierine o nas
       E come apparirà nella stampa  
       ![Cambio cartina virtuale](inc/cs_cambio_cartina_virtuale_cartina.png){width=50%}
 
+> [ Ritorna sopra ](#top)
+
 ---
 ## <a name="cs_taglia_cerchiolini"></a>[ 104 ] Come tagliare i cerchiolini dei punti
  - Seleziona l'icona *Seleziona e modifica oggetto(i)* nella barra degli strumenti  
@@ -742,6 +682,8 @@ Se il percorso dall'ultimo punto all'arrivo viene segnalato con bandierine o nas
    ![Taglia](inc/cs_edit_taglia.png)
  - Clicca sul cerchio di controllo per inserire un'interruzione.  
    Per chiudere un cerchio del punto controllo già tagliato, scegli di nuovo lo strumento *Taglia* e clicca una volta sull'interruzione.
+
+> [ Ritorna sopra ](#cs_grafica_ed_elementi_tracciati)
 
 ---
 ## <a name="cs_taglia_linee"></a>[ 105 ] Come tagliare le linee di connessione dei percorsi
@@ -754,6 +696,8 @@ Se il percorso dall'ultimo punto all'arrivo viene segnalato con bandierine o nas
    Seleziona nuovamente la linea di collegamento e fai clic con il tasto destro del mouse per reimpostare la linea di collegamento.  
    L’interruzione si applica solo al percorso selezionato. Usa la funzione *Modifica linea di collegamento per tutti i percorsi* per applicare il taglio a tutti i percorsi.
  - Le linee di collegamento possono anche essere modificate inserendo dei vertici e spostandoli, oppure spostando il punto iniziale o finale della linea di collegamento.
+
+> [ Ritorna sopra ](#cs_grafica_ed_elementi_tracciati)
 
 ---
 ## <a name="ocad_colori_impostazione"></a> [ 106 ] Come verificare/modificare i colori di un file OCAD
@@ -769,6 +713,7 @@ Qui trovate le tonalità dei colori per delle stampe da PDF con la stampante AST
 
 {==COMPLETARE CON NUOVA OPZIONE COLORI BASE==}
 
+> [ Ritorna sopra ](#top)
 
 ---
 ## <a name="ocad_impostazione_area_stampa"></a> [ 107 ] Come definire un'area di stampa
@@ -795,6 +740,9 @@ Qui trovate le tonalità dei colori per delle stampe da PDF con la stampante AST
  ![Area di stampa](inc/ocad_area_stampa_definizione.png)
  - La sezione *Backsize* serve per definire l'estensione di stampa del retro, nel caso si utilizzi la modalità di stampa fronte/retro (vedi > [Come impostare una stampa fronte/retro)](#cs_stampa_fronte_retro)
 
+
+> [ Ritorna sopra ](#top)
+
 ---
 ## <a name="ocad_impostazione_layout_file"></a> [ 108 ] Come preparare un file di layout
 
@@ -808,11 +756,18 @@ Vedi [Create a Layout](https://www.ocad.com/wiki/ocad/en/index.php?title=Create_
 Vedi [Strumento di Layout con OCAD](https://www.ocad.com/wiki/ocad/en/index.php?title=Layout)  
 
 
----
-## <a name="ocad_importazione_simbolo"></a>[ 109 ] Come inserire un logo (simbolo OCAD) in un file ocd esistente  
-{==DA COMPLETARE==}
+
+> [ Ritorna sopra ](#top)
 
 ---
+## <a name="ocad_importazione_simbolo"></a>[ 109 ] Come inserire un logo (simbolo OCAD) in un file ocd esistente  
+{==DA COMPLETARE==}  
+
+
+> [ Ritorna sopra ](#top)
+
+---
+
 ## <a name="ocad_importazione_logo_raster"></a>[ 110 ] Come inserire un logo immagine
 {==DA COMPLETARE==}
 Vedi [OCAD Blog](https://ocad.com/blog/2022/11/how-to-add-logos-in-ocad/)
@@ -821,8 +776,6 @@ Talvolta c’è la necessità di inserire dei loghi di sponsor o altro sulla car
 È possibile inserire i loghi in formato immagine (utilizzando lo strumento Layout e NON come sfondo) ma se sono presenti diversi loghi immagine la stampa potrebbe risultare lenta. 
 Se disponete il logo in formato vettoriale potete trasformarlo/crearlo come simbolo OCAD  
 Vedi > [Come creare un simbolo OCAD da un logo vettoriale](#ocad_creazione_simbolo_ocad) 
-
-
 
 ---
 ## <a name="ocad_creazione_simbolo_ocad"></a>[ 111 ] Come creare un simbolo OCAD da un logo vettoriale 
@@ -834,9 +787,13 @@ Se disponete il logo in formato vettoriale potete trasformarlo/crearlo come simb
  - ...
  {==COMPLETARE==}
 
+> [ Ritorna sopra ](#cs_impaginazione_stampa)
+
 ---
 ## <a name="ocad_ritagliare_cartina"></a> [ 112 ] Come ritagliare una cartina con OCAD
 {==DA COMPLETARE==}
+
+> [ Ritorna sopra ](#cs_impaginazione_stampa)
 
 ---
 ## <a name="cs_stampa_fronte_retro"></a> [ 113 ] Come impostare una stampa fronte/retro
@@ -853,7 +810,7 @@ Se disponete il logo in formato vettoriale potete trasformarlo/crearlo come simb
       Per stampare fronte/retro bisogna prima definire l’area di stampa per il davanti e per il dietro della cartina.  
 
 - Definite l'area di stampa *Frontside*  
-  vedi > [Come definire un0area di stampa](#ocad_impostazione_area_stampa)
+  vedi > [[ 107 ] Come definire un'area di stampa](#ocad_impostazione_area_stampa)
 - Definite l'area di stampa *Backside*  
     -  Selezionate la sezione *Backside*
     -  Attivate l'opzione *use back side for PDF export*
@@ -877,9 +834,226 @@ Se disponete il logo in formato vettoriale potete trasformarlo/crearlo come simb
     - Per stamparlo impostate “fronte/retro” sulla stampante    
       {==Screenshot della stampante ASTI del driver di stampa==}
 
+> [ Ritorna sopra ](#top)
 
 ---
-## <a name="cs_importazione_cartina_file_percorsi"></a> [ 200 ] Importazione della cartina nel file dei percorsi (solo esperti OCAD)
+---
+## <a name="ocad_check_version"></a> [ 114 ] Come verificare che versione del software OCAD sto usando  
+ - Andate nel menu `> Guida > Informazioni su OCAD`  
+   Vi apparirà il numero della versione  
+   **Note di rilascio e aggiornamenti:**
+      - Elenco aggiornamenti OCAD: vedi <a href="https://ocad.com/OCAD2018/OCAD_2018_Update.txt" target=_new><ins>Release Notes</ins></a>
+      - Novità OCAD vedi <a href="https://www.ocad.com/wiki/ocad/en/index.php?title=What_is_New" target=_new><ins>OCAD What is new</ins></a>
+
+> [ Ritorna sopra ](#cs_info_preliminari_tracciamento)  
+       
+---
+### <a name="cs_creazione_guidata_file_tracciati"></a> [ 115 ] A. Creazione guidata tracciati di gara  
+
+- Seleziona il menu `File > Creazione Guidata Tracciati di Gara`
+- Appare la seguente finestra  
+![1.Nome della gara](inc/cs_creazione_file_tracciati_guidata_1_nome_gara.png){width=500px}   
+  **1.Nome della gara**  
+    - *Intestazione gara:* inserisci il nome della gara es. *1. TMO - ASTi*  
+    - *Disciplina:* seleziona *C-O*
+- Clicca sul pulsante `Avanti`  
+- Appare la seguente finestra  
+![2.File carta di sfondo](inc/cs_creazione_file_tracciati_guidata_2_file_carta.png){width=500px}   
+  **2.File carta di sfondo, set di simbologia e lingua**  
+    - *File carta:* clicca su sfoglia e seleziona il file della cartina (es. *mapSanGiorgio_250601.ocd*)
+    - *File di simbologia:* seleziona la libreria dei simboli corretta  
+        - Per cartine classiche 10'000 (ISOM):  
+        *Course Setting 10 000 ISCD 2024 - ISOM 2017.ocd*
+        - Per cartine sprint (ISSprOM):  
+        *Course Setting 4 000 ISCD 2024 - ISSprOM 2019.ocd*  
+    - *Nome del nuovo file tracciati:* indica il nome che vuoi assegnare al file dei tracciati e dove salvarlo sul tuo PC (es.*percorsiSanGiorgio_250615.ocd* )
+- Clicca sul pulsante `Avanti`  
+- Appare la seguente schermata  
+![3.Opzioni](inc/cs_creazione_file_tracciati_guidata_3_opzioni.png){width=500px}  
+    **3.Opzioni**  
+    - Attivando *Carica tracciati e categorie da un altro file tracciati* è possibile importare il nome dei tracciati e categorie da un altro file di percorsi (opzionale - non fatelo importeremo i tracciati/categorie in altro modo)
+    - *Lineee di connessione:* distanza tra il cerchio e la linea di collegamento imposta  {==0.00 mm==}
+    - *Bordo bianco sul progressivo*: se l'attivate viene creato un bordo bianco sul numero progressivo del punto   
+    ???+ Warning "Impostazioni: bordino bianco - linee di connessione"
+          - Bordino bianco:
+              - Per gare bosco (ISOM): **non è permesso** - non attivate l'opzione.
+              - Per cartine sprint (ISSprOM): è permesso per TMO/TMS - potete attivare l'opzione. Per gare nazionali da discutere con TD.    
+          - Lineee di connessione: distanza tra il cerchio e la linea di collegamento consigliato {==0.00 mm==}
+- Clicca sul pulsante `Crea`  
+- Il file dei percorsi viene creato e appare la seguente finestra con la cartina come sfondo    
+![Finestra iniziale file tracciati](inc/cs_creazione_file_tracciati_finestra_iniziale_con_cartina.png){width=500px}  
+
+> [ Ritorna sopra ](#cs_creazione_file_tracciati)  
+
+---
+### <a name="cs_creazione_manuale_file_tracciati"></a> [ 116 ] B. Creazione manuale tracciati di gara  
+Per una creazione "manuale" del file dei tracciati  
+
+- Seleziona il menu  `> File > Nuovo`
+- Appare la seguente finestra  
+  ![Nuovo file](inc/cs_creazione_file_tracciati_manuale_nuovo_file.png){width=300px}    
+  **Nuovo file**  
+    - *Tipo di carta:* seleziona *Tracciati di gara di Orienteering* (a dipendenza dell'edizione di OCAD che state usando più opzioni sono attive)
+    - *Cartella di default per le simbologie*: lascia quella impostata di default che punta sulla cartella dove sono salvati i *modelli delle simbologie*  
+    - *Carica libreria di simboli da:* seleziona la simbologia corretta in base al vostro tipo di cartina. Di regola.  
+         - Per cartine classiche 10'000 (ISOM): *Course Setting 10 000 ISCD 2024 - ISOM 2017.ocd*
+         - Per cartine sprint (ISSprOM): *Course Setting 4 000 ISCD 2024 - ISSprOM 2019.ocd*
+    - *Dettagli della carta (note)*: indica la versione della simbologia che avete selezionato (verificate che sia quella corretta e che [sia la più recente](https://www.ocad.com/wiki/ocad/en/index.php?title=Symbol_Set_Overview#Course_Setting_Symbol_Sets))
+    - *Lingua*: impostate *italiano*
+    - *Scala della carta*: è la ***scala del file*** della cartina di regola per le cartine sprint 1:4'000 per le cartine classiche 1:10'000. Se avete selezionato la *libreria di simboli* corretta al punto precedente avrete la scala già corretta.
+- Cliccate sul pulsante `OK`
+- Il file dei percorsi viene creato e appare la seguente finestra
+![Finestra iniziale file tracciati](inc/cs_creazione_file_tracciati_finestra_iniziale_senza_cartina.png){width=500px}  
+- Per aggiungere la cartina come sfondo vai nel menu `> Sfondo > Gestione`  
+- Appare la seguente finestra    
+  ![Gestione carte di sfondo](inc/sfondo_gestione_sfondi_vuota.png){width=400px}  
+  **Gestione carte di sfondo**
+    - Cliccate sul pulsante *Apri* e seleziona il file ocad della tua cartina (p.es.*mapSanGiorgio_250601.ocd*)
+    - Nella finestra vedrete aggiungersi una riga con il collegamento alla mappa e nella finestra principale vi apparirà la cartina
+    - Cliccate sul pulsante *Chiudi*
+- Salvate il progetto  menu `> File > Salva` e denominalo ad es. *percorsiSanGiorgio_250615.ocd*
+
+???+ Failure "Errore scala sfondo"
+    Se quando aprite il file della cartina appare il seguente messaaggio d'errore *Lo sfondo è georiferito in scala ..... ma i percorsi sono in scala ....* significa che il vostro file dei percorsi non ha la medesima scala del file della cartina.  
+    Ricreate un nuovo file dei percorsi con la scala e simbologia corretta   
+    ![Errore scala sfondo](inc/cs_creazione_file_tracciati_erore_sfondo.png){width=300px}
+
+> [ Ritorna sopra ](#cs_creazione_file_tracciati)  
+---
+## <a name="ocad_canovacci_definisci_area_stampa"></a> [ 117 ] Canovacci Definisci area di stampa
+{==COMPLETARE==}
+
+
+> [ Ritorna sopra ](#top)
+
+
+---
+## <a name=""></a> [ 118 ] Utilizzo colori base
+{==SISTEMARE==}  
+
+Nel 2025 è stata introdotta in OCAD questa utile funzione.   
+Ora per ogni specifica stampante si può creare un file (xml) con i colori di base tarato sugli standard richiesti dalla IOF.
+Per la stampante ASTI è stato creato il file “ASTI Colors 2026”.   
+
+- Se usate licenze Cloud: 
+    - scaricate il file da {==LINK==} (nome_file_AAAAMMGG.xml) 
+    - andate nella cartella cloud e verificate che ci sia la medesima versione  
+    - se non fosse il caso chiedete al responsabile della vostra società di salvarlo sul cloud nella corretta directory
+- Se avete OCAD installato sul vostro PC:
+    - scaricate il file da {==LINK==} (nome_file_AAAAMMGG.xml)
+    - copiate il file nella cartella 
+      C:\ProgramData\OCAD\OCAD 2018\Base Colors  
+
+### <name=""></a>Colori base - Caso 1: Nuovo file 
+Quando si apre un nuovo progetto (di cartina o percorsi), OCAD automaticamente crea la paletta di colori corretta, assegnando ogni colore a uno dei colori base provenienti dal file di default della IOF. Conviene subito sistemare i giusti colori, caricando il file con i colori di base per la stampante ASTI.  
+
+- Sistemare i colori base:   
+    - Aprire il menu “carta” e poi “colori”, e poi cliccare in basso a sinistra su “colori base”.  
+    - Si apre una nuova finestra, in cui nel campo “load from” va inserito il file “ASTI Colors 2026”. 
+      Se il file è stato messo nella directory giusta di OCAD lo potete scegliere dalla lista a tendina, 
+      altrimenti cliccando sul pulsante coi tre puntini potete scegliere la directory dove avete il file (p.es. chiavetta USB).  
+    - Alla fine compare questa maschera:  
+      ![Colori base](inc/ocad_colori_base.png){width=300px}  
+    - Chiuderla cliccando su OK.  
+    - Automaticamente OCAD adatta i colori alla paletta dei colori base caricati.  
+    - Verificare che tutti i colori (salvo bianco e nero…) siano assegnati ai colori base (se ne manca qualcuno, assegnarlo).
+
+- Ora bisogna modificare la sfumatura di alcuni colori, specificando la percentuale nell’intensità.
+    - Modificare i grigi (da 20 a 27%, da 35 a 45%, da 50 a 60%, vedi foto sotto).  
+    - Modificare i gialli (da 75 a 83%, da 50 a 67%, vedi foto sotto). 
+    - Modificare i blu (da 70 a 80%, da 50 a 60%, da 30 a 40%, vedi foto sotto).
+    - Modificare i verdi (da 60 a 65%, da 30 a 35%, vedi foto sotto).  
+      ![Colori base intensita](inc/ocad_colori_base_intensita.png){width=300px}   
+    - Chiudere la finestra.
+
+- Ora i colori della cartina base sono impostati. Fate un'ottimizzazione/riparazione della cartina per comprimere il file.
+  > [ [ 119 ] Come ottimizzare/riparare un file ocad](#ocad_ottimizzare_file_ocad)
+
+- I colori devono essere verificati/impostati sia per la cartina che per i percorsi.  
+  Si può passare ora al file dei percorsi e fare la stessa cosa.  
+  Alla fine dell’operazione, si può esportare il PDF e stampare la cartina con i colori giusti e certificati.  
+
+### <name=""></a>Colori base - Caso 2: Verifica colori file esistente
+
+- Come prima cosa verificare se ci sono già dei colori base assegnati.
+  Procedere come segue.
+  - Aprire il menu “carta” e poi “colori”. Appare una nuova finestra.
+    ![Colori base file esistente](inc/ocad_colori_base_file_esistente.png){width=300px}  
+  - Se la colonna “colori di base” è vuota significa che non sono ancora stati assegnati > Assegnare i colori base
+  - Se la colonna “colori di base” è riempita significa che sono già stati assegnati > Verificare i colori base
+
+- Assegnare i colori base (se non ci sono colori base assegnati)
+  - Cliccare allore sul bottone in basso a sinistra su “colori base”.  
+  - Si apre una nuova finestra, in cui nel campo “load from” va inserito il file “ASTI Colors 2026”. 
+    Se il file è stato messo nella directory giusta di OCAD lo potete scegliere dalla lista a tendina, altrimenti cliccando sul pulsante coi tre puntini potete scegliere la directory dove avete il file (p.es. chiavetta USB).
+  - Una volta caricato il file, compaiono i colori base ASTI corretti.  
+  - Chiudere la finestra cliccando su OK, poi subito dopo cliccare sul bottone “assegna colori ai colori base”  
+    ![Colori base file esistente assegnare](inc/ocad_colori_base_file_esistente_assegnare.png){width=300px} 
+  - OCAD cerca di assegnare in automatico i colori, verificare che tutti i colori (salvo bianco e nero…) siano assegnati ai colori base.  
+  Attenzione: È possibile che con vecchie cartine l’assegnazione avvenga solo parziale, quindi se dovesse mancare qualche colore va assegnato a mano, cliccando nella colonna “colori base” corrispondente e scegliendo il colore dall’elenco.  
+  - Ora bisogna modificare la sfumatura di alcuni colori, specificando la percentuale nell’intensità (vedi capitolo precedente).
+
+
+- Verificare i colori base
+  Nel caso invece all’apertura del menu colori di una cartina esistente comparisse questa finestra:
+  ![Colori base file esistente già assegnati](inc/ocad_colori_base_file_esistente_gia_assegnati.png){width=300px} 
+  Significa che i colori sono già assegnati a dei colori base.
+  - Cliccando sul pulsante “colori base” si può vedere se è già caricato il profilo dei colori per la stampante ASTI (ASTI Colors 2026), nel qual caso è tutto OK e basta controllare le sfumature dei colori specificando la percentuale nell’intensità (vedi capitolo precedente).
+  - Altrimenti se è caricato un profilo sbagliato (p.es. quello di default della IOF) si consiglia di scegliere in basso sulla sinistra “remove colors from base colors”, poi scegliere “colori di base” per assegnare la paletta di colori ASTI giusta, ed infine premere sul bottone “assegna colori ai colori base”. 
+  - A questo punto verificare che tutti i colori (salvo bianco e nero…) siano assegnati ai colori base. 
+  - È possibile che con vecchie cartine l’assegnazione avvenga solo parziale, quindi se dovesse mancare qualche colore va assegnato a mano, cliccando nella colonna “colori base” corrispondente e scegliendo il colore dall’elenco.
+  - Ora bisogna modificare la sfumatura di alcuni colori, specificando la percentuale nell’intensità (vedi capitolo precedente).
+
+
+> [ Ritorna sopra ](#top)
+
+---
+## <a name="ocad_ottimizzare_file_ocad"></a> [ 119 ]  Come ottimizzare/riparare un file ocad
+{==COMPLETARE==}
+- Menu `> Carta > Ottimizzazione/Riparazione`
+
+
+> [ Ritorna sopra ](#top)
+
+---
+## <a name=""></a> [ 120 ] 
+{==COMPLETARE==}
+
+
+> [ Ritorna sopra ](#top)
+
+---
+## <a name=""></a> [ 121 ] 
+{==COMPLETARE==}
+
+
+> [ Ritorna sopra ](#top)
+
+---
+## <a name=""></a> [ 122 ] 
+{==COMPLETARE==}
+
+
+> [ Ritorna sopra ](#top)
+
+---
+---
+## <a name=""></a> [ 123 ] 
+{==COMPLETARE==}
+
+
+> [ Ritorna sopra ](#top)
+
+---
+## <a name=""></a> [ 124 ] 
+{==COMPLETARE==}
+
+
+> [ Ritorna sopra ](#top)
+
+---
+
+## <a name="cs_importazione_cartina_file_percorsi"></a> [ 125 ] Importazione della cartina nel file dei percorsi (solo esperti OCAD)
 {==Sistemare==}
 Un'altra tecnica di stampa, che dà ottimi risultati, consiste nell’importare la cartina nel file dei percorsi.  
 La cartina va tolta dagli sfondi, ed è integrata coi percorsi.    
@@ -919,8 +1093,10 @@ Ecco come procedere.
  - Si può poi spostare l’attenzione sui numeri dei punti, che di solito usano il colore numero 50, che dovrebbe essere posizionato in alto, in modo da coprire tutti i colori sottostanti, e risultare così ben visibile.
  - Quando si è soddisfatti, dopo aver impostato i colori giusti per la stampante usata, si può procedere alla stampa, che può essere diretta da OCAD oppure esportando i PDF (che generano poi l’effetto darkening).
 
+> [ Ritorna sopra ](#top)
+
 ---
-## <a name="ocad_darkening"></a> [ 201 ] Darkening
+## <a name="ocad_darkening"></a> [ 126 ] Darkening
 {==Sistemare==}
 Il “darkening” è una funzione che rende il viola dei percorsi trasparente quando si esportano i PDF da OCAD per la stampa dei percorsi.   
 Quando si crea un file di percorsi (e solo su un file di percorsi e non su una cartina!), OCAD automaticamente imposta l’effetto “darkening” per il viola di percorsi e numeri (non per il viola di layout). Quindi esportando i percorsi in PDF, si ottiene automaticamente la trasparenza desiderata.  
@@ -929,6 +1105,10 @@ Questo si può verificare come segue:
  - Visualizzare i colori (Menu Carta, Colori), premere sul pulsante “fusione”.
  - Appare la maschera seguente, in cui si vede che i colori 50 e 52 vengono “trasformati” e resi “non coprenti”.
   ![Darkening](inc/ocad_darkening.png)
+  
+> [ Ritorna sopra ](#top)
+
+---
 
 
 
