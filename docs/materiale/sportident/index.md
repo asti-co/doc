@@ -13,9 +13,6 @@ Descrizione sull'utilizzo di SPORTIdent in gara.
 - [Chip e chip speciali](chip.md)  
 Descrizione delle varie tipologie di chip.
 
-- [Utilizzo in gara](uso_in_gara.md)  
-Descrizione sull'utilizzo di SPORTIdent in gara.
-
 - [FAQ sull'utilizzo delle SIAC](faq_siac.md)  
 Domande frequenti sull'utilizzo di SPORTIdent SIAC in gara.
 

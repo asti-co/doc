@@ -25,7 +25,9 @@ Per una gara `normale` sono di regola necessari:
 - 1 stampante A4 per classifiche
 - 2 TV per classifiche con supporti (3 piedi, 3 supporti verticali, 2 supporti orizzontali)
 - bobina corrente
-- scatola di legno con materiale SPORTident
+- 1 scatola di alluminio con materiale SPORTident (scatolette di lettura, punti `CLEAR`, `CHECK`, `START`, `FINISH`, TimeMaster, ecc.)
+- 1 scatola di alluminio con i punti SPORTident
+- 1 scatola piccola di plastica con i punti radio (4 modem, 2 punti (221, 222), 2 `FINISH`)
   
 
 Da valutare di volta in volta materiale aggiuntivo come ad esempio:  

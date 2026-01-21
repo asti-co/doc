@@ -11,11 +11,12 @@ Le azioni sono suddivise in lassi di tempo relative alla data della gara.
         Il calendario delle gare ticinesi viene pianificato dalla CTCO 1-2 anni prima.  
         Per le nazionali, il calendario è gestito dalla commissione tecnica del SOLV con vari anni di anticipo.
     - **Scelta sull'utilizzo di punti radio.**  
-        I punti radio sono dispositivi che trasmettono in tempo reale (o quasi) i dati relativi al passaggio del concorrente ad un punto.  
+        I punti radio sono dispositivi che trasmettono in tempo reale (o quasi) i dati relativi al passaggio del concorrente ad un punto. 
         Esistono vari tipi di punti radio, con caratteristiche diverse a dipendenza delle esigenze, e possono richiedere la pianificazione di molti mesi, anche oltre un anno.  
-        Vedi i dettali nella pagina [Punti radio](../materiale/punti_radio.md).
+        Vedi i dettali nella pagina [Punti radio](../materiale/punti_radio.md).  
     - **Tracciamento dei percorsi.**  
         Di regola i percorsi vengono tracciati con [OCAD](../software/ocad/ocad_tracciatore.md).
+        Tieni conto dei punti radio ASTI già durante il tracciamento dei percorsi, assegnando i numeri `221` e `222`.
 - Mesi prima della gara:
     - **Pubblicazione dell'annuncio gara con informazioni generali sulla gara.**  
         Spedisci il file PDF a [co@asti-ticino.ch](mailto://co@asti-ticino.ch).
