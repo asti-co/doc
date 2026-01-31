@@ -103,13 +103,17 @@ nav:
           - Gestione Finanziaria: software/oe12/finanze.md
           - Archivio: software/oe12/archivio.md
           - Punti radio SPORTident: software/oe12/punti_radio.md
-      - O2rank:
-          - "software/o2rank/index.md"
-          - Creazione gara: software/o2rank/creazione_gara.md
+#      - O2rank:
+#          - "software/o2rank/index.md"
+#          - Creazione gara: software/o2rank/creazione_gara.md
 #          - Punti radio: software/o2rank/punti_radio.md
-          - Visualizzazione: software/o2rank/visualizzazione.md
+#          - Visualizzazione: software/o2rank/visualizzazione.md
       - Analisi:
           - "software/analisi/index.md"
+          - PicoEvents:
+              - "software/analisi/picoEvents/index.md"
+              - Creazione gara: software/analisi/picoEvents/creazione_gara.md
+              - Visualizzazione: software/analisi/picoEvents/visualizzazione.md
           - Classifiche SOLV: "software/analisi/solv.md"
           - Livelox:
               - "software/analisi/livelox/index.md"

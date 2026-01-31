@@ -43,7 +43,7 @@ Le azioni sono suddivise in lassi di tempo relativi alla data della gara.
         **Nota**: Ricordati di leggere il chip anche se ti sei ritirato e sai di non essere classificato. Altrimenti risulti ancora disperso nel bosco e l'organizzatore potrebbe organizzare un'azione di ricerca. 
         
     - **Consulta la classifica online**  
-        Alle gare del TMO, se al centro gara è possibile connettersi a internet tramite collegamento di telefonia mobile, vengono caricati i risultati in tempo reale, non appena vengono scaricati i chip. Le classifiche sono visibili su [o2Rank](http://classifiche.asti-ticino.ch/o2rank/).  
+        Alle gare del TMO, se al centro gara è possibile connettersi a internet tramite collegamento di telefonia mobile, vengono caricati i risultati in tempo reale, non appena vengono scaricati i chip. Le classifiche sono visibili su [picoEvents](https://results.picoevents.ch).  
         Per le gare nazionali, trovi una tabella *Wettkämpfe* sulla pagina principale della federazione (solo nella visione per PC) con una riga per gara e i link diretti all'annuncio gara, liste di partenza, classifiche e anche classifiche online (colonna *Live*).
     
 - Dopo la gara:

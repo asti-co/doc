@@ -36,7 +36,7 @@ Spiega come gestire varie casistiche comuni a tutte le gare quale i concorrenti 
 Spiega come gestire casi particolari che si spera non siano mai necessari (per esempio annullamenti di tratte o categorie, ritardi di partenza, ecc.).  
   
 - [Classifiche](classifiche.md)  
-Copre la creazione e pubblicazione delle classifiche, comprese quelle in tempo reale su O2Rank, quella del TMS e la pubblicazione sul sito SOLV, ASTI e RouteGadget.  
+Copre la creazione e pubblicazione delle classifiche, comprese quelle in tempo reale su PicoEvents, quella del TMS e la pubblicazione sul sito SOLV, ASTI e RouteGadget.  
   
 - [Gestione finanziaria (prima e dopo la gara)](finanze.md)  
 Descrive le attività legate alla fatturazione delle iscrizioni di gara.  

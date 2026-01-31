@@ -186,22 +186,15 @@ I relativi passi sono:
 
 ## Pubblicazione
 
-Le liste di partenza vanno pubblicate sia sul sito web di Swiss Orienteering che sul sito ASTI O2Rank.  
+Le liste di partenza vanno pubblicate sia sul sito web di Swiss Orienteering che sul sito PicoEvents.  
 Il formato del file è lo stesso, per cui basta esportare le liste di partenza una volta.  
-Se la gara non è ancora aperta in O2Rank e non la vuoi aprire subito, puoi seguire le indicazioni relative all'esportazione del file descritto in O2Rank, ma senza `Carica file nel web`. Il file così esportato va poi caricato sul sito di Swiss Orienteering.
+Se la gara non è ancora aperta in PicoEvents e non la vuoi aprire subito, puoi seguire le indicazioni relative all'esportazione del file descritto in PicoEvents, ma senza `Carica file nel web`. Il file così esportato va poi caricato sul sito di Swiss Orienteering.
 
-### Su O2Rank {#pubblica_liste_partenza_o2rank}
+### Su PicoEvents {#pubblica_liste_partenza_picoEvents}
 
-1. Recupera il token FTP della gara da `O2Rank`  
+1. Usa il `nome ORWare` della gara usato su `PicoEvents`  
 
-    - Se non hai ancora una gara su `O2Rank`, creala seguendo le istruzioni in [Software > O2Rank > Creazione gara](../o2rank/creazione_gara.md)
-
-    1. Accedi a `O2Rank` su [classifiche.asti-ticino.ch/o2rank](http://classifiche.asti-ticino.ch/o2rank)
-    1. Seleziona `Login` in alto a destra e accedi come amministratore  
-    (utente `co@asti-ticino.ch`, password `class1f1che`)
-    1. Seleziona `edit` sulla destra della tua gara
-    1. Copia il token cliccando su `Copy to clipboard`  
-    ![Copia il token](../o2rank/inc/ftpToken.png)
+    - Se non hai ancora una gara su `PicoEvents`, creala seguendo le istruzioni in [Software > Analisi > PicoEvents > Creazione gara](../analisi/picoEvents/creazione_gara.md)
 
 1. Esporta le liste di partenza  
 
@@ -217,7 +210,7 @@ Se la gara non è ancora aperta in O2Rank e non la vuoi aprire subito, puoi segu
     1. Se nel passo precedente hai modificato qualsiasi parametro, premi su `Aggiorna` nel menu in alto a sinistra.
     1. Premi su `Esporta` nel menu in alto.
     1. Imposta i seguenti campi  
-        ![Esporta](inc/partenza_lista_categoria_esporta.png)
+        ![Esporta](inc/partenza_lista_categoria_esporta_2026.png)
 
         - `Colonne con separatori (CSV)`
         - Separatore `Punto e virgola` 
@@ -226,29 +219,29 @@ Se la gara non è ancora aperta in O2Rank e non la vuoi aprire subito, puoi segu
 
         Nella sezione `File`  
 
-        - Esporta il file nella cartella `C:\Temp\tmo\<anno>`
-        - Imposta il nome del file a `LP_<FTP-Token>.csv`  
-        **Nota**: assicurati di usare il `Ftp Token` della tua gara e non quello già impostato in OL-Einzel, che probabilmente è il token della gara precedente.
-            - Es. `C:\Temp\tmo\2023\LP_XDRIZRPK.csv`
-        - Seleziona `Nome file univoco con orario`
+        - Esporta il file nella cartella `C:\Temp\tmo\`
+        - Imposta il nome del file a `LP_<NOME_ORWARE>.csv`  
+        **Nota**: assicurati di usare il `NOME_ORWARE` della tua gara e non quello già impostato in OL-Einzel, che probabilmente è il nome della gara precedente.
+            - Es. `C:\Temp\tmo\LP_TMO202601.csv`
+        - `NON` selezionare `Nome file univoco con orario`
         - Seleziona `Carica file nel web`
         - Non selezionare `Elabora file con DLL`
 
     1. Nel dialogo `Carica file nel web` imposta i campi  
-    ![Carica file nel web](inc/partenza_carica_file_nel_web.png)  
+    ![Carica file nel web](inc/partenza_carica_file_nel_web_2026.png)  
 
-        - Sito web `classifiche.asti-ticino.ch`
+        - Sito web `ftp.asti-ticino.ch`
         - Cartella `/`
         - Non attivare la connessione sicura SSL/TLS
-        - Nome utente `asti`
+        - Nome utente `co.classifiche@asti-ticino.ch`
         - Password `class1f1che`
 
-    1. Attendi uno-due minuti e verifica le liste in internet (sito [classifiche.asti-ticino.ch/o2rank](http://classifiche.asti-ticino.ch/o2rank))
+    1. Attendi uno-due minuti e verifica le liste in internet (sito [results.picoevents.ch](http://results.picoevents.ch/))
 
 ### Su Swiss Orienteering {#pubblica_liste_partenza_solv}
 
-Carica sul sito di Swiss Orienteering il file esportato per O2Rank (vedi [sopra](#pubblica_liste_partenza_o2rank)).  
-**Nota**: il nome del file contiene come prefisso la data e l'ora dell'esportazione.  
+Carica sul sito di Swiss Orienteering il file esportato per PicoEvents (vedi [sopra](#pubblica_liste_partenza_picoEvents)).  
+  
   
 1. Vai sul sito SOLV [www.swiss-orienteering.ch](https://www.swiss-orienteering.ch)
 1. Nel menu in alto, seleziona `Gare > Liste di partenza`  

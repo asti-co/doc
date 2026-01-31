@@ -57,19 +57,19 @@ Di seguito sono riassunti alcuni punti importanti del documento informazione sul
 
 - Chiunque desideri che i propri dati vengano utilizzati per scopi diversi dalle competizioni può annotarlo nella propria iscrizione 
 
-- Chiunque partecipi a una manifestazione di corsa d'orientamento inserita nel calendario di Swiss Orienteering su o-l.ch accetta di comparire nelle liste di partenza e di classifica pubblicate. È esclusa una successiva rimozione del nome o anche del tempo o della posizione in classifica.
+- Chiunque partecipi a una manifestazione di corsa d'orientamento inserita nel calendario di Swiss Orienteering su [o-l.ch](https://www.o-l.ch) accetta di comparire nelle liste di partenza e di classifica pubblicate. È esclusa una successiva rimozione del nome o anche del tempo o della posizione in classifica.
 
 - Gli organizzatori di Orienteering ricevono una copia della banca dati dei corridori di Swiss Orienteering, che può essere utilizzata solo per l'organizzazione della gara.
 
 - L'indirizzo e-mail memorizzato nella banca dati dei corridori può essere utilizzato dall'organizzatore dell'orienteering, dall'ufficio di Swiss Orienteering e dall'amministratore della banca dati per l'organizzazione della gara per scopi amministrativi. Altrimenti sarà trasmesso solo con il consenso della persona.
 
-- Il numero di cellulare memorizzato nella banca dati dei corridori viene utilizzato esclusivamente dall'organizzatore dell'orienteering per motivi di sicurezza (ad es. per verificare se un corridore che non ha ancora letto la classifica dopo la gara è già tornato dalla gara) e dall'ufficio per scopi amministrativi (ad es. nell'ambito del Covid-Contact Tracing).
+- Il numero di cellulare memorizzato nella banca dati dei corridori viene utilizzato esclusivamente dall'organizzatore dell'orienteering per motivi di sicurezza (ad es. per verificare se un corridore che non ha ancora letto il chip dopo la gara è già tornato dalla gara) e dall'ufficio per scopi amministrativi (ad es. nell'ambito del Covid-Contact Tracing).
 
 - Le richieste di non utilizzo di dati personali dal database dei corridori devono essere inviate a info@swiss-orienteering.ch.
-
 
 ## Gestione per organizzatori
 
 Sul sito della banca dati SOLV si trova un link per organizzatori. Questo serve per scaricare la banca dati completa, da importare nel programma di gestione delle gare, ad esempio in OL-Einzel.  
 Per il Ticino, questa procedura viene eseguita dal responsabile del materiale un paio di volte all'anno, e non è quindi un compito degli organizzatori dei TMO.  
-Le relative azioni sono descritte nella seziona [archivio](../oe12/archivio.md) di OL-Einzel.
+Le relative azioni sono descritte nella seziona [archivio](../oe12/archivio.md) di OL-Einzel.  
+**Tutti coloro che utilizzano o hanno accesso ai PC ASTi sui quali è salvata la banca dati SOLV sono tenuti ad attenersi alle disposizioni SOLV sull'utilizzo di questi dati. Non è permesso l'utilizzo per altri scopi che l'organizzazione delle gare (di regola per le iscrizioni sul posto o per rintracciare concorrenti mancanti). Non è permesso esportare la banca dati o condividerla con altri enti o società.**

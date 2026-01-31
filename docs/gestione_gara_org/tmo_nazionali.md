@@ -38,9 +38,9 @@ Le azioni sono suddivise in lassi di tempo relative alla data della gara.
         Crea la gara in OL-Einzel ([OE12](../software/oe12/index.md)) e importa le iscrizioni e i percorsi.  
         Vedi i passi dettagliati nella pagina [Creazione gara in OE12](../software/oe12/creazione_gara.md).
     - **Creazione della gara sul portale delle classifiche online.**  
-        Crea la gara su [O2Rank](http://classifiche.asti-ticino.ch/o2rank/)) per la pubblicazione delle liste di partenza e delle classifiche online.  
-        Anche evitando la pubblicazione delle liste di partenza su o2rank prima del giorno di gara, preparando la gara in anticipo toglie stress il giorno di gara.  
-        Vedi i passi dettagliati nella pagina [Creazione gara in O2Rank](../software/o2rank/creazione_gara.md).
+        Crea la gara su [picoEvents](https://results.picoevents.ch/tic) per la pubblicazione delle liste di partenza e delle classifiche online.  
+        Anche evitando la pubblicazione delle liste di partenza su picoEvents prima del giorno di gara, preparando la gara in anticipo toglie stress il giorno di gara.  
+        Vedi i passi dettagliati nella pagina [Creazione gara in picoEvents](../software/analisi/picoEvents/creazione_gara.md).
     - **Creazione e pubblicazione delle liste di partenza.**  
         Crea e pubblica le liste di partenza, tenendo conto di eventuali iscrizioni o mutazioni pervenute tardivamente dopo la chiusura delle iscrizioni.  
         Vedi i passi dettagliati nelle pagine [iscrizioni tardive](../software/oe12/iscrizioni_tardive.md) e [Liste di partenza](../software/oe12/liste_partenza.md).
@@ -62,9 +62,9 @@ Le azioni sono suddivise in lassi di tempo relative alla data della gara.
         Quindi usare il PC4 come server e in primo luogo il nuovo PC5 come stazione di lettura, e usare i PC 1, 2 e 3 come stazioni di lettura supplementari. Notare comunque che in mancanza di corrente, anche la rete tra il PC5 e il server salta, e pure le stampantine non funzionano più.
         Vedi i dettaglia nella pagina [Software > OE12 > Montaggio](../software/oe12/montaggio.md).
     - **Gestione delle TV e delle classifiche online.**  
-        Le TV mostrano le classifiche prendendo i dati da internet dal portale [O2Rank](http://classifiche.asti-ticino.ch). Pertanto, è necessario creare una gara su O2Rank e caricare le classifiche provvisorie ogni minuto per aggiornare le classifiche online.  
+        Le TV mostrano le classifiche prendendo i dati da internet dal portale [picoEvents](https://results.picoevents.ch). Pertanto, è necessario creare una gara su picoEvents e caricare le classifiche provvisorie ogni minuto per aggiornare le classifiche online.  
         Inoltre, le TV devono avere accesso al WiFi ASTi e avere connessione internet per recuperare i dati.    
-        Vedi i passi dettagliati nella pagina [Software > O2Rank > Creazione gara](../software/o2rank/creazione_gara.md).
+        Vedi i passi dettagliati nella pagina [Software > Analisi > PicoEvents > Creazione gara](../software/analisi/picoEvents/creazione_gara.md).
     - **Gestione delle mutazioni e delle iscrizioni sul posto.**  
         Gestisci le iscrizioni sul posto e le mutazioni in OL-Einzel tenendo conto delle cartine a disposizione in partenza.  
         Vedi i passi dettagliati nella pagina [Software > OE12 > Mutazioni](../software/oe12/mutazioni_giorno_gara.md).

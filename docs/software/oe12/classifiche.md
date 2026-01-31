@@ -2,31 +2,25 @@
 
 ## Classifiche TV / online  {#classifiche-tv-online}
 
-Le classifiche per le TV mostrate al centro gara dei TMO e le classifiche online pubblicate sul sito [O2Rank](http://classifiche.asti-ticino.ch/o2rank) aggiornate in tempo reale sono ottenute tramite un'unica classifica esportata a intervalli regolari. Questa classifica viene pubblicate durante la gara, quando non tutti i concorrenti sono giunti all'arrivo.  
+Le classifiche per le TV mostrate al centro gara dei TMO e le classifiche online pubblicate sul sito [PicoEvents](http://results.picoevents.ch/) aggiornate in tempo reale sono ottenute tramite un'unica classifica esportata a intervalli regolari. Questa classifica viene pubblicata durante la gara, quando non tutti i concorrenti sono giunti all'arrivo.  
 In caso di problemi con la rete internet o con le TV, come alternativa le classifiche vengono stampate a intervalli regolari e appese al centro gara. La relativa procedura è descritta [più sotto](#classifiche-provvisorie).  
 
-!!! Warning "Usa le classifiche provvisorie"
-    Il sito o2rank supporta sia le classifiche provvisorie che quelle con tempi intermedi. La procedura descritta è la stessa, ma caricando i tempi intermedi è possibile visualizzare i grafici, per contro i file saranno più grandi sollecitando maggiormente la rete.  
-    Tuttavia, attualmente le classifiche con tempi intermedi creano un problema sul server, per cui **non vanno usate**.
+!!! Info "Usa le classifiche con tempi intermedi"
+    Il sito PicoEvents supporta sia le classifiche provvisorie che quelle con tempi intermedi. La procedura descritta è la stessa, ma caricando i tempi intermedi è possibile visualizzare gli intertempi e relativi grafici già dopo la partenza dell'ultimo concorrente.  
+    I file saranno più grandi sollecitando maggiormente la rete, ma questi aspetti non dovrebbero causare problemi.  
   
-1. Nel menu `Classifiche` seleziona `Classifica provvisoria > Categorie`.  
-![Classifica provvisoria per categoria](inc/classifiche_menu_provvisoria.png)
+1. Nel menu `Classifiche` seleziona `Tempi intermedi > Categorie`.  
+![Classifica tempi intermedi per categoria](inc/classifiche_menu_intermedi.png)
 1. Nelle `Impostazioni` a sinistra, nella sezione `Classifica`, seleziona  tutti i concorrenti, ma senza i non partiti.  
-![Impostazioni](inc/classifiche_provvisoria_impostazioni.png)
-1. Seleziona le categorie da stampare nel pannello di selezione in basso (di regola tutte).
+![Impostazioni](inc/classifiche_intermedi_impostazioni.png)
+1. Seleziona le categorie da esportare nel pannello di selezione in basso (di regola tutte).
 1. Assicurati che i tempi siano mostrati nel formato `OO:MM:SS`.  
 Altrimenti, imposta il formato nel menu `ingranaggio` in alto a destra.
 1. In caso di modifiche alle impostazioni, aggiorna le classifiche.
-![Aggiorna](inc/classifiche_provvisoria_aggiorna.png)
+![Aggiorna](inc/classifiche_intermedi_aggiorna.png)
 
-1. Recupera il token FTP della gara da `O2Rank`.  
-    1. Se non hai ancora una gara su `O2Rank`, creala seguendo le istruzioni in [Software > O2Rank > Creazione gara](../o2rank/creazione_gara.md)    
-    1. Accedi a `O2Rank` su [classifiche.asti-ticino.ch/o2rank](http://classifiche.asti-ticino.ch/o2rank)
-    1. Seleziona `Login` in alto a destra e accedi come amministratore  
-    (utente `co@asti-ticino.ch`, password `class1f1che`)
-    1. Seleziona `edit` sulla destra della tua gara
-    1. Copia il `Ftp Token` cliccando su `Copy to clipboard`  
-    ![Copia il token](../o2rank/inc/ftpToken.png)
+1. Utilizza il `Nome ORWare` della gara impostato su `PicoEvents`.  
+    1. Se non hai ancora una gara su `PicoEvents`, creala seguendo le istruzioni in [Software > Analisi > PicoEvents > Creazione gara](../analisi/picoEvents/creazione_gara.md)    
 
 1. Nella finestra della classifica in OE12, nelle `Impostazioni` a sinistra, nella sezione `Rapporto automatico`  
 ![Stampa automatica](inc/classifiche_intermedi_automatico_esporta.png)
@@ -36,7 +30,7 @@ Altrimenti, imposta il formato nel menu `ingranaggio` in alto a destra.
     1. Premi su `Avvia`. 
 
 1. Nel dialogo di esportazione (appare solo la prima volta)  
-![Esporta nel web](inc/classifiche_esporta_web.png)
+![Esporta nel web](inc/classifiche_esporta_web_2026.png)
     1. Imposta `Colonne con separatori (CSV)`.
     1. Imposta separatore `Punto e virgola`.
     1. Imposta delimitatore testo `Nessuno`.
@@ -44,28 +38,28 @@ Altrimenti, imposta il formato nel menu `ingranaggio` in alto a destra.
     1. Esporta il file nella cartella `C:\Temp\tmo\<anno>`).
     1. Imposta il nome del file a `<FTP-Token>.csv`.  
         - Es. `C:\Temp\tmo\2023\XDRIZRPK.csv`
-    1. Imposta `Nome file univoco con orario`.
+    1. `NON` impostare `Nome file univoco con orario`.
     1. Imposta `Carica file nel web`.
     1. Non impostare `Elabora file con DLL`.
     1. Premi `Ok`.
 
 1. Nel dialogo `Carica file nel web`    
-![Carica file nel web](inc/classifiche_carica_web.png)  
+![Carica file nel web](inc/classifiche_carica_web_2026.png)  
 
-    1. Imposta il sito web `classifiche.asti-ticino.ch`
+    1. Imposta il sito web `ftp.asti-ticino.ch`
     1. Imposta la cartella `/`
     1. Non attivare la connessione sicura SSL/TLS
-    1. Imposta il nome utente `asti`
+    1. Imposta il nome utente `co.classifiche@asti-ticino.ch`
     1. Imposta la password `class1f1che`
     1. Premi `Carica`.
 
-1. Attendi uno-due minuti e verifica le classifiche in internet (sito [classifiche.asti-ticino.ch/o2rank](http://classifiche.asti-ticino.ch/o2rank))
+1. Attendi uno-due minuti e verifica le classifiche in internet (sito [results.picoevents.ch](http://results.picoevents.ch/))
 
 
 ## Classifiche provvisorie
 
 Le classifiche provvisorie sono classifiche pubblicate durante la gara, quando non tutti i concorrenti sono giunti all'arrivo. Nella testata di ogni categoria vengono indicati il numero di concorrenti arrivati rispetto al numero di concorrenti iscritti (ad es. `(13/18)`).  
-Ai TMO, queste classifiche vengono di regola mostrate sulle TV al centro gara e caricate in internet sul sito [O2Rank](http://classifiche.asti-ticino.ch/o2rank).  
+Ai TMO, queste classifiche vengono di regola mostrate sulle TV al centro gara e caricate in internet sul sito [PicoEvents](http://results.picoevents.ch/).  
 Come alternativa in caso di problemi con le TV vengono stampate a intervalli regolari e appese al centro gara.
     
 1. Nel menu `Classifiche` seleziona `Classifica provvisoria > Categorie`.  
