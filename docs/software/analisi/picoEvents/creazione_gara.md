@@ -3,7 +3,10 @@
 Creare la gara su [PicoEvents](https://results.picoevents.ch/tic) per le liste di partenza e le classifiche online, come pure per le classifiche sulle TV al centro gara.
 
 ## Creazione gara
-Come operazione preparatoria prima della gara, crea un evento sul sito PicoEvents.
+Come operazione preparatoria prima della gara, crea un evento sul sito PicoEvents.  
+  
+!!! Warning "Gare multiple"
+    PicoEvents permette la gestione di più gare in parallelo, ma non è possibile crearle e amministrarle con l'attuale interfaccia web. Se hai bisogno di attivare più gare contemporaneamente, contatta Maja a [picoevents@gmx.ch](mailto:picoevents@gmx.ch)
 
 1. Accedi al sito [https://results.picoevents.ch/tic](https://results.picoevents.ch/tic).  
 1. Fai login con `public` e parola chiave `TI_22`.  
