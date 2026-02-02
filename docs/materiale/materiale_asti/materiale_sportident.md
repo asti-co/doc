@@ -4,7 +4,7 @@ L'ASTI ha in dotazione parecchio materiale SPORTident a disposizione delle socie
 Vedi la [lista completa](https://asti-ticino.ch/co/doc/2025/lista_materiale_2025.pdf) e aggiornata [sul sito ASTI](https://asti-ticino.ch/co/index.php?folder=doc&main=doc).  
   
 - 81 scatolette dei punti, numeri 31 - 110, con 2 scatolette `100`.   
-Ulteriori 30 punti da richiedere alla Sele.
+Ulteriori unità da richiedere alla Sele o alle società. Vedi dettagli [in basso](#scatolette_club)
 - 2 scatolette dei punti SRR per punti radio (numero `221` e `222`)
 - 4 scatolette `CLEAR`
 - 4 scatolette `CHECK` di cui 1 marcata come `Start Check`
@@ -28,6 +28,22 @@ Supporti per punti (con relative lanterne):
 - paletti per scatolette grandi (clear/check/partenza/arrivo)
 - cavalletti in legno
 - piedistalli in cemento per paletti in alu
+
+## Unità SPORTident delle società {#scatolette_club}
+
+Se non bastano le scatolette dei punti ASTI chiedi alle società. Queste le unità a disposizione.  
+Se non indicato diversamente, le unità sono programmate come SI-Air.
+  
+| Società     | Tipologia             | Numeri    | Commenti                 |
+|-------------|-----------------------|:---------:|--------------------------|
+| Sele Ticino | BSF8 rosse / BSF9 blu | 111 - 140 | Chiedere agli allenatori |
+| ASCO        | BSF8 rosse            | 151 - 182 |                          |
+| GOLD        | BSF8 rosse            | 131 - 170 |                          |
+| AGET        | BSF8 rosse            | 61 - 89   | Nr. 85 non Air           |
+| SCOM        | BSF8 rosse            | 31 - 59   |                          |
+| GOV         | BSF8 rosse            | 31 - 56   |                          |
+| O-92        | Vecchie               | 31 - 54   | Non Air                  |
+| UNITAS      | Vecchie               | 121 - 140 | Nr. 127 non Air          |       
 
 ## Altro materiale SPORTident
 
