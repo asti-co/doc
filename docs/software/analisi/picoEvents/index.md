@@ -1,8 +1,8 @@
 # PicoEvents
 
-PicoEvents è un [portale di classifiche online](https://results.picoevents.ch) per le gare di corsa d'orientamento, usato per gran parte delle gare nazionali e dal 2026 adottato anche per le gare TMO dell'ASTI.
-
-Questa sezione contiene le seguenti guide d'utilizzo:
+PicoEvents è un [portale di classifiche online](https://results.picoevents.ch) per le gare di corsa d'orientamento, usato per gran parte delle gare nazionali e dal 2026 adottato anche per le gare TMO dell'ASTI.  
+  
+Questa sezione contiene le seguenti guide d'utilizzo:  
 
 - Per gli organizzatori:  
     - [Creazione gara](creazione_gara.md)   
