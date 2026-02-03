@@ -1,0 +1,3443 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentazione ASTi">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+    
+    
+      
+        <title>OCAD per il tracciatore - ASTi CO - Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ocad-per-il-tracciatore" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../../.." title="ASTi CO - Docs" class="md-header__button md-logo" aria-label="ASTi CO - Docs" data-md-component="logo">
+      
+  <img src="../../../img/asti_small.gif" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ASTi CO - Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              <a name="top"></a>OCAD per il tracciatore
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Condividi" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Cancella" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/asti-co/doc" title="Apri repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="ASTi CO - Docs" class="md-nav__button md-logo" aria-label="ASTi CO - Docs" data-md-component="logo">
+      
+  <img src="../../../img/asti_small.gif" alt="logo">
+
+    </a>
+    ASTi CO - Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/asti-co/doc" title="Apri repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../gestione_gara_conc/">Gestione gara - concorrenti</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Gestione gara - concorrenti" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Gestione gara - concorrenti
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../gestione_gara_org/">Gestione gara - organizzatori</a>
+          
+            <label for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Gestione gara - organizzatori" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Gestione gara - organizzatori
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../gestione_gara_org/tmo_nazionali/" class="md-nav__link">
+        TMO / Nazionali
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../gestione_gara_org/staffetta_sele/" class="md-nav__link">
+        Staffetta Sele
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../gestione_gara_org/scool_cup/" class="md-nav__link">
+        sCOOLcup
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../materiale/">Materiale</a>
+          
+            <label for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Materiale" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Materiale
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../materiale/materiale_asti/">Materiale ASTI IT</a>
+          
+            <label for="__nav_4_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Materiale ASTI IT" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Materiale ASTI IT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../materiale/materiale_asti/materiale_informatico/" class="md-nav__link">
+        Materiale informatico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../materiale/materiale_asti/materiale_sportident/" class="md-nav__link">
+        Materiale SPORTident
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../materiale/materiale_asti/router/" class="md-nav__link">
+        Router
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../materiale/materiale_asti/ponti_radio/" class="md-nav__link">
+        Ponti radio
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../materiale/punti_radio/" class="md-nav__link">
+        Punti radio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../materiale/sportident/">SPORTident</a>
+          
+            <label for="__nav_4_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="SPORTident" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          SPORTident
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../materiale/sportident/panoramica/" class="md-nav__link">
+        Panoramica
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../materiale/sportident/uso_in_gara/" class="md-nav__link">
+        Uso in Gara
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../materiale/sportident/chip/" class="md-nav__link">
+        Chip
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../materiale/sportident/faq_siac/" class="md-nav__link">
+        FAQ sui Chip Air SIAC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../materiale/sportident/sincronizzazione_punti/" class="md-nav__link">
+        Sincronizzazione Punti
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../materiale/sportident/punti_radio/" class="md-nav__link">
+        Punti Radio SPORTident
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../">Software</a>
+          
+            <label for="__nav_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Software" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Software
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          OCAD
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="OCAD" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          OCAD
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ocad/ocad_tracciatore/" class="md-nav__link">
+        Per tracciatori
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../solvDB/">SOLV DB</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="SOLV DB" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          SOLV DB
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../portali_iscrizioni/">Portali Iscrizioni</a>
+          
+            <label for="__nav_5_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Portali Iscrizioni" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Portali Iscrizioni
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4_2" type="checkbox" id="__nav_5_4_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../portali_iscrizioni/olevents/">OL-Events</a>
+          
+            <label for="__nav_5_4_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="OL-Events" data-md-level="3">
+        <label class="md-nav__title" for="__nav_5_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          OL-Events
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../portali_iscrizioni/olevents/organizzatori/" class="md-nav__link">
+        Creazione gara
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../portali_iscrizioni/olevents/concorrenti/" class="md-nav__link">
+        Iscrizioni
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../oe12/">OE 12</a>
+          
+            <label for="__nav_5_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="OE 12" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_5">
+          <span class="md-nav__icon md-icon"></span>
+          OE 12
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/panoramica/" class="md-nav__link">
+        Panoramica
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/interfaccia_grafica/" class="md-nav__link">
+        Interfaccia grafica
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/creazione_gara/" class="md-nav__link">
+        Creazione gara
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/iscrizioni_tardive/" class="md-nav__link">
+        Iscrizioni tardive
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/liste_partenza/" class="md-nav__link">
+        Liste di partenza
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/varie_pre_gara/" class="md-nav__link">
+        Varie pre-gara
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/montaggio/" class="md-nav__link">
+        Montaggio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/mutazioni_giorno_gara/" class="md-nav__link">
+        Mutazioni
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/lettura_chip/" class="md-nav__link">
+        Lettura Chip
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/casi_normali/" class="md-nav__link">
+        Casi Normali
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/casi_speciali/" class="md-nav__link">
+        Casi Speciali
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/classifiche/" class="md-nav__link">
+        Classifiche
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/finanze/" class="md-nav__link">
+        Gestione Finanziaria
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/archivio/" class="md-nav__link">
+        Archivio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oe12/punti_radio/" class="md-nav__link">
+        Punti radio SPORTident
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../analisi/">Analisi</a>
+          
+            <label for="__nav_5_6">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Analisi" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_6">
+          <span class="md-nav__icon md-icon"></span>
+          Analisi
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6_2" type="checkbox" id="__nav_5_6_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../analisi/picoEvents/">PicoEvents</a>
+          
+            <label for="__nav_5_6_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="PicoEvents" data-md-level="3">
+        <label class="md-nav__title" for="__nav_5_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          PicoEvents
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analisi/picoEvents/creazione_gara/" class="md-nav__link">
+        Creazione gara
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analisi/picoEvents/visualizzazione/" class="md-nav__link">
+        Visualizzazione
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analisi/solv/" class="md-nav__link">
+        Classifiche SOLV
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6_4" type="checkbox" id="__nav_5_6_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../analisi/livelox/">Livelox</a>
+          
+            <label for="__nav_5_6_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Livelox" data-md-level="3">
+        <label class="md-nav__title" for="__nav_5_6_4">
+          <span class="md-nav__icon md-icon"></span>
+          Livelox
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analisi/livelox/concorrenti/" class="md-nav__link">
+        Per Concorrenti
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analisi/livelox/organizzatori/" class="md-nav__link">
+        Per Organizzatori
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analisi/routegadget/" class="md-nav__link">
+        RouteGadget
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../about/">About</a>
+          
+            <label for="__nav_6">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/feedback/" class="md-nav__link">
+        Feedback
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/documentazione/" class="md-nav__link">
+        Documentazione
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/tooling/" class="md-nav__link">
+        Tooling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/cambiamenti/" class="md-nav__link">
+        Cambiamenti
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#informazioni-preliminari-per-il-tracciamento-di-una-gara-asti" class="md-nav__link">
+    [&#9655;] Informazioni preliminari per il tracciamento di una gara ASTi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#0-interfaccia-grafica-ocad-tracciamento-percorsi" class="md-nav__link">
+     [ 0 ] Interfaccia grafica OCAD Tracciamento percorsi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra_1" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-creazione-del-file-ocad-dei-tracciati" class="md-nav__link">
+    [ 1 ] Creazione del file OCAD dei tracciati
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra_2" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-impostazione-progetto-ocad-dei-tracciati" class="md-nav__link">
+    [ 2 ] Impostazione progetto OCAD dei tracciati
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-creazionecomposizione-dei-tracciati" class="md-nav__link">
+    [ 3 ] Creazione/composizione dei tracciati
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-descrizione-punti" class="md-nav__link">
+     [ 4 ] Descrizione punti
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra_3" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-controllo-dei-tracciati" class="md-nav__link">
+     [ 5 ] Controllo dei tracciati
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra_4" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-grafica-ed-elementi-dei-tracciati" class="md-nav__link">
+     [ 6 ] Grafica ed elementi dei tracciati
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra_5" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-impaginazione-per-la-stampa-cartina-e-percorsi" class="md-nav__link">
+     [ 7 ] Impaginazione per la stampa (cartina e percorsi)
+  </a>
+  
+    <nav class="md-nav" aria-label=" [ 7 ] Impaginazione per la stampa (cartina e percorsi)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-metodo-vecchio-tradizionale-czjqqkd2da-rivedereczjqqkd3" class="md-nav__link">
+     A) Metodo "vecchio-tradizionale" czjqqkd:2DA RIVEDEREczjqqkd:3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-metodo-canovacci-canvas-czjqqkd6da-rivedereczjqqkd7" class="md-nav__link">
+     B) Metodo "canovacci" (Canvas)  czjqqkd:6DA RIVEDEREczjqqkd:7
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra_6" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-esportazione-pdf-descrizione-punti" class="md-nav__link">
+     [ 8 ] Esportazione PDF descrizione punti
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra_7" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-esportazione-tracciati-per-ol-einzel" class="md-nav__link">
+     [ 9 ] Esportazione tracciati per OL-Einzel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra_8" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-stampa-delle-cartine-di-gara" class="md-nav__link">
+     [ 10 ] Stampa delle cartine di gara
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra_9" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-verifica-delle-cartine-stampate" class="md-nav__link">
+     [ 11 ] Verifica delle cartine stampate
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra_10" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-esportazione-cartina-e-tracciati-per-livelox" class="md-nav__link">
+     [ 12 ] Esportazione cartina e tracciati per Livelox
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra_11" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#altre-informazioni-supplementari" class="md-nav__link">
+     Altre informazioni supplementari
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#100-checklist-degli-elementi-da-stampare-sulle-cartine" class="md-nav__link">
+     [ 100 ] Checklist degli elementi da stampare sulle cartine
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#101-come-inserire-una-partenza-svedese-percorso-segnalato-dal-punto-di-consegna-della-cartina" class="md-nav__link">
+    [ 101 ] Come inserire una partenza svedese (percorso segnalato dal punto di consegna della cartina)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#102-come-inserire-ultimo-punto-arrivo-segnalato" class="md-nav__link">
+    [ 102 ] Come inserire ultimo punto-arrivo segnalato
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#103-come-inserire-un-cambio-cartina-virtuale-map-flip-voltare-la-cartina" class="md-nav__link">
+     [ 103 ] Come inserire un cambio cartina virtuale (map flip) (voltare la cartina)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#104-come-tagliare-i-cerchiolini-dei-punti" class="md-nav__link">
+    [ 104 ] Come tagliare i cerchiolini dei punti
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#105-come-tagliare-le-linee-di-connessione-dei-percorsi" class="md-nav__link">
+    [ 105 ] Come tagliare le linee di connessione dei percorsi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#106-come-verificaremodificare-i-colori-di-un-file-ocad" class="md-nav__link">
+     [ 106 ] Come verificare/modificare i colori di un file OCAD
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#107-come-definire-unarea-di-stampa" class="md-nav__link">
+     [ 107 ] Come definire un'area di stampa
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#108-come-preparare-un-file-di-layout" class="md-nav__link">
+     [ 108 ] Come preparare un file di layout
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#109-come-inserire-un-logo-simbolo-ocad-in-un-file-ocd-esistente" class="md-nav__link">
+    [ 109 ] Come inserire un logo (simbolo OCAD) in un file ocd esistente
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#110-come-inserire-un-logo-immagine" class="md-nav__link">
+    [ 110 ] Come inserire un logo immagine
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#111-come-creare-un-simbolo-ocad-da-un-logo-vettoriale" class="md-nav__link">
+    [ 111 ] Come creare un simbolo OCAD da un logo vettoriale
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#112-come-ritagliare-una-cartina-con-ocad" class="md-nav__link">
+     [ 112 ] Come ritagliare una cartina con OCAD
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#113-come-impostare-una-stampa-fronteretro" class="md-nav__link">
+     [ 113 ] Come impostare una stampa fronte/retro
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    ---
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#114-come-verificare-che-versione-del-software-ocad-sto-usando" class="md-nav__link">
+     [ 114 ] Come verificare che versione del software OCAD sto usando
+  </a>
+  
+    <nav class="md-nav" aria-label=" [ 114 ] Come verificare che versione del software OCAD sto usando">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#115-a-creazione-guidata-tracciati-di-gara" class="md-nav__link">
+     [ 115 ] A. Creazione guidata tracciati di gara
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#116-b-creazione-manuale-tracciati-di-gara" class="md-nav__link">
+     [ 116 ] B. Creazione manuale tracciati di gara
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ritorna-sopra_12" class="md-nav__link">
+    &gt;  Ritorna sopra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#117-canovacci-definisci-area-di-stampa" class="md-nav__link">
+     [ 117 ] Canovacci Definisci area di stampa
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#118-utilizzo-colori-base" class="md-nav__link">
+     [ 118 ] Utilizzo colori base
+  </a>
+  
+    <nav class="md-nav" aria-label=" [ 118 ] Utilizzo colori base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#colori-base-caso-1-nuovo-file" class="md-nav__link">
+    Colori base - Caso 1: Nuovo file
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#colori-base-caso-2-verifica-colori-file-esistente" class="md-nav__link">
+    Colori base - Caso 2: Verifica colori file esistente
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#119-come-ottimizzareriparare-un-file-ocad" class="md-nav__link">
+     [ 119 ]  Come ottimizzare/riparare un file ocad
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#120" class="md-nav__link">
+     [ 120 ]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+     [ 121 ]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#122" class="md-nav__link">
+     [ 122 ]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-_1" class="md-nav__link">
+    ---
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#123" class="md-nav__link">
+     [ 123 ]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#124" class="md-nav__link">
+     [ 124 ]
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#125-importazione-della-cartina-nel-file-dei-percorsi-solo-esperti-ocad" class="md-nav__link">
+     [ 125 ] Importazione della cartina nel file dei percorsi (solo esperti OCAD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#126-darkening" class="md-nav__link">
+     [ 126 ] Darkening
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/asti-co/doc/edit/main/docs/software/ocad_dev/ocad_tracciatore.md" title="Modifica" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+
+<h1 id="ocad-per-il-tracciatore"><a name="top"></a>OCAD per il tracciatore<a class="headerlink" href="#ocad-per-il-tracciatore" title="Permanent link">&para;</a></h1>
+<p><strong>QUESTA PAGINA È IN FASE DI ELABORAZIONE<br />
+ALCUNE INFORMAZIONI DEVONO ANCORA ESSERE VALIDATE</strong><br />
+<img alt="Lavori in corso" src="../../../img/lavori_in_corso.png" width="100px" /></p>
+<p>In queste pagine sono descritte le procedure per preparare i percorsi di una gara utilizzando OCAD, dalla creazione del file iniziale alla stampa delle mappe. Viene presentato il metodo consigliato per le gare di CO ASTi (TMO, TMS, ecc.), con alcune varianti per utenti più esperti. Le istruzioni sono in continuo aggiornamento, quindi potrebbero subire modifiche nel tempo. Se trovate eventuali errori vi invitiamo a segnalarli.</p>
+<ul>
+<li><a href="#cs_info_preliminari_tracciamento"> [&#9655;] Informazioni preliminari per il tracciamento di una gara ASTi</a></li>
+<li><a href="#cs_interfaccia_grafica"> [ 0 ] Interfaccia grafica OCAD Tracciamento percorsi</a></li>
+<li><a href="#cs_creazione_file_tracciati"> [ 1 ] Creazione del file OCAD dei tracciati</a></li>
+<li><a href="#cs_impostazione_progetto_tracciati"> [ 2 ] Impostazione progetto OCAD dei tracciati</a></li>
+<li><a href="#cs_creazione_composizione_tracciati"> [ 3 ] Creazione/composizione dei tracciati</a></li>
+<li><a href="#cs_descrizione_punti"> [ 4 ] Descrizione punti</a></li>
+<li><a href="#cs_controllo_tracciati"> [ 5 ] Controllo dei tracciati</a></li>
+<li><a href="#cs_grafica_ed_elementi_tracciati"> [ 6 ] Grafica dei tracciati ed elementi dei tracciati</a></li>
+<li><a href="#cs_impaginazione_stampa"> [ 7 ] Impaginazione per la stampa (cartina e percorsi)</a></li>
+<li><a href="#cs_esportazione_descrizione_punti_pdf"> [ 8 ] Esportazione PDF descrizione punti</a></li>
+<li><a href="#cs_esportazione_oe"> [ 9 ] Esportazione tracciati per OL-Einzel</a></li>
+<li><a href="#st_stampa_cartine_gara"> [ 10 ] Stampa delle cartine di gara</a>  </li>
+<li><a href="#st_verifica_cartine_stampate"> [ 11 ] Verifica cartine stampate</a></li>
+<li>
+<p><a href="#cs_esportazione_livelox"> [ 12 ] Esportazione cartine e percorsi per Livelox</a></p>
+</li>
+<li>
+<p><a href="#ocad_altro"> Altre informazioni supplementari</a></p>
+</li>
+</ul>
+<hr />
+<h2 id="informazioni-preliminari-per-il-tracciamento-di-una-gara-asti"><a name="cs_info_preliminari_tracciamento"></a>[&#9655;] Informazioni preliminari per il tracciamento di una gara ASTi<a class="headerlink" href="#informazioni-preliminari-per-il-tracciamento-di-una-gara-asti" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Richiedete l’ultima versione del file della cartina</strong> da utilizzare per la gara al/alla responsabile cartine ASTi.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Se, in qualità di organizzatori, effettuate aggiornamenti puntuali alla cartina</strong>, eseguiteli direttamente sul file completo della carta. Al termine della gara, inviate nuovamente il file aggiornato (comprensivo di tutti gli elementi di layout) al/alla responsabile cartine ASTi.<br />
+      Gli eventuali aggiornamenti puntuali, soprattutto nel caso di cartine nuove, dovrebbero essere effettuati dal cartografo che ha realizzato la cartina oppure, quantomeno, con il suo consenso. Per cartine meno recenti, possono essere eseguiti con il supporto di un cartografo della vostra società o da “orientisti esperti”. È fondamentale evitare modifiche rilevanti alla cartina; qualora queste siano necessarie, devono essere pianificate per tempo ed eseguite nell'ambito di un progetto di aggiornamento cartina.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Verificate che state utilizzando l’ultima versione del software OCAD</strong>. Tra una versione e l’altra, oltre a nuove funzionalità, possono esserci modifiche al modello dei simboli di tracciato.
+      Se usate una licenza team su cloud, chiedete al responsabile della vostra società di aggiornare OCAD, se necessario.<br />
+      &gt; <a href="#ocad_check_version">Come verificare che versione del software OCAD sto usando</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Durante il tracciamento dei percorsi</strong>, considerate fin da subito il formato della cartina che verrà stampata, in modo da evitare problemi in seguito o inutili cambi/giro della cartina.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Denominazione delle categorie/tracciati</strong>: per le gare ASTi, utilizzare le denominazioni ufficiali previste. Riferimento: <a href="https://www.asti-ticino.ch/co/index.php?folder=ctco&main=reco" target=_new><ins>RECO</ins></a>.</li>
+</ul>
+<h2 id="ritorna-sopra">&gt; <a href="#top"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra" title="Permanent link">&para;</a></h2>
+<h2 id="0-interfaccia-grafica-ocad-tracciamento-percorsi"><a name="cs_interfaccia_grafica"></a> [ 0 ] Interfaccia grafica OCAD Tracciamento percorsi<a class="headerlink" href="#0-interfaccia-grafica-ocad-tracciamento-percorsi" title="Permanent link">&para;</a></h2>
+<p><img alt="Interfaccia grafica tracciamento" src="../inc/ocad_interfaccia_grafica_tracciamento.png" width="500px" /></p>
+<ul>
+<li>barra dei menu</li>
+<li>barra degli strumenti</li>
+<li>barra di stato</li>
+<li>area di disegno</li>
+<li>riquadro dei simboli (symbol box):</li>
+<li>il riquadro dei simboli dei tracciati (course objects box)</li>
+<li>lista degli oggetti dei tracciati (course objects list)</li>
+</ul>
+<h2 id="ritorna-sopra_1">&gt; <a href="#top"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra_1" title="Permanent link">&para;</a></h2>
+<h2 id="1-creazione-del-file-ocad-dei-tracciati"><a name="cs_creazione_file_tracciati"></a>[ 1 ] Creazione del file OCAD dei tracciati<a class="headerlink" href="#1-creazione-del-file-ocad-dei-tracciati" title="Permanent link">&para;</a></h2>
+<details class="info" open="open">
+<summary>File necessari per il tracciamento</summary>
+<p>Per preparare i tracciati di gara sono necessari due file OCAD:</p>
+<ul>
+<li><em>File dei tracciati</em>: è il file OCAD in cui si gestiscono gli elementi dei tracciati (partenze/punti/passaggio obbligati, ecc.), si creano i tracciati e le categorie, e si carica la cartina come sfondo. Questo file deve essere creato da voi.</li>
+<li><em>File della cartina</em>: è il file OCAD della cartina, che verrà utilizzato come sfondo nel file dei tracciati. Questo file vi viene fornito.  </li>
+</ul>
+<p><img alt="💡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f4a1.svg" title=":bulb:" /> Si consiglia di salvare entrambi i file — tracciati e cartina — all’interno della stessa cartella, assegnando loro nomi chiari e, se necessario, includendo la data della versione (es. <em>percorsiSanGiorgio_250602.ocd</em> e <em>mapSanGiorgio_250101.ocd</em>)</p>
+</details>
+<details class="info" open="open">
+<summary>Simbologia e scala del file dei tracciati</summary>
+<p>I <em>simboli</em> utilizzati nel file dei tracciati devono rispettare le specifiche del tipo di cartina impiegata (ad esempio: ISOM, ISSprOM, ecc.). Inoltre, la <em>scala</em> del file dei tracciati deve corrispondere esattamente a quella del file della cartina.  <br />
+<img alt="📌" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f4cc.svg" title=":pushpin:" /> Prima di creare il file dei tracciati, è quindi fondamentale conoscere:</p>
+<ul>
+<li>la <em>simbologia</em> adottata nella cartina (di regola per le gare middle e long nel bosco usiamo cartine ISOM e per le gare sprint cartine ISSprOM)</li>
+<li>la <em>scala</em> del file della cartina</li>
+</ul>
+</details>
+<details class="note">
+<summary>Annota simbologia e scala del file della cartina</summary>
+<p>Prima di iniziare a tracciare, annota la simbologia e la scala della cartina per lavorare nel modo giusto.</p>
+<ul class="task-list">
+<li>Simbologia cartina:</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> ISOM </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> ISSprOM</li>
+<li>Scala del file della cartina:</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> 1:10'000</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> 1:4'000<br />
+  altre scale (casi particolari):</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> 1:7'500</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> 1:5'000</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> ____</li>
+</ul>
+</details>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Crea il file dei tracciati: esistono due modi per farlo, si consiglia il primo.<ol>
+<li><strong>Creazione guidata file tracciati di gara</strong> <img alt="👍" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f44d.svg" title=":thumbsup:" /> <br />
+<code>&gt; File &gt; Creazione Guidata Tracciati di Gara</code><br />
+Maggiori info &gt; <a href="#cs_creazione_guidata_file_tracciati">Creazione guidata file tracciati di gara</a> </li>
+<li><strong>Creazione manuale file tracciati di gara</strong>:<br />
+<code>&gt; File &gt; Nuovo</code><br />
+Maggiori info &gt; <a href="#cs_creazione_manuale_file_tracciati">Creazione manuale file tracciati di gara</a>  </li>
+</ol>
+</li>
+</ul>
+<details class="failure" open="open">
+<summary>Errore scala sfondo</summary>
+<p>Se quando aprite il file della cartina appare il seguente messaaggio d'errore <em>Lo sfondo è georiferito in scala ..... ma i percorsi sono in scala ....</em> significa che il vostro file dei percorsi non ha la medesima scala del file della cartina.<br />
+Ricreate un nuovo file dei percorsi con la scala e simbologia corretta <br />
+<img alt="Errore scala sfondo" src="../inc/cs_creazione_file_tracciati_erore_sfondo.png" width="300px" /></p>
+</details>
+<details class="warning" open="open">
+<summary>Impostazioni: bordino bianco - linee di connessione</summary>
+<ul>
+<li>Bordino bianco:<ul>
+<li>Per gare bosco (ISOM): <strong>non è permesso</strong> - non attivate l'opzione.</li>
+<li>Per cartine sprint (ISSprOM): è permesso per TMO/TMS - potete attivare l'opzione. Per gare nazionali da discutere con TD.    </li>
+</ul>
+</li>
+<li>Lineee di connessione: distanza tra il cerchio e la linea di collegamento consigliato <mark class="critic">0.00 mm</mark></li>
+</ul>
+</details>
+<ul>
+<li>Una volta creato il file dei tracciati con la cartina come sfondo, se la cartina è georeferenziata, anche i tracciati saranno automaticamente in coordinate.</li>
+</ul>
+<details class="info" open="open">
+<summary>Dati georeferenziati e precisione cartine</summary>
+<p>Si consiglia di lavorare con dati georeferenziati, poiché alcune funzionalità di OCAD (ad esempio il caricamento su Livelox) lo richiedono.<br />
+In Svizzera si utilizza il sistema di coordinate Swiss Grid CH1903+ / LV95 (coordinate nell’ordine di 2 milioni / 1 milione).<br />
+Tra le cartine ASTi, esistono ancora alcune vecchie cartine non georeferenziate. Inoltre, alcune cartine, pur georeferenziate, sono state create con basi altimetriche e planimetriche vecchie (piani corografici), meno precise rispetto a quelle attuali, basate su dati lidar e misurazione ufficiale. Per questo motivo sovrapponendo una traccia GPS ci potrebbero essere delle discrepanze.
+Con il rifacimento delle cartine utilizzando tecniche aggiornate, in futuro non ci saranno più questi problemi.</p>
+</details>
+<h2 id="ritorna-sopra_2">&gt; <a href="#top"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra_2" title="Permanent link">&para;</a></h2>
+<h2 id="2-impostazione-progetto-ocad-dei-tracciati"><a name="cs_impostazione_progetto_tracciati"></a>[ 2 ] Impostazione progetto OCAD dei tracciati<a class="headerlink" href="#2-impostazione-progetto-ocad-dei-tracciati" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Verificate le impostazioni del progetto OCAD <ul>
+<li>Menu <code>&gt; Tracciamento percorsi &gt; Impostazioni</code></li>
+<li>Appare la finestra <strong>Opzioni generali tracciati</strong> dove è possibile configurare alcuni parametri
+  <img alt="Opzioni generali tracciati" src="../inc/cs_opzioni_generali_tracciati.png" />  <ul>
+<li><em>Intestazione gara</em>: scritta che apparirà nella descrizione punti</li>
+<li><em>Intestazione tracciato</em>: selezionate <em>Categoria</em> per far apparire solo il nome della categoria nella descrizione punti</li>
+<li><em>Punti di controllo - Numerazione</em>: selezionate <em>Sequenza</em> per far apparire i numeri prograssivi</li>
+<li><em>Distanza tra il cerchio ed il numero</em>: distanza fra il cerchio e il numero progressivo che verrà posizionato automaticamente</li>
+<li><em>Punto dopo il numero</em>: se attivato vi apparità un punto dopo il numero (es. 2.). <em>NON attivatelo</em></li>
+<li><em>Bordo bianco sul progressivo</em>: vedi capitolo precedente</li>
+<li><em>Distanza tra cerchio linea di collegamento</em>: vedi capitolo precedente</li>
+<li>Descrizione punti:<ul>
+<li><em>Linea orizzontale ingrossata</em>: impostate <em>Ogni terza</em> per far apparire una linea più spessa ogni 3 righe nella descrizione punti</li>
+<li><em>Lunghezza massima</em>: potete definire il numero massime di righe per la descrizione punti oltre al quale vera creata una seconda colonna, ...</li>
+</ul>
+</li>
+<li><em>Dimensioni caselle</em>: dimensioni caselle della descrizione punti lasciate dimensione standard <mark>6mm</mark> (per le categorie seniores anche <mark>7mm</mark>)</li>
+<li><em>Colore</em>: della descrizione punti (nero o magenta)</li>
+<li><em>Sfondo bianco</em>: <em>attivatelo</em> per avere uno sfondo bianco sotto la descrizione punti</li>
+<li><em>Stampa lo sfondo bianche anche in modalità bozza</em>:  per stampare lo sfondo bianco della descrizione anche in modalità bozza</li>
+<li><em>Aggiungi descrizione punti per tutti i punti</em>: <em>attivatelo</em></li>
+<li>Esportazione XML<ul>
+<li><em>Esportazione combinazioni staffetta (non standard IOF)</em></li>
+<li><em>Esportazione descrizione punti testuali (non standard IOF)</em>: per esportare le descrizioni punti in formato testuale. <em>NON attivatelo</em></li>
+</ul>
+</li>
+<li><em>One-man relay - Numerazione consecutiva</em></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Maggiori informazioni vedi &gt; <a href="https://www.ocad.com/wiki/ocad/en/index.php?title=Course_Setting_Options" target=_ocad><ins>OCAD Wiki - Course Setting Options</ins></a></p>
+<hr />
+<h2 id="3-creazionecomposizione-dei-tracciati"><a name="cs_creazione_composizione_tracciati"></a>[ 3 ] Creazione/composizione dei tracciati<a class="headerlink" href="#3-creazionecomposizione-dei-tracciati" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> (opzionale) Attivate <em>Descrizione automatica dei punti di controllo</em> per ottenere automaticamente la decrizione del punto quando inserite un elemento del tracciato (partenza o punto di controllo).
+  Questa opzione deve essere attivata prima di inserire i punti e inoltre dovete tenere presente che se spostate il punto la descrizione punti non viene aggiornata. In qualsiasi caso alla fine controllate sempre comunque i simboli e completate le colonne C, E, F, G e H della descrizione punti.<ul>
+<li>Menu <code>&gt; Tracciamento percorsi &gt; Descrizione automatica dei punti di controllo...</code>  </li>
+<li>Appare la finestra <strong>Descrizione punti automatica</strong>
+  <img alt="Descrizione punti automatica" src="../inc/cs_descrizione_punti_automatica.png" /></li>
+<li>Attivate l'opzione <em>Utilizza la descrizione automatica dei punti di controllo</em>  </li>
+<li>Selezionate lo sfondo con la cartina</li>
+<li>Selezionate le specifiche cartografiche: di regola per nuove cartine <em>ISOM2017/ISSprOM2019</em> (o configurate manualmente <em>Corrispondenza simboli</em>)</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> (se non prevedete abbinamenti di percorsi) Create l'elenco dei tracciati/categorie importando l'elenco dei tracciati/categorie <ul>
+<li>Scarica il file con <a href="https://www.asti-ticino.ch/co/doc/elenco_tracciati_categorie_tmo_251201.txt" target=_dwd>elenco dei tracciati/categorie per TMO</a></li>
+<li>Menu <code>&gt; Tracciamento percorsi &gt; Categorie</code>
+   <img alt="Categorie" src="../inc/cs_categorie_finestra_vuota.png" /></li>
+<li>Cliccate sul pulsante <em>importa</em></li>
+<li>Selezionate il file <em>elenco_tracciati_categorie_#</em> che avete appena scaricato. Automaticamente vengono create le categorie e i relativi tracciati (vuoti) e abbinati per nome.  </li>
+<li>Se nome tracciati=nome categorie potete attivare l'opzione <em>Crea categorie automaticamente</em>
+    <img alt="Categorie" src="../inc/cs_categorie_finestra_riempita.png" />  </li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> (se prevedete di fare abbianamenti di percorsi): <ul>
+<li>Aprite la finestra <em>tracciati</em> <code>&gt; Tracciamento percorsi &gt; Tracciati</code></li>
+<li>Inserite i nomi dei tracciati previsti</li>
+<li>Andate nella alla finestra <em>categoria</em>  <code>&gt; Tracciamento percorsi &gt; Categorie</code> </li>
+<li>Aggiungete l'elenco delle categorie (vedi <a href="https://www.asti-ticino.ch/co/doc/elenco_tracciati_categorie_tmo_251201.txt" target=_dwd>elenco dei tracciati/categorie per TMO</a>)</li>
+<li>Associate ad ogni categoria il tracciato previsto </li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> (ozionale) Nella colonna <em>concorrenti/squadre</em> della finestra <strong>Categoria</strong> inserite una stima dei concorrenti di ogni categoria, è molto utile per vedere la frequenza ai punti</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Ora potete iniziare a tracciare (comporre i tracciati).<br />
+      Esistono diversi modi per farlo: </p>
+<ol>
+<li>Inserendo prima i vari punti e poi componendo i tracciati (= associare i vari punti ad un tracciato)</li>
+<li>Utilizzando la funzionalità <em>componi tracciato</em> inserendo ma mano i vari punti ed oggetti del tracciato. 
+      In questo caso attenzione a non disegnare due volte i medesimi oggetti del tracciato (punti, partenza, arrivo, ecc.)</li>
+<li>Oppure combinando le due varianti  </li>
+</ol>
+<p>Maggiori informazioni su come comporre/modificare dei tracciati:</p>
+<ul>
+<li>Vedi &gt; <a href="https://www.ocad.com/docs/Getting_Started_with_Course_Setting_in_OCAD.pdf" target="_new"><ins>Getting Started with Course Setting in OCADs</ins></a> (capitolo 5 - pagina 13  della Guida OCAD Tracciamento percorsi)</li>
+<li>Vedi &gt; Componi tracciato / Elementi tracciato</li>
+</ul>
+</li>
+</ul>
+<details class="info" open="open">
+<summary>Lunghezza/dislivello tracciati</summary>
+<ul>
+<li>Per gare middle e long (ISOM): <ul>
+<li>Lunghezza: distanza in linea d’aria. Aggiungere lunghezze extra solo in casi particolari (es. attraversamento obbligatorio molto lungo, vedi indicazioni corso tracciatori).</li>
+<li>Dislivello: calcolato sul percorso ideale effettivo.</li>
+</ul>
+</li>
+<li>Per gare sprint (ISSprOM):    <ul>
+<li>Lunghezza: distanza effettiva del percorso ideale. </li>
+<li>Dislivello: calcolato sul percorso ideale effettivo.</li>
+</ul>
+</li>
+</ul>
+</details>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Calcolate e inserite la lunghezza e il dislivello di ogni tracciato<ul>
+<li>Aprite la finestra <strong>Tracciati</strong> menu <code>&gt; Tracciamento percorsi &gt; Tracciati</code>
+    <img alt="Elenco tracciati" src="../inc/cs_tracciati_elenco.png" /><ul>
+<li><em>Lunghezza [km]</em> è la lunghezza in calcolata in linea d'aria e viene calcolata automaticamente da OCAD.</li>
+<li><em>Lunghezza extra</em> è l'eventuale lunghezza extra che dovete aggiungere. <br />
+   Obbligatorio per le gare sprint <br />
+   lunghezza_extra = lunghezza_effettiva_calcolata - lunghezza_in_linea_aria_ocad<br />
+   Per inserirla cliccate nella cella e inserite il valore</li>
+<li>La lunghezza corretta e mostrata nei percorsi e nella descrizione punti sarà quindi <em>lunghezza</em> + <em>lunghezza extra</em><br />
+<img alt="Lunghezza tracciato" src="../inc/cs_tracciati_lunghezza.png" /></li>
+<li><em>Dislivello salita calcolato [m]</em> se avete come sfondo un modello numerico del terreno è il dislivello calcolato da OCAD (dislivello calcolato NON su percorso ideale ma dalla differenza delle quote dei punti)</li>
+<li><em>Dislivello salita utilizzato [m]</em> dove dovete inserire il dislivello che avete calcolato e sarà quello mostrato nei percorsi
+   Per inserirlo cliccate nella cella e inserite il valore</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-descrizione-punti"><a name="cs_descrizione_punti"></a> [ 4 ] Descrizione punti<a class="headerlink" href="#4-descrizione-punti" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Nella sezione <em>Oggetto</em> del riquadro del Course objects box è possibile inserire la descrizione del punto/oggetto selezionato in formato testuale o simboli.<br />
+<img alt="Descrizione punti" src="../inc/cs_descrizione_punti.png" /></li>
+<li>Ultimo punto-arrivo: se il percorso è segnalato ricordatevi di inserirlo e se <em>segnalato ad imbuto</em> di attivare l'opzione <em>segnalato ad imbuto</em><br />
+<img alt="Descrizione punti" src="../inc/cs_percorso_segnalato.png" />  <img alt="Descrizione punti" src="../inc/cs_descrizione_punti_arrivo.png" /><br />
+   Vedi &gt; <a href="#cs_ultimo_punto_arrivo">[ 102 ] Ultimo punto arrivo</a></li>
+</ul>
+<details class="info" open="open">
+<summary>Descrizione punti</summary>
+<p>Maggiori informazioni su come deve essere preparata la descrizione punti vedi guida <a href="https://www.swiss-orienteering.ch/files/kommission_ausbildung/ausbildungsmaterial/iof-postenbeschreibungen/iof_descrizioni_punti_ital.pdf" target=_new><ins>Descrizione dei punti IOF</ins></a> pubblicata da swiss-orienteering.</p>
+</details>
+<h2 id="ritorna-sopra_3">&gt; <a href="#top"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra_3" title="Permanent link">&para;</a></h2>
+<h2 id="5-controllo-dei-tracciati"><a name="cs_controllo_tracciati"></a> [ 5 ] Controllo dei tracciati<a class="headerlink" href="#5-controllo-dei-tracciati" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Dopo che avete composto tutti i tracciati effettuate il controllo dei tracciati<br />
+      menu <code>&gt; Tracciamento percorsi &gt; Statistiche sui controlli e sulla gara...</code> 
+      <img alt="Statistiche sui controlli e sulla gara" src="../inc/cs_statistiche_controlli_gara.png" />
+      appare la finestra <strong>Statistiche sui controlli e sulla gara...</strong> dove  </p>
+<ul>
+<li><em>Statistiche</em>: per ogni punto di controllo avete il numero di tracciati e concorrenti che lo hanno.<br />
+<em>Tracciati</em> / <em>Categorie</em>: trovate l'elenco dei  tracciati / categorie che hanno il punto selezionato.<br />
+      In arancio appaioni i punti dove non passa nessun tracciato.</li>
+<li><em>Statistiche sulle frazioni</em>: avete il numero di tracciati che hanno la frazione indicata (da punto a punto) e il numero di concorrenti totale che hanno quella frazione. <br />
+     Attivando <em>Nascondi tratte usate da un solo percorso</em> le frazioni con un solo tracciato non verranno mostrate.<br />
+<em>Tracciati</em> e <em>Categorie</em>: trovate l'elenco dei tracciati / categorie che hanno la frazione selezionata.  </li>
+<li><em>Diagramma Punto/Tracciato</em>:</li>
+<li><em>Statistiche gara</em>: trovate il <em>numero di punti</em>, il <em>numero di tracciati</em> e il <em>numero di categorie</em></li>
+<li><em>Distanza minima tra punti di controllo</em>: trovate i punti di controllo che si trovano a una distanza inferiore di quella minima</li>
+<li><em>Tratte tra due punti in direzioni opposte</em>: trovate le tratte che verranno effettuate in direzione opposte sui tracciati indicati</li>
+<li><em>Tracciati indentici</em>: trovate l'elenco di eventuali tracciati identici</li>
+<li><em>Tracciati privi di partenza o arrivo</em>: trovate i tracciati dove manca la partenza o l'arrivo</li>
+</ul>
+<details class="warning" open="open">
+<summary>Distanze minime tra due punti</summary>
+<ul>
+<li>per le gare sprint (cartine in scala 1:4'000 o 1:3'000) la distanza minima tra due punti di controllo posati sul terreno è di <mark>25m</mark> (distanza effettiva) e di <mark>15m</mark> in linea d'aria</li>
+<li>per gare con cartine in scala 1:15'000, 1:10'000 o 1:7'500 la distanza minima tra due punti posati è <mark>30m</mark>. Se però la descrizione punti è simile (esempio due punti a dei sassi) la distanza minima è di <mark>60m</mark>.</li>
+</ul>
+</details>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Quando i tracciati sono definitivi un ulteriore controllo è dato dalla generazione del <em>Report di coerenza dei tracciati</em> dove trovate il report di eventuali errori/problemi sui vostri tracciati
+      menu <code>&gt; Tracciamento percorsi &gt; Report di coerenza dei tracciati...</code></p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Se prevedete una "partenza svedese" verificate di aver inserito il punto di consegna della cartine e il percorso obbligatorio<br />
+      Vedi &gt; <a href="#cs_partenza_svedese">[ 101 ] Partenza svedese: percorso segnalato dal punto di consegna della cartina</a></p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Se prevedete un ultimo punto-arrivo segnalato verificate di aver inserito il percorso obbligatorio tra l'ultimo punto e l'arrivo
+      Potete verificarlo guardando l'anteprima della descrizione punti.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Verificate che la descrizione punti di tutti i punti e della/e partenze siano corrette</p>
+<details class="warning" open="open">
+<summary>Controlli dei percorsi - Vedi corso tracciatori</summary>
+<ul>
+<li>Frequenze ai punti</li>
+<li>Tracciati identici</li>
+<li>Punti vicini</li>
+<li>Tratte nelle direzioni opposte</li>
+<li>Arrivo</li>
+<li>Partenza svedese</li>
+<li>Ultimo punto arrivo</li>
+<li>Descrizione punti</li>
+</ul>
+</details>
+</li>
+</ul>
+<h2 id="ritorna-sopra_4">&gt; <a href="#top"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra_4" title="Permanent link">&para;</a></h2>
+<h2 id="6-grafica-ed-elementi-dei-tracciati"><a name="cs_grafica_ed_elementi_tracciati"></a> [ 6 ] Grafica ed elementi dei tracciati<a class="headerlink" href="#6-grafica-ed-elementi-dei-tracciati" title="Permanent link">&para;</a></h2>
+<details class="warning" open="open">
+<summary>Raccomandazioni</summary>
+<p>Una volta definitivi i tracciati, verificate e ottimizzate la loro grafica affinché ogni percorso, insieme alla cartina, risulti leggibile e comprensibile. In particolare, assicuratevi che:  </p>
+<ul>
+<li>i numeri dei punti siano posizionati in modo chiaro e non ambiguo;</li>
+<li>le linee di collegamento siano facilmente interpretabili;</li>
+<li>nessun elemento importante della cartina venga coperto dai simboli del tracciato (linee, cerchiolini o numero del punto).</li>
+</ul>
+<p><em>I simboli del tracciato sono sovrapposti alla cartina, ma non devono mai mascherare i dettagli fondamentali, in particolare quelli stampati con i colori nero, marrone e blu al 100%</em> (vedi Direttive ISOM2017-2 e ISSprOM2019-2).</p>
+<p>Per le gare ASTi, salvo diversa indicazione (vedi capitoli successivi), i percorsi saranno stampati da PDF con l'effetto di trasparenza sul colore magenta.
+È comunque raccomandato tagliare i cerchi dei punti e le linee di collegamento quando coprono oggetti rilevanti della cartografia.</p>
+</details>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Verificate e nel caso riposizionate i numeri dei punti.<br />
+      Per le gare sprint (se viene utilizzato il numero con il bordino biano) verificate che non copra passaggi o scelte per il concorrente.  <ul>
+<li>Visualizzate in modalità anteprima il tracciato </li>
+<li>Selezionate il numero progressivo del punto e spostatelo</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Se i cerchi dei punti coprono oggetti/passaggi importanti, tagliateli, senza però esagerare.<br />
+        vedi &gt; <a href="#cs_taglia_cerchiolini">[ 104 ] Tagliare i cerchi dei punti</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Se le linee di collegamento tra i punti coprono oggetti importanti, tagliatele, senza però esagerare.<br />
+        vedi &gt; <a href="#cs_taglia_linee">[ 105 ] Tagliare le linee di connessione</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Se avete utilizzato Route Analyser verificate che non ci siano scelte di percorsi visibili (meglio eliminarle)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Se avete collegato un modello del terreno (per Route Analyer o altro) scollegatelo</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Nome categoria: dovrebbe essere posizionato al bordo della cartina (ideale in basso/alto a destra o sinistra) in modo che alla partenza il concorrente possa vederlo senza vedere la cartina con il percorso (che sarà coperto con un foglio).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Inserite anche gli altri elementi di layout dei tracciati (scritte in magenta: nome gara, organizzatori, ecc.) <br />
+      Vedi &gt; <a href="#cs_layout_checklist" target=_checklist><ins> [100] Checklist elementi di layout</ins></a></li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Descrizione punti: se ci sta sulla cartina inseritela in formato (simboli) (non rimpicciolitela ! le caselle dimensione min <mark>6mm</mark>)</p>
+<details class="warning" open="open">
+<summary>I testi devono essere orientati a nord</summary>
+<p>Tutti i testi e loghi stampati sulla cartina devono essere orientati a nord.</p>
+</details>
+</li>
+</ul>
+<h2 id="ritorna-sopra_5">&gt; <a href="#top"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra_5" title="Permanent link">&para;</a></h2>
+<h2 id="7-impaginazione-per-la-stampa-cartina-e-percorsi"><a name="cs_impaginazione_stampa"></a> [ 7 ] Impaginazione per la stampa (cartina e percorsi)<a class="headerlink" href="#7-impaginazione-per-la-stampa-cartina-e-percorsi" title="Permanent link">&para;</a></h2>
+<p>Ci sono diversi modi per creare un layout di una cartina in OCAD. Creare un layout cartografico accattivante può diventare rapidamente una sfida e richiede una buona padronanza di OCAD. In questo capitolo verranno mostrati due modi per farlo.</p>
+<details class="info" open="open">
+<summary>Punti da considerare prima di impaginare</summary>
+<p>Prima di iniziare ad impaginare ci sono alcuni punti da considerare:  </p>
+<ul>
+<li>dove creare il layout?<ul>
+<li>direttamente nel file della cartina: più facile per condividere con altri la cartina impaginata.</li>
+<li>layout in un file OCAD separato: comodo per riutilizzare il layout su altre cartine.</li>
+</ul>
+</li>
+<li>come verrà stampata la cartina ?  <ul>
+<li>quale formato di carta: A4 o A3 </li>
+<li>quale orientamento: verticale o orizzontale </li>
+<li>margini di stampa: verifica se la stampante stampa fino ai bordi o lascia un margine (es. la stampante ASTi ha margini)</li>
+</ul>
+</li>
+<li>quale parte della cartina stampare ?  =&gt; definire l'area utile per la gara</li>
+<li>in quale scala stampare le cartine ? A seconda della categoria potrebbe essere necessario stampare le cartine in scale diverse</li>
+<li>come stampare ? stampare dai PDF o direttamente da OCAD?<br />
+<img alt="💡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f4a1.svg" title=":bulb:" /> in generale e in particolare per le gare, è <strong>raccomandato</strong> (<strong>obbligatorio</strong>) stampare sempre dai PDF esportati da OCAD e NON stampare direttamente da OCAD. </li>
+</ul>
+</details>
+<details class="warning" open="open">
+<summary>RECO: Scala cartine stampate</summary>
+<p>Per le gare valide per il TMO/TMS il <a href="https://www.asti-ticino.ch/co/index.php?folder=ctco&amp;main=reco">RECO art.58a</a> indica le scale delle cartine autorizzate per le singole categorie.<br />
+ Per le gare nazionali fa stato invece il WO.  </p>
+<p>Attenzione: per le cartine ASTi la stampa in scala 1:15'000 può avvenire solo se la cartine è stata rilevata in scala 1:15'000 (per maggiori informazioni chiedere al/alla responsabile cartine o al consulente cartina KK indicato sulla cartina) </p>
+<p>Per le gare ASTi (TMO/TMS) si dovranno quindi di regola stampare alcune categorie</p>
+<ul>
+<li>in scala "standard" (1:10'000 / 1:4'000) </li>
+<li>in scala "ingrandita" (1:7'500 / 1:3'000)</li>
+</ul>
+</details>
+<p><img alt="📌" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f4cc.svg" title=":pushpin:" /> <strong>Importante:</strong> il file della cartina e il file dei percorsi rimangono sempre nella scala originale del file della cartina è la scala di stampa che cambia !</p>
+<p>di conseguenza si dovranno avere anche due layout</p>
+<ul>
+<li>layout scala standard</li>
+<li>layout scala ingrandita</li>
+</ul>
+<p>Come indicato esistono diversi modi per impaginare ed esportare i PDF delle cartine per una gara; qui ne vengono spiegati due "consigliati" (in futuro potremmo adattarli):</p>
+<ul>
+<li><strong><em>A) Metodo "vecchio-tradizionale"</em></strong>: consiste di avere un'unica impaginazione del file della cartine + percorsi.  <ul>
+<li>per le categorie in scala "standard" si esporterà i PDF e si stamperà su formato A4 mentre </li>
+<li>per le categorie in scala "ingrandita" si esporterà i PDF e si stamperanno in formato A3 (rincondansi prima di esportare i pdf di cambiare il testo della scala indicato nell'impaginazione del file della cartina es. Scala: 1:10'000 -&gt; 1:7'500)</li>
+</ul>
+</li>
+<li><strong><em>B) Metodo canovacci (Canvas)</em></strong>: si preparano due layout uno per la stampa in scala "standard" e uno per la scala "ingrandita" e si utilizzerà lo strumento Canovacci per generare i PDF.</li>
+</ul>
+<h3 id="a-metodo-vecchio-tradizionale-czjqqkd2da-rivedereczjqqkd3"><a neme="cs_impaginazione_metodo_vecchio"></a> A) Metodo "vecchio-tradizionale" <mark class="critic">DA RIVEDERE</mark><a class="headerlink" href="#a-metodo-vecchio-tradizionale-czjqqkd2da-rivedereczjqqkd3" title="Permanent link">&para;</a></h3>
+<p><strong>Preparate il file della cartina</strong></p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Impaginate il file OCAD della cartina: per far ciò occorre utilizzare OCAD Orienteering o OCAD Mapping Solution. Se non siete esperti chiedete aiuto a qualcuno della vostra società.  </p>
+<ul>
+<li>Avviate OCAD Orienteering o OCAD Mapping Solution</li>
+<li>Aprite il file OCAD della cartina (es. <em>mapSanGiorgio_250601.ocd</em>) <br />
+   menu <code>File &gt; Apri</code> </li>
+<li>
+<p>Se necessario ritagliate la cartina <br />
+    Vedi &gt; <a href="#ocad_ritagliare_cartina">[ 112 ] Come ritagliare una cartina</a></p>
+</li>
+<li>
+<p>Definite l'area di stampa
+   <strong>Definizione dell'area di stampa</strong></p>
+</li>
+<li>Selezionate il menu <code>Layout &gt; Definizione area di stampa...</code></li>
+<li>Appare la seguente finestra
+     <img alt="Definizione area di stampa" src="../inc/ocad_definizione_area_stampa_01.png" /><ul>
+<li><em>Frontside</em>: per impostare l'area di stampa per pagina fronte. <em>Backside</em> per impostare l'area di stampa del foglio verso in caso di stampa su due lati del foglio</li>
+<li><em>Scala</em>: seleziona la scala di stampa</li>
+<li><em>Imposta da formato foglio</em>: seleziona il formato del foglio e l'orientamento</li>
+<li><em>Margine</em>: per la stampante ASTi imposta <mark class="critic">5 mm</mark></li>
+</ul>
+<details class="info" open="open">
+<summary>Margine</summary>
+<p>Le stampanti laser hanno un margine di ca 5 millimetri che non è stampabile, e molto spesso capita che chi prepara il layout di stampa non lo considera e piazza scritte e loghi oltre questo margine, trovandosi sorpreso e costretto a modificare in tutta fretta il layout al momento della stampa (rischiando anche di commettere errori).</p>
+</details>
+<ul>
+<li>Spostate il riquadro chiaro che appare nella cartina nella posizione corretta </li>
+<li>Date un nome a questa estensione (es. <em>AreaStampa_10000_A4_fronte</em> )  </li>
+</ul>
+</li>
+<li>Spostate le scritte e i loghi già presenti</li>
+<li>Inserite i loghi mancanti, loghi disponibili come simboli OCAD (esempio logo della società, logo BdS, logo ASTi, ecc.) (vedi CD ASTi). </li>
+<li>Ev. Create un nuovo simbolo OCAD da un logo vettoriale (es. sponsor)</li>
+<li>Inserite altri loghi disponibili in formato immagine (es. sponsor) con lo strumento Layout (menu <code>&gt; Layout &gt; Gestione oggetti di layout ...</code>)</li>
+</ul>
+<details class="warning" open="open">
+<summary>Non inserire loghi immagini come sfondi</summary>
+<p>Non inserite mai immagini (come loghi di sponsor) utilizzando lo strumento Sfondi &gt; Gestione, poiché questo trasforma la cartina e i percorsi in un formato raster, compromettendo la qualità della stampa.
+ Come indicato per inserire delle immagini utilizzate lo strumento Layout!  </p>
+</details>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Verificate che tutti gli elementi di layout siano presenti<br />
+      Vedi &gt; <a href="#cs_layout_checklist">[100] Checklist elementi di layout</a></p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Verificate i colori della cartina per la stampante ASTi<br />
+      Vedi &gt; <a href="#ocad_colori_impostazione">[ 106] Come verificare/modificare i colori di un file OCAD</a></p>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Verificate che la cartina non abbia degli sfondi
+        - Menu <code>&gt; Sfondi &gt; Gestione</code>
+        - Se sono presenti dei collegamenti a degli sfondi clicca sul pulsante <code>Elimina tutti</code></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Verificate che la cartina sia in modalità vista normale</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Salvate il file della cartina</li>
+</ul>
+<p><strong>Preparate il file dei percorsi</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Impaginate il file OCAD dei percorsi con OCAD Course Setting<ul>
+<li>Aprite il file OCAD dei percorsi</li>
+<li>Verificate che come sfondo avete solo il file della cartina che avete sistemato al punto precedente</li>
+<li>Verificate che tutti gli elementi del layout siano presenti e posizionateli in modo adeguato</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Verificate i colori "magenta" dei tracciati<br />
+      Vedi &gt; <a href="#ocad_colori_impostazione">[ 106] Come verificare/modificare i colori di un file OCAD</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Impostate l'area di stampa</li>
+</ul>
+<p><strong>Esportate i PDF dei tracciati/categorie</strong></p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Aprite il file dei percorsi ed esportate i PDF dei tracciati/categorie con scala standard</p>
+<ul>
+<li>Menu <code>&gt;File &gt; Esporta</code></li>
+<li>
+<p>Nella finestra <strong>Esporta</strong> che appare a destra </p>
+<ul>
+<li>selezionate PDF</li>
+<li>scala di stampa</li>
+</ul>
+</li>
+<li>
+<p>Cliccate sul pulsante esporta</p>
+</li>
+<li>Nella finestra <strong>Seleziona tracciati/categorie</strong> selezionate i tracciati o le categorie che desiderate stampare in scala "standard"
+    (di default appaiono i tracciati per le categorie attivate l'opzione categorie)
+    <Tutti punti> è la rete dei punti</li>
+<li>
+<p>Cliccate su OK, selezionate la cartella dove salvare i pdf di default i nomi defi file sono <em>nomeFilepercorsi_#nome_categoria_o_tracciato#.pdf</em></p>
+</li>
+<li>
+<p>Prima di ripetere le operazioni per le categorie con la scala "ingrandita" dovete correggere l'indicazione testuale della scala nel file della cartina</p>
+<ul>
+<li>Aprite il file della cartina</li>
+<li>Correggete il testo sulla cartina che indica la scala con la scala "ingrandita" (scala: 1:7'500 o 1:3'000)</li>
+<li>Salvate il file</li>
+<li>Verificate che nello sfondo appaia il testo corretto</li>
+</ul>
+</li>
+<li>
+<p>Ripetete tutte le operazioni da menu <code>&gt;File &gt; Esporta</code> impostando come scala la scala "ingrandita" e selezionando le categorie che hanno una scala "ingrandita". </p>
+</li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Verificate tutti i PDF che avete generato:</p>
+<ul>
+<li>qualità: che la cartina sia in formato vettoriale, zoomando nel pdf su un dettaglio della cartina dovreste vederla vettoriale e non dei quadratini  (pixel)</li>
+<li>contenuto: che i PDF sono stati generati correttamente</li>
+</ul>
+</li>
+</ul>
+<details class="warning" open="open">
+<summary>Esportazione PDF non utilizzare altri metodi</summary>
+<p>Esportate i PDF come indicato! <br />
+ Non utilizzare &gt; Stampa &gt; PDF, Microsoft Print to PDF o altri strumenti per la scrittura di PDF, poiché convertono i dati in immagini raster, riducendo la qualità di stampa (pixelata). 
+ Invece, esportate un PDF come idnicato e stampatelo utilizzando Adobe Reader. I file PDF così creati contengono dati vettoriali, che garantiscono una qualità di stampa superiore.</p>
+</details>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<h3 id="b-metodo-canovacci-canvas-czjqqkd6da-rivedereczjqqkd7"><a neme="cs_impaginazione_metodo_canovacci"></a> B) Metodo "canovacci" (Canvas)  <mark class="critic">DA RIVEDERE</mark><a class="headerlink" href="#b-metodo-canovacci-canvas-czjqqkd6da-rivedereczjqqkd7" title="Permanent link">&para;</a></h3>
+<p>Con l’introduzione della stampa delle cartine ingrandite alcune categorie spesso c’è la necessità di avere due o più impaginazioni (layout) della cartina. 
+Qui viene spiegato un modo con lo strumento Canovacci su come fare per gestire più impaginazioni (layout) utilizzando un unico file con la cartina. Questo per evitare di stampare versioni diverse della cartina in base al layout.  </p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Prepara il file OCAD della cartina senza elementi di layout (richiede OCAD Orienteering o OCAD Mapping Solution)</p>
+<ul>
+<li>Apri con OCAD Orienteering il file della cartina</li>
+<li><mark>DA VALUTARE SE LASCIARE O MENO</mark> 
+   Se necessario ritaglia la cartina<br />
+   Vedi &gt; <a href="#ocad_ritagliare_cartina">[ 112 ] Come ritagliare una cartina</a></li>
+<li>Oppure Nascondete (o cancellate) gli oggetti del layout (es testi, loghi, ecc.) lasciando solo la cartina. Gli elementi del layout (nome cartina, loghi, ecc.) saranno inseriti nel file di layout.
+ Attenzione: se nascondete dei simboli verificate che il simbolo non sia usato per degli oggetti della cartina. Esempio frecce nord spesso utilizzano colore blu dei fiumi o laghi.
+ Dopo la gara se avete fatto aggiornamenti della cartina siete pregati di rionsegnare il file della cartina intero con anche gli elementi del layout (nome cartina, ecc.) che erano presenti nel file iniziale quindi prima di cancellare fate una copia.</li>
+<li>Verifica che la cartina sia in modalità <em>vista normale</em>
+    Menu <code>&gt; Vista &gt; Vista normale</code></li>
+<li>Verificate che non ci siano sfondi nel file della cartina, nel caso eliminali<ul>
+<li>Menu <code>&gt; Sfondi &gt; Gestione</code></li>
+<li>Se sono presenti dei collegamenti a degli sfondi clicca sul pulsante <code>Elimina tutti</code></li>
+</ul>
+</li>
+<li>Verificate che i colori siano impostati correttamente per la stampante ASTi<br />
+    Vedi &gt; <a href="#ocad_colori_impostazione">[ 106] Come verificare/modificare i colori di un file OCAD</a></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Prepara il file layout per stampa in scala "standard (richiede OCAD Orienteering o OCAD Mapping Solution)<br />
+      Vedi &gt; <a href="#ocad_impostazione_layout_file">[ 108 ] Come preparare un file di layout</a></p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Prepara il file layout per stampa in scala "ingrandita" (richiede OCAD Orienteering o OCAD Mapping Solution)<br />
+      Vedi &gt; <a href="#ocad_impostazione_layout_file">[ 108 ] Come preparare un file di layout</a></p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Prepara il file dei percorsi</p>
+<ul>
+<li>Apri il file dei percorsi </li>
+<li>Come sfondi menu <code>&gt; Sfondi &gt; Gestione...</code> devi avere</li>
+<li>File layout standard</li>
+<li>File layout ingrandito</li>
+<li>File cartina </li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Imposta lo strumento "canovacci": creiamo i 'canovacci' o inquadrature, ne definiamo le loro estensioni e assegniamo quali percorsi devono essere stampati secondo quale inquadratura. Un'inquadratura ('canovaccio') avrà una denominazione, una scala di stampa, un'area di stampa (definita precedentemente), sarà utilizzata per delle categorie/percorsi e avrà degli sfondi (cartina e layout) e potrà visualizzare dei simboli o meno.    </p>
+<ul>
+<li>menu <code>&gt; Tracciamento percorsi &gt; Canovacci</code> e appare la finestra <strong>Canovacci</strong></li>
+<li><strong>Impostazioni</strong>: prima di iniziare clicca su <em>Impostazioni</em> per impostare se desideri esportare i percorsi o le categorie. 
+      Attenzione: Devi farlo all'inizio poiché gli input andranno persi se si cambia in seguito.<ul>
+<li>Seleziona percorsi o categorie</li>
+<li>Attiva 'opzione <em>Attiva le canvas nell'anteprima del percorso  ed esporta</em> in questo modo l'anteprima dei tuoi percorsi caricherà il canvas corrispondente.</li>
+</ul>
+</li>
+<li><strong>Canovacci</strong>: creiamo e impostiamo i vari <em>Canovacci</em> per la stampa. Per far ciò clicca su <em>Canovacci</em><ul>
+<li>Clicca sul pulsante <em>Nuovo</em> per aggiungere un nuovo canovaccio</li>
+<li>Imposta per canovaccio selezionato la <em>scala di esportazione</em> (scala di stampa) </li>
+<li>Seleziona l'area di stampa (tra le aree di stampe che hai creato precedentemente o se non ancora definite clicca sul pulsante <em>Definisci</em>  vedi &gt; <a href="#ocad_canovacci_definisci_area_stampa">[ 118 ] Canovacci Definisci area di stampa</a> </li>
+<li>se descrizione punti stampata sulla cartina: imposta le dimensioni e il numero di righe massime per la descrizione punti per il canovacci che stai impostando </li>
+<li>seleziona le categorie/percorsi che avranno questo canovaccio</li>
+</ul>
+</li>
+<li><strong>Utilizzo</strong>: clicca su <em>Utilizzo</em> per preselezionare i simboli e gli sfondi (cartina e layout) che verranno utilizzati in seguito nella sezione <em>Visibilità</em><ul>
+<li><em>Carte di sfondo</em>: trascina le carte di sfondo che vuoi utilizzare nei canovacci (normalmente tutte)</li>
+<li><em>Simboli</em> tracina i simboli e liascia i simboli che vuoi poter personalizzare in seguito nella sezione <em>Visibilità</em> (p.es. il simbolo 709.003 area vietata con perimetro continuo vuoi mostrarlo solo sulle cartine di alcune categorie/percorsi).
+  Se tutte le categorie/percorsi visualizzano tutti i simboli allora non trascinare nessun simbolo
+  -<strong>Visibilità</strong>: clicca su <em>Visibilità</em> per deinite quali simboli e sfondi saranno visibili per quale canovaccio (area di disegno).</li>
+<li>seleziona il canovaccio (p.es. 10000)</li>
+<li>Simboli: Fai doppio clic su un simbolo per renderlo visibile o meno. </li>
+<li>Sfondi: Fai doppio clic su un simbolo per renderlo visibile o meno.</li>
+<li>ripeti l'operazione per utti i canovacci</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Esporta i PDF delle cartine di gara con strumento canovacci     <br />
+<strong>Esportazione PDF</strong>: clicca su <em>Esportazione</em> per esportare i PDF<ul>
+<li><em>Esporta percorso</em> seleziona la cartella dove desideri salvare i PDF</li>
+<li>Clicca su <em>Esporta</em> per esportare i pdf</li>
+<li>Clicca su <em>Apri la cartella di esportazione</em> per aprire la cartella dove sono stati generati i PDF</li>
+<li>Se la mappa contiene oggetti di layout raster, OCAD prende la risoluzione dpi dalle impostazioni di esportazione.
+    Non ci devono però essere sfondi raster !!!</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Verificate tutti i PDF che avete generato:<ul>
+<li>qualità: che la cartina sia in formato vettoriale, zoomando nel pdf su un dettaglio della cartina dovreste vederla vettoriale e non dei quadratini  (pixel)</li>
+<li>contenuto: che i PDF sono stati generati correttamente     </li>
+</ul>
+</li>
+</ul>
+<h2 id="ritorna-sopra_6">&gt; <a href="#top"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra_6" title="Permanent link">&para;</a></h2>
+<h2 id="8-esportazione-pdf-descrizione-punti"><a name="cs_esportazione_descrizione_punti_pdf"></a> [ 8 ] Esportazione PDF descrizione punti<a class="headerlink" href="#8-esportazione-pdf-descrizione-punti" title="Permanent link">&para;</a></h2>
+<ul>
+<li>menu <code>&gt; Tracciamento percorsi... &gt; Stampa &gt; Descrizione punti</code></li>
+<li>appare la finestra <strong>Descrizione punti</strong></li>
+<li>seleziona la <em>Stampante</em>: nel nostro caso "Microsoft Print to PDF" per generare i pdf</li>
+<li><em>Stampa</em> seleziona <em>Descrizione punti in simboli</em></li>
+<li><em>Dimensioni casella</em> lascia valori Standard <mark class="critic">6.00 mm</mark> o per le categorie seniores imposta <mark class="critic">7.00 mm</mark></li>
+<li><em>Copie</em> numero di descrizioni punti generate</li>
+<li><em>Selezione Tracciati/Categorie</em> seleziona la categoria o il tracciato per cui desideri generare i pdf</li>
+<li>clicca su OK per generare i pdf<br />
+ (consiglio) Consiglio per una gara generare 1 pdf per categoria con il numero di descrizioni punti che si desidera stampare per quella categoria oppure il numero massimo di descrizioni punti che ci stanno sul foglio per la categoria e poi si fanno le fotocopie<br />
+<img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/26a0.svg" title=":warning:" /> ricordati di generare anche il pdf della descrizione punti della rete punti <em>Tutti i punti</em></li>
+</ul>
+<h2 id="ritorna-sopra_7">&gt; <a href="#top"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra_7" title="Permanent link">&para;</a></h2>
+<h2 id="9-esportazione-tracciati-per-ol-einzel"><a name="cs_esportazione_oe"></a> [ 9 ] Esportazione tracciati per OL-Einzel<a class="headerlink" href="#9-esportazione-tracciati-per-ol-einzel" title="Permanent link">&para;</a></h2>
+<p>Quando hai l'ultima versione definitiva dei tracciati:</p>
+<ul>
+<li>menu <code>&gt; Tracciati percorsi &gt; Esporta &gt; Tracciati (XML, IOF Versione 3.0)</code></li>
+<li>dai un nome al file esempio percorsiTMO_250910.xml </li>
+<li>invia il file al responsabile elaborazione dati della tua società prima dell'elaborazione delle griglie di partenza
+  Serve per l'<a href="../../oe12/creazione_gara/#import_percorsi">importazione dei percorsi in OEinzel</a></li>
+</ul>
+<p>Il file contiene la sequenza dei punti di controllo per il controllo sigle.<br />
+Se eccezionalmente dopo l'elaborazione delle griglie di partenza ma prima dell'esportazione dei PDF/stampa delle cartine vengono effettuati dei cambiamenti sui tracciati occorre riesportare il fiel per l'elaborazione dati, così come naturalmente dei PDF dei percorsi e delle descrizione punti.</p>
+<h2 id="ritorna-sopra_8">&gt; <a href="#top"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra_8" title="Permanent link">&para;</a></h2>
+<h2 id="10-stampa-delle-cartine-di-gara"><a name="st_stampa_cartine_gara"></a> [ 10 ] Stampa delle cartine di gara<a class="headerlink" href="#10-stampa-delle-cartine-di-gara" title="Permanent link">&para;</a></h2>
+<details class="warning" open="open">
+<summary>Stampa cartine per gare ASTi (TMO/TMS/...)</summary>
+<ul>
+<li>Stampare dai PDF generati come indicato nei capitoli precedenti. NON stampare direttamente da OCAD!</li>
+<li>Stampare sulla carta "speciale" (Antius) che viene rivenduta dal responsabile stampa alle varie società (verificate per tempo che la vostra società ha i fogli sufficienti per la gara, in caso contrario contattare il responsabile stampante)</li>
+<li>Per le gare ASTi (TMO/TMS) stampare con la stampante ASTi. La stampante ASTi si trova nel magazzino ASTi. Con anticipo (vedi RECO) verificare con il responsabile stampante la disponbilità del magazzino ASTi.</li>
+</ul>
+</details>
+<ul>
+<li>Se stampate con la stampante ASTi le impostazioni della stampante e di Adobe Acrobat: dovrebbe essere già impostata correttamente come indicato sotto!<br />
+    NON cambiate le impostazioni !  </li>
+</ul>
+<details class="info" open="open">
+<summary>Impostazioni stampante e Adobe Acrobat</summary>
+<p>Le impostzioni della stampante e di Adobe Acrobat dovrebbero essere le seguenti (<mark>COMPLETARE RESP.STAMPANTE</mark>)<br />
+<img alt="Impostazioni stampante" src="inc/ocad_stampa_impostazioni_stampante_asti_01.png" /><br />
+<img alt="Impostazioni stampante" src="inc/ocad_stampa_impostazioni_stampante_asti_02.png" /><br />
+<img alt="Impostazioni Adobe Acrobat" src="inc/ocad_impostazioni_acrobat_asti_01.png" />  </p>
+</details>
+<ul>
+<li>Prepara i fogli: "smazzare" i fogli "speciali" (Antius) (a volte se appiccicano molto, conviene separarli uno per uno, soprattutto per i fogli grandi A3 è caldamente raccomandato) e inseriscili nel <mark class="critic">??? vassoio </mark>  </li>
+<li>Premesso che i PDF siano stati esportati correttamente (con carta parziale, poi scelta A4/A3 orizzontale/verticale). </li>
+<li>Apri con il file PDF con Adobe Acrobate</li>
+<li>Menu <code>&gt; Stampa</code></li>
+<li>Nella finestra <strong>Stampa</strong> che appare:
+  <img alt="OCAD stampa" src="inc/ocad_stampa_asti.png" />
+  (<mark>COMPLETARE RESP.STAMPANTE</mark>)<ul>
+<li><em>Stampante</em>: <mark class="critic">??? XEROX... </mark> nome della stampante di stampante ASTi</li>
+<li>clicca sul pulsante <em>Proprietà stampante</em><ul>
+<li>se stampate su fogli A3: impostare <em>A3 carta lucida pesante</em> (la seconda opzione)</li>
+<li>se stampate su fogli A4: impostare <em>A4 carta lucida pesante</em> (la prima opzione) oppure semplicemente "vassoio 1" (che è già comunque impostato su A4 carta lucida pesante...)<br />
+<mark class="critic">??? aggiungere printscreen </mark></li>
+</ul>
+</li>
+<li><em>Copie</em>: numero di copie che si vogliono stampare</li>
+<li><em>Pagine da stampare</em>: tutte</li>
+<li><em>Gestione e dimensioni pagina</em>: seleziona <mark class="critic"><em>scala personalizzata: 100%</em></mark> o ??? <mark class="critic"><em>Dimensioni effettive</em></mark> </li>
+<li>Attiva l'opzine <em>Scegli alimentazione secondo dimensioni PDF</em> (necessario se si stampa su A3)</li>
+<li><em>Orientamento</em>: seleziona <em>automatico</em>   </li>
+<li>quindi cliccare su <em>Stampa</em> per avviare la stampa...</li>
+</ul>
+</li>
+</ul>
+<p>È possibile che di tanto in tanto escano due fogli assieme, dove il secondo è bianco e si può riutilizzare. Da notare che il conteggio delle copie risulta corretto (viene contata una sola copia anche se sono usciti due fogli). In quel caso verificare la qualità del “foglio doppio” uscito (di regola è normale…).  </p>
+<p><strong>Stampa recto-verso:</strong><br />
+  (<mark>SISTEMARE</mark>)
+  Per la stampa retro, la stampante stampa sulla parte superiore del foglio, quindi mettere i fogli con la prima pagina già stampata sotto...</p>
+<p>https://www.swiss-orienteering.ch/files/03-KK-Tagung_2024_Kartendruck.pdf</p>
+<h2 id="ritorna-sopra_9">&gt; <a href="#top"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra_9" title="Permanent link">&para;</a></h2>
+<h2 id="11-verifica-delle-cartine-stampate"><a name="st_verifica_cartine_stampate"></a> [ 11 ] Verifica delle cartine stampate<a class="headerlink" href="#11-verifica-delle-cartine-stampate" title="Permanent link">&para;</a></h2>
+<p>Verifica delle cartine stampate</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Elementi di layout: vedi <a href="" target=#cs_layout_checklist><ins> &gt; Checklist elementi di layout</ins></a> </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Risoluzione (qualità della stampa): il KartenSignet se stampato nelle dimensioni corrette (dimensioni quadratini 6mm x 6mm) è un indicatore della risoluzione della stampa. I cerchi devono essere distinti.<br />
+<img alt="KartenSignet" src="../inc/swisso_kartensignet_control.png" width="400px" /></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Colori: confrontare con la striscia di riferimento dei colori vedi foglio "Farbreferenz di swiss-orienteering" che trovate in magazzino ASTi vicino alla stampante.<br />
+<img alt="Striscia di riferimento dei colori" src="../inc/swisso_farbreferenz.png" width="200px" />
+   <img alt="Controllo colori" src="../inc/swisso_colori_controllo.png" /></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Aderenza del colore alla carta (nessuna abrasione)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Scala cartina stampata: se al punto precedente non avete fatto attenzione potrebbe capitare di stampare non 100%<br />
+     semplice controllo "due linee del nord di regola (se cartina ok) dovrebbero essere distanti 3 cm"</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Percorsi + cartina: verificate che stampa sia ok</li>
+</ul>
+<h2 id="ritorna-sopra_10">&gt; <a href="#top"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra_10" title="Permanent link">&para;</a></h2>
+<h2 id="12-esportazione-cartina-e-tracciati-per-livelox"><a name="cs_esportazione_livelox"></a> [ 12 ] Esportazione cartina e tracciati per Livelox<a class="headerlink" href="#12-esportazione-cartina-e-tracciati-per-livelox" title="Permanent link">&para;</a></h2>
+<p>Si rimanda a &gt; <a href="../../analisi/livelox/organizzatori/#impostazioni">Livelox per organizzatori</a></p>
+<h2 id="ritorna-sopra_11">&gt; <a href="#top"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra_11" title="Permanent link">&para;</a></h2>
+<h2 id="altre-informazioni-supplementari"><a name="ocad_altro"></a> Altre informazioni supplementari<a class="headerlink" href="#altre-informazioni-supplementari" title="Permanent link">&para;</a></h2>
+<hr />
+<h2 id="100-checklist-degli-elementi-da-stampare-sulle-cartine"><a name="cs_layout_checklist"></a> [ 100 ] Checklist degli elementi da stampare sulle cartine<a class="headerlink" href="#100-checklist-degli-elementi-da-stampare-sulle-cartine" title="Permanent link">&para;</a></h2>
+<p>Vedi "Checklist degli elementi da stampare sulle cartine" di swiss-orienteering<br />
+<mark class="critic">AGGIUNGERE LINK A PDF QUANDO PUBBLICATO</mark><br />
+Per gare ASTi (TMO, TMS e promozionali)  </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Nome</strong> cartina</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Scala</strong>: se la mappa viene ingrandita, la scala deve essere addattata di conseguenza</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Equidistanza</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Anno rilievo (ultimo aggiornamento)</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Nome dei cartografi</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Linee del nord</strong> <ul>
+<li>ISOM: </li>
+<li>20 mm 1:15'000</li>
+<li>30 mm 1:10'000</li>
+<li>40 mm 1:7'500</li>
+<li>ISSprOM:</li>
+<li>30 mm 1:4'000</li>
+<li>40 mm 1:3'000</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Freccia del nord</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Logo Swiss Orienteering Kartensignet</strong>: I quadrati colorati sul carta stampata hanno una dimensione di
+6 mm x 6 mm. Se la scala di stampa è ingrandita, il logo può essere ingrandito di conseguenza o lasciato delle stesse dimensioni.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Editore: <strong>Logo ASTi</strong> (verificate che sia l'ultima versione ASTi Ticino e Moesa)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Altri loghi<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> per le cartine dove è presente anche il logo dell'Ufficio dello Sport (solo alcune cartine di paese). In alcune cartine ancora indicato il logo G+S, sostituitelo con il logo dell'Ufficio dello Sport.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Eventuale altro loghi presenti (SOW)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Logo della società organizzatrice</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> logo Banca dello Stato  </li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Copyright</strong>: frase se presente sulla cartina</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Restrizioni d'uso</strong>: eventuale frase se presente sulla cartina</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Nome della <strong>categoria</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Nome e cognome del <strong>tracciatore/controllore e capogara</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Numero di telefono in caso di emergenza</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>Descrizione punti</strong></li>
+</ul>
+<p>Per inserire dei loghi OCAD <br />
+ Vedi &gt; <a href="#ocad_importazione_simbolo">[ 109 ] Come inserire un logo (simbolo OCAD) in un file ocd esistente </a>       </p>
+<blockquote>
+<p><a href="#cs_grafica_ed_elementi_tracciati"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="101-come-inserire-una-partenza-svedese-percorso-segnalato-dal-punto-di-consegna-della-cartina"><a name="cs_partenza_svedese"></a>[ 101 ] Come inserire una partenza svedese (percorso segnalato dal punto di consegna della cartina)<a class="headerlink" href="#101-come-inserire-una-partenza-svedese-percorso-segnalato-dal-punto-di-consegna-della-cartina" title="Permanent link">&para;</a></h2>
+<p>(Tratto da <a href="https://ocad.com/blog/2022/05/map-issue-point-correct-placement/" target=_new><ins>OCAD blog</a></ins>)<br />
+Il punto di consegna della cartina viene spesso utilizzato in modo errato, ecco quindi una guida su come utilizzarlo correttamente:</p>
+<ul>
+<li>In primo luogo, tracciate un percorso segnalato fino al punto di partenza. Il percorso segnalato deve terminare al punto di partenza e non iniziare da lì.  </li>
+<li>Seleziona il percorso segnalato e inserite un vertice d'angolo (quadrato rosso sotto) per contrassegnare la posizione del punto di consegna della cartina.  </li>
+</ul>
+<p><img alt="Partenza svedese" src="../inc/cs_punto_consegna_cartina.png" width="400" /></p>
+<blockquote>
+<p><a href="#cs_controllo_tracciati"> Ritorna sopra </a> </p>
+</blockquote>
+<hr />
+<h2 id="102-come-inserire-ultimo-punto-arrivo-segnalato"><a name="cs_ultimo_punto_arrivo"></a>[ 102 ] Come inserire ultimo punto-arrivo segnalato<a class="headerlink" href="#102-come-inserire-ultimo-punto-arrivo-segnalato" title="Permanent link">&para;</a></h2>
+<p>Se il percorso dall'ultimo punto all'arrivo viene segnalato con bandierine o nastri occorre inserirlo nel seguente modo. </p>
+<ul>
+<li>Selezionate il simbolo <em>Percorso segnalato</em> nella casella dei simboli.  </li>
+<li>Selezionate uno strumento di disegno (ad esempio lo strumento linea).  </li>
+<li>Disegnate il percorso segnalato nella direzione in cui lo percorrono i concorrenti (dall'ultimo punto all'arrivo).  </li>
+<li>Vi apparirà la finestra <em>Course Object</em>. Questa vi propone un codice, cliccate su <code>OK</code>.  </li>
+<li>L'oggetto percorso segnalato viene visualizzato sulla mappa.  </li>
+<li>Ora potete aggiungere l'oggetto "Percorso segnalato" ai diverisi percorsi.  </li>
+<li>Se il percorso è segnalato ad imbuto attivare l'opzione <em>Segnalato ad imbuto</em>.<br />
+<img alt="Percorso segnalato ad imbuto" src="../inc/cs_percorso_segnalato_imbuto.png" /><br />
+<img alt="Percorso segnalato ad imbuto" src="../inc/cs_percorso_segnalato.png" /></li>
+</ul>
+<blockquote>
+<p><a href="#cs_descrizione_punti"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="103-come-inserire-un-cambio-cartina-virtuale-map-flip-voltare-la-cartina"><a name="cs_cambio_cartina_virtuale"></a> [ 103 ] Come inserire un cambio cartina virtuale (map flip) (voltare la cartina)<a class="headerlink" href="#103-come-inserire-un-cambio-cartina-virtuale-map-flip-voltare-la-cartina" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Nel percorso desiderato inserire l'oggetto del tracciato <em>Rotazione della carta (voltare il foglio)</em> dopo il punto in cui bisogna girare il foglio ma prima del seguente punto<ul>
+<li>Nella sezione Tracciato/Categoria  (<em>Course Object Box</em>) selezionate il tracciato/categoria dove volete inserire il "cambio cartina virtuale*</li>
+<li>Premete sul pulsante <code>Inserisci</code></li>
+<li>Selezionate <em>Rotazione della carta (voltare il foglio)</em> e cliccate sul pulsante <code>OK</code> 
+ <img alt="Cambio cartina virtuale" src="../inc/cs_cambio_cartina_virtuale.png" /></li>
+</ul>
+</li>
+<li>Inserire il punto di ripartenza del percorso      <ul>
+<li>Inserite nella mappa l'oggetto <em>Punto di continuazione dopo cambio carta</em> (punto di ripartenza del percorso) sovrapposto esattamente il punto di controllo dove avviene il cambio e con la medesima descrizione punti<br />
+<img alt="Cambio cartina virtuale" src="../inc/cs_cambio_cartina_virtuale_partenza.png" />  </li>
+<li>Inserite questo oggetto nel tracciato/categoria prima del prossimo punto  <br />
+<img alt="Cambio cartina virtuale" src="../inc/cs_cambio_cartina_virtuale_partenza_esempio.png" /><br />
+  Ecco come apparirà un percorso corretto con "map flip"<br />
+<img alt="Cambio cartina virtuale" src="../inc/cs_cambio_cartina_virtuale_tracciato.png" />
+  E come apparirà nella stampa<br />
+<img alt="Cambio cartina virtuale" src="../inc/cs_cambio_cartina_virtuale_cartina.png" width="50%" /></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="104-come-tagliare-i-cerchiolini-dei-punti"><a name="cs_taglia_cerchiolini"></a>[ 104 ] Come tagliare i cerchiolini dei punti<a class="headerlink" href="#104-come-tagliare-i-cerchiolini-dei-punti" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Seleziona l'icona <em>Seleziona e modifica oggetto(i)</em> nella barra degli strumenti<br />
+<img alt="Seleziona e modifica oggetto/i" src="../inc/cs_edit_seleziona_modifica.png" /></li>
+<li>Clicca sul punto nella cartina</li>
+<li>Seleziona l'icona <em>Taglia</em> nella barra degli strumenti<br />
+<img alt="Taglia" src="../inc/cs_edit_taglia.png" /></li>
+<li>Clicca sul cerchio di controllo per inserire un'interruzione.<br />
+   Per chiudere un cerchio del punto controllo già tagliato, scegli di nuovo lo strumento <em>Taglia</em> e clicca una volta sull'interruzione.</li>
+</ul>
+<blockquote>
+<p><a href="#cs_grafica_ed_elementi_tracciati"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="105-come-tagliare-le-linee-di-connessione-dei-percorsi"><a name="cs_taglia_linee"></a>[ 105 ] Come tagliare le linee di connessione dei percorsi<a class="headerlink" href="#105-come-tagliare-le-linee-di-connessione-dei-percorsi" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Seleziona l’icona Seleziona oggetto/i e modifica vertici nella barra degli strumenti.<br />
+<img alt="Seleziona e modifica oggetto/i" src="../inc/cs_edit_seleziona_modifica.png" /></li>
+<li>Fai clic su una linea di collegamento.</li>
+<li>Seleziona l’icona <em>Taglia</em> nella barra degli strumenti.<br />
+<img alt="Taglia" src="../inc/cs_edit_taglia.png" /></li>
+<li>Fai clic nel punto in cui deve iniziare l’interruzione sulla linea di collegamento e, tenendo premuto il tasto sinistro del mouse, trascina il cursore fino al punto finale dell’interruzione.<br />
+   Seleziona nuovamente la linea di collegamento e fai clic con il tasto destro del mouse per reimpostare la linea di collegamento.<br />
+   L’interruzione si applica solo al percorso selezionato. Usa la funzione <em>Modifica linea di collegamento per tutti i percorsi</em> per applicare il taglio a tutti i percorsi.</li>
+<li>Le linee di collegamento possono anche essere modificate inserendo dei vertici e spostandoli, oppure spostando il punto iniziale o finale della linea di collegamento.</li>
+</ul>
+<blockquote>
+<p><a href="#cs_grafica_ed_elementi_tracciati"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="106-come-verificaremodificare-i-colori-di-un-file-ocad"><a name="ocad_colori_impostazione"></a> [ 106 ] Come verificare/modificare i colori di un file OCAD<a class="headerlink" href="#106-come-verificaremodificare-i-colori-di-un-file-ocad" title="Permanent link">&para;</a></h2>
+<p>I colori risultanti da una stampa variano in funzione di diversi fattori<br />
+Qui trovate le tonalità dei colori per delle stampe da PDF con la stampante ASTi  </p>
+<ul>
+<li>Colori per cartine sprint  <br />
+<img alt="Colori ASTi - ISSprOM" src="../inc/stampante_asti_colori_issprom.png" width="400" />  </li>
+<li>Colori per cartine bosco ISOM<br />
+<img alt="Colori ASTi - ISOM" src="inc/stampante_asti_colori_isom.png" width="400" />  </li>
+</ul>
+<p><strong><em>Attenzione</em></strong>: i numeri e le denominazioni dei colori potrebbero variare a dipendenza della cartina.</p>
+<p><mark class="critic">COMPLETARE CON NUOVA OPZIONE COLORI BASE</mark></p>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="107-come-definire-unarea-di-stampa"><a name="ocad_impostazione_area_stampa"></a> [ 107 ] Come definire un'area di stampa<a class="headerlink" href="#107-come-definire-unarea-di-stampa" title="Permanent link">&para;</a></h2>
+<details class="info" open="open">
+<summary>Estensione dell'esportazione</summary>
+<p>Definire le “estensioni di esportazione” significa scegliere l’area della carta che vuoi esportare (salvare come file o stampare). Per esempio: vuoi esportare una pagina A4 verticale con un margine di 5 mm, oppure una pagina A3 orizzontale senza margini.<br />
+ Per farlo, in OCAD c’è una funzione chiamata <em>Definisci area di stampa</em>: 
+ Questa funzione ti permette di scegliere la dimensione e l’orientamento del foglio su cui vuoi lavorare (ad esempio A4 o A3, verticale o orizzontale).<br />
+ Una volta scelto, sullo schermo vedrai l’area utile (dove puoi mettere la mappa) evidenziata, mentre il resto sarà grigio (fuori dall’area stampabile).<br />
+ Questo ti aiuta a capire dove posizionare gli elementi del tuo layout, così non metti niente fuori dai bordi stampabili.<br />
+ Quando salvi questa impostazione, potrai usarla sia per esportare il file (ad esempio in PDF), sia per stampare.
+ - <em>Margini</em>: è importante definire un margine, perché le stampanti non possono stampare fino al bordo del foglio.<br />
+   La dimensione del margine dipende dalla stampante, per la stampante ASTi è di <mark class="critic">5mm</mark>
+ Con l'introduzione della stampa recto/verso è possibile definire due aree di stampa anche diverse (area di stampa recto e area di stampa verso) </p>
+</details>
+<ul>
+<li>Menu <code>&gt; Layout &gt; Definizione area di stampa</code></li>
+<li>Selezionate <em>Frontsize</em> per impostare l'area di stampa fronte</li>
+<li>Attivate <em>Mostra dimensioni foglio nell’area di disegno</em></li>
+<li>Impostate la <em>scala</em> di stampa</li>
+<li>Impostate il <em>formato del foglio</em> (p.es. A4) e l’<em>orientamento</em> verticale/orizzontale</li>
+<li><em>Margine</em> impostare <mark class="critic">5 millimetri</mark> (per Stampante ASTi)</li>
+<li>Spostate il riquadro chiaro che appare nella cartina nella posizione corretta</li>
+<li>Verificate che ci stanno tutte le scritte, loghi, ecc…</li>
+<li>Date un nome a questa <em>estensione di stampa</em> e cliccate sul pulsante <code>Salva</code>
+ <img alt="Area di stampa" src="../inc/ocad_area_stampa_definizione.png" /></li>
+<li>La sezione <em>Backsize</em> serve per definire l'estensione di stampa del retro, nel caso si utilizzi la modalità di stampa fronte/retro (vedi &gt; <a href="#cs_stampa_fronte_retro">Come impostare una stampa fronte/retro)</a></li>
+</ul>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="108-come-preparare-un-file-di-layout"><a name="ocad_impostazione_layout_file"></a> [ 108 ] Come preparare un file di layout<a class="headerlink" href="#108-come-preparare-un-file-di-layout" title="Permanent link">&para;</a></h2>
+<p>Esistono diverse modalità:  </p>
+<ul>
+<li>A) Impostare il file di layout utilizzando i simboli OCAD: ossia inserire il nome della cartina, scala, loghi, ecc utilizzando solamente i simboli OCAD  </li>
+<li>B) Impostare il file di layout utilizzando lo strumento "Layout" per inserire il nome della cartina, loghi raster, ecc.  </li>
+<li>C) Impostare il file di layout utilizzando sia simboli OCAD che strumenti di "Layout" (esempio se avete loghi raster)</li>
+</ul>
+<p>Vedi <a href="https://www.ocad.com/wiki/ocad/en/index.php?title=Create_a_Layout">Create a Layout</a> (da OCAD wiki)<br />
+Vedi <a href="https://www.ocad.com/wiki/ocad/en/index.php?title=Layout">Strumento di Layout con OCAD</a>  </p>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="109-come-inserire-un-logo-simbolo-ocad-in-un-file-ocd-esistente"><a name="ocad_importazione_simbolo"></a>[ 109 ] Come inserire un logo (simbolo OCAD) in un file ocd esistente<a class="headerlink" href="#109-come-inserire-un-logo-simbolo-ocad-in-un-file-ocd-esistente" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">DA COMPLETARE</mark>  </p>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="110-come-inserire-un-logo-immagine"><a name="ocad_importazione_logo_raster"></a>[ 110 ] Come inserire un logo immagine<a class="headerlink" href="#110-come-inserire-un-logo-immagine" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">DA COMPLETARE</mark>
+Vedi <a href="https://ocad.com/blog/2022/11/how-to-add-logos-in-ocad/">OCAD Blog</a></p>
+<p>Talvolta c’è la necessità di inserire dei loghi di sponsor o altro sulla cartina di gara.<br />
+È possibile inserire i loghi in formato immagine (utilizzando lo strumento Layout e NON come sfondo) ma se sono presenti diversi loghi immagine la stampa potrebbe risultare lenta. 
+Se disponete il logo in formato vettoriale potete trasformarlo/crearlo come simbolo OCAD<br />
+Vedi &gt; <a href="#ocad_creazione_simbolo_ocad">Come creare un simbolo OCAD da un logo vettoriale</a> </p>
+<hr />
+<h2 id="111-come-creare-un-simbolo-ocad-da-un-logo-vettoriale"><a name="ocad_creazione_simbolo_ocad"></a>[ 111 ] Come creare un simbolo OCAD da un logo vettoriale<a class="headerlink" href="#111-come-creare-un-simbolo-ocad-da-un-logo-vettoriale" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">DA COMPLETARE</mark>
+Talvolta c’è la necessità di inserire dei loghi di sponsor o altro sulla cartina di gara. Come indicato precedentemente è possibile inserire i loghi in formato immagine (utilizzando lo strumento Layout e NON come sfondo) ma se sono presenti diversi loghi immagine la stampa potrebbe risultare lenta. 
+Se disponete il logo in formato vettoriale potete trasformarlo/crearlo come simbolo OCAD.</p>
+<ul>
+<li>Chiedere il logo in formato vettoriale (svg o pdf vettoriale)</li>
+<li>...
+ <mark class="critic">COMPLETARE</mark></li>
+</ul>
+<blockquote>
+<p><a href="#cs_impaginazione_stampa"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="112-come-ritagliare-una-cartina-con-ocad"><a name="ocad_ritagliare_cartina"></a> [ 112 ] Come ritagliare una cartina con OCAD<a class="headerlink" href="#112-come-ritagliare-una-cartina-con-ocad" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">DA COMPLETARE</mark></p>
+<blockquote>
+<p><a href="#cs_impaginazione_stampa"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="113-come-impostare-una-stampa-fronteretro"><a name="cs_stampa_fronte_retro"></a> [ 113 ] Come impostare una stampa fronte/retro<a class="headerlink" href="#113-come-impostare-una-stampa-fronteretro" title="Permanent link">&para;</a></h2>
+<details class="info" open="open">
+<summary>OCAD Stampa fronte/retro</summary>
+<p>A partire dall’aggiornamento di maggio 2025, OCAD supporta la gestione della stampa fronte/retro su stampanti compatibili con questa funzione.
+  Questa novità consente di evitare il reinserimento manuale delle cartine, riducendo il rischio di errori o problemi durante la stampa.</p>
+<p>Quando si esporta un percorso in formato PDF, OCAD genera automaticamente un file di due pagine. Per ottenere la stampa corretta, è sufficiente inviare questo file alla stampante impostando l’opzione <em>stampa fronte/retro</em>.</p>
+<p>La principale applicazione di questa funzione riguarda i casi in cui il tracciatore, per esigenze tecniche (ad esempio incroci sul tracciato), richieda un <em>cambio cartina virtuale</em>: il percorso viene suddiviso in due parti da stampare sullo stesso foglio, con la prima parte sul fronte e la continuazione sul retro.
+  Un'ulteriore applicazione utile della stampa fronte/retro è la possibilità di stampare sul retro della cartina il numero di gara e la tratta nelle gare a staffetta.</p>
+<p>:<img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/26a0.svg" title=":warning:" />: ATTENZIONE: Per configurare correttamente i percorsi in caso di “map flip” (cioè il voltare la cartina per continuare il percorso sul retro), è fondamentale seguire le istruzioni dedicate.
+  Per stampare fronte/retro bisogna prima definire l’area di stampa per il davanti e per il dietro della cartina.  </p>
+</details>
+<ul>
+<li>Definite l'area di stampa <em>Frontside</em><br />
+  vedi &gt; <a href="#ocad_impostazione_area_stampa">[ 107 ] Come definire un'area di stampa</a></li>
+<li>Definite l'area di stampa <em>Backside</em>  <ul>
+<li>Selezionate la sezione <em>Backside</em></li>
+<li>Attivate l'opzione <em>use back side for PDF export</em></li>
+<li>Se l’estensione dell’area di stampa è la stessa per davanti e dietro continuare, altrimenti posizionare l’area di stampa desiderata.</li>
+<li>Premete sul pulsante <code>Chiudi</code> e su richiesta del programma, salvate il tutto.<br />
+<img alt="Stampa fronte/retro" src="../inc/cs_stampa_fronte_retro.png" /></li>
+<li>Per maggiori informazioni sulla <em>stampa del retro col numero</em> per le gare a staffetta e l'uso del pulsante <em>import colors and symbols for back side</em> vedasi OCAD wiki</li>
+</ul>
+</li>
+<li>Esportate il percorso PDF come segue (metodo tradizionele):<ul>
+<li>Menu <code>&gt; File &gt; Esporta</code></li>
+<li>Verificate che il formato sia impostato a PDF.</li>
+<li>Selezionare “carta parziale”</li>
+<li>Nel campo “load expert” selezionare il formato stampa appena definito (che dovrebbe portare l’indicazione <em>double sided</em>.</li>
+<li>Verificate la scala di esportazione (dovrebbe essere impostata automaticamente dal formato stampa scelto).</li>
+<li>Premete sul pulsante <code>Esporta</code><br />
+<img alt="Stampa fronte/retro esporta" src="../inc/cs_stampa_fronte_retro_esporta.png" /></li>
+<li>Selezionate il percorso desiderato</li>
+<li>Impostate la directory dove si vuole salvare il file</li>
+<li>Il PDF generato è composto da due pagine.
+  <img alt="Stampa fronte/retro anteprima" src="../inc/cs_stampa_fronte_retro_anteprima.png" /></li>
+</ul>
+</li>
+<li>Stampate il PDF <ul>
+<li>Per stamparlo impostate “fronte/retro” sulla stampante  <br />
+  <mark class="critic">Screenshot della stampante ASTI del driver di stampa</mark></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<h2 id="-">---<a class="headerlink" href="#-" title="Permanent link">&para;</a></h2>
+<h2 id="114-come-verificare-che-versione-del-software-ocad-sto-usando"><a name="ocad_check_version"></a> [ 114 ] Come verificare che versione del software OCAD sto usando<a class="headerlink" href="#114-come-verificare-che-versione-del-software-ocad-sto-usando" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Andate nel menu <code>&gt; Guida &gt; Informazioni su OCAD</code><br />
+   Vi apparirà il numero della versione<br />
+<strong>Note di rilascio e aggiornamenti:</strong><ul>
+<li>Elenco aggiornamenti OCAD: vedi <a href="https://ocad.com/OCAD2018/OCAD_2018_Update.txt" target=_new><ins>Release Notes</ins></a></li>
+<li>Novità OCAD vedi <a href="https://www.ocad.com/wiki/ocad/en/index.php?title=What_is_New" target=_new><ins>OCAD What is new</ins></a></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><a href="#cs_info_preliminari_tracciamento"> Ritorna sopra </a>  </p>
+</blockquote>
+<hr />
+<h3 id="115-a-creazione-guidata-tracciati-di-gara"><a name="cs_creazione_guidata_file_tracciati"></a> [ 115 ] A. Creazione guidata tracciati di gara<a class="headerlink" href="#115-a-creazione-guidata-tracciati-di-gara" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Seleziona il menu <code>File &gt; Creazione Guidata Tracciati di Gara</code></li>
+<li>Appare la seguente finestra<br />
+<img alt="1.Nome della gara" src="../inc/cs_creazione_file_tracciati_guidata_1_nome_gara.png" width="500px" /> <br />
+<strong>1.Nome della gara</strong>  <ul>
+<li><em>Intestazione gara:</em> inserisci il nome della gara es. <em>1. TMO - ASTi</em>  </li>
+<li><em>Disciplina:</em> seleziona <em>C-O</em></li>
+</ul>
+</li>
+<li>Clicca sul pulsante <code>Avanti</code>  </li>
+<li>Appare la seguente finestra<br />
+<img alt="2.File carta di sfondo" src="../inc/cs_creazione_file_tracciati_guidata_2_file_carta.png" width="500px" /> <br />
+<strong>2.File carta di sfondo, set di simbologia e lingua</strong>  <ul>
+<li><em>File carta:</em> clicca su sfoglia e seleziona il file della cartina (es. <em>mapSanGiorgio_250601.ocd</em>)</li>
+<li><em>File di simbologia:</em> seleziona la libreria dei simboli corretta  <ul>
+<li>Per cartine classiche 10'000 (ISOM):<br />
+<em>Course Setting 10 000 ISCD 2024 - ISOM 2017.ocd</em></li>
+<li>Per cartine sprint (ISSprOM):<br />
+<em>Course Setting 4 000 ISCD 2024 - ISSprOM 2019.ocd</em>  </li>
+</ul>
+</li>
+<li><em>Nome del nuovo file tracciati:</em> indica il nome che vuoi assegnare al file dei tracciati e dove salvarlo sul tuo PC (es.<em>percorsiSanGiorgio_250615.ocd</em> )</li>
+</ul>
+</li>
+<li>Clicca sul pulsante <code>Avanti</code>  </li>
+<li>Appare la seguente schermata<br />
+<img alt="3.Opzioni" src="../inc/cs_creazione_file_tracciati_guidata_3_opzioni.png" width="500px" /><br />
+<strong>3.Opzioni</strong>  <ul>
+<li>Attivando <em>Carica tracciati e categorie da un altro file tracciati</em> è possibile importare il nome dei tracciati e categorie da un altro file di percorsi (opzionale - non fatelo importeremo i tracciati/categorie in altro modo)</li>
+<li><em>Lineee di connessione:</em> distanza tra il cerchio e la linea di collegamento imposta  <mark class="critic">0.00 mm</mark></li>
+<li><em>Bordo bianco sul progressivo</em>: se l'attivate viene creato un bordo bianco sul numero progressivo del punto   </li>
+</ul>
+<details class="warning" open="open">
+<summary>Impostazioni: bordino bianco - linee di connessione</summary>
+<ul>
+<li>Bordino bianco:<ul>
+<li>Per gare bosco (ISOM): <strong>non è permesso</strong> - non attivate l'opzione.</li>
+<li>Per cartine sprint (ISSprOM): è permesso per TMO/TMS - potete attivare l'opzione. Per gare nazionali da discutere con TD.    </li>
+</ul>
+</li>
+<li>Lineee di connessione: distanza tra il cerchio e la linea di collegamento consigliato <mark class="critic">0.00 mm</mark></li>
+</ul>
+</details>
+</li>
+<li>Clicca sul pulsante <code>Crea</code>  </li>
+<li>Il file dei percorsi viene creato e appare la seguente finestra con la cartina come sfondo  <br />
+<img alt="Finestra iniziale file tracciati" src="../inc/cs_creazione_file_tracciati_finestra_iniziale_con_cartina.png" width="500px" />  </li>
+</ul>
+<blockquote>
+<p><a href="#cs_creazione_file_tracciati"> Ritorna sopra </a>  </p>
+</blockquote>
+<hr />
+<h3 id="116-b-creazione-manuale-tracciati-di-gara"><a name="cs_creazione_manuale_file_tracciati"></a> [ 116 ] B. Creazione manuale tracciati di gara<a class="headerlink" href="#116-b-creazione-manuale-tracciati-di-gara" title="Permanent link">&para;</a></h3>
+<p>Per una creazione "manuale" del file dei tracciati  </p>
+<ul>
+<li>Seleziona il menu  <code>&gt; File &gt; Nuovo</code></li>
+<li>Appare la seguente finestra<br />
+<img alt="Nuovo file" src="../inc/cs_creazione_file_tracciati_manuale_nuovo_file.png" width="300px" />  <br />
+<strong>Nuovo file</strong>  <ul>
+<li><em>Tipo di carta:</em> seleziona <em>Tracciati di gara di Orienteering</em> (a dipendenza dell'edizione di OCAD che state usando più opzioni sono attive)</li>
+<li><em>Cartella di default per le simbologie</em>: lascia quella impostata di default che punta sulla cartella dove sono salvati i <em>modelli delle simbologie</em>  </li>
+<li><em>Carica libreria di simboli da:</em> seleziona la simbologia corretta in base al vostro tipo di cartina. Di regola.  <ul>
+<li>Per cartine classiche 10'000 (ISOM): <em>Course Setting 10 000 ISCD 2024 - ISOM 2017.ocd</em></li>
+<li>Per cartine sprint (ISSprOM): <em>Course Setting 4 000 ISCD 2024 - ISSprOM 2019.ocd</em></li>
+</ul>
+</li>
+<li><em>Dettagli della carta (note)</em>: indica la versione della simbologia che avete selezionato (verificate che sia quella corretta e che <a href="https://www.ocad.com/wiki/ocad/en/index.php?title=Symbol_Set_Overview#Course_Setting_Symbol_Sets">sia la più recente</a>)</li>
+<li><em>Lingua</em>: impostate <em>italiano</em></li>
+<li><em>Scala della carta</em>: è la <strong><em>scala del file</em></strong> della cartina di regola per le cartine sprint 1:4'000 per le cartine classiche 1:10'000. Se avete selezionato la <em>libreria di simboli</em> corretta al punto precedente avrete la scala già corretta.</li>
+</ul>
+</li>
+<li>Cliccate sul pulsante <code>OK</code></li>
+<li>Il file dei percorsi viene creato e appare la seguente finestra
+<img alt="Finestra iniziale file tracciati" src="../inc/cs_creazione_file_tracciati_finestra_iniziale_senza_cartina.png" width="500px" />  </li>
+<li>Per aggiungere la cartina come sfondo vai nel menu <code>&gt; Sfondo &gt; Gestione</code>  </li>
+<li>Appare la seguente finestra  <br />
+<img alt="Gestione carte di sfondo" src="../inc/sfondo_gestione_sfondi_vuota.png" width="400px" /><br />
+<strong>Gestione carte di sfondo</strong><ul>
+<li>Cliccate sul pulsante <em>Apri</em> e seleziona il file ocad della tua cartina (p.es.<em>mapSanGiorgio_250601.ocd</em>)</li>
+<li>Nella finestra vedrete aggiungersi una riga con il collegamento alla mappa e nella finestra principale vi apparirà la cartina</li>
+<li>Cliccate sul pulsante <em>Chiudi</em></li>
+</ul>
+</li>
+<li>Salvate il progetto  menu <code>&gt; File &gt; Salva</code> e denominalo ad es. <em>percorsiSanGiorgio_250615.ocd</em></li>
+</ul>
+<details class="failure" open="open">
+<summary>Errore scala sfondo</summary>
+<p>Se quando aprite il file della cartina appare il seguente messaaggio d'errore <em>Lo sfondo è georiferito in scala ..... ma i percorsi sono in scala ....</em> significa che il vostro file dei percorsi non ha la medesima scala del file della cartina.<br />
+Ricreate un nuovo file dei percorsi con la scala e simbologia corretta <br />
+<img alt="Errore scala sfondo" src="../inc/cs_creazione_file_tracciati_erore_sfondo.png" width="300px" /></p>
+</details>
+<h2 id="ritorna-sopra_12">&gt; <a href="#cs_creazione_file_tracciati"> Ritorna sopra </a><a class="headerlink" href="#ritorna-sopra_12" title="Permanent link">&para;</a></h2>
+<h2 id="117-canovacci-definisci-area-di-stampa"><a name="ocad_canovacci_definisci_area_stampa"></a> [ 117 ] Canovacci Definisci area di stampa<a class="headerlink" href="#117-canovacci-definisci-area-di-stampa" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">COMPLETARE</mark></p>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="118-utilizzo-colori-base"><a name=""></a> [ 118 ] Utilizzo colori base<a class="headerlink" href="#118-utilizzo-colori-base" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">SISTEMARE</mark>  </p>
+<p>Nel 2025 è stata introdotta in OCAD questa utile funzione. <br />
+Ora per ogni specifica stampante si può creare un file (xml) con i colori di base tarato sugli standard richiesti dalla IOF.
+Per la stampante ASTI è stato creato il file “ASTI Colors 2026”.   </p>
+<ul>
+<li>Se usate licenze Cloud: <ul>
+<li>scaricate il file da <mark class="critic">LINK</mark> (nome_file_AAAAMMGG.xml) </li>
+<li>andate nella cartella cloud e verificate che ci sia la medesima versione  </li>
+<li>se non fosse il caso chiedete al responsabile della vostra società di salvarlo sul cloud nella corretta directory</li>
+</ul>
+</li>
+<li>Se avete OCAD installato sul vostro PC:<ul>
+<li>scaricate il file da <mark class="critic">LINK</mark> (nome_file_AAAAMMGG.xml)</li>
+<li>copiate il file nella cartella 
+  C:\ProgramData\OCAD\OCAD 2018\Base Colors  </li>
+</ul>
+</li>
+</ul>
+<h3 id="colori-base-caso-1-nuovo-file"><name=""></a>Colori base - Caso 1: Nuovo file<a class="headerlink" href="#colori-base-caso-1-nuovo-file" title="Permanent link">&para;</a></h3>
+<p>Quando si apre un nuovo progetto (di cartina o percorsi), OCAD automaticamente crea la paletta di colori corretta, assegnando ogni colore a uno dei colori base provenienti dal file di default della IOF. Conviene subito sistemare i giusti colori, caricando il file con i colori di base per la stampante ASTI.  </p>
+<ul>
+<li>
+<p>Sistemare i colori base:   </p>
+<ul>
+<li>Aprire il menu “carta” e poi “colori”, e poi cliccare in basso a sinistra su “colori base”.  </li>
+<li>Si apre una nuova finestra, in cui nel campo “load from” va inserito il file “ASTI Colors 2026”. 
+  Se il file è stato messo nella directory giusta di OCAD lo potete scegliere dalla lista a tendina, 
+  altrimenti cliccando sul pulsante coi tre puntini potete scegliere la directory dove avete il file (p.es. chiavetta USB).  </li>
+<li>Alla fine compare questa maschera:<br />
+<img alt="Colori base" src="../inc/ocad_colori_base.png" width="300px" />  </li>
+<li>Chiuderla cliccando su OK.  </li>
+<li>Automaticamente OCAD adatta i colori alla paletta dei colori base caricati.  </li>
+<li>Verificare che tutti i colori (salvo bianco e nero…) siano assegnati ai colori base (se ne manca qualcuno, assegnarlo).</li>
+</ul>
+</li>
+<li>
+<p>Ora bisogna modificare la sfumatura di alcuni colori, specificando la percentuale nell’intensità.</p>
+<ul>
+<li>Modificare i grigi (da 20 a 27%, da 35 a 45%, da 50 a 60%, vedi foto sotto).  </li>
+<li>Modificare i gialli (da 75 a 83%, da 50 a 67%, vedi foto sotto). </li>
+<li>Modificare i blu (da 70 a 80%, da 50 a 60%, da 30 a 40%, vedi foto sotto).</li>
+<li>Modificare i verdi (da 60 a 65%, da 30 a 35%, vedi foto sotto).<br />
+<img alt="Colori base intensita" src="../inc/ocad_colori_base_intensita.png" width="300px" />   </li>
+<li>Chiudere la finestra.</li>
+</ul>
+</li>
+<li>
+<p>Ora i colori della cartina base sono impostati. Fate un'ottimizzazione/riparazione della cartina per comprimere il file.</p>
+<blockquote>
+<p><a href="#ocad_ottimizzare_file_ocad"> [ 119 ] Come ottimizzare/riparare un file ocad</a></p>
+</blockquote>
+</li>
+<li>
+<p>I colori devono essere verificati/impostati sia per la cartina che per i percorsi.<br />
+  Si può passare ora al file dei percorsi e fare la stessa cosa.<br />
+  Alla fine dell’operazione, si può esportare il PDF e stampare la cartina con i colori giusti e certificati.  </p>
+</li>
+</ul>
+<h3 id="colori-base-caso-2-verifica-colori-file-esistente"><name=""></a>Colori base - Caso 2: Verifica colori file esistente<a class="headerlink" href="#colori-base-caso-2-verifica-colori-file-esistente" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Come prima cosa verificare se ci sono già dei colori base assegnati.
+  Procedere come segue.</li>
+<li>Aprire il menu “carta” e poi “colori”. Appare una nuova finestra.
+    <img alt="Colori base file esistente" src="../inc/ocad_colori_base_file_esistente.png" width="300px" />  </li>
+<li>Se la colonna “colori di base” è vuota significa che non sono ancora stati assegnati &gt; Assegnare i colori base</li>
+<li>
+<p>Se la colonna “colori di base” è riempita significa che sono già stati assegnati &gt; Verificare i colori base</p>
+</li>
+<li>
+<p>Assegnare i colori base (se non ci sono colori base assegnati)</p>
+</li>
+<li>Cliccare allore sul bottone in basso a sinistra su “colori base”.  </li>
+<li>Si apre una nuova finestra, in cui nel campo “load from” va inserito il file “ASTI Colors 2026”. 
+    Se il file è stato messo nella directory giusta di OCAD lo potete scegliere dalla lista a tendina, altrimenti cliccando sul pulsante coi tre puntini potete scegliere la directory dove avete il file (p.es. chiavetta USB).</li>
+<li>Una volta caricato il file, compaiono i colori base ASTI corretti.  </li>
+<li>Chiudere la finestra cliccando su OK, poi subito dopo cliccare sul bottone “assegna colori ai colori base”<br />
+<img alt="Colori base file esistente assegnare" src="../inc/ocad_colori_base_file_esistente_assegnare.png" width="300px" /> </li>
+<li>OCAD cerca di assegnare in automatico i colori, verificare che tutti i colori (salvo bianco e nero…) siano assegnati ai colori base.<br />
+  Attenzione: È possibile che con vecchie cartine l’assegnazione avvenga solo parziale, quindi se dovesse mancare qualche colore va assegnato a mano, cliccando nella colonna “colori base” corrispondente e scegliendo il colore dall’elenco.  </li>
+<li>
+<p>Ora bisogna modificare la sfumatura di alcuni colori, specificando la percentuale nell’intensità (vedi capitolo precedente).</p>
+</li>
+<li>
+<p>Verificare i colori base
+  Nel caso invece all’apertura del menu colori di una cartina esistente comparisse questa finestra:
+  <img alt="Colori base file esistente già assegnati" src="../inc/ocad_colori_base_file_esistente_gia_assegnati.png" width="300px" /> 
+  Significa che i colori sono già assegnati a dei colori base.</p>
+</li>
+<li>Cliccando sul pulsante “colori base” si può vedere se è già caricato il profilo dei colori per la stampante ASTI (ASTI Colors 2026), nel qual caso è tutto OK e basta controllare le sfumature dei colori specificando la percentuale nell’intensità (vedi capitolo precedente).</li>
+<li>Altrimenti se è caricato un profilo sbagliato (p.es. quello di default della IOF) si consiglia di scegliere in basso sulla sinistra “remove colors from base colors”, poi scegliere “colori di base” per assegnare la paletta di colori ASTI giusta, ed infine premere sul bottone “assegna colori ai colori base”. </li>
+<li>A questo punto verificare che tutti i colori (salvo bianco e nero…) siano assegnati ai colori base. </li>
+<li>È possibile che con vecchie cartine l’assegnazione avvenga solo parziale, quindi se dovesse mancare qualche colore va assegnato a mano, cliccando nella colonna “colori base” corrispondente e scegliendo il colore dall’elenco.</li>
+<li>Ora bisogna modificare la sfumatura di alcuni colori, specificando la percentuale nell’intensità (vedi capitolo precedente).</li>
+</ul>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="119-come-ottimizzareriparare-un-file-ocad"><a name="ocad_ottimizzare_file_ocad"></a> [ 119 ]  Come ottimizzare/riparare un file ocad<a class="headerlink" href="#119-come-ottimizzareriparare-un-file-ocad" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">COMPLETARE</mark>
+- Menu <code>&gt; Carta &gt; Ottimizzazione/Riparazione</code></p>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="120"><a name=""></a> [ 120 ]<a class="headerlink" href="#120" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">COMPLETARE</mark></p>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="121"><a name=""></a> [ 121 ]<a class="headerlink" href="#121" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">COMPLETARE</mark></p>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="122"><a name=""></a> [ 122 ]<a class="headerlink" href="#122" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">COMPLETARE</mark></p>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<h2 id="-_1">---<a class="headerlink" href="#-_1" title="Permanent link">&para;</a></h2>
+<h2 id="123"><a name=""></a> [ 123 ]<a class="headerlink" href="#123" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">COMPLETARE</mark></p>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="124"><a name=""></a> [ 124 ]<a class="headerlink" href="#124" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">COMPLETARE</mark></p>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="125-importazione-della-cartina-nel-file-dei-percorsi-solo-esperti-ocad"><a name="cs_importazione_cartina_file_percorsi"></a> [ 125 ] Importazione della cartina nel file dei percorsi (solo esperti OCAD)<a class="headerlink" href="#125-importazione-della-cartina-nel-file-dei-percorsi-solo-esperti-ocad" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">Sistemare</mark>
+Un'altra tecnica di stampa, che dà ottimi risultati, consiste nell’importare la cartina nel file dei percorsi.<br />
+La cartina va tolta dagli sfondi, ed è integrata coi percorsi.  <br />
+Questo significa che tutti i colori sono nello stesso file, e si possono pilotare le trasparenze come si vuole, semplicemente posizionando i colori critici nella sequenza desiderata (così che “coprano” quelli sotto di loro e non quelli sopra di loro...).  <br />
+Questa tecnica permette di stampare direttamente da OCAD ottenendo la trasparenza necessaria.<br />
+Un vantaggio di questa stampa diretta da OCAD è che il color viola è “regolare”, ossia tutto con la stessa tonalità, e non dipende dal colore che c’è sullo sfondo (come con il darkening da PDF).<br />
+Uno svantaggio sono le vecchie cartine, magari non georeferenziate, o con tavolozze di colori alla vecchia maniera, che rendono questa tecnica molto difficilmente applicabile...<br />
+Ecco come procedere.  </p>
+<ul>
+<li>Aprire il file percorsi.</li>
+<li>Scegliere dal Menu Carta “colori”.</li>
+<li>Per semplificare le cose si consiglia di  premere sul bottone “elimina inutilizzati” e di confermare,</li>
+<li>Così facendo dovrebbero restare solo alcuni viola, un nero ed un bianco, tutti colori utilizzati nei percorsi, mentre gli altri colori aggiunti per default da OCAD vengono eliminati, semplificando il quadro generale.
+  <img alt="Elenco colori tracciati" src="../inc/cs_colori_percorsi_elemco.png" /></li>
+<li>Come prossimo passo andare nel Menu Sfondi, “gestione” e premere su “elimina tutti”, confermando.</li>
+<li>Scompare la cartina dallo sfondo e resta solo il percorso selezionato.</li>
+<li>Andare sul Menu File, scegliere “importa” e selezionare la cartina che prima era come sfondo.</li>
+<li>Impostare i seguenti parametri:</li>
+<li>usa le coordinate reali (se la cartina è georeferenziata)</li>
+<li>importa simboli e colori</li>
+<li>Importa colori in fondo alla tavolozza</li>
+<li>cambia stato del simbolo da modificabile a protetto</li>
+<li>E poi confermare con OK.<br />
+<img alt="Importazione carta in OCAD" src="../inc/cs_importazione_carta_ocad.png" /></li>
+<li>Ricompare la cartina come era prima (ma ora è tutto nello stesso file…)!</li>
+<li>Ora bisogna concentrarsi di nuovo sui colori (Menu Carta, “colori”).</li>
+<li>In particolare sul color viola sottostante (di solito è il colore 52).</li>
+<li>Esso va posizionato più in basso, sotto i seguenti colori della cartina:</li>
+<li>oggetti verdi</li>
+<li>linee blu (es. fiumi)</li>
+<li>marrone linee (curve di livello)</li>
+<li>Ecco un esempio di posizionamento (che può variare, a seconda dei colori presenti nella cartina):
+  <img alt="Colori cartina e percorsi ordine" src="../inc/cs_colori_percorsi_cartina_ordine.png" />  </li>
+<li>Attivando il bottone “anteprima” si può vedere l’effetto.</li>
+<li>Verificare se le righe dei percorsi o dei punti sovrastano o meno quale altro colore della cartina.</li>
+<li>Modificare il posizionamento finché si ottiene l’effetto desiderato.</li>
+<li>Si può poi spostare l’attenzione sui numeri dei punti, che di solito usano il colore numero 50, che dovrebbe essere posizionato in alto, in modo da coprire tutti i colori sottostanti, e risultare così ben visibile.</li>
+<li>Quando si è soddisfatti, dopo aver impostato i colori giusti per la stampante usata, si può procedere alla stampa, che può essere diretta da OCAD oppure esportando i PDF (che generano poi l’effetto darkening).</li>
+</ul>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<h2 id="126-darkening"><a name="ocad_darkening"></a> [ 126 ] Darkening<a class="headerlink" href="#126-darkening" title="Permanent link">&para;</a></h2>
+<p><mark class="critic">Sistemare</mark>
+Il “darkening” è una funzione che rende il viola dei percorsi trasparente quando si esportano i PDF da OCAD per la stampa dei percorsi. <br />
+Quando si crea un file di percorsi (e solo su un file di percorsi e non su una cartina!), OCAD automaticamente imposta l’effetto “darkening” per il viola di percorsi e numeri (non per il viola di layout). Quindi esportando i percorsi in PDF, si ottiene automaticamente la trasparenza desiderata.<br />
+Questo si può verificare come segue:  </p>
+<ul>
+<li>Visualizzare i colori (Menu Carta, Colori), premere sul pulsante “fusione”.</li>
+<li>Appare la maschera seguente, in cui si vede che i colori 50 e 52 vengono “trasformati” e resi “non coprenti”.
+  <img alt="Darkening" src="../inc/ocad_darkening.png" /></li>
+</ul>
+<blockquote>
+<p><a href="#top"> Ritorna sopra </a></p>
+</blockquote>
+<hr />
+<p>18.01.2026</p>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Torna su
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.config.lang": "it", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Cerca", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version.title": "Seleziona la versione"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+    
+  </body>
+</html>
