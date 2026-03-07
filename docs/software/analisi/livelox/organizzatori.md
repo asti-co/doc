@@ -68,9 +68,9 @@ Dopo la gara, collegare Livelox alla gara sul sito SOLV, permettendogli di scari
        `Indirizzo web`: Aggiungere l'indirizzo dei risultati sul sito SOLV, selezionando `alle` > `Zwischenzeiten` ed aggiungendo `&xml=1`.  
        **Esempio**: `https://www.o-l.ch/cgi-bin/results?type=rang&year=2025&rl_id=7665&kind=all&zwizt=1&xml=1`  
 
-            1. Apri la classifica sul sito SOLV
-            1. In fondo alla lista delle categorie, seleziona `Alle`
-            1. In fondo alla classifica, seleziona `Zwischenzeiten`
-            1. Copia l'URL dal campo dell'indirizzo del browser
-            1. Aggiungi `&xml=1` all'URL
-            1. Metti questo URL nel campo `Indirizzo web` sul sito Livelox
+    1. Apri la classifica sul sito SOLV
+    1. In fondo alla lista delle categorie, seleziona `Alle`
+    1. In fondo alla classifica, seleziona `Zwischenzeiten`
+    1. Copia l'URL dal campo dell'indirizzo del browser
+    1. Aggiungi `&xml=1` all'URL
+    1. Metti questo URL nel campo `Indirizzo web` sul sito Livelox
