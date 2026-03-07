@@ -250,6 +250,10 @@ Pubblica la classifica sul sito della federazione svizzera (Swiss Orienteering /
     1. Visualizza i tempi intermedi e i grafici di alcuni concorrenti, se possibile usando i dati di qualche concorrente presente che può giudicare se il grafico potrebbe corrispondere alla sua gara.
     1. Se tutto è ok, conferma cliccando su `Freischalten` e immettendo il tuo numero SOLV.
 
+## Pubblicazione Livelox
+
+Dopo aver pubblicato la classifica sul sito della federazione svizzera, aggiungi il link a Livelox, in maniera da permettere al sito di analisi di accedere ai risultati. Vedi i dettagli sulla [pagina Livelox](../../analisi/livelox/organizzatori/#caricamento-risultati)
+
 ## Classifiche ASTi
 Per l’allestimento e pubblicazione delle classifiche annuali TMO, SprintCup e TMS, come pure per il controllo dei punti del TMS, spedire i file ai responsabili ASTi.
 

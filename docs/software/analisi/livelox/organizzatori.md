@@ -44,14 +44,8 @@ Se non hai un account, ne puoi creare uno gratuitamente:
     1. `Salva`
 1. Controlla che tutti i dati siano corretti. È disponibile anche un codice QR che può essere aggiunto sulla cartina stampata e/o essere esposto al centro gara.  
    **Nota**: Vengono mostrati i dati della gara suddivise in tante sezioni (info generali, cartina, categorie, amministratori, ecc.). Cliccando su una sezione puoi modificare i relativi dati.
-1. Dopo la conclusione della gara, aggiungi i risultati:
-    1. Torna sulla pagina Livelox della gestione dell'evento (`Gestisci` > `Eventi` > Seleziona l'evento desiderato)
-    1. `Tempi di partenza e risultati` > `Importa i risultati`  
-       `Parametri`: Lasciar vuoto  
-       `Origine dati`: `Indirizzo web`  
-       `Indirizzo web`: Aggiungere l'indirizzo dei risultati sul sito SOLV, selezionando `alle` > `Zwischenzeiten` ed aggiungendo `&xml=1`, esempio: `https://www.o-l.ch/cgi-bin/results?type=rang&year=2025&rl_id=7665&kind=all&zwizt=1&xml=1`
 
-## Alternativa creazione gara
+### Alternativa creazione gara
 In alcuni casi particolari (per esempio quando la cartina e i percorsi sono nello stesso file OCAD), il caricamento della gara direttamente da OCAD fallisce. In quel caso sostituire il punto 1. con i seguenti passi:
 
 1. Livelox > `Gestisci` > `Eventi` > `Aggiungi un evento`.
@@ -61,3 +55,22 @@ In alcuni casi particolari (per esempio quando la cartina e i percorsi sono nell
 1. Continua dal passo 2 sopra
 
 Ulteriori istruzioni direttamente sul sito [Livelox](https://www.livelox.com/Documentation/EventOrganisers).
+
+## Caricamento risultati
+
+Dopo la gara, collegare Livelox alla gara sul sito SOLV, permettendogli di scaricare i risultati.
+
+1. Dopo la conclusione della gara, [carica la classifica sul sito SOLV](../../../oe12/classifiche/#pubblicazione-solv)
+1. Torna sulla pagina Livelox della gestione dell'evento (`Gestisci` > `Eventi` > Seleziona l'evento desiderato)
+1. `Tempi di partenza e risultati` > `Importa i risultati`  
+       `Parametri`: Lasciar vuoto  
+       `Origine dati`: `Indirizzo web`  
+       `Indirizzo web`: Aggiungere l'indirizzo dei risultati sul sito SOLV, selezionando `alle` > `Zwischenzeiten` ed aggiungendo `&xml=1`.  
+       **Esempio**: `https://www.o-l.ch/cgi-bin/results?type=rang&year=2025&rl_id=7665&kind=all&zwizt=1&xml=1`  
+
+            1. Apri la classifica sul sito SOLV
+            1. In fondo alla lista delle categorie, seleziona `Alle`
+            1. In fondo alla classifica, seleziona `Zwischenzeiten`
+            1. Copia l'URL dal campo dell'indirizzo del browser
+            1. Aggiungi `&xml=1` all'URL
+            1. Metti questo URL nel campo `Indirizzo web` sul sito Livelox
