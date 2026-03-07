@@ -3,9 +3,9 @@
 Le classifiche di tutte le gare valide per il TMO come pure di tutte le gare nazionali e campionati svizzeri sono visibili sul sito della federazione svizzera [Swiss Orienteering](https://www.swiss-orienteering.ch/it).
 
 1. Seleziona [Gare > Classifiche](https://www.o-l.ch/cgi-bin/results).  
-1. Seleziona la gara nel campo `Anlass` e clicca su `Rangliste`.
+1. Seleziona la gara nel campo `Anlass` e clicca su `Rangliste`.  
 **Nota**: sul sito sono memorizzate le classifiche di tutte le gare dal 1997. Seleziona l'anno in alto per vedere eventi del passato.
-1. Seleziona la categoria.
+1. Seleziona la categoria.  
 **Nota**: selezionando `alle` si vedono tutte le categorie su un'unica pagina, con l'indicazione del numero totale di partecipanti ma mancherà la possibilità di vedere i grafici.
 1. Seleziona l'opzione `Zwischenzeiten` in fondo alla classifica per vedere i tempi intermedi.  
 Per ogni punto, vengono indicati (su tre righe).  
