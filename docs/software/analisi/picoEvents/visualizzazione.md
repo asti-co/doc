@@ -38,8 +38,9 @@ La pagina di visualizzazione delle classifiche contiene dati interessanti soprat
     **Nota**: i numeri accanto a ALL indicano i concorrenti arrivati rispetto a quelli iscritti.
     1. `StZ`: mostra la griglia di partenza, cioè tutti i concorrenti in ordine di partenza.
     1. `ZielZ`: mostra tutti i concorrenti nell'ordine di arrivo
-    1.  `Speaker`: da scoprire...
+    1. `Speaker`: da scoprire...
     1. `m`: elenca i concorrenti ancora nel bosco.  
+    **Nota**: è importante aver gestito i concorrenti non partiti in OL-Einzel prima di basarsi su questa lista.
     **Nota**: questa lista è utile soprattutto per i collaboratori all'arrivo o al rifornimento.
     1. `l`: chip noleggiati
     1. `mO`: elenco di concorrenti che hanno terminato la gara (hanno timbrato il `Finish` radio) ma non hanno ancora scaricato il chip.  
