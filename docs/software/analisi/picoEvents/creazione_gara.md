@@ -99,7 +99,23 @@ Per pubblicare le classifiche con OL-Einzel, vedi i dettagli in [software > OE12
     Ricordati di `NON` impostare il `Nome file univoco`.
 
 ## Verifica classifiche online
-Verifica le liste di partenza e le classifiche accedendo al sito online come utente anonimo, come descritto nella pagina per i [concorrenti](visualizzazione.md).  
+Verifica le liste di partenza e le classifiche sia sul sito online che sulle TV.  
+
+1. Accedi al sito [results.picoevents.ch](https://results.picoevents.ch) e verifica che le liste di partenza corrispondano.  
+**Nota**: per i dettagli, vedi la pagina [visualizzazione](visualizzazione.md)
+1. Seleziona il template per le due TV  
+    1. Vai su [results.picoevents.ch/tv.php](https://results.picoevents.ch/tv.php)
+    1. Seleziona `Kategorien bearbeiten` relativo alla tua gara
+    1. Seleziona dal menu a tendina il template per ognuna delle TV.  
+    **Nota**: Puoi selezionare lo stesso template su entrambe le TV.  
+    **Nota**: Puoi anche definire un layout specifico per la tua gara:
+        - Una riga per ogni colonna
+        - Testo dell'intestazione della colonna
+        - Un `:` 
+        - La lista delle categorie separate da `,`
+    1. Salva le impostazioni premendo su `Sichern`
+    1. Verifica nel browser la corretta visualizzazione delle liste di partenza e classifiche delle due TV premendo su `Start Screen 1` o `Start Screen 2`
+1. Controlla le liste di partenza e le classifiche sulle TV al centro gara, verificando che si vedano tutti i dati, soprattutto i tempi di gara. In caso contrario, diminuisci il fattore di scala.  
 
 <!--
 Verifica pure le classifiche come vengono mostrate sulle TV.  
@@ -112,10 +128,4 @@ Verifica pure le classifiche come vengono mostrate sulle TV.
 1. Incolla il tuo `Ftp Token`.
 1. Seleziona la `TV` che vuoi vedere.
 1. Verifica i dati visualizzati.
---> 
-
-!!! Warning "Controlla anche le TV"
-    Controlla le liste di partenza e le classifiche sulle TV al centro gara.  
-    **Nota**: Con LiveResults di PicoEvents non è più possibile controllare le classifiche delle TV sul browser del PC.    
-
-    
+-->
