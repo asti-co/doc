@@ -11,8 +11,8 @@ In caso di problemi con la rete internet o con le TV, come alternativa le classi
   
 1. Nel menu `Classifiche` seleziona `Tempi intermedi > Categorie`.  
 ![Classifica tempi intermedi per categoria](inc/classifiche_menu_intermedi.png)
-1. Nelle `Impostazioni` a sinistra, nella sezione `Classifica`, seleziona  tutti i concorrenti, ma senza i non partiti.  
-![Impostazioni](inc/classifiche_intermedi_impostazioni.png)
+1. Nelle `Impostazioni` a sinistra, nella sezione `Classifica`, seleziona  tutti i concorrenti, **CON** i non partiti.  
+![Impostazioni](inc/classifiche_intermedi_impostazioni_con_non_partiti.png)
 1. Seleziona le categorie da esportare nel pannello di selezione in basso (di regola tutte).
 1. Assicurati che i tempi siano mostrati nel formato `OO:MM:SS`.  
 Altrimenti, imposta il formato nel menu `ingranaggio` in alto a destra.
@@ -59,14 +59,15 @@ Altrimenti, imposta il formato nel menu `ingranaggio` in alto a destra.
 ## Classifiche provvisorie
 
 Le classifiche provvisorie sono classifiche pubblicate durante la gara, quando non tutti i concorrenti sono giunti all'arrivo. Nella testata di ogni categoria vengono indicati il numero di concorrenti arrivati rispetto al numero di concorrenti iscritti (ad es. `(13/18)`).  
-Ai TMO, queste classifiche vengono di regola mostrate sulle TV al centro gara e caricate in internet sul sito [PicoEvents](http://results.picoevents.ch/).  
-Come alternativa in caso di problemi con le TV vengono stampate a intervalli regolari e appese al centro gara.
+Ai TMO, di regola queste classifiche non servono in quanto vengono esportate quelle con tempi intermedi mostrate sulle TV al centro gara e caricate in internet sul sito [PicoEvents](http://results.picoevents.ch/), come descritto nel paragrafo [Classifiche TV / online](#classifiche-tv-online).  
+  
+In caso di problemi con le TV o in mancanza di rete internet con conseguente impossibilità di caricare le classifiche online, vengono stampate a intervalli regolari e appese al centro gara le classifiche provvisorie.
     
 1. Nel menu `Classifiche` seleziona `Classifica provvisoria > Categorie`.  
 ![Classifica provvisoria per categoria](inc/classifiche_menu_provvisoria.png)
 1. Nel menu a tendina in alto, seleziona `TMO` come modello del rapporto.  
 ![Modello del rapporto](inc/classifiche_provvisoria_report.png)
-1. Nelle `Impostazioni` a sinistra, nella sezione `Classifica`, seleziona  tutti i concorrenti, ma senza i non partiti.  
+1. Nelle `Impostazioni` a sinistra, nella sezione `Classifica`, seleziona  tutti i concorrenti, **SENZA** i non partiti.  
 ![Impostazioni](inc/classifiche_provvisoria_impostazioni.png)
 1. Seleziona le categorie da stampare nel pannello di selezione in basso (di regola tutte).
 1. Assicurati che i tempi siano mostrati nel formato `OO:MM:SS`.  
@@ -138,7 +139,7 @@ Esporta le classifiche in file CSV da utilizzare per le classifiche TMS, per il 
 1. Nel menu `Classifiche`, seleziona `Tempi intermedi > Categorie`.  
 ![Intermedi per categoria](inc/classifiche_menu_intermedi.png)
 1. Nelle `Impostazioni` a sinistra, nella sezione `Classifica`, seleziona  tutti i concorrenti, ma senza i non partiti.  
-![Impostazioni](inc/classifiche_intermedi_impostazioni.png)
+![Impostazioni](inc/classifiche_intermedi_impostazioni_senza_non_partiti.png)
 1. Seleziona le categorie da esportare nel pannello di selezione in basso (di regola tutte).
 1. Seleziona `Esporta`.  
 ![Menu esporta](inc/classifiche_intermedi_menu_esporta.png)
@@ -181,7 +182,7 @@ Crea e stampa la classifica per il Trofeo Miglior Società ticinese (TMS).
 Premi `OK`.  
 **Nota**: ignora la versione di OL-Einzel...  
 ![TMS Help](inc/tms_help.png)
-1. Nella finestra delle impostazioni, seleziona il file esportato in [Esportazione classifiche](#esportazione-classifiche).
+1. Nella finestra delle impostazioni, seleziona il file esportato in [Esportazione classifiche](#esportazione-classifiche).  
 **Nota**: i campi Gara, Luogo e Data sono utilizzati nell'intestazione della classifica.  
 ![TMS Input](inc/tms_input.png)
 1. Appare una finestra con tre tab: una con la classifica TMS, l'altra con la classifica di tutte le categorie e i punti assegnati ad ogni concorrente, e una con la classifica per la premiazione.   
@@ -234,7 +235,8 @@ Pubblica la classifica sul sito della federazione svizzera (Swiss Orienteering /
         ![Solv Webformular](inc/solv_results_webformular.png)
 
 
-    - Nel campo `Ranglisten-File` seleziona il file delle classifiche esportato in [Esportazione classifiche](#esportazione-classifiche).
+    - Nel campo `Ranglisten-File` seleziona il file delle classifiche esportato in [Esportazione classifiche](#esportazione-classifiche).  
+    **Nota**: non utilizzare il file esportato per le TV e le classifiche su PicoEvents, in quanto per il SOLV dobbiamo escludere i non partiti.
     - Nel campo `Nullzeit` imposta l'ora zero come impostata nella gara (vedi `Gara > Impostazioni`).
     - Il testo nel campo `Hinweistext` appare in cima alla classifica di ogni categoria. Questo è utile per comunicare ad esempio delle decisioni della giuria.
     - Nel campo `format` seleziona `OE12/OE2010/OLEinzel (CSV)`.
