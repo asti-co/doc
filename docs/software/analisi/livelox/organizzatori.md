@@ -29,8 +29,8 @@ Se non hai un account, ne puoi creare uno gratuitamente:
         1. Nazione: `Svizzera`.
         1. Società organizzatrice: `ASTI Ticino`.  
         **Nota**: imposta sempre `ASTI Ticino`, eventualmente anche la propria società.  
-        **Nota**: clicca su `Seleziona la società organizzatrice della lista` sotto il campo di immissione, poi scrivi ASTI e ti trova la società.
-        1. Icona: viene impostata automaticamente quella dell'ASTI.
+        **Nota**: se il tuo account non è connesso all'asti, clicca su `Inserisci testualmente il nome della società organizzatrice` sotto il campo di immissione, poi scrivi 'ASTI Ticino'. Altrimenti scrivi 'ASTI' e ti trova la società.
+        1. Icona: se viene impostata automaticamente quella dell'ASTI ottimo, altrimenti lascia vuoto.
         1. Classificazione dell'evento: `Competizione`.
         1. Tipo di evento: `Individuale`.
         1. Orario di pubblicazione: è possibile caricare la gara (cartina e percorsi) prima della gara e renderla visibile solo dopo la fine della gara.  
