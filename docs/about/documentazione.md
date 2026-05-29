@@ -213,7 +213,6 @@ scritto come `[visual studio in tooling](tooling.md#vscodeOnline)`
 
     ```
 
-<!---
 ### Immagini
 
 Le immagini vanno salvate in una cartella chiamata **`inc`** nella stessa cartella del file della pagina (convenzione ASTI).  
@@ -242,6 +241,7 @@ Per le pagine ASTi sono state create appositamente le seguenti icone:
 - :asti-naz: (`:asti-naz:`)
 - :asti-sprintCup: (`:asti-sprintCup:`)
 
+<!---
 ### Blocchi di testo
 
 Esistono vari modi per creare dei blocchi di testo.
