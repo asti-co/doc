@@ -1,13 +1,14 @@
 # Documentazione
 
 Come gestire e modificare la documentazione.  
-<!---
+
 ## Markdown in generale
 
 Il testo nei file `.md` viene trasformato in file `.html` usando alcune semplici regole di conversione della sintassi `markdown` in `html`. È sempre possibile aggiungere testo direttamente in html, ma questo andrebbe evitato se possibile, in quanto la sintassi markdown, pur se meno flessibile, è molto più semplice.
 
 La presente pagina descrive alcuni elementi `markdown` utilizzati nelle pagine di questa documentazione.
 
+<!---
 ### Titoli
 
 I titoli iniziano con uno o più caratteri *cancelletto* `#`, e il numero di cancelletti indica il livello del titolo.  
