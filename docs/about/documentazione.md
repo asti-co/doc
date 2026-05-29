@@ -241,7 +241,6 @@ Per le pagine ASTi sono state create appositamente le seguenti icone:
 - :asti-naz: (`:asti-naz:`)
 - :asti-sprintCup: (`:asti-sprintCup:`)
 
-<!---
 ### Blocchi di testo
 
 Esistono vari modi per creare dei blocchi di testo.
@@ -364,6 +363,7 @@ Altri tipi nella [documentazione ufficiale](https://squidfunk.github.io/mkdocs-m
     Altri tipi nella [documentazione ufficiale](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types).
     ```
 
+<!---
 ### Link alla documentazione ufficiale {#doc-ufficiale}
 Ci sono innumerevoli altre convenzioni per il markdown, ad esempio emoji, superscript, ecc., tutte descritte nella documentazione ufficiale.
 - [https://squidfunk.github.io/mkdocs-material](https://squidfunk.github.io/mkdocs-material)
