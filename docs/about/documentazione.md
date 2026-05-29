@@ -170,7 +170,6 @@ Liste numerate:
     1. Fine delle liste numerate
     ```
 
-<!---
 ### Link
 
 Per i link, la sintassi è `[testo da mostrare](URL)`
@@ -214,6 +213,7 @@ scritto come `[visual studio in tooling](tooling.md#vscodeOnline)`
 
     ```
 
+<!---
 ### Immagini
 
 Le immagini vanno salvate in una cartella chiamata **`inc`** nella stessa cartella del file della pagina (convenzione ASTI).  
