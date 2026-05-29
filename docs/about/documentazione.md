@@ -1,7 +1,7 @@
 # Documentazione
 
-Come gestire e modificare la documentazione.
-
+Come gestire e modificare la documentazione.  
+<!---
 ## Markdown in generale
 
 Il testo nei file `.md` viene trasformato in file `.html` usando alcune semplici regole di conversione della sintassi `markdown` in `html`. È sempre possibile aggiungere testo direttamente in html, ma questo andrebbe evitato se possibile, in quanto la sintassi markdown, pur se meno flessibile, è molto più semplice.
@@ -396,3 +396,4 @@ Ci sono innumerevoli altre convenzioni per il markdown, ad esempio emoji, supers
         e di altre gare in generale \:asti-altro\:  
         **Nota**: le icone per la sCoolCup e per le altre gare non esiste ancora.
     ```
+-->
