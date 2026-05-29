@@ -29,7 +29,7 @@ Titoli possono indicare un ID per facilitare la creazione di link che portano di
     NOTARE che il primo titolo indica un ID=markdown che semplifica la creazione di link a questo capitolo.
     
     ```
-<!---
+
 ### Struttura Del Testo
 
 Questo testo è scritto 
@@ -170,6 +170,7 @@ Liste numerate:
     1. Fine delle liste numerate
     ```
 
+<!---
 ### Link
 
 Per i link, la sintassi è `[testo da mostrare](URL)`
