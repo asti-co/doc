@@ -363,7 +363,6 @@ Altri tipi nella [documentazione ufficiale](https://squidfunk.github.io/mkdocs-m
     Altri tipi nella [documentazione ufficiale](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types).
     ```
 
-<!---
 ### Link alla documentazione ufficiale {#doc-ufficiale}
 Ci sono innumerevoli altre convenzioni per il markdown, ad esempio emoji, superscript, ecc., tutte descritte nella documentazione ufficiale.
 - [https://squidfunk.github.io/mkdocs-material](https://squidfunk.github.io/mkdocs-material)
@@ -397,4 +396,3 @@ Ci sono innumerevoli altre convenzioni per il markdown, ad esempio emoji, supers
         e di altre gare in generale \:asti-altro\:  
         **Nota**: le icone per la sCoolCup e per le altre gare non esiste ancora.
     ```
--->
