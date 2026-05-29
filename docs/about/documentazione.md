@@ -8,7 +8,6 @@ Il testo nei file `.md` viene trasformato in file `.html` usando alcune semplici
 
 La presente pagina descrive alcuni elementi `markdown` utilizzati nelle pagine di questa documentazione.
 
-<!---
 ### Titoli
 
 I titoli iniziano con uno o più caratteri *cancelletto* `#`, e il numero di cancelletti indica il livello del titolo.  
@@ -30,7 +29,7 @@ Titoli possono indicare un ID per facilitare la creazione di link che portano di
     NOTARE che il primo titolo indica un ID=markdown che semplifica la creazione di link a questo capitolo.
     
     ```
-
+<!---
 ### Struttura Del Testo
 
 Questo testo è scritto 
