@@ -379,8 +379,8 @@ Ci sono innumerevoli altre convenzioni per il markdown, ad esempio emoji, supers
     Questa sezione vale per le iscrizioni alle gare nazionali e campionati svizzeri :asti-naz: sul portale OL-Events 
 
 ??? Info ":asti-sprintCup: SPRINT-CUP \:asti-scoolCup\: SCOOL CUP \:asti-altro\: ALTRO - Altre iscrizioni"
-    Questa sezione vale per le iscrizioni alle gare della Sprint Cup :asti-sprintcup: e della sCOOL Cup :asti-scoolCup:
-    e di altre gare in generale :asti-altro:  
+    Questa sezione vale per le iscrizioni alle gare della Sprint Cup :asti-sprintcup: e della sCOOL Cup \:asti-scoolCup\:
+    e di altre gare in generale \:asti-altro\:  
     **Nota**: le icone per la sCoolCup e per le altre gare non esiste ancora.
 
 ??? Example "Esempi Markdown"
@@ -391,8 +391,8 @@ Ci sono innumerevoli altre convenzioni per il markdown, ad esempio emoji, supers
     ???+ Info ":asti-naz: NAZ - Iscrizioni a gare nazionali su OL-Events"
         Questa sezione vale per le iscrizioni alle gare nazionali e campionati svizzeri :asti-naz: sul portale OL-Events 
 
-    ??? Info ":asti-sprintCup: SPRINT-CUP :asti-scoolCup: SCOOL CUP :asti-altro: ALTRO - Altre iscrizioni"
-        Questa sezione vale per le iscrizioni alle gare della Sprint Cup :asti-sprintcup: e della sCOOL Cup :asti-scoolCup:
-        e di altre gare in generale :asti-altro:  
+    ??? Info ":asti-sprintCup: SPRINT-CUP \:asti-scoolCup\: SCOOL CUP \:asti-altro\: ALTRO - Altre iscrizioni"
+        Questa sezione vale per le iscrizioni alle gare della Sprint Cup :asti-sprintcup: e della sCOOL Cup \:asti-scoolCup\:
+        e di altre gare in generale \:asti-altro\:  
         **Nota**: le icone per la sCoolCup e per le altre gare non esiste ancora.
     ```
